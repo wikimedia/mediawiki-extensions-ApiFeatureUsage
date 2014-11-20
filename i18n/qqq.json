@@ -1,0 +1,42 @@
+{
+	"@metadata": {
+		"authors": [
+			"Brad Jorsch"
+		]
+	},
+	"apifeatureusage": "{{doc-special|ApiFeatureUsage}}\nThe name of the [[mw:Extension:ApiFeatureUsage|ApiFeatureUsage extension]].",
+	"apifeatureusage-desc": "{{desc|name=Api Feature Usage|url=http://www.mediawiki.org/wiki/Extension:ApiFeatureUsage}}\n\nSee definition of [[w:User agent|user agent]] on Wikipedia.",
+	"apifeatureusage-elasticsearch-error": "Used to wrap an Elasticsearch error when reporting it up the stack.\n\nParameters:\n* $1 - Error message from Elasticsearch.",
+	"apifeatureusage-legend": "Used as a fieldset legend on [[Special:ApiFeatureUsage]].",
+	"apifeatureusage-text": "{{optional}} Displayed above the form on [[Special:ApiFeatureUsage]].",
+	"apifeatureusage-agent-label": "Form field label on [[Special:ApiFeatureUsage]].\n\nSee definition of [[w:User agent|user agent]] on Wikipedia.",
+	"apifeatureusage-dates-label": "Form field label on [[Special:ApiFeatureUsage]].",
+	"apifeatureusage-dates-layout": "{{optional}} Used to lay out the text fields for the date range input on [[Special:ApiFeatureUsage]].\n\nParameters:\n* $1 - HTML for the starting date control.\n* $2 - HTML for the second date control.\nSee also:\n* {{msg-mw|apifeatureusage-htmlform-daterange-absolute-layout}}",
+	"apifeatureusage-submit": "Submit button label on [[Special:ApiFeatureUsage]].",
+	"apifeatureusage-no-indexes": "Used as a warning message.",
+	"apifeatureusage-missing-indexes": "Used as a warning message.",
+	"apifeatureusage-warnings": "Used to wrap warning messages.",
+	"apifeatureusage-column-feature": "Column header for output table.",
+	"apifeatureusage-column-date": "Column header for output table. Dates in the column are in the UTC timezone, formatted as Y-m-d (similar to ISO 8601 format).",
+	"apifeatureusage-column-uses": "Column header for output table.",
+	"apihelp-query+featureusage-description": "{{doc-apihelp-description|query+featureusage|info=See definition of [[w:User agent|user agent]] on Wikipedia.}}",
+	"apihelp-query+featureusage-param-start": "{{doc-apihelp-param|query+featureusage|start}}",
+	"apihelp-query+featureusage-param-end": "{{doc-apihelp-param|query+featureusage|end}}",
+	"apihelp-query+featureusage-param-agent": "{{doc-apihelp-param|query+featureusage|agent|info=See definition of [[w:User agent|user agent]] on Wikipedia.}}",
+	"apihelp-query+featureusage-param-features": "{{doc-apihelp-param|query+featureusage|features}}",
+	"apihelp-query+userinfo-example-simple": "{{doc-apihelp-example|query+featureusage|info=See definition of [[w:User agent|user agent]] on Wikipedia.}}",
+
+	"apifeatureusage-htmlform-date-placeholder": "Used as initial placeholder text in \"date\" input boxes. This date MUST be formatted in the https://en.wikipedia.org/wiki/ISO_8601 format. You can localise the letters to your language or script, but you should not change the format.",
+	"apifeatureusage-htmlform-date-invalid": "Used as error message in HTML forms. This date MUST be formatted in the https://en.wikipedia.org/wiki/ISO_8601 format. You can localise the letters to your language or script, but you should not change the format.\n\n* {{msg-mw|Htmlform-invalid-input}}\n* {{msg-mw|Apifeatureusage-htmlform-date-placeholder}}\n* {{msg-mw|Apifeatureusage-htmlform-date-toolow}}\n* {{msg-mw|Apifeatureusage-htmlform-date-toohigh}}\n* {{msg-mw|Htmlform-required}}",
+	"apifeatureusage-htmlform-date-toolow": "Used as error message in HTML forms. Parameters:\n* $1 - minimum date\nSee also:\n* {{msg-mw|Htmlform-invalid-input}}\n* {{msg-mw|Htmlform-required}}\n* {{msg-mw|Apifeatureusage-htmlform-date-invalid}}\n* {{msg-mw|Apifeatureusage-htmlform-date-toohigh}}",
+	"apifeatureusage-htmlform-date-toohigh": "Used as error message in HTML forms. Parameters:\n* $1 - maximum date\nSee also:\n* {{msg-mw|Htmlform-invalid-input}}\n* {{msg-mw|Htmlform-required}}\n* {{msg-mw|Apifeatureusage-htmlform-date-invalid}}\n* {{msg-mw|Apifeatureusage-htmlform-date-toolow}}",
+	"apifeatureusage-htmlform-daterange-relative-layout": "Used to give context to the form fields in an HTML form date-range element.\n* $1 - HTML for the starting date control\n* $2 - HTML for the number-of-days control. This is an input field to be added by the user and the number is not shown initially, so \"days\" should be translated as a generic plural of an unknown number.",
+	"apifeatureusage-htmlform-daterange-absolute-layout": "Used to give context to the form fields in an HTML form date-range element.\n* $1 - HTML for the starting date control\n* $2 - HTML for the ending date control",
+	"apifeatureusage-htmlform-daterange-days-badoption": "Used as error message in HTML forms.\n\n* {{msg-mw|Htmlform-invalid-input}}\n* {{msg-mw|Htmlform-required}}\n* {{msg-mw|Htmlform-int-invalid}}\n* {{msg-mw|Htmlform-int-toolow}}\n* {{msg-mw|Htmlform-int-toohigh}}\n* {{msg-mw|Apifeatureusage-htmlform-date-invalid}}\n* {{msg-mw|Apifeatureusage-htmlform-date-toolow}}\n* {{msg-mw|Apifeatureusage-htmlform-date-toohigh}}\n* {{msg-mw|Apifeatureusage-htmlform-daterange-invalid}}\n* {{msg-mw|Apifeatureusage-htmlform-daterange-toolow}}\n* {{msg-mw|Apifeatureusage-htmlform-daterange-toohigh}}",
+	"apifeatureusage-htmlform-daterange-days-invalid": "Used as error message in HTML forms.\n\n* {{msg-mw|Htmlform-invalid-input}}\n* {{msg-mw|Htmlform-required}}\n* {{msg-mw|Htmlform-int-invalid}}\n* {{msg-mw|Htmlform-int-toolow}}\n* {{msg-mw|Htmlform-int-toohigh}}\n* {{msg-mw|Apifeatureusage-htmlform-date-invalid}}\n* {{msg-mw|Apifeatureusage-htmlform-date-toolow}}\n* {{msg-mw|Apifeatureusage-htmlform-date-toohigh}}\n* {{msg-mw|Apifeatureusage-htmlform-daterange-badoption}}\n* {{msg-mw|Apifeatureusage-htmlform-daterange-toolow}}\n* {{msg-mw|Apifeatureusage-htmlform-daterange-toohigh}}",
+	"apifeatureusage-htmlform-daterange-days-toolow": "Used as error message in HTML forms. Parameters:\n* $1 - minimum value\nSee also:\n* {{msg-mw|Htmlform-invalid-input}}\n* {{msg-mw|Htmlform-required}}\n* {{msg-mw|Htmlform-int-invalid}}\n* {{msg-mw|Htmlform-int-toolow}}\n* {{msg-mw|Htmlform-int-toohigh}}\n* {{msg-mw|Apifeatureusage-htmlform-date-invalid}}\n* {{msg-mw|Apifeatureusage-htmlform-date-toolow}}\n* {{msg-mw|Apifeatureusage-htmlform-date-toohigh}}\n* {{msg-mw|Apifeatureusage-htmlform-daterange-badoption}}\n* {{msg-mw|Apifeatureusage-htmlform-daterange-invalid}}\n* {{msg-mw|Apifeatureusage-htmlform-daterange-toohigh}}",
+	"apifeatureusage-htmlform-daterange-days-toohigh": "Used as error message in HTML forms. Parameters:\n* $1 - maximum value\nSee also:\n* {{msg-mw|Htmlform-invalid-input}}\n* {{msg-mw|Htmlform-required}}\n* {{msg-mw|Htmlform-int-invalid}}\n* {{msg-mw|Htmlform-int-toolow}}\n* {{msg-mw|Htmlform-int-toohigh}}\n* {{msg-mw|Apifeatureusage-htmlform-date-invalid}}\n* {{msg-mw|Apifeatureusage-htmlform-date-toolow}}\n* {{msg-mw|Apifeatureusage-htmlform-date-toohigh}}\n* {{msg-mw|Apifeatureusage-htmlform-daterange-badoption}}\n* {{msg-mw|Apifeatureusage-htmlform-daterange-invalid}}\n* {{msg-mw|Apifeatureusage-htmlform-daterange-toolow}}",
+	"apifeatureusage-htmlform-daterange-end-before-start": "Used as error message in HTML forms.",
+	"apifeatureusage-htmlform-daterange-error-partial": "Used as error message in HTML forms.",
+	"apifeatureusage-htmlform-radiorange-missing-message": "Used as error message in HTML forms. Parameters:\n* $1 - Column number"
+}
