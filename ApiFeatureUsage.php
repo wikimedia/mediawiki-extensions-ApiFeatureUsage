@@ -21,17 +21,6 @@
  * http://www.gnu.org/copyleft/gpl.html
  */
 
-# Alert the user that this is not a valid entry point to MediaWiki if they try
-# to access the special pages file directly.
-if ( !defined( 'MEDIAWIKI' ) ) {
-	echo <<<EOT
-<p>This is the ApiFeatureUsage extension. To enable it, put the following line
-in LocalSettings.php:</p>
-<pre>require_once( "\$IP/extensions/ApiFeatureUsage/ApiFeatureUsage.php" );</pre>
-EOT;
-	exit( 1 );
-}
-
 $wgExtensionCredits['specialpage'][] = array(
 	'path' => __FILE__,
 	'name' => 'ApiFeatureUsage',
