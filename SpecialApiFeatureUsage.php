@@ -89,14 +89,14 @@ class SpecialApiFeatureUsage extends SpecialPage {
 				$cells[] = Html::rawElement( 'td', array(),
 					Html::element( 'time', array(), $row['date'] )
 				);
-				$cells[] = Html::element( 'td', array( 'class' => 'count' ),
+				$cells[] = Html::element( 'td', array( 'class' => 'mw-apifeatureusage-count' ),
 					$lang->formatNum( $row['count'] )
 				);
 
 				$rows[] = Html::rawElement( 'tr', array(), join( '', $cells ) );
 			}
 			$this->getOutput()->addHTML(
-				Html::rawElement( 'table', array( 'class' => 'wikitable sortable apifeatureusage' ),
+				Html::rawElement( 'table', array( 'class' => 'wikitable sortable mw-apifeatureusage' ),
 					Html::rawElement( 'thead', array(),
 						Html::rawElement( 'tr', array(),
 							Html::rawElement( 'th', array(),
