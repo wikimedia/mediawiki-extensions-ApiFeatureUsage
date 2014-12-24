@@ -34,6 +34,7 @@ $wgAutoloadClasses['SpecialApiFeatureUsage'] = __DIR__ . '/SpecialApiFeatureUsag
 $wgAutoloadClasses['ApiQueryFeatureUsage'] = __DIR__ . '/ApiQueryFeatureUsage.php';
 $wgAutoloadClasses['ApiFeatureUsageQueryEngine'] = __DIR__ . '/ApiFeatureUsageQueryEngine.php';
 $wgAutoloadClasses['ApiFeatureUsageQueryEngineElastica'] = __DIR__ . '/ApiFeatureUsageQueryEngineElastica.php';
+$wgAutoloadClasses['ApiFeatureUsageQueryEngineElasticaConnection'] = __DIR__ . '/ApiFeatureUsageQueryEngineElastica.php';
 
 $wgMessagesDirs['ApiFeatureUsage'] = __DIR__ . '/i18n';
 $wgExtensionMessagesFiles['ApiFeatureUsageAlias'] = __DIR__ . '/ApiFeatureUsage.alias.php';
@@ -60,7 +61,6 @@ $wgApiFeatureUsageQueryEngineConf = array();
  */
 $wgAutoloadClasses['ApiFeatureUsage_HTMLDateField'] = __DIR__ . '/htmlform/HTMLDateField.php';
 $wgAutoloadClasses['ApiFeatureUsage_HTMLDateRangeField'] = __DIR__ . '/htmlform/HTMLDateRangeField.php';
-$wgAutoloadClasses['ApiFeatureUsage_HTMLFormRadioRangeColumnLabels'] = __DIR__ . '/htmlform/HTMLFormRadioRangeColumnLabels.php';
 $wgResourceModules['ext.apifeatureusage.htmlform'] = array(
 	'localBasePath' => __DIR__ . '/htmlform',
 	'remoteExtPath' => 'ApiFeatureUsage/htmlform',
