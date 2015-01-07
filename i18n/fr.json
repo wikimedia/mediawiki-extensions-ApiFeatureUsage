@@ -1,0 +1,19 @@
+{
+	"@metadata": {
+		"authors": [
+			"0x010C"
+		]
+	},
+	"apifeatureusage-agent-label": "Agent utilisateur :",
+	"apifeatureusage-dates-label": "Intervalle de dates :",
+	"apifeatureusage-warnings": "Attention : $1",
+	"apifeatureusage-column-date": "Date",
+	"apifeatureusage-column-uses": "Utilisations",
+	"apihelp-query+featureusage-param-start": "Début de la plage de date pour la requête.",
+	"apihelp-query+featureusage-param-end": "Fin de la plage de date pour la requête.",
+	"apifeatureusage-htmlform-date-placeholder": "AAAA-MM-JJ",
+	"apifeatureusage-htmlform-date-invalid": "La valeur que vous avez indiquée n’est pas une date reconnue. Essayez en utilisant le format AAAA-MM-JJ.",
+	"apifeatureusage-htmlform-date-toolow": "La valeur que vous avez indiquée est antérieure à la plus ancienne date autorisée $1.",
+	"apifeatureusage-htmlform-date-toohigh": "La valeur que vous avez indiquée est postérieure à la dernière date autorisée $1.",
+	"apifeatureusage-htmlform-daterange-relative-layout": "Démarrer le $1 et s’exécuter pendant $2 jours"
+}

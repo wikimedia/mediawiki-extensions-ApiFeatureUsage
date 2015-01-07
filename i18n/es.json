@@ -1,0 +1,16 @@
+{
+	"@metadata": {
+		"authors": [
+			"Cgalindo"
+		]
+	},
+	"apifeatureusage-submit": "Escoge los datos",
+	"apifeatureusage-no-indexes": "No hay datos disponibles para el rango de fechas especificado.",
+	"apifeatureusage-warnings": "Advertencia: $1",
+	"apifeatureusage-column-date": "Fecha",
+	"apifeatureusage-htmlform-date-placeholder": "AAAA-MM-DD",
+	"apifeatureusage-htmlform-daterange-relative-layout": "Empieza en $1 y corre por $2 dias",
+	"apifeatureusage-htmlform-daterange-absolute-layout": "Empieza en $1 y termina en $2",
+	"apifeatureusage-htmlform-daterange-error-partial": "Ambos campos de fecha tienen que ser llenados o dejados vacios.",
+	"apifeatureusage-htmlform-radiorange-missing-message": "Por favor especifica un valor para la columna $1"
+}

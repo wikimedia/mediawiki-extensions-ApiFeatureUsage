@@ -1,0 +1,10 @@
+{
+	"@metadata": {
+		"authors": [
+			"Imperadeiro90"
+		]
+	},
+	"apifeatureusage-column-date": "Data",
+	"apifeatureusage-htmlform-date-placeholder": "AAAA-MM-DD",
+	"apifeatureusage-htmlform-date-invalid": "O valor que especificou não é uma data reconhecida. Tente usar o formato AAAA-MM-DD."
+}

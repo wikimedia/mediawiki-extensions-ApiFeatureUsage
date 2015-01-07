@@ -1,14 +1,15 @@
 {
 	"@metadata": {
 		"authors": [
-			"Brad Jorsch"
+			"Brad Jorsch",
+			"Raymond"
 		]
 	},
 	"apifeatureusage": "{{doc-special|ApiFeatureUsage}}\nThe name of the [[mw:Extension:ApiFeatureUsage|ApiFeatureUsage extension]].",
 	"apifeatureusage-desc": "{{desc|name=Api Feature Usage|url=http://www.mediawiki.org/wiki/Extension:ApiFeatureUsage}}\n\nSee definition of [[w:User agent|user agent]] on Wikipedia.",
 	"apifeatureusage-elasticsearch-error": "Used to wrap an Elasticsearch error when reporting it up the stack.\n\nParameters:\n* $1 - Error message from Elasticsearch.",
 	"apifeatureusage-legend": "Used as a fieldset legend on [[Special:ApiFeatureUsage]].",
-	"apifeatureusage-text": "{{optional}} Displayed above the form on [[Special:ApiFeatureUsage]].",
+	"apifeatureusage-text": "{{ignore}} Displayed above the form on [[Special:ApiFeatureUsage]].",
 	"apifeatureusage-agent-label": "Form field label on [[Special:ApiFeatureUsage]].\n\nSee definition of [[w:User agent|user agent]] on Wikipedia.",
 	"apifeatureusage-dates-label": "Form field label on [[Special:ApiFeatureUsage]].",
 	"apifeatureusage-dates-layout": "{{optional}} Used to lay out the text fields for the date range input on [[Special:ApiFeatureUsage]].\n\nParameters:\n* $1 - HTML for the starting date control.\n* $2 - HTML for the second date control.\nSee also:\n* {{msg-mw|apifeatureusage-htmlform-daterange-absolute-layout}}",
@@ -25,7 +26,6 @@
 	"apihelp-query+featureusage-param-agent": "{{doc-apihelp-param|query+featureusage|agent|info=See definition of [[w:User agent|user agent]] on Wikipedia.}}",
 	"apihelp-query+featureusage-param-features": "{{doc-apihelp-param|query+featureusage|features}}",
 	"apihelp-query+userinfo-example-simple": "{{doc-apihelp-example|query+featureusage|info=See definition of [[w:User agent|user agent]] on Wikipedia.}}",
-
 	"apifeatureusage-htmlform-date-placeholder": "Used as initial placeholder text in \"date\" input boxes. This date MUST be formatted in the https://en.wikipedia.org/wiki/ISO_8601 format. You can localise the letters to your language or script, but you should not change the format.",
 	"apifeatureusage-htmlform-date-invalid": "Used as error message in HTML forms. This date MUST be formatted in the https://en.wikipedia.org/wiki/ISO_8601 format. You can localise the letters to your language or script, but you should not change the format.\n\n* {{msg-mw|Htmlform-invalid-input}}\n* {{msg-mw|Apifeatureusage-htmlform-date-placeholder}}\n* {{msg-mw|Apifeatureusage-htmlform-date-toolow}}\n* {{msg-mw|Apifeatureusage-htmlform-date-toohigh}}\n* {{msg-mw|Htmlform-required}}",
 	"apifeatureusage-htmlform-date-toolow": "Used as error message in HTML forms. Parameters:\n* $1 - minimum date\nSee also:\n* {{msg-mw|Htmlform-invalid-input}}\n* {{msg-mw|Htmlform-required}}\n* {{msg-mw|Apifeatureusage-htmlform-date-invalid}}\n* {{msg-mw|Apifeatureusage-htmlform-date-toohigh}}",

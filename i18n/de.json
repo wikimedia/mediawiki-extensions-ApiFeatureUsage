@@ -1,0 +1,34 @@
+{
+	"@metadata": {
+		"authors": [
+			"Metalhead64"
+		]
+	},
+	"apifeatureusage": "API-Funktionsverwendung",
+	"apifeatureusage-desc": "Ermöglicht den Abruf einer Zusammenfassung protokollierter API-Funktionsverwendungen für einen Benutzeragenten",
+	"apifeatureusage-elasticsearch-error": "Elasticsearch-Fehler: $1",
+	"apifeatureusage-legend": "API-Funktionsverwendung",
+	"apifeatureusage-agent-label": "Benutzeragent:",
+	"apifeatureusage-dates-label": "Datumsbereich:",
+	"apifeatureusage-submit": "Daten abrufen",
+	"apifeatureusage-no-indexes": "Für den angegebenen Datumsbereich sind keine Daten verfügbar.",
+	"apifeatureusage-missing-indexes": "Für einen Teil des angegebenen Datumsbereichs sind keine Daten verfügbar.",
+	"apifeatureusage-warnings": "Warnung: $1",
+	"apifeatureusage-column-feature": "Funktion",
+	"apifeatureusage-column-date": "Datum",
+	"apifeatureusage-column-uses": "Verwendet",
+	"apihelp-query+userinfo-example-simple": "Funktionsverwendung für den aktuellen Benutzeragenten abfragen",
+	"apifeatureusage-htmlform-date-placeholder": "JJJJ-MM-TT",
+	"apifeatureusage-htmlform-date-invalid": "Der angegebene Wert ist kein erkanntes Datum. Versuche, das Format JJJJ-MM-TT zu verwenden.",
+	"apifeatureusage-htmlform-date-toolow": "Der angegebene Wert liegt vor dem frühestmöglichen Datum von $1.",
+	"apifeatureusage-htmlform-date-toohigh": "Der angegebene Wert liegt nach dem spätestmöglichen Datum von $1.",
+	"apifeatureusage-htmlform-daterange-relative-layout": "Beginnen am $1 und für $2 Tage ausführen",
+	"apifeatureusage-htmlform-daterange-absolute-layout": "Beginnen am $1 und beenden am $2",
+	"apifeatureusage-htmlform-daterange-days-badoption": "Der angegebene Wert für die Anzahl der auszuführenden Tage ist keine gültige Option.",
+	"apifeatureusage-htmlform-daterange-days-invalid": "Der angegebene Wert für die Anzahl der auszuführenden Tage ist keine Ganzzahl.",
+	"apifeatureusage-htmlform-daterange-days-toolow": "Der angegebene Wert für die Anzahl der auszuführenden Tage liegt unter dem Minimum von {{PLURAL:$1|$1}}.",
+	"apifeatureusage-htmlform-daterange-days-toohigh": "Der angegebene Wert für die Anzahl der auszuführenden Tage liegt über dem Maximum von {{PLURAL:$1|$1}}.",
+	"apifeatureusage-htmlform-daterange-end-before-start": "Das angegebene Enddatum liegt vor dem Startdatum.",
+	"apifeatureusage-htmlform-daterange-error-partial": "Beide Datumsfelder müssen ausgefüllt oder leer gelassen werden.",
+	"apifeatureusage-htmlform-radiorange-missing-message": "Bitte gib einen Wert für die Spalte $1 an"
+}
