@@ -25,7 +25,7 @@
 	"apihelp-query+featureusage-param-end": "{{doc-apihelp-param|query+featureusage|end}}",
 	"apihelp-query+featureusage-param-agent": "{{doc-apihelp-param|query+featureusage|agent|info=See definition of [[w:User agent|user agent]] on Wikipedia.}}",
 	"apihelp-query+featureusage-param-features": "{{doc-apihelp-param|query+featureusage|features}}",
-	"apihelp-query+userinfo-example-simple": "{{doc-apihelp-example|query+featureusage|info=See definition of [[w:User agent|user agent]] on Wikipedia.}}",
+	"apihelp-query+featureusage-example-simple": "{{doc-apihelp-example|query+featureusage|info=See definition of [[w:User agent|user agent]] on Wikipedia.}}",
 	"apifeatureusage-htmlform-date-placeholder": "Used as initial placeholder text in \"date\" input boxes. This date MUST be formatted in the https://en.wikipedia.org/wiki/ISO_8601 format. You can localise the letters to your language or script, but you should not change the format.",
 	"apifeatureusage-htmlform-date-invalid": "Used as error message in HTML forms. This date MUST be formatted in the https://en.wikipedia.org/wiki/ISO_8601 format. You can localise the letters to your language or script, but you should not change the format.\n\n* {{msg-mw|Htmlform-invalid-input}}\n* {{msg-mw|Apifeatureusage-htmlform-date-placeholder}}\n* {{msg-mw|Apifeatureusage-htmlform-date-toolow}}\n* {{msg-mw|Apifeatureusage-htmlform-date-toohigh}}\n* {{msg-mw|Htmlform-required}}",
 	"apifeatureusage-htmlform-date-toolow": "Used as error message in HTML forms. Parameters:\n* $1 - minimum date\nSee also:\n* {{msg-mw|Htmlform-invalid-input}}\n* {{msg-mw|Htmlform-required}}\n* {{msg-mw|Apifeatureusage-htmlform-date-invalid}}\n* {{msg-mw|Apifeatureusage-htmlform-date-toohigh}}",

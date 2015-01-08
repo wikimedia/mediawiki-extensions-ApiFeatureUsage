@@ -24,7 +24,7 @@
 	"apihelp-query+featureusage-param-end": "End of date range to query.",
 	"apihelp-query+featureusage-param-agent": "User agent to query. If not specified, the agent in the request will be queried.",
 	"apihelp-query+featureusage-param-features": "If specified, return details on only these features.",
-	"apihelp-query+userinfo-example-simple": "Query feature usage for the current user agent",
+	"apihelp-query+featureusage-example-simple": "Query feature usage for the current user agent",
 
 	"apifeatureusage-htmlform-date-placeholder": "YYYY-MM-DD",
 	"apifeatureusage-htmlform-date-invalid": "The value you specified is not a recognized date. Try using YYYY-MM-DD format.",

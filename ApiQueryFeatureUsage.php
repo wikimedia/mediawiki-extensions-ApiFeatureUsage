@@ -76,7 +76,7 @@ class ApiQueryFeatureUsage extends ApiQueryBase {
 	protected function getExamplesMessages() {
 		return array(
 			'action=query&meta=featureusage'
-				=> 'apihelp-query+userinfo-example-simple',
+				=> 'apihelp-query+featureusage-example-simple',
 		);
 	}
 
