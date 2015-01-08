@@ -1,8 +1,16 @@
 {
 	"@metadata": {
 		"authors": [
-			"LNDDYL"
+			"LNDDYL",
+			"Liuxinyu970226"
 		]
 	},
-	"apifeatureusage-column-date": "日期"
+	"apifeatureusage-agent-label": "使用者代理：",
+	"apifeatureusage-dates-label": "日期範圍：",
+	"apifeatureusage-warnings": "警告：$1",
+	"apifeatureusage-column-feature": "特徵",
+	"apifeatureusage-column-date": "日期",
+	"apifeatureusage-column-uses": "使用",
+	"apifeatureusage-htmlform-daterange-absolute-layout": "開始於 $1 且結束於 $2",
+	"apifeatureusage-htmlform-radiorange-missing-message": "請指定 $1 行的值"
 }

@@ -1,16 +1,32 @@
 {
 	"@metadata": {
 		"authors": [
-			"Cgalindo"
+			"Cgalindo",
+			"Fitoschido",
+			"Macofe"
 		]
 	},
+	"apifeatureusage": "Uso de funciones de la API",
+	"apifeatureusage-desc": "Obtén un resumen de los usos registrados de las funciones de la API por cada agente de usuario.",
+	"apifeatureusage-elasticsearch-error": "Error de Elasticsearch: $1",
+	"apifeatureusage-legend": "Uso de funciones de la API",
+	"apifeatureusage-agent-label": "Agente de usuario:",
+	"apifeatureusage-dates-label": "Intervalo de fechas:",
 	"apifeatureusage-submit": "Escoge los datos",
-	"apifeatureusage-no-indexes": "No hay datos disponibles para el rango de fechas especificado.",
+	"apifeatureusage-no-indexes": "No hay datos disponibles para el intervalo de fechas especificado.",
+	"apifeatureusage-missing-indexes": "No hay datos disponibles para una parte del intervalo de fechas especificado.",
 	"apifeatureusage-warnings": "Advertencia: $1",
+	"apifeatureusage-column-feature": "Característica",
 	"apifeatureusage-column-date": "Fecha",
+	"apifeatureusage-column-uses": "Usos",
+	"apihelp-query+featureusage-description": "Obtén un resumen de los usos registrados de las funciones de la API por cada agente de usuario.",
+	"apihelp-query+featureusage-param-start": "Inicio del intervalo de fechas que consultar.",
+	"apihelp-query+featureusage-param-end": "Fin del intervalo de fechas que consultar.",
+	"apihelp-query+featureusage-param-agent": "Agente de usuario que consultar. Si no se especifica se consultará el agente de la solicitud.",
+	"apihelp-query+featureusage-param-features": "Si se especifica se mostrarán los detalles de estas funciones únicamente.",
 	"apifeatureusage-htmlform-date-placeholder": "AAAA-MM-DD",
-	"apifeatureusage-htmlform-daterange-relative-layout": "Empieza en $1 y corre por $2 dias",
-	"apifeatureusage-htmlform-daterange-absolute-layout": "Empieza en $1 y termina en $2",
-	"apifeatureusage-htmlform-daterange-error-partial": "Ambos campos de fecha tienen que ser llenados o dejados vacios.",
-	"apifeatureusage-htmlform-radiorange-missing-message": "Por favor especifica un valor para la columna $1"
+	"apifeatureusage-htmlform-daterange-relative-layout": "Iniciar el $1 y ejecutar por $2 días",
+	"apifeatureusage-htmlform-daterange-absolute-layout": "Iniciar el $1 y terminar el $2",
+	"apifeatureusage-htmlform-daterange-error-partial": "Ambos campos de fecha deben llenarse o dejarse en blanco.",
+	"apifeatureusage-htmlform-radiorange-missing-message": "Especifica un valor para la columna $1"
 }

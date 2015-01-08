@@ -1,0 +1,40 @@
+{
+	"@metadata": {
+		"authors": [
+			"Bjankuloski06"
+		]
+	},
+	"apifeatureusage": "Употреба на функции на извршникот",
+	"apifeatureusage-desc": "Дава преглед на заведени употреби на функции на извршникот (API) за даден кориснички вршител.",
+	"apifeatureusage-elasticsearch-error": "Грешка во Elasticsearch: $1",
+	"apifeatureusage-legend": "Употреба на функциите на извршникот",
+	"apifeatureusage-agent-label": "Кориснички вршител:",
+	"apifeatureusage-dates-label": "Датумски опсег:",
+	"apifeatureusage-dates-layout": "$1 – $2",
+	"apifeatureusage-submit": "Преземи податоци",
+	"apifeatureusage-no-indexes": "Нема податоци за укажаниот датумски опсег.",
+	"apifeatureusage-missing-indexes": "Нема податоци за дел од укажаниот датумски опсег.",
+	"apifeatureusage-warnings": "Предупредување: $1",
+	"apifeatureusage-column-feature": "Функција",
+	"apifeatureusage-column-date": "Датум",
+	"apifeatureusage-column-uses": "Користи",
+	"apihelp-query+featureusage-description": "Два преглед на заведени употреби на функциите на извршителот (API) од страна на даден кориснички вршител.",
+	"apihelp-query+featureusage-param-start": "Почеток на датумскиот опсег на барањето.",
+	"apihelp-query+featureusage-param-end": "Крај на датумскиот опсег на барањето.",
+	"apihelp-query+featureusage-param-agent": "Корисничкиот вршител што ќе се бара. Ако не е укажано, ќе се побара вршителот во барањето.",
+	"apihelp-query+featureusage-param-features": "Ако е укажано, дава податоци само за овие функции.",
+	"apihelp-query+featureusage-example-simple": "Барање на употребата на функциите за тековниот кориснички вршител",
+	"apifeatureusage-htmlform-date-placeholder": "ГГГГ-ММ-ДД",
+	"apifeatureusage-htmlform-date-invalid": "Не можам да ја препознаам внесената вреднсот. Користете го форматот ГГГГ-ММ-ДД.",
+	"apifeatureusage-htmlform-date-toolow": "Укажаната вредност е пред најраниот допуштен датум — $1.",
+	"apifeatureusage-htmlform-date-toohigh": "Укажаната вредност е по најдоцниот допуштен датум ($1).",
+	"apifeatureusage-htmlform-daterange-relative-layout": "Ппочни на $1 и работи $2 дена",
+	"apifeatureusage-htmlform-daterange-absolute-layout": "Почни на $1 и заврши на $2",
+	"apifeatureusage-htmlform-daterange-days-badoption": "Укажавте неважечки број на денови за траењето.",
+	"apifeatureusage-htmlform-daterange-days-invalid": "Укажаната вредност за времетраење во денови не е цел број.",
+	"apifeatureusage-htmlform-daterange-days-toolow": "Укажаната вредност за времетраење во денови е помала од минималните {{PLURAL:$1|$1}}.",
+	"apifeatureusage-htmlform-daterange-days-toohigh": "Укажаната вредност за времетраење во денови е поголема од максималните {{PLURAL:$1|$1}}.",
+	"apifeatureusage-htmlform-daterange-end-before-start": "Укажаниот завршен датум е пред почетниот.",
+	"apifeatureusage-htmlform-daterange-error-partial": "Ќе мора да ги пополните обете полиња за датум или да ги оставите празни.",
+	"apifeatureusage-htmlform-radiorange-missing-message": "Укажете вредност за колоната $1"
+}

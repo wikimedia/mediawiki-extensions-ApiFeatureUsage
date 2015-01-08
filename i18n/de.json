@@ -17,7 +17,7 @@
 	"apifeatureusage-column-feature": "Funktion",
 	"apifeatureusage-column-date": "Datum",
 	"apifeatureusage-column-uses": "Verwendet",
-	"apihelp-query+userinfo-example-simple": "Funktionsverwendung für den aktuellen Benutzeragenten abfragen",
+	"apihelp-query+featureusage-example-simple": "Funktionsverwendung für den aktuellen Benutzeragenten abfragen",
 	"apifeatureusage-htmlform-date-placeholder": "JJJJ-MM-TT",
 	"apifeatureusage-htmlform-date-invalid": "Der angegebene Wert ist kein erkanntes Datum. Versuche, das Format JJJJ-MM-TT zu verwenden.",
 	"apifeatureusage-htmlform-date-toolow": "Der angegebene Wert liegt vor dem frühestmöglichen Datum von $1.",

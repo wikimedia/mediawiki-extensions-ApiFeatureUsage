@@ -2,7 +2,8 @@
 	"@metadata": {
 		"authors": [
 			"Brad Jorsch",
-			"Raymond"
+			"Raymond",
+			"Liuxinyu970226"
 		]
 	},
 	"apifeatureusage": "{{doc-special|ApiFeatureUsage}}\nThe name of the [[mw:Extension:ApiFeatureUsage|ApiFeatureUsage extension]].",
@@ -10,16 +11,16 @@
 	"apifeatureusage-elasticsearch-error": "Used to wrap an Elasticsearch error when reporting it up the stack.\n\nParameters:\n* $1 - Error message from Elasticsearch.",
 	"apifeatureusage-legend": "Used as a fieldset legend on [[Special:ApiFeatureUsage]].",
 	"apifeatureusage-text": "{{ignore}} Displayed above the form on [[Special:ApiFeatureUsage]].",
-	"apifeatureusage-agent-label": "Form field label on [[Special:ApiFeatureUsage]].\n\nSee definition of [[w:User agent|user agent]] on Wikipedia.",
-	"apifeatureusage-dates-label": "Form field label on [[Special:ApiFeatureUsage]].",
+	"apifeatureusage-agent-label": "Form field label on [[Special:ApiFeatureUsage]].\n\nSee definition of [[w:User agent|user agent]] on Wikipedia.\n{{Identical|User agent}}",
+	"apifeatureusage-dates-label": "Form field label on [[Special:ApiFeatureUsage]].\n{{Identical|Date range}}",
 	"apifeatureusage-dates-layout": "{{optional}} Used to lay out the text fields for the date range input on [[Special:ApiFeatureUsage]].\n\nParameters:\n* $1 - HTML for the starting date control.\n* $2 - HTML for the second date control.\nSee also:\n* {{msg-mw|apifeatureusage-htmlform-daterange-absolute-layout}}",
 	"apifeatureusage-submit": "Submit button label on [[Special:ApiFeatureUsage]].",
 	"apifeatureusage-no-indexes": "Used as a warning message.",
 	"apifeatureusage-missing-indexes": "Used as a warning message.",
-	"apifeatureusage-warnings": "Used to wrap warning messages.",
-	"apifeatureusage-column-feature": "Column header for output table.",
-	"apifeatureusage-column-date": "Column header for output table. Dates in the column are in the UTC timezone, formatted as Y-m-d (similar to ISO 8601 format).",
-	"apifeatureusage-column-uses": "Column header for output table.",
+	"apifeatureusage-warnings": "Used to wrap warning messages.\n{{Identical|Warning}}",
+	"apifeatureusage-column-feature": "Column header for output table.\n{{Identical|Feature}}",
+	"apifeatureusage-column-date": "Column header for output table. Dates in the column are in the UTC timezone, formatted as Y-m-d (similar to ISO 8601 format).\n\n{{Identical|Date}}",
+	"apifeatureusage-column-uses": "Column header for output table.\n{{Identical|Use}}",
 	"apihelp-query+featureusage-description": "{{doc-apihelp-description|query+featureusage|info=See definition of [[w:User agent|user agent]] on Wikipedia.}}",
 	"apihelp-query+featureusage-param-start": "{{doc-apihelp-param|query+featureusage|start}}",
 	"apihelp-query+featureusage-param-end": "{{doc-apihelp-param|query+featureusage|end}}",
