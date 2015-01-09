@@ -1,0 +1,12 @@
+{
+	"@metadata": {
+		"authors": [
+			"Chrumps"
+		]
+	},
+	"apifeatureusage-warnings": "Ostrzeżenie: $1",
+	"apifeatureusage-column-date": "Data",
+	"apifeatureusage-htmlform-date-placeholder": "RRRR-MM-DD",
+	"apifeatureusage-htmlform-date-invalid": "Podana przez ciebie wartość nie jest rozpoznawana jako data. Spróbuj użyć formatu RRRR-MM-DD.",
+	"apifeatureusage-htmlform-daterange-end-before-start": "Data zakończenia podana jest przed datą rozpoczęcia."
+}

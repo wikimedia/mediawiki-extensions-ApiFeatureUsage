@@ -1,0 +1,18 @@
+{
+	"@metadata": {
+		"authors": [
+			"Robin0van0der0vliet"
+		]
+	},
+	"apifeatureusage": "API-functiegebruik",
+	"apifeatureusage-elasticsearch-error": "Elasticsearch-fout: $1",
+	"apifeatureusage-legend": "API-functiegebruik",
+	"apifeatureusage-agent-label": "Useragentː",
+	"apifeatureusage-dates-label": "Gegevensbereikː",
+	"apifeatureusage-submit": "Gegevens ophalen",
+	"apifeatureusage-warnings": "Waarschuwing: $1",
+	"apifeatureusage-column-feature": "Functie",
+	"apifeatureusage-column-date": "Datum",
+	"apifeatureusage-column-uses": "Toepassingen",
+	"apifeatureusage-htmlform-date-placeholder": "JJJJ-MM-DD"
+}

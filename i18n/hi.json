@@ -1,0 +1,9 @@
+{
+	"@metadata": {
+		"authors": [
+			"संजीव कुमार"
+		]
+	},
+	"apifeatureusage-htmlform-date-placeholder": "YYYY-MM-DD",
+	"apifeatureusage-htmlform-date-invalid": "आपके द्वारा निर्दिष्ट मान को दिनांक के रूप में नहीं पहचाना जा सकता। YYYY-MM-DD प्रारूप का उपयोग करने का प्रयास करें।"
+}

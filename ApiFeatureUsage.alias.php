@@ -13,3 +13,8 @@ $specialPageAliases = array();
 $specialPageAliases['en'] = array(
 	'ApiFeatureUsage' => array( 'ApiFeatureUsage' ),
 );
+
+/** German (Deutsch) */
+$specialPageAliases['de'] = array(
+	'ApiFeatureUsage' => array( 'API-Funktionsverwendung' ),
+);

@@ -1,0 +1,10 @@
+{
+	"@metadata": {
+		"authors": [
+			"Papuass"
+		]
+	},
+	"apifeatureusage-agent-label": "Lietotāja aģents:",
+	"apifeatureusage-warnings": "Brīdinājums: $1",
+	"apifeatureusage-column-date": "Datums"
+}

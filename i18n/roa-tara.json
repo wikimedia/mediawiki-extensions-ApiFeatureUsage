@@ -1,0 +1,9 @@
+{
+	"@metadata": {
+		"authors": [
+			"Joetaras"
+		]
+	},
+	"apifeatureusage-column-date": "Date",
+	"apifeatureusage-htmlform-date-placeholder": "AAAA-MM-GG"
+}

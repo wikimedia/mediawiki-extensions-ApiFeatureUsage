@@ -1,0 +1,9 @@
+{
+	"@metadata": {
+		"authors": [
+			"Anakmalaysia"
+		]
+	},
+	"apifeatureusage-column-date": "Tarikh",
+	"apifeatureusage-htmlform-date-placeholder": "YYYY-MM-DD"
+}

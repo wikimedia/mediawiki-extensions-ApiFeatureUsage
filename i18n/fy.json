@@ -1,0 +1,11 @@
+{
+	"@metadata": {
+		"authors": [
+			"Robin0van0der0vliet"
+		]
+	},
+	"apifeatureusage-warnings": "Warskôging: $1",
+	"apifeatureusage-column-feature": "Funskje",
+	"apifeatureusage-column-date": "Datum",
+	"apifeatureusage-htmlform-date-placeholder": "JJJJ-MM-DD"
+}
