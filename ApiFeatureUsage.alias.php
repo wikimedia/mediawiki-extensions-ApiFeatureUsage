@@ -18,3 +18,8 @@ $specialPageAliases['en'] = array(
 $specialPageAliases['de'] = array(
 	'ApiFeatureUsage' => array( 'API-Funktionsverwendung' ),
 );
+
+/** Macedonian (македонски) */
+$specialPageAliases['mk'] = array(
+	'ApiFeatureUsage' => array( 'УпотребаНаИзвршничкиФункции' ),
+);

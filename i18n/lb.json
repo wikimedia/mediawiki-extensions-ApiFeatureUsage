@@ -1,0 +1,10 @@
+{
+	"@metadata": {
+		"authors": [
+			"Robby"
+		]
+	},
+	"apifeatureusage-warnings": "Opgepasst: $1",
+	"apifeatureusage-column-date": "Datum",
+	"apifeatureusage-htmlform-date-placeholder": "JJJJ-MM-DD"
+}
