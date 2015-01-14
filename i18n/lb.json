@@ -6,5 +6,9 @@
 	},
 	"apifeatureusage-warnings": "Opgepasst: $1",
 	"apifeatureusage-column-date": "Datum",
-	"apifeatureusage-htmlform-date-placeholder": "JJJJ-MM-DD"
+	"apifeatureusage-column-uses": "Benotzt",
+	"apifeatureusage-htmlform-date-placeholder": "JJJJ-MM-DD",
+	"apifeatureusage-htmlform-daterange-end-before-start": "Den Enddatum deen Dir uginn hutt ass viru Startdatum.",
+	"apifeatureusage-htmlform-daterange-error-partial": "Déi zwee Datefelder mussen ausgefëllt sinn oder eidel bleiwen.",
+	"apifeatureusage-htmlform-radiorange-missing-message": "Gitt w.e.g. de Wäert fir d'Kolonn $1 un"
 }
