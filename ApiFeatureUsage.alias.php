@@ -23,3 +23,8 @@ $specialPageAliases['de'] = array(
 $specialPageAliases['mk'] = array(
 	'ApiFeatureUsage' => array( 'УпотребаНаИзвршничкиФункции' ),
 );
+
+/** Dutch (Nederlands) */
+$specialPageAliases['nl'] = array(
+	'ApiFeatureUsage' => array( 'Apifunctiesgebruik' ),
+);
