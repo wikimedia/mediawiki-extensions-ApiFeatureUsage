@@ -17,6 +17,8 @@
 	"apifeatureusage-column-feature": "Funktion",
 	"apifeatureusage-column-date": "Datum",
 	"apifeatureusage-column-uses": "Verwendet",
+	"apihelp-query+featureusage-param-start": "Beginn des Datumsbereich für die Anfrage.",
+	"apihelp-query+featureusage-param-end": "Ende des Datumsbereichs für die Anfrage.",
 	"apihelp-query+featureusage-example-simple": "Funktionsverwendung für den aktuellen Benutzeragenten abfragen",
 	"apifeatureusage-htmlform-date-placeholder": "JJJJ-MM-TT",
 	"apifeatureusage-htmlform-date-invalid": "Der angegebene Wert ist kein erkanntes Datum. Versuche, das Format JJJJ-MM-TT zu verwenden.",
