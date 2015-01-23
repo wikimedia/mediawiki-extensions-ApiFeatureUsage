@@ -25,6 +25,7 @@
 	"apihelp-query+featureusage-param-agent": "Agente de usuario que consultar. Si no se especifica se consultará el agente de la solicitud.",
 	"apihelp-query+featureusage-param-features": "Si se especifica se mostrarán los detalles de estas funciones únicamente.",
 	"apifeatureusage-htmlform-date-placeholder": "AAAA-MM-DD",
+	"apifeatureusage-htmlform-date-invalid": "El valor ingresado no se puede reconocer. Prueba usar el formato AAAA-MM-DD.",
 	"apifeatureusage-htmlform-daterange-relative-layout": "Iniciar el $1 y ejecutar por $2 días",
 	"apifeatureusage-htmlform-daterange-absolute-layout": "Iniciar el $1 y terminar el $2",
 	"apifeatureusage-htmlform-daterange-error-partial": "Ambos campos de fecha deben llenarse o dejarse en blanco.",
