@@ -28,3 +28,8 @@ $specialPageAliases['mk'] = array(
 $specialPageAliases['nl'] = array(
 	'ApiFeatureUsage' => array( 'Apifunctiesgebruik' ),
 );
+
+/** Simplified Chinese (中文（简体）‎) */
+$specialPageAliases['zh-hans'] = array(
+	'ApiFeatureUsage' => array( 'Api功能用法' ),
+);
