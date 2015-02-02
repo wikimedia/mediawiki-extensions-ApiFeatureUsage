@@ -1,9 +1,11 @@
 {
 	"@metadata": {
 		"authors": [
-			"0x010C"
+			"0x010C",
+			"Benjozork"
 		]
 	},
+	"apifeatureusage": "Utilisation de la fonctionnalité de l'API",
 	"apifeatureusage-agent-label": "Agent utilisateur :",
 	"apifeatureusage-dates-label": "Intervalle de dates :",
 	"apifeatureusage-warnings": "Attention : $1",
