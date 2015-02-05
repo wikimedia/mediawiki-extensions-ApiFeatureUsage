@@ -47,13 +47,23 @@ class ApiFeatureUsageQueryEngineElastica extends ApiFeatureUsageQueryEngine {
 	public function execute( $agent, MWTimestamp $start, MWTimestamp $end ) {
 		$status = Status::newGood( array() );
 
+		# Force $start and $end to day boundaries
+		$oneday = new DateInterval( 'P1D' );
+		$start = clone $start;
+		$start->timestamp = clone $start->timestamp;
+		$start->timestamp->setTime( 0, 0, 0 );
+		$end = clone $end;
+		$end->timestamp = clone $end->timestamp;
+		$end->timestamp->setTime( 0, 0, 0 );
+		$end->timestamp->add( $oneday )->sub( new DateInterval( 'PT1S' ) );
+
 		$query = new Elastica\Query();
 
 		$bools = new Elastica\Filter\Bool();
 		$bools->addMust( new Elastica\Filter\Prefix( $this->options['agentField'], $agent ) );
 		$bools->addMust( new Elastica\Filter\Range( $this->options['timestampField'], array(
-			'from' => $start->getTimestamp( TS_ISO_8601 ),
-			'to' => $end->getTimestamp( TS_ISO_8601 ),
+			'gte' => $start->getTimestamp( TS_ISO_8601 ),
+			'lte' => $end->getTimestamp( TS_ISO_8601 ),
 		) ) );
 		$query->setQuery( new Elastica\Query\Filtered( null, $bools ) );
 
@@ -78,8 +88,6 @@ class ApiFeatureUsageQueryEngineElastica extends ApiFeatureUsageQueryEngine {
 		$indexes = array();
 		$skippedAny = false;
 		$s = clone $start->timestamp;
-		$s->setTime( 0, 0, 0 );
-		$oneday = new DateInterval( 'P1D' );
 		while ( $s <= $end->timestamp ) {
 			$index = $this->options['indexPrefix'] . $s->format( $this->options['indexFormat'] );
 			if ( in_array( $index, $allIndexes ) ) {
