@@ -17,6 +17,7 @@
  *     ending date field (as $2) are layed out using this message. Default is
  *     'apifeatureusage-htmlform-daterange-relative-layout' or
  *     'apifeatureusage-htmlform-daterange-absolute-layout', depending on 'absolute'.
+ *   allow-sameday - If true, allows start and end to be the same
  *
  * The result is an empty array or an array with two values, the first being
  * the starting date and the second being either the number of days or the
@@ -80,8 +81,13 @@ class ApiFeatureUsage_HTMLDateRangeField extends ApiFeatureUsage_HTMLDateField {
 			}
 
 			$endDate = $value[1];
-			if ( $this->parseDate( $value[0] ) >= $this->parseDate( $value[1] ) ) {
+			if ( $this->parseDate( $value[0] ) > $this->parseDate( $value[1] ) ) {
 				return $this->msg( 'apifeatureusage-htmlform-daterange-end-before-start' )->parseAsBlock();
+			}
+			if ( empty( $this->mParams['allow-sameday'] ) &&
+				$this->parseDate( $value[0] ) == $this->parseDate( $value[1] )
+			) {
+				return $this->msg( 'apifeatureusage-htmlform-daterange-end-equals-start' )->parseAsBlock();
 			}
 		} else {
 			$opts = $this->getOptions();
