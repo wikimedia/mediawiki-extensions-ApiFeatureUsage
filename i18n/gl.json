@@ -1,9 +1,10 @@
 {
 	"@metadata": {
 		"authors": [
-			"Banjo"
+			"Banjo",
+			"Elisardojm"
 		]
 	},
 	"apifeatureusage-column-date": "Data",
-	"apifeatureusage-htmlform-radiorange-missing-message": "Por favor, especifique un valor para a columna"
+	"apifeatureusage-htmlform-radiorange-missing-message": "Por favor, especifique un valor para a columna $1"
 }
