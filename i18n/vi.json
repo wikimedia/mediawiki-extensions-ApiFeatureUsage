@@ -1,0 +1,25 @@
+{
+	"@metadata": {
+		"authors": [
+			"Dinhxuanduyet"
+		]
+	},
+	"apifeatureusage-dates-label": "Xếp theo ngày:",
+	"apifeatureusage-warnings": "Cảnh báo: $1",
+	"apifeatureusage-column-feature": "Tính năng",
+	"apifeatureusage-column-date": "Ngày",
+	"apifeatureusage-column-uses": "Sử dụng",
+	"apifeatureusage-htmlform-date-placeholder": "YYYY-MM-DD (năm-tháng-ngày)",
+	"apifeatureusage-htmlform-date-invalid": "Giá trị bạn chỉ định không phải là một định dạng ngày tháng. Hãy thử sử dụng định dạng YYYY-MM-DD (năm-tháng-ngày).",
+	"apifeatureusage-htmlform-date-toolow": "Giá trị bạn chỉ định là trước ngày được phép của $1.",
+	"apifeatureusage-htmlform-date-toohigh": "Giá trị bạn chỉ định là sau ngày được phép của $1.",
+	"apifeatureusage-htmlform-daterange-relative-layout": "Bắt đầu ngày $1 và kéo dài $2 ngày",
+	"apifeatureusage-htmlform-daterange-absolute-layout": "Bắt đầu ngày $1 và kết thúc ngày $2",
+	"apifeatureusage-htmlform-daterange-days-badoption": "Giá trị bạn chỉ định cho số ngày ứng cử không phải là một tùy chọn hợp lệ.",
+	"apifeatureusage-htmlform-daterange-days-invalid": "Giá trị bạn chỉ định cho số ngày ứng cử không phải là một số nguyên.",
+	"apifeatureusage-htmlform-daterange-days-toolow": "Giá trị bạn chỉ định cho số ngày ứng cử là ít hơn thời hạn tối thiểu của $1.",
+	"apifeatureusage-htmlform-daterange-days-toohigh": "Giá trị bạn chỉ định cho số ngày ứng cử là nhiều hơn thời hạn tối đa của $1.",
+	"apifeatureusage-htmlform-daterange-end-before-start": "Ngày kết thúc đưa ra nằm trước ngày bắt đầu.",
+	"apifeatureusage-htmlform-daterange-error-partial": "Cả hai ô ngày phải được điền đầy đủ hoặc để trống tất cả.",
+	"apifeatureusage-htmlform-radiorange-missing-message": "Hãy chỉ định một giá trị cho cột $1"
+}
