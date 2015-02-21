@@ -2,12 +2,16 @@
 	"@metadata": {
 		"authors": [
 			"0x010C",
-			"Benjozork"
+			"Benjozork",
+			"Nicolapps"
 		]
 	},
 	"apifeatureusage": "Utilisation de la fonctionnalité de l'API",
 	"apifeatureusage-agent-label": "Agent utilisateur :",
 	"apifeatureusage-dates-label": "Intervalle de dates :",
+	"apifeatureusage-submit": "Récupérer les données",
+	"apifeatureusage-no-indexes": "Aucune donnée n'est disponible pour la plage de dates spécifiée.",
+	"apifeatureusage-missing-indexes": "Aucune donnée n'est disponible pour la partie de la plage de dates spécifiée.",
 	"apifeatureusage-warnings": "Attention : $1",
 	"apifeatureusage-column-feature": "Élément",
 	"apifeatureusage-column-date": "Date",
