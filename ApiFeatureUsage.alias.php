@@ -14,6 +14,11 @@ $specialPageAliases['en'] = array(
 	'ApiFeatureUsage' => array( 'ApiFeatureUsage' ),
 );
 
+/** Arabic (العربية) */
+$specialPageAliases['ar'] = array(
+	'ApiFeatureUsage' => array( 'استخدام_خصائص_إيه_بي_آي' ),
+);
+
 /** German (Deutsch) */
 $specialPageAliases['de'] = array(
 	'ApiFeatureUsage' => array( 'API-Funktionsverwendung' ),
