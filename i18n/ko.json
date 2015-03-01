@@ -1,0 +1,8 @@
+{
+	"@metadata": {
+		"authors": [
+			"아라"
+		]
+	},
+	"apifeatureusage-htmlform-date-invalid": "지정한 값은 인식할 수 있는 날짜가 아닙니다. YYYY-MM-DD 형식을 사용하세요."
+}
