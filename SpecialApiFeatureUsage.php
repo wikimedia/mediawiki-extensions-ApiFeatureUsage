@@ -117,15 +117,11 @@ class SpecialApiFeatureUsage extends SpecialPage {
 	}
 
 	public function onSubmit( $data, $form ) {
-		wfProfileIn( __METHOD__ );
-
 		$agent = $data['agent'];
 		$start = new MWTimestamp( $data['dates'][0] . 'T00:00:00Z'  );
 		$end = new MWTimestamp( $data['dates'][1] . 'T23:59:59Z'  );
 
-		$status = $this->engine->execute( $agent, $start, $end );
-		wfProfileOut( __METHOD__ );
-		return $status;
+		return $this->engine->execute( $agent, $start, $end );
 	}
 
 }
