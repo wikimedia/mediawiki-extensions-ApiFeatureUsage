@@ -1,0 +1,29 @@
+{
+	"@metadata": {
+		"authors": [
+			"Beta16"
+		]
+	},
+	"apifeatureusage-elasticsearch-error": "Errore Elasticsearch: $1",
+	"apifeatureusage-agent-label": "Agente utente:",
+	"apifeatureusage-dates-label": "Intervallo di date:",
+	"apifeatureusage-submit": "Recupera dati",
+	"apifeatureusage-no-indexes": "Non sono disponibili dati per l'intervallo di date specificato.",
+	"apifeatureusage-missing-indexes": "Nessun dato è disponibile per una parte dell'intervallo di date specificato.",
+	"apifeatureusage-warnings": "Attenzione: $1",
+	"apifeatureusage-column-feature": "Caratteristica",
+	"apifeatureusage-column-date": "Data",
+	"apifeatureusage-column-uses": "Utilizza",
+	"apifeatureusage-htmlform-date-placeholder": "AAAA-MM-GG",
+	"apifeatureusage-htmlform-date-invalid": "Il valore specificato non è riconosciuto come data. Prova a utilizzare il formato AAAA-MM-GG.",
+	"apifeatureusage-htmlform-date-toolow": "Il valore specificato è precedente alla prima data consentita del $1.",
+	"apifeatureusage-htmlform-date-toohigh": "Il valore specificato è successivo all'ultima data consentita del $1.",
+	"apifeatureusage-htmlform-daterange-relative-layout": "Inizia il $1 ed esegui per $2 giorni",
+	"apifeatureusage-htmlform-daterange-absolute-layout": "Inizia il $1 e termina il $2",
+	"apifeatureusage-htmlform-daterange-days-badoption": "Il valore specificato come numero di giorni per l'esecuzione non è un'opzione valida.",
+	"apifeatureusage-htmlform-daterange-days-invalid": "Il valore specificato come numero di giorni per l'esecuzione non è un'intero.",
+	"apifeatureusage-htmlform-daterange-days-toolow": "Il valore specificato come numero di giorni per l'esecuzione è inferiore al minimo di {{PLURAL:$1|$1}}.",
+	"apifeatureusage-htmlform-daterange-days-toohigh": "Il valore specificato come numero di giorni per l'esecuzione è superiore al massimo di {{PLURAL:$1|$1}}.",
+	"apifeatureusage-htmlform-daterange-end-before-start": "La data di fine data è precedente alla data di inizio.",
+	"apifeatureusage-htmlform-daterange-error-partial": "Entrambi i campi data devono essere riempiti o lasciati vuoti."
+}
