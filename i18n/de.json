@@ -31,6 +31,7 @@
 	"apifeatureusage-htmlform-daterange-days-toolow": "Der angegebene Wert für die Anzahl der auszuführenden Tage liegt unter dem Minimum von {{PLURAL:$1|$1}}.",
 	"apifeatureusage-htmlform-daterange-days-toohigh": "Der angegebene Wert für die Anzahl der auszuführenden Tage liegt über dem Maximum von {{PLURAL:$1|$1}}.",
 	"apifeatureusage-htmlform-daterange-end-before-start": "Das angegebene Enddatum liegt vor dem Startdatum.",
+	"apifeatureusage-htmlform-daterange-end-equals-start": "Das angegebene Enddatum ist das gleiche als das Startdatum.",
 	"apifeatureusage-htmlform-daterange-error-partial": "Beide Datumsfelder müssen ausgefüllt oder leer gelassen werden.",
 	"apifeatureusage-htmlform-radiorange-missing-message": "Bitte gib einen Wert für die Spalte $1 an"
 }

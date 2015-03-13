@@ -35,6 +35,7 @@
 	"apifeatureusage-htmlform-daterange-days-toolow": "Укажаната вредност за времетраење во денови е помала од минималните {{PLURAL:$1|$1}}.",
 	"apifeatureusage-htmlform-daterange-days-toohigh": "Укажаната вредност за времетраење во денови е поголема од максималните {{PLURAL:$1|$1}}.",
 	"apifeatureusage-htmlform-daterange-end-before-start": "Укажаниот завршен датум е пред почетниот.",
+	"apifeatureusage-htmlform-daterange-end-equals-start": "Укажаниот завршен датум е истоветен на почетниот.",
 	"apifeatureusage-htmlform-daterange-error-partial": "Ќе мора да ги пополните обете полиња за датум или да ги оставите празни.",
 	"apifeatureusage-htmlform-radiorange-missing-message": "Укажете вредност за колоната $1"
 }
