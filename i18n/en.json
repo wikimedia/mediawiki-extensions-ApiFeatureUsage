@@ -37,6 +37,7 @@
 	"apifeatureusage-htmlform-daterange-days-toolow": "The value you specified for the number of days to run is below the minimum of {{PLURAL:$1|$1}}.",
 	"apifeatureusage-htmlform-daterange-days-toohigh": "The value you specified for the number of days to run is above the maximum of {{PLURAL:$1|$1}}.",
 	"apifeatureusage-htmlform-daterange-end-before-start": "The end date given is before the start date.",
+	"apifeatureusage-htmlform-daterange-end-equals-start": "The end date given is the same as the start date.",
 	"apifeatureusage-htmlform-daterange-error-partial": "Both date fields must be filled or left empty.",
 	"apifeatureusage-htmlform-radiorange-missing-message": "Please specify a value for column $1"
 }

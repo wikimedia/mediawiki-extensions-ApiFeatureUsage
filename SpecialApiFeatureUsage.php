@@ -38,6 +38,7 @@ class SpecialApiFeatureUsage extends SpecialPage {
 				'layout-message' => 'apifeatureusage-dates-layout',
 				'absolute' => true,
 				'required' => true,
+				'allow-sameday' => true,
 				'default' => array(
 					$start->format( 'Y-m-d' ),
 					$end->format( 'Y-m-d' ),
