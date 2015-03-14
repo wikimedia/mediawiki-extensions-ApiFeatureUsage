@@ -35,6 +35,7 @@
 	"apifeatureusage-htmlform-daterange-days-toolow": "您指定的运行天数值小于最低要求{{PLURAL:$1|$1}}。",
 	"apifeatureusage-htmlform-daterange-days-toohigh": "您指定的运行天数值大于最高要求{{PLURAL:$1|$1}}。",
 	"apifeatureusage-htmlform-daterange-end-before-start": "提供的结束日期在开始日期之前。",
+	"apifeatureusage-htmlform-daterange-end-equals-start": "提供的结束日期与开始日期相同。",
 	"apifeatureusage-htmlform-daterange-error-partial": "必须填写或留空两个日期字段。",
 	"apifeatureusage-htmlform-radiorange-missing-message": "请指定$1列的值"
 }
