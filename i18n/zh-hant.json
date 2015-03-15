@@ -2,7 +2,8 @@
 	"@metadata": {
 		"authors": [
 			"LNDDYL",
-			"Liuxinyu970226"
+			"Liuxinyu970226",
+			"Wehwei"
 		]
 	},
 	"apifeatureusage-agent-label": "使用者代理：",
@@ -12,5 +13,6 @@
 	"apifeatureusage-column-date": "日期",
 	"apifeatureusage-column-uses": "使用",
 	"apifeatureusage-htmlform-daterange-absolute-layout": "開始於 $1 且結束於 $2",
+	"apifeatureusage-htmlform-daterange-end-equals-start": "指定的結束與開始日期相同。",
 	"apifeatureusage-htmlform-radiorange-missing-message": "請指定 $1 行的值"
 }
