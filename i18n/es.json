@@ -28,6 +28,7 @@
 	"apifeatureusage-htmlform-date-invalid": "El valor ingresado no se puede reconocer. Prueba usar el formato AAAA-MM-DD.",
 	"apifeatureusage-htmlform-daterange-relative-layout": "Iniciar el $1 y ejecutar por $2 días",
 	"apifeatureusage-htmlform-daterange-absolute-layout": "Iniciar el $1 y terminar el $2",
+	"apifeatureusage-htmlform-daterange-end-equals-start": "La fecha de finalización es igual a la de inicio.",
 	"apifeatureusage-htmlform-daterange-error-partial": "Ambos campos de fecha deben llenarse o dejarse en blanco.",
 	"apifeatureusage-htmlform-radiorange-missing-message": "Especifica un valor para la columna $1"
 }
