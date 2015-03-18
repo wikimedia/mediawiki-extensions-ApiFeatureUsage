@@ -5,6 +5,22 @@
 			"Elisardojm"
 		]
 	},
+	"apifeatureusage": "Uso de funcións da API",
+	"apifeatureusage-desc": "Obtén un resumo dos usos rexistrados das funcións da API para un axente de usuario.",
+	"apifeatureusage-elasticsearch-error": "Erro de Elasticsearch: $1",
+	"apifeatureusage-legend": "Uso de funcións da API",
+	"apifeatureusage-agent-label": "Axente de usuario:",
+	"apifeatureusage-dates-label": "Intervalo de datas:",
+	"apifeatureusage-submit": "Recuperar os datos",
+	"apifeatureusage-no-indexes": "Non hai datos dispoñibeis para o intervalo de datas especificado.",
+	"apifeatureusage-missing-indexes": "Non hai datos dispoñibeis para unha parte do intervalo de datas especificado.",
+	"apifeatureusage-warnings": "Atención: $1",
+	"apifeatureusage-column-feature": "Característica",
 	"apifeatureusage-column-date": "Data",
+	"apifeatureusage-column-uses": "Usos",
+	"apihelp-query+featureusage-description": "Obtén un resumo dos usos rexistrados das funcións da API para un axente de usuario.",
+	"apihelp-query+featureusage-param-start": "Comezo do intervalo de datas a consultar.",
+	"apihelp-query+featureusage-param-end": "Fin do intervalo de datas a consultar.",
+	"apihelp-query+featureusage-param-agent": "Axente de usuario a consultar. Se non se especifica consultarase o axente da solicitude.",
 	"apifeatureusage-htmlform-radiorange-missing-message": "Por favor, especifique un valor para a columna $1"
 }
