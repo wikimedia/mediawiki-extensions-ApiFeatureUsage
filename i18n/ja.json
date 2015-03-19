@@ -1,0 +1,9 @@
+{
+	"@metadata": {
+		"authors": [
+			"Shirayuki"
+		]
+	},
+	"apifeatureusage-warnings": "警告: $1",
+	"apifeatureusage-htmlform-date-placeholder": "YYYY-MM-DD"
+}
