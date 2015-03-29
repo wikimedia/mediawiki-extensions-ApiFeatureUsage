@@ -1,11 +1,13 @@
 {
 	"@metadata": {
 		"authors": [
-			"Alirezaaa"
+			"Alirezaaa",
+			"Reza1615"
 		]
 	},
 	"apifeatureusage-submit": "واکشی داده‌ها",
 	"apifeatureusage-warnings": "هشدار: $1",
+	"apifeatureusage-column-feature": "امکانات",
 	"apifeatureusage-column-date": "تاریخ",
 	"apifeatureusage-column-uses": "استفاده‌ها",
 	"apifeatureusage-htmlform-date-placeholder": "YYYY-MM-DD",
