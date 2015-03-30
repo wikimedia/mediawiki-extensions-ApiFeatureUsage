@@ -1,8 +1,16 @@
 {
 	"@metadata": {
 		"authors": [
-			"Kaganer"
+			"Kaganer",
+			"Okras"
 		]
 	},
-	"apifeatureusage": "Использование функций API"
+	"apifeatureusage": "Использование функций API",
+	"apifeatureusage-dates-label": "Период времени:",
+	"apifeatureusage-warnings": "Предупреждение: $1",
+	"apifeatureusage-column-feature": "Функция",
+	"apifeatureusage-column-date": "Дата",
+	"apifeatureusage-column-uses": "Использования",
+	"apifeatureusage-htmlform-date-placeholder": "ГГГГ-ММ-ДД",
+	"apifeatureusage-htmlform-radiorange-missing-message": "Пожалуйста, определите значение для столбца $1"
 }

@@ -34,6 +34,11 @@ $specialPageAliases['nl'] = array(
 	'ApiFeatureUsage' => array( 'Apifunctiesgebruik' ),
 );
 
+/** Brazilian Portuguese (português do Brasil) */
+$specialPageAliases['pt-br'] = array(
+	'ApiFeatureUsage' => array( 'Uso_de_recurso_da_API' ),
+);
+
 /** Simplified Chinese (中文（简体）‎) */
 $specialPageAliases['zh-hans'] = array(
 	'ApiFeatureUsage' => array( 'Api功能用法' ),
