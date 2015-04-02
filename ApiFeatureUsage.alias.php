@@ -24,6 +24,11 @@ $specialPageAliases['de'] = array(
 	'ApiFeatureUsage' => array( 'API-Funktionsverwendung' ),
 );
 
+/** لوری (لوری) */
+$specialPageAliases['lrc'] = array(
+	'ApiFeatureUsage' => array( 'خو_وه_کار_گرتن_ای_پی_آی' ),
+);
+
 /** Macedonian (македонски) */
 $specialPageAliases['mk'] = array(
 	'ApiFeatureUsage' => array( 'УпотребаНаИзвршничкиФункции' ),
