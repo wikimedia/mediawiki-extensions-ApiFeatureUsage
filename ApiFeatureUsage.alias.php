@@ -19,6 +19,11 @@ $specialPageAliases['ar'] = array(
 	'ApiFeatureUsage' => array( 'استخدام_خصائص_إيه_بي_آي' ),
 );
 
+/** Western Balochi (بلوچی رخشانی) */
+$specialPageAliases['bgn'] = array(
+	'ApiFeatureUsage' => array( 'ApiFeatureUsage' ),
+);
+
 /** German (Deutsch) */
 $specialPageAliases['de'] = array(
 	'ApiFeatureUsage' => array( 'API-Funktionsverwendung' ),

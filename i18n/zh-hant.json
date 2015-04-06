@@ -3,15 +3,24 @@
 		"authors": [
 			"LNDDYL",
 			"Liuxinyu970226",
-			"Wehwei"
+			"Wehwei",
+			"Cwlin0416"
 		]
 	},
+	"apifeatureusage": "API 功能使用狀況",
+	"apifeatureusage-desc": "取得使用者代理已記錄的 API 功能使用狀況摘要。",
+	"apifeatureusage-elasticsearch-error": "Elasticsearch 錯誤：$1",
+	"apifeatureusage-legend": "API 功能使用狀況",
 	"apifeatureusage-agent-label": "使用者代理：",
 	"apifeatureusage-dates-label": "日期範圍：",
+	"apifeatureusage-submit": "取得資料",
+	"apifeatureusage-no-indexes": "指定的資料範圍沒有可用的資料。",
+	"apifeatureusage-missing-indexes": "指定的部份資料範圍沒有可用的資料。",
 	"apifeatureusage-warnings": "警告：$1",
-	"apifeatureusage-column-feature": "特徵",
+	"apifeatureusage-column-feature": "功能",
 	"apifeatureusage-column-date": "日期",
 	"apifeatureusage-column-uses": "使用",
+	"apihelp-query+featureusage-description": "取得使用者代理已記錄的 API 功能使用狀況摘要。",
 	"apifeatureusage-htmlform-daterange-absolute-layout": "開始於 $1 且結束於 $2",
 	"apifeatureusage-htmlform-daterange-end-equals-start": "指定的結束與開始日期相同。",
 	"apifeatureusage-htmlform-radiorange-missing-message": "請指定 $1 行的值"
