@@ -5,6 +5,7 @@
 		]
 	},
 	"apifeatureusage": "sử dụng tính năng API",
+	"apifeatureusage-legend": "Sử dụng tính năng API",
 	"apifeatureusage-dates-label": "Xếp theo ngày:",
 	"apifeatureusage-warnings": "Cảnh báo: $1",
 	"apifeatureusage-column-feature": "Tính năng",
