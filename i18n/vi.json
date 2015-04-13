@@ -11,6 +11,7 @@
 	"apifeatureusage-column-feature": "Tính năng",
 	"apifeatureusage-column-date": "Ngày",
 	"apifeatureusage-column-uses": "Sử dụng",
+	"apihelp-query+featureusage-example-simple": "Sử dụng tính năng truy vấn cho người dùng hiện tại",
 	"apifeatureusage-htmlform-date-placeholder": "YYYY-MM-DD (năm-tháng-ngày)",
 	"apifeatureusage-htmlform-date-invalid": "Giá trị bạn chỉ định không phải là một định dạng ngày tháng. Hãy thử sử dụng định dạng YYYY-MM-DD (năm-tháng-ngày).",
 	"apifeatureusage-htmlform-date-toolow": "Giá trị bạn chỉ định là trước ngày được phép của $1.",
