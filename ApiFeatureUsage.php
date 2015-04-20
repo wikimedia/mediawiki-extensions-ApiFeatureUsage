@@ -28,6 +28,7 @@ $wgExtensionCredits['specialpage'][] = array(
 	'url' => 'https://www.mediawiki.org/wiki/Extension:ApiFeatureUsage',
 	'descriptionmsg' => 'apifeatureusage-desc',
 	'version' => '1.0',
+	'license-name' => 'GPL-2.0+',
 );
 
 $wgAutoloadClasses['SpecialApiFeatureUsage'] = __DIR__ . '/SpecialApiFeatureUsage.php';
