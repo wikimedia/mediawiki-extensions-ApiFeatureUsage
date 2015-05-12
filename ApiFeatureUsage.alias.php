@@ -29,7 +29,7 @@ $specialPageAliases['de'] = array(
 	'ApiFeatureUsage' => array( 'API-Funktionsverwendung' ),
 );
 
-/** لوری (لوری) */
+/** لوری مینجایی (لوری مینجایی) */
 $specialPageAliases['lrc'] = array(
 	'ApiFeatureUsage' => array( 'خو_وه_کار_گرتن_ای_پی_آی' ),
 );
