@@ -4,10 +4,15 @@
 			"Chrumps"
 		]
 	},
+	"apifeatureusage": "Użycie funkcji API",
+	"apifeatureusage-legend": "Użycie funkcji API",
 	"apifeatureusage-warnings": "Ostrzeżenie: $1",
 	"apifeatureusage-column-date": "Data",
 	"apifeatureusage-htmlform-date-placeholder": "RRRR-MM-DD",
 	"apifeatureusage-htmlform-date-invalid": "Podana przez ciebie wartość nie jest rozpoznawana jako data. Spróbuj użyć formatu RRRR-MM-DD.",
+	"apifeatureusage-htmlform-daterange-absolute-layout": "Rozpocznij od $1 i zakończ przy $2",
 	"apifeatureusage-htmlform-daterange-end-before-start": "Data zakończenia podana jest przed datą rozpoczęcia.",
-	"apifeatureusage-htmlform-daterange-error-partial": "Należy wypełnić obydwa pola daty albo pozostawić je puste."
+	"apifeatureusage-htmlform-daterange-end-equals-start": "Podana data zakończenia jest taka sama jak data rozpoczęcia.",
+	"apifeatureusage-htmlform-daterange-error-partial": "Należy wypełnić obydwa pola daty albo pozostawić je puste.",
+	"apifeatureusage-htmlform-radiorange-missing-message": "Proszę określić wartość dla kolumny $1"
 }

@@ -1,14 +1,15 @@
 {
 	"@metadata": {
 		"authors": [
-			"Robin0van0der0vliet"
+			"Robin0van0der0vliet",
+			"Purodha"
 		]
 	},
 	"apifeatureusage": "API-functiegebruik",
 	"apifeatureusage-elasticsearch-error": "Elasticsearch-fout: $1",
 	"apifeatureusage-legend": "API-functiegebruik",
 	"apifeatureusage-agent-label": "Useragentː",
-	"apifeatureusage-dates-label": "Gegevensbereikː",
+	"apifeatureusage-dates-label": "Gegevensbereikː\n",
 	"apifeatureusage-submit": "Gegevens ophalen",
 	"apifeatureusage-warnings": "Waarschuwing: $1",
 	"apifeatureusage-column-feature": "Functie",

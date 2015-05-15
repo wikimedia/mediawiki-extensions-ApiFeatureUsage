@@ -5,11 +5,12 @@
 		]
 	},
 	"apifeatureusage-elasticsearch-error": "Ene Fähler em <i lang=\"en\" xml:lang=\"en\" dir=\"rtl\" title=\"„elastesch udder beeschsahm Söhke“\">Elasticsearch</i>\nes opjetrodde: $1",
-	"apifeatureusage-dates-label": "Berett :\n<!--\nhttps://translatewiki.net/wiki/Thread:Support/About_MediaWiki:Apifeatureusage-dates-label/en\n-->",
+	"apifeatureusage-dates-label": "Dattomsberrät:",
 	"apifeatureusage-submit": "Dahte opnämme",
 	"apifeatureusage-warnings": "Opjepaß: $1",
 	"apifeatureusage-column-feature": "Eijeschaff",
 	"apifeatureusage-column-date": "Dattom",
+	"apifeatureusage-column-uses": "Wi öff jebruch?",
 	"apifeatureusage-htmlform-date-placeholder": "JJJJ-MM-DD",
 	"apifeatureusage-htmlform-date-invalid": "Wat De aanjejovve häß, kunnt nit als e Dattom äkannt wääde. Versähg et ens em Fommat JJJJ-MM-DD.",
 	"apifeatureusage-htmlform-daterange-relative-layout": "Fang aan am $1 un jangk för $2 Dähsch.",
