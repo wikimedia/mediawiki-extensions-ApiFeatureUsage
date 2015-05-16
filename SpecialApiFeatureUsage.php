@@ -125,4 +125,7 @@ class SpecialApiFeatureUsage extends SpecialPage {
 		return $this->engine->execute( $agent, $start, $end );
 	}
 
+	protected function getGroupName() {
+		return 'wiki';
+	}
 }

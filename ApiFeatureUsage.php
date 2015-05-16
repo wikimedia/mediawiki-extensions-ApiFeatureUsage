@@ -40,7 +40,6 @@ $wgAutoloadClasses['ApiFeatureUsageQueryEngineElasticaConnection'] = __DIR__ . '
 $wgMessagesDirs['ApiFeatureUsage'] = __DIR__ . '/i18n';
 $wgExtensionMessagesFiles['ApiFeatureUsageAlias'] = __DIR__ . '/ApiFeatureUsage.alias.php';
 $wgSpecialPages['ApiFeatureUsage'] = 'SpecialApiFeatureUsage';
-$wgSpecialPageGroups['ApiFeatureUsage'] = 'wiki';
 $wgAPIMetaModules['featureusage'] = 'ApiQueryFeatureUsage';
 $wgConfigRegistry['ApiFeatureUsage'] = 'GlobalVarConfig::newInstance';
 
