@@ -5,7 +5,8 @@
 			"Raymond",
 			"Liuxinyu970226",
 			"Umherirrender",
-			"Nemo bis"
+			"Nemo bis",
+			"Purodha"
 		]
 	},
 	"apifeatureusage": "{{doc-special|ApiFeatureUsage}}\nThe name of the [[mw:Extension:ApiFeatureUsage|ApiFeatureUsage extension]].",
@@ -20,7 +21,7 @@
 	"apifeatureusage-no-indexes": "Used as a warning message.",
 	"apifeatureusage-missing-indexes": "Used as a warning message.",
 	"apifeatureusage-warnings": "Used to wrap warning messages.\n{{Identical|Warning}}",
-	"apifeatureusage-column-feature": "Column header for the table containing the output. Cells in the \"Feature\" column contain the name of the feature whose usage is counted. \n\n{{Identical|Feature}}",
+	"apifeatureusage-column-feature": "Column header for the table containing the output. Cells in the \"Feature\" column contain the name of the feature the usage of which is counted. \n\n{{Identical|Feature}}",
 	"apifeatureusage-column-date": "Column header for output table. Dates in the column are in the UTC timezone, formatted as Y-m-d (similar to ISO 8601 format).\n\n{{Identical|Date}}",
 	"apifeatureusage-column-uses": "Column header for the table containing the output. Cells in \"Uses\" column contain the number of occurrences of the event.\n\n{{Identical|Use}}",
 	"apihelp-query+featureusage-description": "{{doc-apihelp-description|query+featureusage|info=See definition of [[w:User agent|user agent]] on Wikipedia.}}",
