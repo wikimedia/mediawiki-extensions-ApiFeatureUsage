@@ -21,6 +21,7 @@
 	"apihelp-query+featureusage-description": "Ruft eine Zusammenfassung protokollierter API-Funktionsverwendungen für einen Benutzeragenten ab.",
 	"apihelp-query+featureusage-param-start": "Beginn des Datumsbereich für die Anfrage.",
 	"apihelp-query+featureusage-param-end": "Ende des Datumsbereichs für die Anfrage.",
+	"apihelp-query+featureusage-param-agent": "Anzufragender Benutzeragent. Falls nicht angegeben, wird der Agent in der Anfrage abgefragt.",
 	"apihelp-query+featureusage-param-features": "Falls angegeben, gibt Einzelheiten nur zu diesen Funktionen zurück.",
 	"apihelp-query+featureusage-example-simple": "Funktionsverwendung für den aktuellen Benutzeragenten abfragen",
 	"apifeatureusage-htmlform-date-placeholder": "JJJJ-MM-TT",
