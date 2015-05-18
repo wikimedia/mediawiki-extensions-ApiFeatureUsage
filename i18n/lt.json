@@ -1,0 +1,20 @@
+{
+	"@metadata": {
+		"authors": [
+			"Eitvys200"
+		]
+	},
+	"apifeatureusage": "API funkcijos naudojimas",
+	"apifeatureusage-legend": "API funkcijos naudojimas",
+	"apifeatureusage-dates-label": "Datos intervalas:",
+	"apifeatureusage-submit": "Gauti duomenys",
+	"apifeatureusage-no-indexes": "Duomenų nėra nurodytoje duomenų sekoje.",
+	"apifeatureusage-missing-indexes": "Duomenų nėra nurodytoje duomenų sekos dalyje.",
+	"apifeatureusage-warnings": "Įspėjimas: $1",
+	"apifeatureusage-column-feature": "Funkcija",
+	"apifeatureusage-column-date": "Data",
+	"apifeatureusage-column-uses": "Panaudojimai",
+	"apifeatureusage-htmlform-date-placeholder": "MMMM-MM-DD",
+	"apifeatureusage-htmlform-daterange-relative-layout": "Pradėti $1 ir leisti $2 dienas",
+	"apifeatureusage-htmlform-daterange-absolute-layout": "Pradėti $1 ir baigti $2"
+}

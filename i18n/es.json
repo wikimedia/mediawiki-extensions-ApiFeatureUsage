@@ -3,7 +3,8 @@
 		"authors": [
 			"Cgalindo",
 			"Fitoschido",
-			"Macofe"
+			"Macofe",
+			"Ryo567"
 		]
 	},
 	"apifeatureusage": "Uso de funciones de la API",
@@ -24,6 +25,7 @@
 	"apihelp-query+featureusage-param-end": "Fin del intervalo de fechas que consultar.",
 	"apihelp-query+featureusage-param-agent": "Agente de usuario que consultar. Si no se especifica se consultará el agente de la solicitud.",
 	"apihelp-query+featureusage-param-features": "Si se especifica se mostrarán los detalles de estas funciones únicamente.",
+	"apihelp-query+featureusage-example-simple": "Consultar uso de característica para el usuario agente actual",
 	"apifeatureusage-htmlform-date-placeholder": "AAAA-MM-DD",
 	"apifeatureusage-htmlform-date-invalid": "El valor ingresado no se puede reconocer. Prueba usar el formato AAAA-MM-DD.",
 	"apifeatureusage-htmlform-date-toolow": "El valor especificado es anterior a la fecha más antigua permitida, $1.",
