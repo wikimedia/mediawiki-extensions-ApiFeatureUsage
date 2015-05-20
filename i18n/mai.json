@@ -1,0 +1,15 @@
+{
+	"@metadata": {
+		"authors": [
+			"Tulsi Bhagat"
+		]
+	},
+	"apifeatureusage-agent-label": "प्रयोक्ता एजेन्ट:",
+	"apifeatureusage-dates-label": "तिथि सीमा:",
+	"apifeatureusage-submit": "डेटा लाऊँ",
+	"apifeatureusage-warnings": "चेतावनी: $1",
+	"apifeatureusage-column-feature": "सुविधा",
+	"apifeatureusage-column-date": "तिथि",
+	"apifeatureusage-column-uses": "उपयोग",
+	"apifeatureusage-htmlform-date-placeholder": "YYYY-MM-DD"
+}

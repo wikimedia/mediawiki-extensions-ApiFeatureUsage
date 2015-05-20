@@ -2,18 +2,41 @@
 	"@metadata": {
 		"authors": [
 			"Robin0van0der0vliet",
-			"Purodha"
+			"Purodha",
+			"Siebrand"
 		]
 	},
 	"apifeatureusage": "API-functiegebruik",
+	"apifeatureusage-desc": "Samenvattingen weergeven voor gelogd gebruik van API-mogelijkheden voor een useragent.",
 	"apifeatureusage-elasticsearch-error": "Elasticsearch-fout: $1",
 	"apifeatureusage-legend": "API-functiegebruik",
 	"apifeatureusage-agent-label": "Useragentː",
-	"apifeatureusage-dates-label": "Gegevensbereikː\n",
+	"apifeatureusage-dates-label": "Gegevensbereik:",
 	"apifeatureusage-submit": "Gegevens ophalen",
+	"apifeatureusage-no-indexes": "Er zijn geen gegevens beschikbaar voor de opgegeven periode.",
+	"apifeatureusage-missing-indexes": "Er zijn geen gegevens beschikbaar voor een deel van de opgegeven periode.",
 	"apifeatureusage-warnings": "Waarschuwing: $1",
 	"apifeatureusage-column-feature": "Functie",
 	"apifeatureusage-column-date": "Datum",
 	"apifeatureusage-column-uses": "Toepassingen",
-	"apifeatureusage-htmlform-date-placeholder": "JJJJ-MM-DD"
+	"apihelp-query+featureusage-description": "Samenvattingen weergeven voor gelogd gebruik van API-mogelijkheden voor een useragent.",
+	"apihelp-query+featureusage-param-start": "Begindatum van de op te vragen periode.",
+	"apihelp-query+featureusage-param-end": "Einddatum van de op te vragen periode.",
+	"apihelp-query+featureusage-param-agent": "Op te vragen useragent. Als niet opgegeven, wordt de useragent van het verzoek gebruikt.",
+	"apihelp-query+featureusage-param-features": "Als opgegeven, alleen details over deze mogelijkheden rapporteren.",
+	"apihelp-query+featureusage-example-simple": "Mogelijkhedengebruik voor de huidige useragent opvragen",
+	"apifeatureusage-htmlform-date-placeholder": "JJJJ-MM-DD",
+	"apifeatureusage-htmlform-date-invalid": "De waarde die u hebt opgegeven is niet herkend als datum. Gebruik de opmaak <kbd>YYYY-MM-DD</kbd>.",
+	"apifeatureusage-htmlform-date-toolow": "De waarde die u hebt opgegeven ligt voor de vroegste toegestane datum van $1.",
+	"apifeatureusage-htmlform-date-toohigh": "De waarde die u hebt opgegeven ligt na de laatste toegestane datum van $1.",
+	"apifeatureusage-htmlform-daterange-relative-layout": "Begin op $1 en voer uit gedurende $2 dagen",
+	"apifeatureusage-htmlform-daterange-absolute-layout": "Begin op $1 en eindig op $2",
+	"apifeatureusage-htmlform-daterange-days-badoption": "De waarde die u hebt opgegeven voor het aantal dagen is geen geldige optie.",
+	"apifeatureusage-htmlform-daterange-days-invalid": "De waarde die u hebt opgegeven voor het aantal dagen uitvoeren is geen geheel getal.",
+	"apifeatureusage-htmlform-daterange-days-toolow": "De waarde die u hebt opgegeven voor het aantal dagen uitvoeren ligt onder het minimum van {{PLURAL:$1|$1}}.",
+	"apifeatureusage-htmlform-daterange-days-toohigh": "De waarde die u hebt opgegeven voor het aantal dagen uitvoeren ligt boven het maximum van {{PLURAL:$1|$1}}.",
+	"apifeatureusage-htmlform-daterange-end-before-start": "De opgegeven einddatum ligt voor de begindatum.",
+	"apifeatureusage-htmlform-daterange-end-equals-start": "De einddatum is hetzelfde als de begindatum.",
+	"apifeatureusage-htmlform-daterange-error-partial": "Beide datum velden moeten worden ingevuld of leeg zijn.",
+	"apifeatureusage-htmlform-radiorange-missing-message": "Geef een waarde op voor kolom $1"
 }

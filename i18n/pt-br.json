@@ -1,0 +1,40 @@
+{
+	"@metadata": {
+		"authors": [
+			"Araceletorres"
+		]
+	},
+	"apifeatureusage": "Uso de recursos da API",
+	"apifeatureusage-desc": "Obter um resumo dos usos dos recursos da API registrados por um agente de usuário.",
+	"apifeatureusage-elasticsearch-error": "Error de Elasticsearch: $1",
+	"apifeatureusage-legend": "Uso de recursos da API",
+	"apifeatureusage-agent-label": "Agente de usuário:",
+	"apifeatureusage-dates-label": "Espaço de tempo:",
+	"apifeatureusage-submit": "Buscar dados",
+	"apifeatureusage-no-indexes": "Não existem dados disponíveis para o período especificado.",
+	"apifeatureusage-missing-indexes": "Não existem dados disponíveis para a parte do período especificado.",
+	"apifeatureusage-warnings": "Aviso: $1",
+	"apifeatureusage-column-feature": "Recurso",
+	"apifeatureusage-column-date": "Data",
+	"apifeatureusage-column-uses": "Usos",
+	"apihelp-query+featureusage-description": "Obter um resumo dos usos dos recursos da API registrados por um agente de usuário.",
+	"apihelp-query+featureusage-param-start": "Início do período para buscar.",
+	"apihelp-query+featureusage-param-end": "Fim do período para buscar.",
+	"apihelp-query+featureusage-param-agent": "Agente de usuário para consultar. Se não for especificado, o agente na solicitação será consultado.",
+	"apihelp-query+featureusage-param-features": "Se especificado, retorna detalhes apenas sobre esses recursos.",
+	"apihelp-query+featureusage-example-simple": "Uso de recurso de consulta para o agente de usuário atual",
+	"apifeatureusage-htmlform-date-placeholder": "AAAA-MM-DD",
+	"apifeatureusage-htmlform-date-invalid": "O valor que você especificou não é uma data reconhecida. Tente usar o formato AAAA-MM-DD.",
+	"apifeatureusage-htmlform-date-toolow": "O valor especificado é anterior à data mais antiga permitida de $1.",
+	"apifeatureusage-htmlform-date-toohigh": "O valor especificado é posterior à data mais recente permitida de $1.",
+	"apifeatureusage-htmlform-daterange-relative-layout": "Começar em $1 e executar por $2 dias",
+	"apifeatureusage-htmlform-daterange-absolute-layout": "Começar em $1 e finalizar em $2",
+	"apifeatureusage-htmlform-daterange-days-badoption": "O valor especificado para o número de dias para executar não é uma opção válida.",
+	"apifeatureusage-htmlform-daterange-days-invalid": "O valor especificado para o número de dias para executar não é um número inteiro.",
+	"apifeatureusage-htmlform-daterange-days-toolow": "O valor especificado para o número de dias para executar está abaixo do mínimo de {{PLURAL: $1 | $1}}.",
+	"apifeatureusage-htmlform-daterange-days-toohigh": "O valor especificado para o número de dias para executar está acima do máximo de {{PLURAL: $1 | $1}}.",
+	"apifeatureusage-htmlform-daterange-end-before-start": "A data final dada é anterior a data de início.",
+	"apifeatureusage-htmlform-daterange-end-equals-start": "A data final dada é a mesma da data de início.",
+	"apifeatureusage-htmlform-daterange-error-partial": "Ambos os campos de data devem ser preenchidos ou deixados em branco.",
+	"apifeatureusage-htmlform-radiorange-missing-message": "Por favor, especifique um valor para a coluna $1"
+}
