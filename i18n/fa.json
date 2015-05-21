@@ -6,7 +6,9 @@
 			"Dalba"
 		]
 	},
+	"apifeatureusage-agent-label": "عامل کاربر:",
 	"apifeatureusage-dates-label": "بازهٔ تاریخ:",
+	"apifeatureusage-dates-layout": "$1–$2",
 	"apifeatureusage-submit": "واکشی داده‌ها",
 	"apifeatureusage-no-indexes": "داده‌ای برای بازهٔ تاریخی مشخص‌شده موجود نیست.",
 	"apifeatureusage-missing-indexes": "هیچ داده‌ای برای بخشی از بازهٔ تاریخی مشخص‌شده موجود نیست.",

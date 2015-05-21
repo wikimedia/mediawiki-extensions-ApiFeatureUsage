@@ -1,0 +1,25 @@
+{
+	"@metadata": {
+		"authors": [
+			"Amire80"
+		]
+	},
+	"apifeatureusage": "שימוש באפשרויות של API",
+	"apifeatureusage-desc": "קבלת סיכום של שימוש באפשרויות API רשומות עבור סוכן לקוח.",
+	"apifeatureusage-elasticsearch-error": "שגיאת Elasticsearch‏: $1",
+	"apifeatureusage-legend": "שימוש באפשרויות של API",
+	"apifeatureusage-agent-label": "סוכן לקוח:",
+	"apifeatureusage-dates-label": "טווח תאריכים:",
+	"apifeatureusage-submit": "אחזור נתונים",
+	"apifeatureusage-no-indexes": "אין נתונים זמינים לטוח התאריכים שצוין",
+	"apifeatureusage-missing-indexes": "אין נתונים זמינים לחלק מטווח התאריכים שצוין.",
+	"apifeatureusage-warnings": "אזהרה: $1",
+	"apifeatureusage-column-feature": "אפשרות",
+	"apifeatureusage-column-date": "תאריך",
+	"apifeatureusage-column-uses": "שימושים",
+	"apihelp-query+featureusage-description": "קבלת סיכום של שימוש באפשרויות API רשומות עבור סוכן לקוח.",
+	"apihelp-query+featureusage-param-start": "תחילת טווח התאריכים לשאילתה.",
+	"apihelp-query+featureusage-param-end": "סוף טווח התאריכים לשאילתה.",
+	"apihelp-query+featureusage-param-agent": "סוכן לקוח שעליו צריך לקבל מידע. אם לא צוין, ייבדר הסוכן מהבקשה.",
+	"apihelp-query+featureusage-param-features": "אם צוין, להחזיר רק מידע על האפשרויות האלה."
+}

@@ -1,15 +1,23 @@
 {
 	"@metadata": {
 		"authors": [
-			"Jopparn"
+			"Jopparn",
+			"WikiPhoenix"
 		]
 	},
+	"apifeatureusage-agent-label": "Användaragent:",
 	"apifeatureusage-dates-label": "Datumintervall:",
 	"apifeatureusage-submit": "Hämta data",
 	"apifeatureusage-no-indexes": "Ingen data finns tillgänglig för angivet datumintervall.",
 	"apifeatureusage-warnings": "Varning: $1",
+	"apifeatureusage-column-feature": "Funktion",
 	"apifeatureusage-column-date": "Datum",
+	"apifeatureusage-column-uses": "Använder",
+	"apihelp-query+featureusage-param-start": "Startdatum för intervallet att begära.",
+	"apihelp-query+featureusage-param-end": "Slutdatum för intervallet att begära.",
 	"apifeatureusage-htmlform-date-placeholder": "ÅÅÅÅ-MM-DD",
+	"apifeatureusage-htmlform-date-invalid": "Värdet du angav igenkänns inte som ett datum. Försöka att använda formatet ÅÅÅÅ-MM-DD.",
+	"apifeatureusage-htmlform-date-toolow": "Värdet du angav är innan det tidigaste tillåtna datumet för $1.",
 	"apifeatureusage-htmlform-date-toohigh": "Värdet du angav är efter det senaste tillåtna datumet $1.",
 	"apifeatureusage-htmlform-daterange-relative-layout": "Börja på $1 och kör i $2 dagar",
 	"apifeatureusage-htmlform-daterange-absolute-layout": "Börja på $1 och sluta på $2",
