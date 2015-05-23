@@ -1,0 +1,29 @@
+{
+	"@metadata": {
+		"authors": [
+			"Ата"
+		]
+	},
+	"apifeatureusage": "Використання функцій API",
+	"apifeatureusage-desc": "Отримати зведення журналу використання функцій API для агента користувача.",
+	"apifeatureusage-elasticsearch-error": "Помилка Elasticsearch: $1",
+	"apifeatureusage-legend": "Використання функцій API",
+	"apifeatureusage-agent-label": "User Agent:",
+	"apifeatureusage-dates-label": "Діапазон дат:",
+	"apifeatureusage-submit": "Вибірка даних",
+	"apifeatureusage-no-indexes": "Немає даних за вказаний діапазон дат.",
+	"apifeatureusage-missing-indexes": "Немає даних для частини вказаного діапазону дат.",
+	"apifeatureusage-warnings": "Попередження: $1",
+	"apifeatureusage-column-feature": "Функція",
+	"apifeatureusage-column-date": "Дата",
+	"apifeatureusage-column-uses": "Використання",
+	"apihelp-query+featureusage-description": "Отримати зведення журналу використання функцій API для агента користувача.",
+	"apihelp-query+featureusage-param-start": "Початок діапазону дат для запиту.",
+	"apihelp-query+featureusage-param-end": "Кінець діапазону дат для запиту.",
+	"apifeatureusage-htmlform-date-placeholder": "YYYY-MM-DD",
+	"apifeatureusage-htmlform-date-invalid": "Введене Вами значення не розпізнається як дата. Спробуйте використати формат YYYY-MM-DD.",
+	"apifeatureusage-htmlform-date-toolow": "Задане Вами значення — менше, ніж найраніша дозволена дата $1.",
+	"apifeatureusage-htmlform-date-toohigh": "Ви вказали значення після найпізнішої дозволеної дати: $1.",
+	"apifeatureusage-htmlform-daterange-relative-layout": "Починається $1 і триває $2 днів",
+	"apifeatureusage-htmlform-daterange-absolute-layout": "Починається $1 і закінчується $2"
+}

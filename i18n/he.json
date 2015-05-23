@@ -21,5 +21,20 @@
 	"apihelp-query+featureusage-param-start": "תחילת טווח התאריכים לשאילתה.",
 	"apihelp-query+featureusage-param-end": "סוף טווח התאריכים לשאילתה.",
 	"apihelp-query+featureusage-param-agent": "סוכן לקוח שעליו צריך לקבל מידע. אם לא צוין, ייבדר הסוכן מהבקשה.",
-	"apihelp-query+featureusage-param-features": "אם צוין, להחזיר רק מידע על האפשרויות האלה."
+	"apihelp-query+featureusage-param-features": "אם צוין, להחזיר רק מידע על האפשרויות האלה.",
+	"apihelp-query+featureusage-example-simple": "שאילתה על שימוש באפשרות עבור סוכן הלקוח הנוכחי",
+	"apifeatureusage-htmlform-date-placeholder": "YYYY-MM-DD",
+	"apifeatureusage-htmlform-date-invalid": "הערך שכתבת אינו תאריך מוכר. נא לנסות להשתמש בתסדיר YYYY-MM-DD.",
+	"apifeatureusage-htmlform-date-toolow": "ציינת ערך לפני התאריך המוקדם ביותר שמותר – $1.",
+	"apifeatureusage-htmlform-date-toohigh": "ציינת ערך אחרי התאריך המאוחר ביותר שמותר – $1.",
+	"apifeatureusage-htmlform-daterange-relative-layout": "להתחיל ב־$1 ולרוץ למשך $2 ימים",
+	"apifeatureusage-htmlform-daterange-absolute-layout": "להתחיל ב־$1 ולסיים ב־$2",
+	"apifeatureusage-htmlform-daterange-days-badoption": "הערך שציינת למספר הימים אינו תקין.",
+	"apifeatureusage-htmlform-daterange-days-invalid": "הערך שציינת למספר הימים אינו מספר שלם.",
+	"apifeatureusage-htmlform-daterange-days-toolow": "הערך השציינת למספר הימים מתחת לערך המזערי של {{PLURAL:$1|$1}}.",
+	"apifeatureusage-htmlform-daterange-days-toohigh": "הערך השציינת למספר הימים מתחת לערך המרבי של {{PLURAL:$1|$1}}.",
+	"apifeatureusage-htmlform-daterange-end-before-start": "תאריך הסיום ניתן לפני תאריך התחילה.",
+	"apifeatureusage-htmlform-daterange-end-equals-start": "תאריך הסיום זהה לתארים התחילה.",
+	"apifeatureusage-htmlform-daterange-error-partial": "שני שדות התאריך צריכים להיות או מלאים או ריקים.",
+	"apifeatureusage-htmlform-radiorange-missing-message": "נא לציין ערך עבור העמודה $1"
 }

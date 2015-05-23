@@ -1,0 +1,12 @@
+{
+	"@metadata": {
+		"authors": [
+			"David1010"
+		]
+	},
+	"apifeatureusage-agent-label": "მომხმარებლის აგენტი:",
+	"apifeatureusage-warnings": "გაფრთხილება: $1",
+	"apifeatureusage-column-feature": "რჩეული",
+	"apifeatureusage-column-date": "თარიღი",
+	"apifeatureusage-column-uses": "გამოიყენება"
+}
