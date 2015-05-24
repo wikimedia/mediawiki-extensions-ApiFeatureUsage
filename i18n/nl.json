@@ -29,7 +29,7 @@
 	"apifeatureusage-htmlform-date-invalid": "De waarde die u hebt opgegeven is niet herkend als datum. Gebruik de opmaak <kbd>YYYY-MM-DD</kbd>.",
 	"apifeatureusage-htmlform-date-toolow": "De waarde die u hebt opgegeven ligt voor de vroegste toegestane datum van $1.",
 	"apifeatureusage-htmlform-date-toohigh": "De waarde die u hebt opgegeven ligt na de laatste toegestane datum van $1.",
-	"apifeatureusage-htmlform-daterange-relative-layout": "Begin op $1 en voer uit gedurende $2 dagen",
+	"apifeatureusage-htmlform-daterange-relative-layout": "Begin op $1 en voer uit gedurende $2 dag(en)",
 	"apifeatureusage-htmlform-daterange-absolute-layout": "Begin op $1 en eindig op $2",
 	"apifeatureusage-htmlform-daterange-days-badoption": "De waarde die u hebt opgegeven voor het aantal dagen is geen geldige optie.",
 	"apifeatureusage-htmlform-daterange-days-invalid": "De waarde die u hebt opgegeven voor het aantal dagen uitvoeren is geen geheel getal.",
