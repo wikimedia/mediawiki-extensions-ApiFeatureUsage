@@ -1,0 +1,11 @@
+{
+	"@metadata": {
+		"authors": [
+			"NehalDaveND"
+		]
+	},
+	"apifeatureusage-column-feature": "लक्षण",
+	"apifeatureusage-column-date": "मिति",
+	"apifeatureusage-column-uses": "प्रयोगकर्ताहरु",
+	"apifeatureusage-htmlform-date-placeholder": "YYYY-MM-DD"
+}

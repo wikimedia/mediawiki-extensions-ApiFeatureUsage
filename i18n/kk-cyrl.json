@@ -1,0 +1,12 @@
+{
+	"@metadata": {
+		"authors": [
+			"Arystanbek"
+		]
+	},
+	"apifeatureusage-warnings": "Ескерту: $1",
+	"apifeatureusage-column-feature": "Таңдаулы",
+	"apifeatureusage-column-date": "Ай-күні",
+	"apifeatureusage-column-uses": "Қолданылуда",
+	"apifeatureusage-htmlform-date-placeholder": "ЖЖЖ-АА-КК"
+}
