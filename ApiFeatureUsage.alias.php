@@ -31,7 +31,7 @@ $specialPageAliases['de'] = array(
 
 /** Northern Luri (لوری مینجایی) */
 $specialPageAliases['lrc'] = array(
-	'ApiFeatureUsage' => array( 'خو_وه_کار_گرتن_ای_پی_آی' ),
+	'ApiFeatureUsage' => array( 'خو_ڤە_کار_گئرتئن_ئی_پی_آی' ),
 );
 
 /** Macedonian (македонски) */
