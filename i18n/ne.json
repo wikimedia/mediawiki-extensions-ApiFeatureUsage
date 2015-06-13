@@ -1,11 +1,12 @@
 {
 	"@metadata": {
 		"authors": [
-			"NehalDaveND"
+			"NehalDaveND",
+			"राम प्रसाद जोशी"
 		]
 	},
 	"apifeatureusage-column-feature": "लक्षण",
 	"apifeatureusage-column-date": "मिति",
-	"apifeatureusage-column-uses": "प्रयोगकर्ताहरु",
+	"apifeatureusage-column-uses": "प्रयोगहरू",
 	"apifeatureusage-htmlform-date-placeholder": "YYYY-MM-DD"
 }
