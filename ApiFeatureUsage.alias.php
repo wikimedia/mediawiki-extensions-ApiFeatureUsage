@@ -29,7 +29,7 @@ $specialPageAliases['de'] = array(
 	'ApiFeatureUsage' => array( 'API-Funktionsverwendung' ),
 );
 
-/** Northern Luri (لوری مینجایی) */
+/** Northern Luri (لۊری شومالی) */
 $specialPageAliases['lrc'] = array(
 	'ApiFeatureUsage' => array( 'خو_ڤە_کار_گئرتئن_ئی_پی_آی' ),
 );
