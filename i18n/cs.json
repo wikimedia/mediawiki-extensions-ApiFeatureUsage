@@ -1,0 +1,26 @@
+{
+	"@metadata": {
+		"authors": [
+			"Mormegil"
+		]
+	},
+	"apifeatureusage": "Využití funkcí API",
+	"apifeatureusage-desc": "Získá shrnutí zaznamenávaných funkcí API pro uživatelského agenta.",
+	"apifeatureusage-elasticsearch-error": "Chyba Elasticsearch: $1",
+	"apifeatureusage-legend": "Využití funkcí API",
+	"apifeatureusage-agent-label": "Uživatelský agent:",
+	"apifeatureusage-dates-label": "Časový interval:",
+	"apifeatureusage-submit": "Načíst data",
+	"apifeatureusage-no-indexes": "Pro zadané časové období nejsou k dispozici žádná data.",
+	"apifeatureusage-missing-indexes": "Pro část zadaného časového období nejsou k dispozici žádná data.",
+	"apifeatureusage-warnings": "Varování: $1",
+	"apifeatureusage-column-feature": "Funkce",
+	"apifeatureusage-column-date": "Datum",
+	"apifeatureusage-column-uses": "Využití",
+	"apifeatureusage-htmlform-date-placeholder": "RRRR-MM-DD",
+	"apifeatureusage-htmlform-date-invalid": "Uvedená hodnota není platné datum. Zkuste použít formát RRRR-MM-DD.",
+	"apifeatureusage-htmlform-date-toolow": "Uvedená hodnota je před nejdřívějším dovoleným datem $1.",
+	"apifeatureusage-htmlform-date-toohigh": "Uvedená hodnota je po nejpozdějším dovoleném datu $1.",
+	"apifeatureusage-htmlform-daterange-relative-layout": "Začít $1 a běžet $2 dní",
+	"apifeatureusage-htmlform-daterange-absolute-layout": "Začít $1 a skončit $2"
+}
