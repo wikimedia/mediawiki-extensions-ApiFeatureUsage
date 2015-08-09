@@ -1,16 +1,24 @@
 {
 	"@metadata": {
 		"authors": [
-			"Dinhxuanduyet"
+			"Dinhxuanduyet",
+			"Minh Nguyen"
 		]
 	},
 	"apifeatureusage": "sử dụng tính năng API",
+	"apifeatureusage-desc": "Tóm lược sử dụng chức năng API theo tác nhân người dùng.",
+	"apifeatureusage-elasticsearch-error": "Lỗi Elasticsearch: $1",
 	"apifeatureusage-legend": "Sử dụng tính năng API",
+	"apifeatureusage-agent-label": "Tác nhân người dùng:",
 	"apifeatureusage-dates-label": "Xếp theo ngày:",
+	"apifeatureusage-submit": "Lấy dữ liệu",
+	"apifeatureusage-no-indexes": "Không có dữ liệu nào vào thời gian được chỉ định.",
+	"apifeatureusage-missing-indexes": "Không có dữ liệu nào vào một phần của thời gian được chỉ định.",
 	"apifeatureusage-warnings": "Cảnh báo: $1",
 	"apifeatureusage-column-feature": "Tính năng",
 	"apifeatureusage-column-date": "Ngày",
 	"apifeatureusage-column-uses": "Sử dụng",
+	"apihelp-query+featureusage-description": "Tóm lược sử dụng chức năng API theo tác nhân người dùng.",
 	"apihelp-query+featureusage-example-simple": "Sử dụng tính năng truy vấn cho người dùng hiện tại",
 	"apifeatureusage-htmlform-date-placeholder": "YYYY-MM-DD (năm-tháng-ngày)",
 	"apifeatureusage-htmlform-date-invalid": "Giá trị bạn chỉ định không phải là một định dạng ngày tháng. Hãy thử sử dụng định dạng YYYY-MM-DD (năm-tháng-ngày).",
@@ -23,6 +31,7 @@
 	"apifeatureusage-htmlform-daterange-days-toolow": "Giá trị bạn chỉ định cho số ngày ứng cử là ít hơn thời hạn tối thiểu của $1.",
 	"apifeatureusage-htmlform-daterange-days-toohigh": "Giá trị bạn chỉ định cho số ngày ứng cử là nhiều hơn thời hạn tối đa của $1.",
 	"apifeatureusage-htmlform-daterange-end-before-start": "Ngày kết thúc đưa ra nằm trước ngày bắt đầu.",
+	"apifeatureusage-htmlform-daterange-end-equals-start": "Ngày kết thúc trùng với ngày bắt đầu.",
 	"apifeatureusage-htmlform-daterange-error-partial": "Cả hai ô ngày phải được điền đầy đủ hoặc để trống tất cả.",
 	"apifeatureusage-htmlform-radiorange-missing-message": "Hãy chỉ định một giá trị cho cột $1"
 }
