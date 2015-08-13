@@ -3,9 +3,12 @@
 		"authors": [
 			"Alirezaaa",
 			"Reza1615",
-			"Dalba"
+			"Dalba",
+			"Mjbmr"
 		]
 	},
+	"apifeatureusage": "سیاههٔ دسترسی API",
+	"apifeatureusage-legend": "سیاههٔ دسترسی API",
 	"apifeatureusage-agent-label": "عامل کاربر:",
 	"apifeatureusage-dates-label": "بازهٔ تاریخ:",
 	"apifeatureusage-dates-layout": "$1–$2",
