@@ -1,9 +1,11 @@
 {
 	"@metadata": {
 		"authors": [
-			"아라"
+			"아라",
+			"Hwangjy9"
 		]
 	},
 	"apifeatureusage-desc": "사용자 에이전트에 대한 기록된 API 기능 용법의 요약을 얻습니다.",
+	"apifeatureusage-warnings": "경고: $1",
 	"apifeatureusage-htmlform-date-invalid": "지정한 값은 인식할 수 있는 날짜가 아닙니다. YYYY-MM-DD 형식을 사용하세요."
 }
