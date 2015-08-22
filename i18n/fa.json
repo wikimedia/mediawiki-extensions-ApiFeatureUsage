@@ -8,7 +8,7 @@
 		]
 	},
 	"apifeatureusage": "سیاههٔ دسترسی API",
-	"apifeatureusage-legend": "سیاههٔ دسترسی API",
+	"apifeatureusage-legend": "کاربرد دسترسی API",
 	"apifeatureusage-agent-label": "عامل کاربر:",
 	"apifeatureusage-dates-label": "بازهٔ تاریخ:",
 	"apifeatureusage-dates-layout": "$1–$2",
