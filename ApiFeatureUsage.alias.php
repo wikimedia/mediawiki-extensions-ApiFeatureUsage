@@ -29,6 +29,11 @@ $specialPageAliases['de'] = array(
 	'ApiFeatureUsage' => array( 'API-Funktionsverwendung' ),
 );
 
+/** Persian (فارسی) */
+$specialPageAliases['fa'] = array(
+	'ApiFeatureUsage' => array( 'کاربرد_دسترسی_API' ),
+);
+
 /** Northern Luri (لۊری شومالی) */
 $specialPageAliases['lrc'] = array(
 	'ApiFeatureUsage' => array( 'خو_ڤە_کار_گئرتئن_ئی_پی_آی' ),
