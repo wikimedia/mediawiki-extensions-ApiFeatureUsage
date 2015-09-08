@@ -1,0 +1,40 @@
+{
+	"@metadata": {
+		"authors": [
+			"Xuacu"
+		]
+	},
+	"apifeatureusage": "Usu de funciones de la API",
+	"apifeatureusage-desc": "Recibir un resume de los usos rexistraos de les funciones de la API pa un axente d'usuariu.",
+	"apifeatureusage-elasticsearch-error": "Error de Elasticsearch: $1",
+	"apifeatureusage-legend": "Usu de funciones de la API",
+	"apifeatureusage-agent-label": "Axente d'usuariu:",
+	"apifeatureusage-dates-label": "Intervalu de dates:",
+	"apifeatureusage-submit": "Recibir datos",
+	"apifeatureusage-no-indexes": "Nun hai datos disponibles pal intervalu de feches especificáu.",
+	"apifeatureusage-missing-indexes": "Nun hai datos disponibles pa una parte del intervalu de feches especificáu.",
+	"apifeatureusage-warnings": "Avisu: $1",
+	"apifeatureusage-column-feature": "Carauterística",
+	"apifeatureusage-column-date": "Data",
+	"apifeatureusage-column-uses": "Usos",
+	"apihelp-query+featureusage-description": "Recibir un resume de los usos rexistraos de les funciones de la API pa un axente d'usuariu.",
+	"apihelp-query+featureusage-param-start": "Entamu del intervalu de feches que consultar.",
+	"apihelp-query+featureusage-param-end": "Fin del intervalu de feches que consultar.",
+	"apihelp-query+featureusage-param-agent": "Axente d'usuariu que consultar. Si nun s'especifica va consultase l'axente de la solicitú.",
+	"apihelp-query+featureusage-param-features": "Si especifica, devolverá namái los detalles d'estes funciones.",
+	"apihelp-query+featureusage-example-simple": "Consultar l'usu de carauterístiques pol axente d'usuariu actual",
+	"apifeatureusage-htmlform-date-placeholder": "AAAA-MM-DD",
+	"apifeatureusage-htmlform-date-invalid": "El valor que disti nun ye una data reconocible. Prueba usando'l formatu AAAA-MM-DD.",
+	"apifeatureusage-htmlform-date-toolow": "El valor qu'especificasti ye anterior a la fecha más antigua permitida, $1.",
+	"apifeatureusage-htmlform-date-toohigh": "El valor qu'especificasti ye posterior a la fecha más nueva permitida, $1.",
+	"apifeatureusage-htmlform-daterange-relative-layout": "Empecipiar el $1 y executar demientres $2 díes",
+	"apifeatureusage-htmlform-daterange-absolute-layout": "Empecipiar el $1 y terminar el $2",
+	"apifeatureusage-htmlform-daterange-days-badoption": "El valor que disti pal númberu de díes d'execución nun ye una opción válida.",
+	"apifeatureusage-htmlform-daterange-days-invalid": "El valor que disti pal númberu de díes d'execución nun ye un númberu enteru.",
+	"apifeatureusage-htmlform-daterange-days-toolow": "El valor que disti pal númberu de díes d'execución ye menor que'l mínimu de {{PLURAL:$1|$1}}.",
+	"apifeatureusage-htmlform-daterange-days-toohigh": "El valor que disti pal númberu de díes d'execución ye mayor que'l máximu de {{PLURAL:$1|$1}}.",
+	"apifeatureusage-htmlform-daterange-end-before-start": "La fecha de final dada ye anterior a la d'entamu.",
+	"apifeatureusage-htmlform-daterange-end-equals-start": "La fecha de final dada ye la mesma que la d'entamu.",
+	"apifeatureusage-htmlform-daterange-error-partial": "Dambos campos de fecha tienen d'enllenase o dexase baleros.",
+	"apifeatureusage-htmlform-radiorange-missing-message": "Especifica un valor pa la columna $1"
+}
