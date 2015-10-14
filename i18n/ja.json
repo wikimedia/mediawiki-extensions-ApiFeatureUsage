@@ -1,9 +1,12 @@
 {
 	"@metadata": {
 		"authors": [
-			"Shirayuki"
+			"Shirayuki",
+			"Sujiniku"
 		]
 	},
+	"apifeatureusage-dates-label": "日付範囲:",
 	"apifeatureusage-warnings": "警告: $1",
+	"apifeatureusage-column-date": "日付",
 	"apifeatureusage-htmlform-date-placeholder": "YYYY-MM-DD"
 }
