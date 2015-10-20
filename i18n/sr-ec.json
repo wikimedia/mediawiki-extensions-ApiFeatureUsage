@@ -1,8 +1,9 @@
 {
 	"@metadata": {
 		"authors": [
-			"Srdjan m"
+			"Srdjan m",
+			"Milicevic01"
 		]
 	},
-	"apifeatureusage": "Коришћење API услуга"
+	"apifeatureusage": "Коришћење API могућности"
 }
