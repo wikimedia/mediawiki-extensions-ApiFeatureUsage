@@ -1,0 +1,54 @@
+{
+	"name": "ApiFeatureUsage",
+	"version": "1.0",
+	"author": "Brad Jorsch",
+	"url": "https://www.mediawiki.org/wiki/Extension:ApiFeatureUsage",
+	"descriptionmsg": "apifeatureusage-desc",
+	"license-name": "GPL-2.0+",
+	"type": "specialpage",
+	"ConfigRegistry": {
+		"ApiFeatureUsage": "GlobalVarConfig::newInstance"
+	},
+	"SpecialPages": {
+		"ApiFeatureUsage": "SpecialApiFeatureUsage"
+	},
+	"APIMetaModules": {
+		"featureusage": "ApiQueryFeatureUsage"
+	},
+	"MessagesDirs": {
+		"ApiFeatureUsage": [
+			"i18n"
+		]
+	},
+	"ExtensionMessagesFiles": {
+		"ApiFeatureUsageAlias": "ApiFeatureUsage.alias.php"
+	},
+	"AutoloadClasses": {
+		"SpecialApiFeatureUsage": "SpecialApiFeatureUsage.php",
+		"ApiQueryFeatureUsage": "ApiQueryFeatureUsage.php",
+		"ApiFeatureUsageQueryEngine": "ApiFeatureUsageQueryEngine.php",
+		"ApiFeatureUsageQueryEngineElastica": "ApiFeatureUsageQueryEngineElastica.php",
+		"ApiFeatureUsageQueryEngineElasticaConnection": "ApiFeatureUsageQueryEngineElastica.php",
+		"ApiFeatureUsage_HTMLDateField": "htmlform/HTMLDateField.php",
+		"ApiFeatureUsage_HTMLDateRangeField": "htmlform/HTMLDateRangeField.php"
+	},
+	"ResourceModules": {
+		"ext.apifeatureusage": {
+			"styles": "ext.apifeatureusage.css",
+			"position": "top"
+		},
+		"ext.apifeatureusage.htmlform": {
+			"localBasePath": "htmlform",
+			"remoteExtPath": "ApiFeatureUsage/htmlform",
+			"scripts": "ext.apifeatureusage.htmlform.js"
+		}
+	},
+	"ResourceFileModulePaths": {
+		"localBasePath": "modules",
+		"remoteExtPath": "ApiFeatureUsage/modules"
+	},
+	"config": {
+		"ApiFeatureUsageQueryEngineConf": []
+	},
+	"manifest_version": 1
+}

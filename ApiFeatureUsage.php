@@ -21,48 +21,16 @@
  * http://www.gnu.org/copyleft/gpl.html
  */
 
-$wgExtensionCredits['specialpage'][] = array(
-	'path' => __FILE__,
-	'name' => 'ApiFeatureUsage',
-	'author' => 'Brad Jorsch',
-	'url' => 'https://www.mediawiki.org/wiki/Extension:ApiFeatureUsage',
-	'descriptionmsg' => 'apifeatureusage-desc',
-	'version' => '1.0',
-	'license-name' => 'GPL-2.0+',
-);
-
-$wgAutoloadClasses['SpecialApiFeatureUsage'] = __DIR__ . '/SpecialApiFeatureUsage.php';
-$wgAutoloadClasses['ApiQueryFeatureUsage'] = __DIR__ . '/ApiQueryFeatureUsage.php';
-$wgAutoloadClasses['ApiFeatureUsageQueryEngine'] = __DIR__ . '/ApiFeatureUsageQueryEngine.php';
-$wgAutoloadClasses['ApiFeatureUsageQueryEngineElastica'] = __DIR__ . '/ApiFeatureUsageQueryEngineElastica.php';
-$wgAutoloadClasses['ApiFeatureUsageQueryEngineElasticaConnection'] = __DIR__ . '/ApiFeatureUsageQueryEngineElastica.php';
-
-$wgMessagesDirs['ApiFeatureUsage'] = __DIR__ . '/i18n';
-$wgExtensionMessagesFiles['ApiFeatureUsageAlias'] = __DIR__ . '/ApiFeatureUsage.alias.php';
-$wgSpecialPages['ApiFeatureUsage'] = 'SpecialApiFeatureUsage';
-$wgAPIMetaModules['featureusage'] = 'ApiQueryFeatureUsage';
-$wgConfigRegistry['ApiFeatureUsage'] = 'GlobalVarConfig::newInstance';
-
-$wgResourceModules['ext.apifeatureusage'] = array(
-	'localBasePath' => __DIR__ . '/modules',
-	'remoteExtPath' => 'ApiFeatureUsage/modules',
-	'styles' => 'ext.apifeatureusage.css',
-	'position' => 'top',
-);
-
-/**
- * Engine configuration. Must contain either a 'class' or a 'factory' member;
- * other members depend on the engine.
- */
-$wgApiFeatureUsageQueryEngineConf = array();
-
-/**
- * @todo HTMLForm stuff should be migrated to core
- */
-$wgAutoloadClasses['ApiFeatureUsage_HTMLDateField'] = __DIR__ . '/htmlform/HTMLDateField.php';
-$wgAutoloadClasses['ApiFeatureUsage_HTMLDateRangeField'] = __DIR__ . '/htmlform/HTMLDateRangeField.php';
-$wgResourceModules['ext.apifeatureusage.htmlform'] = array(
-	'localBasePath' => __DIR__ . '/htmlform',
-	'remoteExtPath' => 'ApiFeatureUsage/htmlform',
-	'scripts' => 'ext.apifeatureusage.htmlform.js',
-);
+if ( function_exists( 'wfLoadExtension' ) ) {
+	wfLoadExtension( 'ApiFeatureUsage' );
+	// Keep i18n globals so mergeMessageFileList.php doesn't break
+	$wgMessagesDirs['ApiFeatureUsage'] = __DIR__ . '/i18n';
+	$wgExtensionMessagesFiles['ApiFeatureUsageAlias'] = __DIR__ . '/ApiFeatureUsage.alias.php';
+	/* wfWarn(
+		'Deprecated PHP entry point used for ApiFeatureUsage extension. Please use wfLoadExtension instead, ' .
+		'see https://www.mediawiki.org/wiki/Extension_registration for more details.'
+	); */
+	return;
+} else {
+	die( 'This version of the ApiFeatureUsage extension requires MediaWiki 1.25+' );
+}
