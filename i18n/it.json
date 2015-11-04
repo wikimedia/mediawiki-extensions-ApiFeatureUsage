@@ -25,5 +25,7 @@
 	"apifeatureusage-htmlform-daterange-days-toolow": "Il valore specificato come numero di giorni per l'esecuzione è inferiore al minimo di {{PLURAL:$1|$1}}.",
 	"apifeatureusage-htmlform-daterange-days-toohigh": "Il valore specificato come numero di giorni per l'esecuzione è superiore al massimo di {{PLURAL:$1|$1}}.",
 	"apifeatureusage-htmlform-daterange-end-before-start": "La data di fine data è precedente alla data di inizio.",
-	"apifeatureusage-htmlform-daterange-error-partial": "Entrambi i campi data devono essere riempiti o lasciati vuoti."
+	"apifeatureusage-htmlform-daterange-end-equals-start": "La data di fine data è uguale alla data di inizio.",
+	"apifeatureusage-htmlform-daterange-error-partial": "Entrambi i campi data devono essere riempiti o lasciati vuoti.",
+	"apifeatureusage-htmlform-radiorange-missing-message": "Indica un valore per la colonna $1"
 }
