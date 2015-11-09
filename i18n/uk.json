@@ -25,5 +25,13 @@
 	"apifeatureusage-htmlform-date-toolow": "Задане Вами значення — менше, ніж найраніша дозволена дата $1.",
 	"apifeatureusage-htmlform-date-toohigh": "Ви вказали значення після найпізнішої дозволеної дати: $1.",
 	"apifeatureusage-htmlform-daterange-relative-layout": "Починається $1 і триває $2 днів",
-	"apifeatureusage-htmlform-daterange-absolute-layout": "Починається $1 і закінчується $2"
+	"apifeatureusage-htmlform-daterange-absolute-layout": "Починається $1 і закінчується $2",
+	"apifeatureusage-htmlform-daterange-days-badoption": "Вказане Вами значення кількості днів не є дійсним варіантом.",
+	"apifeatureusage-htmlform-daterange-days-invalid": "Вказане Вами значення кількості днів тривання не є цілим числом.",
+	"apifeatureusage-htmlform-daterange-days-toolow": "Вказане Вами значення кількості днів тривання менше, ніж мінімальні {{PLURAL:$1|$1}}.",
+	"apifeatureusage-htmlform-daterange-days-toohigh": "Вказане Вами значення кількості днів тривання більше, ніж максимальні {{PLURAL:$1|$1}}.",
+	"apifeatureusage-htmlform-daterange-end-before-start": "Задана дата закінчення — перед датою початку.",
+	"apifeatureusage-htmlform-daterange-end-equals-start": "Задана дата закінчення — перед датою початку.",
+	"apifeatureusage-htmlform-daterange-error-partial": "Обидва поля даних повинні бути заповнені або залишені порожніми.",
+	"apifeatureusage-htmlform-radiorange-missing-message": "Будь ласка, вкажіть значення для стовпця $1"
 }
