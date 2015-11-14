@@ -4,9 +4,9 @@
 			"Pikne"
 		]
 	},
-	"apifeatureusage": "API funktsiooni kasutus",
-	"apifeatureusage-desc": "Hangi kokkuvõte kasutajaagendi kohta logitud API funktsiooni kasutustest.",
-	"apifeatureusage-legend": "API funktsiooni kasutus",
+	"apifeatureusage": "API funktsioonide kasutus",
+	"apifeatureusage-desc": "Hangi kokkuvõte kasutajaagendi kohta logitud API funktsioonide kasutustest.",
+	"apifeatureusage-legend": "API funktsioonide kasutus",
 	"apifeatureusage-agent-label": "Kasutajaagent:",
 	"apifeatureusage-dates-label": "Kuupäevavahemik:",
 	"apifeatureusage-submit": "Hangi andmed",
