@@ -2,12 +2,22 @@
 	"@metadata": {
 		"authors": [
 			"아라",
-			"Hwangjy9"
+			"Hwangjy9",
+			"Revi"
 		]
 	},
+	"apifeatureusage": "API 기능 사용량",
 	"apifeatureusage-desc": "사용자 에이전트에 대한 기록된 API 기능 용법의 요약을 얻습니다.",
+	"apifeatureusage-elasticsearch-error": "엘라스틱서치 오류: $1",
+	"apifeatureusage-legend": "API 기능 사용량",
 	"apifeatureusage-agent-label": "사용자 에이전트:",
+	"apifeatureusage-dates-label": "날짜 범위:",
+	"apifeatureusage-submit": "데이터 수집",
+	"apifeatureusage-no-indexes": "설정된 기간 동안의 데이터가 없습니다.",
+	"apifeatureusage-missing-indexes": "설정된 기간의 데이터가 존재하지 않습니다.",
 	"apifeatureusage-warnings": "경고: $1",
+	"apifeatureusage-column-feature": "기능",
 	"apifeatureusage-column-date": "날짜",
+	"apifeatureusage-column-uses": "사용",
 	"apifeatureusage-htmlform-date-invalid": "지정한 값은 인식할 수 있는 날짜가 아닙니다. YYYY-MM-DD 형식을 사용하세요."
 }
