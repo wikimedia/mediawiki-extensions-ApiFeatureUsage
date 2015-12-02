@@ -1,0 +1,11 @@
+{
+	"@metadata": {
+		"authors": [
+			"Gorizon"
+		]
+	},
+	"apifeatureusage-warnings": "İqaz:$1",
+	"apifeatureusage-column-feature": "Weçinaye",
+	"apifeatureusage-column-date": "Tarix",
+	"apifeatureusage-column-uses": "Karıyen"
+}
