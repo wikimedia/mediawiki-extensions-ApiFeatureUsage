@@ -22,5 +22,9 @@
 	"apifeatureusage-htmlform-date-toolow": "Uvedená hodnota je před nejdřívějším dovoleným datem $1.",
 	"apifeatureusage-htmlform-date-toohigh": "Uvedená hodnota je po nejpozdějším dovoleném datu $1.",
 	"apifeatureusage-htmlform-daterange-relative-layout": "Začít $1 a běžet $2 dní",
-	"apifeatureusage-htmlform-daterange-absolute-layout": "Začít $1 a skončit $2"
+	"apifeatureusage-htmlform-daterange-absolute-layout": "Začít $1 a skončit $2",
+	"apifeatureusage-htmlform-daterange-end-before-start": "Uvedené koncové datum je před počátečním datem.",
+	"apifeatureusage-htmlform-daterange-end-equals-start": "Uvedené koncové datum je stejné jako počáteční.",
+	"apifeatureusage-htmlform-daterange-error-partial": "Obě data musí být buď vyplněná, nebo ponechána prázdná.",
+	"apifeatureusage-htmlform-radiorange-missing-message": "Uveďte prosím hodnotu pro sloupec $1"
 }
