@@ -59,7 +59,7 @@ class ApiFeatureUsageQueryEngineElastica extends ApiFeatureUsageQueryEngine {
 
 		$query = new Elastica\Query();
 
-		$bools = new Elastica\Filter\Bool();
+		$bools = new Elastica\Filter\BoolFilter();
 		$bools->addMust( new Elastica\Filter\Prefix( $this->options['agentField'], $agent ) );
 		$bools->addMust( new Elastica\Filter\Range( $this->options['timestampField'], array(
 			'gte' => $start->getTimestamp( TS_ISO_8601 ),
