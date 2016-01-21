@@ -6,9 +6,11 @@
 		]
 	},
 	"apifeatureusage": "Использование функций API",
+	"apifeatureusage-elasticsearch-error": "Ошибка Elasticsearch: $1",
 	"apifeatureusage-legend": "Использование функций API",
 	"apifeatureusage-agent-label": "Браузер:",
 	"apifeatureusage-dates-label": "Период времени:",
+	"apifeatureusage-submit": "Выбрать данные",
 	"apifeatureusage-no-indexes": "Нет данных за указанный диапазон дат.",
 	"apifeatureusage-missing-indexes": "Нет данных за часть указанного диапазона дат.",
 	"apifeatureusage-warnings": "Предупреждение: $1",
