@@ -1,0 +1,13 @@
+{
+	"@metadata": {
+		"authors": [
+			"Sagan"
+		]
+	},
+	"apifeatureusage": " API функцияһын ҡулланыу",
+	"apifeatureusage-elasticsearch-error": "Хата Elasticsearch: $1",
+	"apifeatureusage-legend": "API функцияһын ҡулланыу",
+	"apifeatureusage-agent-label": "Браузер:",
+	"apifeatureusage-dates-label": "Ваҡыт:",
+	"apifeatureusage-submit": "Мәғлүмәт һайларға"
+}
