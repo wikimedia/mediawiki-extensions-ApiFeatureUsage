@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"Sagan"
+			"Sagan",
+			"Янмурза Баки"
 		]
 	},
 	"apifeatureusage": " API функцияһын ҡулланыу",
@@ -9,5 +10,19 @@
 	"apifeatureusage-legend": "API функцияһын ҡулланыу",
 	"apifeatureusage-agent-label": "Браузер:",
 	"apifeatureusage-dates-label": "Ваҡыт:",
-	"apifeatureusage-submit": "Мәғлүмәт һайларға"
+	"apifeatureusage-submit": "Мәғлүмәт һайларға",
+	"apifeatureusage-warnings": "Иҫкәртеү:$1",
+	"apifeatureusage-column-feature": "Функция",
+	"apifeatureusage-column-date": "Дата",
+	"apifeatureusage-column-uses": "Ҡулланыу",
+	"apihelp-query+featureusage-param-start": "Мөрөжәғәт өсөн даталар диапазоны",
+	"apihelp-query+featureusage-param-end": "Мөрәжәғәт өсөн даталар диапазоны бөткән көн",
+	"apifeatureusage-htmlform-date-placeholder": "ЙЙЙЙ-АА-КК (йыл, ай, көн)",
+	"apifeatureusage-htmlform-date-invalid": "Датаға оҡшамаған. ЙЙЙЙ-АА-КК форматында яҙыу ҡарағыҙ.",
+	"apifeatureusage-htmlform-date-toolow": "Һәҙ яҙған дәүмәл иң бәләкәй датанан да бәләкәйерәк $1",
+	"apifeatureusage-htmlform-date-toohigh": "Һеҙ яҙған дәүмәл рөхсәт ителгән датанан ҙурыраҡ $1",
+	"apifeatureusage-htmlform-daterange-relative-layout": " $1 башланы һәм $2 көн дауам итә.",
+	"apifeatureusage-htmlform-daterange-absolute-layout": "$1 башлана һәм $2 тамамлана",
+	"apifeatureusage-htmlform-daterange-days-badoption": "Тауыш биреү көндәре дөрөҫ күрһәтелмәгән.",
+	"apifeatureusage-htmlform-daterange-days-invalid": "Тауыш биреү көндәрендә тулы һан булырға тейеш."
 }
