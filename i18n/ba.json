@@ -3,10 +3,12 @@
 		"authors": [
 			"Sagan",
 			"Янмурза Баки",
-			"З. ӘЙЛЕ"
+			"З. ӘЙЛЕ",
+			"Азат Хәлилов"
 		]
 	},
 	"apifeatureusage": " API функцияһын ҡулланыу",
+	"apifeatureusage-desc": "Ҡулланыусы агентын файҙаланыу өсөн, теркәлгән әҙәби API тураһында ҡыҫҡа белешмә алырға.",
 	"apifeatureusage-elasticsearch-error": "Хата Elasticsearch: $1",
 	"apifeatureusage-legend": "API функцияһын ҡулланыу",
 	"apifeatureusage-agent-label": "Браузер:",
@@ -18,8 +20,12 @@
 	"apifeatureusage-column-feature": "Функция",
 	"apifeatureusage-column-date": "Дата",
 	"apifeatureusage-column-uses": "Ҡулланыу",
+	"apihelp-query+featureusage-description": "Ҡулланыусы агентын файҙаланыу өсөн, теркәлгән әҙәби API тураһында ҡыҫҡа белешмә алырға.",
 	"apihelp-query+featureusage-param-start": "Мөрөжәғәт өсөн даталар диапазоны",
 	"apihelp-query+featureusage-param-end": "Мөрәжәғәт өсөн даталар диапазоны бөткән көн",
+	"apihelp-query+featureusage-param-agent": "Ҡулланыусы мөрәжәғәтенең агенты. Әгәр ул күрһәтелмәһә, һоратыу  мөрәжәғәт агентынан һоратыласаҡ.",
+	"apihelp-query+featureusage-param-features": "Әгәр күрһәтелһә, деталдәрҙе был функцияларға ғына ҡайтарырға.",
+	"apihelp-query+featureusage-example-simple": "Был ҡулланыусы агенты өсөн һоратмаларҙың функцияларын файҙаланыу",
 	"apifeatureusage-htmlform-date-placeholder": "ЙЙЙЙ-АА-КК (йыл, ай, көн)",
 	"apifeatureusage-htmlform-date-invalid": "Датаға оҡшамаған. ЙЙЙЙ-АА-КК форматында яҙыу ҡарағыҙ.",
 	"apifeatureusage-htmlform-date-toolow": "Һәҙ яҙған дәүмәл иң бәләкәй датанан да бәләкәйерәк $1",
