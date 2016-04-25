@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"Eitvys200"
+			"Eitvys200",
+			"Zygimantus"
 		]
 	},
 	"apifeatureusage": "API funkcijos naudojimas",
@@ -14,7 +15,7 @@
 	"apifeatureusage-column-feature": "Funkcija",
 	"apifeatureusage-column-date": "Data",
 	"apifeatureusage-column-uses": "Panaudojimai",
-	"apifeatureusage-htmlform-date-placeholder": "MMMM-MM-DD",
+	"apifeatureusage-htmlform-date-placeholder": "YYYY-MM-DD",
 	"apifeatureusage-htmlform-daterange-relative-layout": "Pradėti $1 ir leisti $2 dienas",
 	"apifeatureusage-htmlform-daterange-absolute-layout": "Pradėti $1 ir baigti $2"
 }
