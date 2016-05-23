@@ -59,13 +59,17 @@ class ApiFeatureUsageQueryEngineElastica extends ApiFeatureUsageQueryEngine {
 
 		$query = new Elastica\Query();
 
-		$bools = new Elastica\Filter\BoolFilter();
-		$bools->addMust( new Elastica\Filter\Prefix( $this->options['agentField'], $agent ) );
-		$bools->addMust( new Elastica\Filter\Range( $this->options['timestampField'], array(
+		$bools = new Elastica\Query\BoolQuery();
+
+		$prefix = new Elastica\Query\Prefix();
+		$prefix->setPrefix( $this->options['agentField'], $agent );
+		$bools->addMust( $prefix );
+
+		$bools->addMust( new Elastica\Query\Range( $this->options['timestampField'], array(
 			'gte' => $start->getTimestamp( TS_ISO_8601 ),
 			'lte' => $end->getTimestamp( TS_ISO_8601 ),
 		) ) );
-		$query->setQuery( new Elastica\Query\Filtered( null, $bools ) );
+		$query->setQuery( $bools );
 
 		$termsAgg = new Elastica\Aggregation\Terms( 'feature' );
 		$termsAgg->setField( $this->options['featureField'] );
