@@ -1,0 +1,40 @@
+{
+	"@metadata": {
+		"authors": [
+			"01miki10"
+		]
+	},
+	"apifeatureusage": "API-ominaisuuksien käyttö",
+	"apifeatureusage-desc": "Hae yhteenveto lokiin merkityistä API-ominaisuuksien käytöstä käyttäjäagentin perusteella.",
+	"apifeatureusage-elasticsearch-error": "Elasticsearch-virhe: $1",
+	"apifeatureusage-legend": "API-ominaisuuksien käyttö",
+	"apifeatureusage-agent-label": "Käyttäjäagentti:",
+	"apifeatureusage-dates-label": "Aikarajaus:",
+	"apifeatureusage-submit": "Hae tiedot",
+	"apifeatureusage-no-indexes": "Tietoja ei ole saatavilla annetulta ajalta.",
+	"apifeatureusage-missing-indexes": "Tietoja ei ole saatavilla osasta annettua aikaa.",
+	"apifeatureusage-warnings": "Varoitus: $1",
+	"apifeatureusage-column-feature": "Ominaisuus",
+	"apifeatureusage-column-date": "Päivämäärä",
+	"apifeatureusage-column-uses": "Käyttöjä",
+	"apihelp-query+featureusage-description": "Hae yhteenveto lokiin merkityistä API-ominaisuuksien käytöstä käyttäjäagentin perusteella.",
+	"apihelp-query+featureusage-param-start": "Tiedusteltavan aikarajauksen aloituspäivä.",
+	"apihelp-query+featureusage-param-end": "Tiedusteltavan aikarajauksen lopetuspäivä.",
+	"apihelp-query+featureusage-param-agent": "Tiedusteltava käyttäjäagentti. Jos ei ole määritelty, tiedustellaan pyynnön agenttia.",
+	"apihelp-query+featureusage-param-features": "Jos määritetty, palauta yksityiskohdat vain näistä ominaisuuksista.",
+	"apihelp-query+featureusage-example-simple": "Tiedustele ominaisuuksien käyttöä nykyisellä käyttäjäagentilla",
+	"apifeatureusage-htmlform-date-placeholder": "VVVV-KK-PP",
+	"apifeatureusage-htmlform-date-invalid": "Annettu arvo ei ole tunnistettava päivämäärä. Kokeile muotoa VVVV-KK-PP.",
+	"apifeatureusage-htmlform-date-toolow": "Annettu arvo on ennen aikaisinta sallittua päivämäärää $1.",
+	"apifeatureusage-htmlform-date-toohigh": "Annettu arvo on viimeisen sallitun päivämäärän $1 jälkeen.",
+	"apifeatureusage-htmlform-daterange-relative-layout": "Aloita $1 ja suorita $2 päivän ajan",
+	"apifeatureusage-htmlform-daterange-absolute-layout": "Aloita $1 ja lopeta $2",
+	"apifeatureusage-htmlform-daterange-days-badoption": "Annettu päivien määrän arvo ei ole kelvollinen vaihtoehto.",
+	"apifeatureusage-htmlform-daterange-days-invalid": "Annettu päivien määrän arvo ei ole kokonaisluku.",
+	"apifeatureusage-htmlform-daterange-days-toolow": "Annettu päivien määrän arvo on alle minimin {{PLURAL:$1|$1}}.",
+	"apifeatureusage-htmlform-daterange-days-toohigh": "Annettu päivien määrän arvo on yli maksimin {{PLURAL:$1|$1}}.",
+	"apifeatureusage-htmlform-daterange-end-before-start": "Annettu lopetuspäivä on ennen aloituspäivää.",
+	"apifeatureusage-htmlform-daterange-end-equals-start": "Annettu lopetuspäivä on sama kuin aloituspäivä.",
+	"apifeatureusage-htmlform-daterange-error-partial": "Molemmat päivämääräkentät on täytettävä tai jätettävä tyhjäksi.",
+	"apifeatureusage-htmlform-radiorange-missing-message": "Määritä arvo sarakkeeseen $1"
+}
