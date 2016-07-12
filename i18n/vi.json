@@ -2,10 +2,11 @@
 	"@metadata": {
 		"authors": [
 			"Dinhxuanduyet",
-			"Minh Nguyen"
+			"Minh Nguyen",
+			"Quenhitran"
 		]
 	},
-	"apifeatureusage": "sử dụng tính năng API",
+	"apifeatureusage": "Sử dụng tính năng API",
 	"apifeatureusage-desc": "Tóm lược sử dụng chức năng API theo tác nhân người dùng.",
 	"apifeatureusage-elasticsearch-error": "Lỗi Elasticsearch: $1",
 	"apifeatureusage-legend": "Sử dụng tính năng API",
