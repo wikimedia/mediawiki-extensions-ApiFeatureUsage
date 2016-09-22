@@ -44,40 +44,40 @@ class ApiQueryFeatureUsage extends ApiQueryBase {
 			$this->setWarning( $warning->inLanguage( 'en' )->useDatabase( false )->plain() );
 		}
 
-		$r = array(
+		$r = [
 			'agent' => $agent,
 			'start' => $start->getTimestamp( TS_ISO_8601 ),
 			'end' => $end->getTimestamp( TS_ISO_8601 ),
 			'usage' => $status->value,
-		);
+		];
 
 		$this->getResult()->setIndexedTagName( $r['usage'], 'v' );
 		$this->getResult()->addValue( 'query', $this->getModuleName(), $r );
 	}
 
 	public function getAllowedParams() {
-		return array(
-			'start' => array(
+		return [
+			'start' => [
 				ApiBase::PARAM_TYPE => 'timestamp',
-			),
-			'end' => array(
+			],
+			'end' => [
 				ApiBase::PARAM_TYPE => 'timestamp',
-			),
-			'agent' => array(
+			],
+			'agent' => [
 				ApiBase::PARAM_TYPE => 'string',
-			),
-			'features' => array(
+			],
+			'features' => [
 				ApiBase::PARAM_TYPE => 'string',
 				ApiBase::PARAM_ISMULTI => true,
-			),
-		);
+			],
+		];
 	}
 
 	protected function getExamplesMessages() {
-		return array(
+		return [
 			'action=query&meta=featureusage'
 				=> 'apihelp-query+featureusage-example-simple',
-		);
+		];
 	}
 
 	public function getHelpUrls() {

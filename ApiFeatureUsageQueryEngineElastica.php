@@ -17,14 +17,14 @@ class ApiFeatureUsageQueryEngineElastica extends ApiFeatureUsageQueryEngine {
 	private $indexNames = null;
 
 	public function __construct( array $options ) {
-		$options += array(
+		$options += [
 			'indexPrefix' => 'apifeatureusage-',
 			'indexFormat' => 'Y.m.d',
 			'type' => 'api-feature-usage-sanitized',
 			'featureField' => 'feature',
 			'timestampField' => '@timestamp',
 			'agentField' => 'agent',
-		);
+		];
 
 		parent::__construct( $options );
 	}
@@ -45,7 +45,7 @@ class ApiFeatureUsageQueryEngineElastica extends ApiFeatureUsageQueryEngine {
 	}
 
 	public function execute( $agent, MWTimestamp $start, MWTimestamp $end ) {
-		$status = Status::newGood( array() );
+		$status = Status::newGood( [] );
 
 		# Force $start and $end to day boundaries
 		$oneday = new DateInterval( 'P1D' );
@@ -65,10 +65,10 @@ class ApiFeatureUsageQueryEngineElastica extends ApiFeatureUsageQueryEngine {
 		$prefix->setPrefix( $this->options['agentField'], $agent );
 		$bools->addMust( $prefix );
 
-		$bools->addMust( new Elastica\Query\Range( $this->options['timestampField'], array(
+		$bools->addMust( new Elastica\Query\Range( $this->options['timestampField'], [
 			'gte' => $start->getTimestamp( TS_ISO_8601 ),
 			'lte' => $end->getTimestamp( TS_ISO_8601 ),
-		) ) );
+		] ) );
 		$query->setQuery( $bools );
 
 		$termsAgg = new Elastica\Aggregation\Terms( 'feature' );
@@ -89,7 +89,7 @@ class ApiFeatureUsageQueryEngineElastica extends ApiFeatureUsageQueryEngine {
 		);
 
 		$allIndexes = $this->getIndexNames();
-		$indexes = array();
+		$indexes = [];
 		$skippedAny = false;
 		$s = clone $start->timestamp;
 		while ( $s <= $end->timestamp ) {
@@ -121,16 +121,16 @@ class ApiFeatureUsageQueryEngineElastica extends ApiFeatureUsageQueryEngine {
 			);
 		}
 
-		$ret = array();
+		$ret = [];
 		$aggs = $res->getAggregations();
 		if ( isset( $aggs['feature'] ) ) {
 			foreach ( $aggs['feature']['buckets'] as $feature ) {
 				foreach ( $feature['date']['buckets'] as $date ) {
-					$ret[] = array(
+					$ret[] = [
 						'feature' => $feature['key'],
 						'date' => $date['key_as_string'],
 						'count' => $date['doc_count'],
-					);
+					];
 				}
 			}
 		}
@@ -153,7 +153,7 @@ class ApiFeatureUsageQueryEngineElastica extends ApiFeatureUsageQueryEngine {
 			$index = $this->options['indexPrefix'] . $start->format( $this->options['indexFormat'] );
 			if ( !in_array( $index, $allIndexes ) ) {
 				$start->timestamp->add( $oneday );
-				return array( $start, $end );
+				return [ $start, $end ];
 			}
 		}
 	}
@@ -163,20 +163,20 @@ class ApiFeatureUsageQueryEngineElastica extends ApiFeatureUsageQueryEngine {
  * Class to create the connection
  */
 class ApiFeatureUsageQueryEngineElasticaConnection extends ElasticaConnection {
-	private $options = array();
+	private $options = [];
 
 	public function __construct( $options = null ) {
 		if ( !is_array( $options ) ) {
-			$options = array();
+			$options = [];
 		}
 
 		if ( empty( $options['serverList'] ) || !is_array( $options['serverList'] ) ) {
 			throw new MWException( __METHOD__ . ': serverList is not set or is not valid.' );
 		}
 
-		$this->options = $options + array(
+		$this->options = $options + [
 			'maxConnectionAttempts' => 1,
-		);
+		];
 	}
 
 	public function getServerList() {

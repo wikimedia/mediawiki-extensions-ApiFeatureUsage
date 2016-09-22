@@ -12,7 +12,9 @@ class SpecialApiFeatureUsage extends SpecialPage {
 
 		/** @todo These should be migrated to core, once the jquery.ui
 		 * objectors write their own date picker. */
-		if ( !isset( HTMLForm::$typeMappings['date'] ) || !isset( HTMLForm::$typeMappings['daterange'] ) ) {
+		if ( !isset( HTMLForm::$typeMappings['date'] ) ||
+			!isset( HTMLForm::$typeMappings['daterange'] )
+		) {
 			HTMLForm::$typeMappings['date'] = 'ApiFeatureUsage_HTMLDateField';
 			HTMLForm::$typeMappings['daterange'] = 'ApiFeatureUsage_HTMLDateRangeField';
 			$this->getOutput()->addModules( 'ext.apifeatureusage.htmlform' );
@@ -24,29 +26,29 @@ class SpecialApiFeatureUsage extends SpecialPage {
 		$this->engine = ApiFeatureUsageQueryEngine::getEngine( $conf );
 		list( $start, $end ) = $this->engine->suggestDateRange();
 
-		$form = new HTMLForm( array(
-			'agent' => array(
+		$form = new HTMLForm( [
+			'agent' => [
 				'type' => 'text',
 				'default' => '',
 				'label-message' => 'apifeatureusage-agent-label',
 				'required' => true,
-			),
+			],
 
-			'dates' => array(
+			'dates' => [
 				'type' => 'daterange',
 				'label-message' => 'apifeatureusage-dates-label',
 				'layout-message' => 'apifeatureusage-dates-layout',
 				'absolute' => true,
 				'required' => true,
 				'allow-sameday' => true,
-				'default' => array(
+				'default' => [
 					$start->format( 'Y-m-d' ),
 					$end->format( 'Y-m-d' ),
-				),
-			),
-		), $this->getContext() );
+				],
+			],
+		], $this->getContext() );
 		$form->setMethod( 'get' );
-		$form->setSubmitCallback( array( $this, 'onSubmit' ) );
+		$form->setSubmitCallback( [ $this, 'onSubmit' ] );
 		$form->setWrapperLegend( $this->msg( 'apifeatureusage-legend' ) );
 		$form->addHeaderText( $this->msg( 'apifeatureusage-text' )->parseAsBlock() );
 		$form->setSubmitTextMsg( 'apifeatureusage-submit' );
@@ -63,7 +65,7 @@ class SpecialApiFeatureUsage extends SpecialPage {
 			$out = $this->getOutput();
 			$out->addModuleStyles( 'ext.apifeatureusage' );
 
-			$warnings = array();
+			$warnings = [];
 			foreach ( $status->getWarningsArray() as $warning ) {
 				if ( !$warning instanceof Message ) {
 					$key = array_shift( $warning );
@@ -78,40 +80,40 @@ class SpecialApiFeatureUsage extends SpecialPage {
 					$warnings = $warnings[0];
 				}
 				$out->wrapWikiMsg( "<div class='error'>\n$1\n</div>",
-					array( 'apifeatureusage-warnings', $warnings )
+					[ 'apifeatureusage-warnings', $warnings ]
 				);
 			}
 
 			$lang = $this->getLanguage();
-			$rows = array();
+			$rows = [];
 			foreach ( $status->value as $row ) {
-				$cells = array();
-				$cells[] = Html::element( 'td', array(), $row['feature'] );
-				$cells[] = Html::rawElement( 'td', array(),
-					Html::element( 'time', array(), $row['date'] )
+				$cells = [];
+				$cells[] = Html::element( 'td', [], $row['feature'] );
+				$cells[] = Html::rawElement( 'td', [],
+					Html::element( 'time', [], $row['date'] )
 				);
-				$cells[] = Html::element( 'td', array( 'class' => 'mw-apifeatureusage-count' ),
+				$cells[] = Html::element( 'td', [ 'class' => 'mw-apifeatureusage-count' ],
 					$lang->formatNum( $row['count'] )
 				);
 
-				$rows[] = Html::rawElement( 'tr', array(), join( '', $cells ) );
+				$rows[] = Html::rawElement( 'tr', [], join( '', $cells ) );
 			}
 			$this->getOutput()->addHTML(
-				Html::rawElement( 'table', array( 'class' => 'wikitable sortable mw-apifeatureusage' ),
-					Html::rawElement( 'thead', array(),
-						Html::rawElement( 'tr', array(),
-							Html::rawElement( 'th', array(),
+				Html::rawElement( 'table', [ 'class' => 'wikitable sortable mw-apifeatureusage' ],
+					Html::rawElement( 'thead', [],
+						Html::rawElement( 'tr', [],
+							Html::rawElement( 'th', [],
 								$this->msg( 'apifeatureusage-column-feature' )->parse()
 							) .
-							Html::rawElement( 'th', array(),
+							Html::rawElement( 'th', [],
 								$this->msg( 'apifeatureusage-column-date' )->parse()
 							) .
-							Html::rawElement( 'th', array(),
+							Html::rawElement( 'th', [],
 								$this->msg( 'apifeatureusage-column-uses' )->parse()
 							)
 						)
 					) .
-					Html::rawElement( 'tbody', array(), join( '', $rows ) )
+					Html::rawElement( 'tbody', [], join( '', $rows ) )
 				)
 			);
 		}
@@ -119,8 +121,8 @@ class SpecialApiFeatureUsage extends SpecialPage {
 
 	public function onSubmit( $data, $form ) {
 		$agent = $data['agent'];
-		$start = new MWTimestamp( $data['dates'][0] . 'T00:00:00Z'  );
-		$end = new MWTimestamp( $data['dates'][1] . 'T23:59:59Z'  );
+		$start = new MWTimestamp( $data['dates'][0] . 'T00:00:00Z' );
+		$end = new MWTimestamp( $data['dates'][1] . 'T23:59:59Z' );
 
 		return $this->engine->execute( $agent, $start, $end );
 	}
