@@ -1,10 +1,11 @@
 {
 	"@metadata": {
 		"authors": [
-			"Gorizon"
+			"Gorizon",
+			"Kumkumuk"
 		]
 	},
-	"apifeatureusage-warnings": "İqaz:$1",
+	"apifeatureusage-warnings": "Tembe kem:$1",
 	"apifeatureusage-column-feature": "Weçinaye",
 	"apifeatureusage-column-date": "Tarix",
 	"apifeatureusage-column-uses": "Karıyen"
