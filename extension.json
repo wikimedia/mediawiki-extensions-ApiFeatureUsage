@@ -31,19 +31,12 @@
 		"ApiQueryFeatureUsage": "ApiQueryFeatureUsage.php",
 		"ApiFeatureUsageQueryEngine": "ApiFeatureUsageQueryEngine.php",
 		"ApiFeatureUsageQueryEngineElastica": "ApiFeatureUsageQueryEngineElastica.php",
-		"ApiFeatureUsageQueryEngineElasticaConnection": "ApiFeatureUsageQueryEngineElastica.php",
-		"ApiFeatureUsage_HTMLDateField": "htmlform/HTMLDateField.php",
-		"ApiFeatureUsage_HTMLDateRangeField": "htmlform/HTMLDateRangeField.php"
+		"ApiFeatureUsageQueryEngineElasticaConnection": "ApiFeatureUsageQueryEngineElastica.php"
 	},
 	"ResourceModules": {
 		"ext.apifeatureusage": {
 			"styles": "ext.apifeatureusage.css",
 			"position": "top"
-		},
-		"ext.apifeatureusage.htmlform": {
-			"localBasePath": "htmlform",
-			"remoteExtPath": "ApiFeatureUsage/htmlform",
-			"scripts": "ext.apifeatureusage.htmlform.js"
 		}
 	},
 	"ResourceFileModulePaths": {

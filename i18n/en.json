@@ -10,8 +10,8 @@
 	"apifeatureusage-legend": "API feature usage",
 	"apifeatureusage-text": "",
 	"apifeatureusage-agent-label": "User agent:",
-	"apifeatureusage-dates-label": "Date range:",
-	"apifeatureusage-dates-layout": "$1 – $2",
+	"apifeatureusage-startdate-label": "Start date:",
+	"apifeatureusage-enddate-label": "End date:",
 	"apifeatureusage-submit": "Fetch data",
 	"apifeatureusage-no-indexes": "No data is available for the specified date range.",
 	"apifeatureusage-missing-indexes": "No data is available for part of the specified date range.",
@@ -24,20 +24,5 @@
 	"apihelp-query+featureusage-param-end": "End of date range to query.",
 	"apihelp-query+featureusage-param-agent": "User agent to query. If not specified, the agent in the request will be queried.",
 	"apihelp-query+featureusage-param-features": "If specified, return details on only these features.",
-	"apihelp-query+featureusage-example-simple": "Query feature usage for the current user agent",
-
-	"apifeatureusage-htmlform-date-placeholder": "YYYY-MM-DD",
-	"apifeatureusage-htmlform-date-invalid": "The value you specified is not a recognized date. Try using YYYY-MM-DD format.",
-	"apifeatureusage-htmlform-date-toolow": "The value you specified is before the earliest allowed date of $1.",
-	"apifeatureusage-htmlform-date-toohigh": "The value you specified is after the latest allowed date of $1.",
-	"apifeatureusage-htmlform-daterange-relative-layout": "Start on $1 and run for $2 days",
-	"apifeatureusage-htmlform-daterange-absolute-layout": "Start on $1 and end on $2",
-	"apifeatureusage-htmlform-daterange-days-badoption": "The value you specified for the number of days to run is not a valid option.",
-	"apifeatureusage-htmlform-daterange-days-invalid": "The value you specified for the number of days to run is not an integer.",
-	"apifeatureusage-htmlform-daterange-days-toolow": "The value you specified for the number of days to run is below the minimum of {{PLURAL:$1|$1}}.",
-	"apifeatureusage-htmlform-daterange-days-toohigh": "The value you specified for the number of days to run is above the maximum of {{PLURAL:$1|$1}}.",
-	"apifeatureusage-htmlform-daterange-end-before-start": "The end date given is before the start date.",
-	"apifeatureusage-htmlform-daterange-end-equals-start": "The end date given is the same as the start date.",
-	"apifeatureusage-htmlform-daterange-error-partial": "Both date fields must be filled or left empty.",
-	"apifeatureusage-htmlform-radiorange-missing-message": "Please specify a value for column $1"
+	"apihelp-query+featureusage-example-simple": "Query feature usage for the current user agent"
 }
