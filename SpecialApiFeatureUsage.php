@@ -10,23 +10,13 @@ class SpecialApiFeatureUsage extends SpecialPage {
 		$this->setHeaders();
 		$this->checkPermissions();
 
-		/** @todo These should be migrated to core, once the jquery.ui
-		 * objectors write their own date picker. */
-		if ( !isset( HTMLForm::$typeMappings['date'] ) ||
-			!isset( HTMLForm::$typeMappings['daterange'] )
-		) {
-			HTMLForm::$typeMappings['date'] = 'ApiFeatureUsage_HTMLDateField';
-			HTMLForm::$typeMappings['daterange'] = 'ApiFeatureUsage_HTMLDateRangeField';
-			$this->getOutput()->addModules( 'ext.apifeatureusage.htmlform' );
-		}
-
 		$request = $this->getRequest();
 
 		$conf = ConfigFactory::getDefaultInstance()->makeConfig( 'ApiFeatureUsage' );
 		$this->engine = ApiFeatureUsageQueryEngine::getEngine( $conf );
 		list( $start, $end ) = $this->engine->suggestDateRange();
 
-		$form = new HTMLForm( [
+		$form = HTMLForm::factory( 'ooui', [
 			'agent' => [
 				'type' => 'text',
 				'default' => '',
@@ -34,17 +24,17 @@ class SpecialApiFeatureUsage extends SpecialPage {
 				'required' => true,
 			],
 
-			'dates' => [
-				'type' => 'daterange',
-				'label-message' => 'apifeatureusage-dates-label',
-				'layout-message' => 'apifeatureusage-dates-layout',
-				'absolute' => true,
+			'startdate' => [
+				'type' => 'date',
+				'label-message' => 'apifeatureusage-startdate-label',
 				'required' => true,
-				'allow-sameday' => true,
-				'default' => [
-					$start->format( 'Y-m-d' ),
-					$end->format( 'Y-m-d' ),
-				],
+				'default' => $start->format( 'Y-m-d' ),
+			],
+			'enddate' => [
+				'type' => 'date',
+				'label-message' => 'apifeatureusage-enddate-label',
+				'required' => true,
+				'default' => $end->format( 'Y-m-d' ),
 			],
 		], $this->getContext() );
 		$form->setMethod( 'get' );
@@ -54,7 +44,9 @@ class SpecialApiFeatureUsage extends SpecialPage {
 		$form->setSubmitTextMsg( 'apifeatureusage-submit' );
 
 		$form->prepareForm();
-		if ( $request->getCheck( 'wpagent' ) || $request->getCheck( 'wpdates' ) ) {
+		if ( $request->getCheck( 'wpagent' ) || $request->getCheck( 'wpstartdate' ) ||
+			$request->getCheck( 'wpenddate' )
+		) {
 			$status = $form->trySubmit();
 		} else {
 			$status = false;
@@ -121,8 +113,8 @@ class SpecialApiFeatureUsage extends SpecialPage {
 
 	public function onSubmit( $data, $form ) {
 		$agent = $data['agent'];
-		$start = new MWTimestamp( $data['dates'][0] . 'T00:00:00Z' );
-		$end = new MWTimestamp( $data['dates'][1] . 'T23:59:59Z' );
+		$start = new MWTimestamp( $data['startdate'] . 'T00:00:00Z' );
+		$end = new MWTimestamp( $data['enddate'] . 'T23:59:59Z' );
 
 		return $this->engine->execute( $agent, $start, $end );
 	}
