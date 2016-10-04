@@ -1,16 +1,14 @@
 {
 	"@metadata": {
 		"authors": [
-			"عثمان خان شاہ"
+			"عثمان خان شاہ",
+			"Muhammad Shuaib"
 		]
 	},
+	"apifeatureusage": "اے پی آئی کی خصوصیات کا استعمال",
 	"apifeatureusage-agent-label": "صارف کا ایجنٹ",
-	"apifeatureusage-dates-label": "تاریخ کی حد:",
 	"apifeatureusage-warnings": "انتباہ:$1",
 	"apifeatureusage-column-feature": "خصوصیت",
 	"apifeatureusage-column-date": "تاریخ",
-	"apifeatureusage-column-uses": "استعمال کرتا ہے",
-	"apifeatureusage-htmlform-date-placeholder": "سال-مہینہ-دن",
-	"apifeatureusage-htmlform-daterange-relative-layout": "$1 سے شروع ہوگا اور $2 دنوں کے لئے جاری رہے گا",
-	"apifeatureusage-htmlform-daterange-error-partial": "دونوں تاریخی شعبے یا تو پُر کریں یا خالی ہونے چاہئے"
+	"apifeatureusage-column-uses": "استعمال کرتا ہے"
 }

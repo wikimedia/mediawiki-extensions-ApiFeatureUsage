@@ -7,10 +7,10 @@
 	"apifeatureusage": "এপিআই বৈশিষ্ট্য ব্যবহার",
 	"apifeatureusage-legend": "এপিআই বৈশিষ্ট্য ব্যবহার",
 	"apifeatureusage-agent-label": "ব্যবহারকারী এজেন্ট:",
-	"apifeatureusage-dates-label": "তারিখের পরিসীমা:",
+	"apifeatureusage-startdate-label": "শুরুর তারিখ:",
+	"apifeatureusage-enddate-label": "শেষের তারিখ:",
 	"apifeatureusage-submit": "উপাত্ত আনুন",
 	"apifeatureusage-warnings": "সতর্কীকরণ: $1",
 	"apifeatureusage-column-date": "তারিখ",
-	"apifeatureusage-column-uses": "ব্যবহার",
-	"apifeatureusage-htmlform-date-placeholder": "বববব-মম-দদ"
+	"apifeatureusage-column-uses": "ব্যবহার"
 }
