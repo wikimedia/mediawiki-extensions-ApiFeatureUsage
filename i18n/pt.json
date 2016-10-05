@@ -5,8 +5,8 @@
 			"Vitorvicentevalente"
 		]
 	},
+	"apifeatureusage-startdate-label": "Data de início:",
+	"apifeatureusage-enddate-label": "Data de término:",
 	"apifeatureusage-warnings": "Aviso: $1",
-	"apifeatureusage-column-date": "Data",
-	"apifeatureusage-htmlform-date-placeholder": "AAAA-MM-DD",
-	"apifeatureusage-htmlform-date-invalid": "O valor que especificou não é uma data reconhecida. Tente usar o formato AAAA-MM-DD."
+	"apifeatureusage-column-date": "Data"
 }

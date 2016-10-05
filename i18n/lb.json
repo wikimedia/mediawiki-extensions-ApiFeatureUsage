@@ -4,15 +4,10 @@
 			"Robby"
 		]
 	},
-	"apifeatureusage-dates-label": "Datumsberäich:",
+	"apifeatureusage-startdate-label": "Ufanksdatum",
+	"apifeatureusage-enddate-label": "Schlussdatum",
 	"apifeatureusage-warnings": "Opgepasst: $1",
 	"apifeatureusage-column-feature": "Funktioun",
 	"apifeatureusage-column-date": "Datum",
-	"apifeatureusage-column-uses": "Benotzt",
-	"apifeatureusage-htmlform-date-placeholder": "JJJJ-MM-DD",
-	"apifeatureusage-htmlform-date-invalid": "De Wäert deen Dir aginn hutt gouf net als Datum erkannt. Probéiert de Format JJJJ-MM-DD ze benotzen.",
-	"apifeatureusage-htmlform-daterange-end-before-start": "Den Enddatum deen Dir uginn hutt ass viru Startdatum.",
-	"apifeatureusage-htmlform-daterange-end-equals-start": "Den Enddatum deen Dir uginn hutt ass deeselwechte wéi de Startdatum.",
-	"apifeatureusage-htmlform-daterange-error-partial": "Déi zwee Datefelder mussen ausgefëllt sinn oder eidel bleiwen.",
-	"apifeatureusage-htmlform-radiorange-missing-message": "Gitt w.e.g. de Wäert fir d'Kolonn $1 un"
+	"apifeatureusage-column-uses": "Benotzt"
 }
