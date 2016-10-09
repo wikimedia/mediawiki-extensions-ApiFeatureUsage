@@ -2,11 +2,28 @@
 	"@metadata": {
 		"authors": [
 			"Imperadeiro90",
-			"Vitorvicentevalente"
+			"Vitorvicentevalente",
+			"Hamilton Abreu"
 		]
 	},
+	"apifeatureusage": "Uso de funcionalidades da API",
+	"apifeatureusage-desc": "Obter um resumo dos usos registados de funcionalidades da API para um agente do utilizador.",
+	"apifeatureusage-elasticsearch-error": "Erro da Elasticsearch: $1",
+	"apifeatureusage-legend": "Uso de funcionalidades da API",
+	"apifeatureusage-agent-label": "Agente do utilizador:",
 	"apifeatureusage-startdate-label": "Data de início:",
-	"apifeatureusage-enddate-label": "Data de término:",
+	"apifeatureusage-enddate-label": "Data de fim:",
+	"apifeatureusage-submit": "Obter dados",
+	"apifeatureusage-no-indexes": "Não existem dados disponíveis para o período especificado.",
+	"apifeatureusage-missing-indexes": "Não existem dados disponíveis para uma parte do período especificado.",
 	"apifeatureusage-warnings": "Aviso: $1",
-	"apifeatureusage-column-date": "Data"
+	"apifeatureusage-column-feature": "Funcionalidade",
+	"apifeatureusage-column-date": "Data",
+	"apifeatureusage-column-uses": "Usos",
+	"apihelp-query+featureusage-description": "Obter um resumo dos usos registados de funcionalidades da API para um agente do utilizador.",
+	"apihelp-query+featureusage-param-start": "Data de início do período da consulta.",
+	"apihelp-query+featureusage-param-end": "Data de fim do período da consulta.",
+	"apihelp-query+featureusage-param-agent": "Agente do utilizador para a consulta. Se não for especificado, será consultado o agente do pedido.",
+	"apihelp-query+featureusage-param-features": "Se especificadas, devolver detalhes apenas sobre estas funcionalidades.",
+	"apihelp-query+featureusage-example-simple": "Consultar o uso de funcionalidades para o agente do utilizador atual"
 }
