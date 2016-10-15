@@ -1,13 +1,19 @@
 {
 	"@metadata": {
 		"authors": [
-			"Chrumps"
+			"Chrumps",
+			"Woytecr"
 		]
 	},
 	"apifeatureusage": "Użycie funkcji API",
+	"apifeatureusage-desc": "Tworzy podsumowanie zarejestrowanego użycia funkcji API dla agenta użytkownika.",
+	"apifeatureusage-elasticsearch-error": "Błąd Elasticsearch: $1",
 	"apifeatureusage-legend": "Użycie funkcji API",
+	"apifeatureusage-agent-label": "Aplikacja klienta:",
 	"apifeatureusage-startdate-label": "Data rozpoczęcia:",
 	"apifeatureusage-enddate-label": "Data zakończenia:",
+	"apifeatureusage-submit": "Pobierz dane",
+	"apifeatureusage-no-indexes": "Brak danych dla określonego zakresu dat.",
 	"apifeatureusage-warnings": "Ostrzeżenie: $1",
 	"apifeatureusage-column-date": "Data"
 }
