@@ -12,7 +12,7 @@
 	"apifeatureusage-legend": "Uso de funcionalidades da API",
 	"apifeatureusage-agent-label": "Agente do utilizador:",
 	"apifeatureusage-startdate-label": "Data de início:",
-	"apifeatureusage-enddate-label": "Data de término:",
+	"apifeatureusage-enddate-label": "Data de fim:",
 	"apifeatureusage-submit": "Obter dados",
 	"apifeatureusage-no-indexes": "Não existem dados disponíveis para o período especificado.",
 	"apifeatureusage-missing-indexes": "Não existem dados disponíveis para uma parte do período especificado.",
