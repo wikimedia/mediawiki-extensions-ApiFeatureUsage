@@ -1,0 +1,27 @@
+{
+	"@metadata": {
+		"authors": [
+			"Incelemeelemani"
+		]
+	},
+	"apifeatureusage": "API özelliği kullanımı",
+	"apifeatureusage-desc": "Kullanıcıların API özelliği kullanımı için özet günlük alın.",
+	"apifeatureusage-elasticsearch-error": "Elasticsearch hatası: $1",
+	"apifeatureusage-legend": "API özelliği kullanımı",
+	"apifeatureusage-agent-label": "Kullanıcı ajanı:",
+	"apifeatureusage-startdate-label": "Başlangıç tarihi:",
+	"apifeatureusage-enddate-label": "Bitiş tarihi:",
+	"apifeatureusage-submit": "Veriyi getir",
+	"apifeatureusage-no-indexes": "Belirtilen tarih aralığında hiçbir veri bulunmuyor.",
+	"apifeatureusage-missing-indexes": "Belirtilen tarih aralığının bir bölümü için hiçbir veri bulunmuyor.",
+	"apifeatureusage-warnings": "Uyarı: $1",
+	"apifeatureusage-column-feature": "Özellik",
+	"apifeatureusage-column-date": "Tarih",
+	"apifeatureusage-column-uses": "Kullanımlar",
+	"apihelp-query+featureusage-description": "Kullanıcıların API özelliği kullanımı için özet günlük alın.",
+	"apihelp-query+featureusage-param-start": "Sorgudaki tarih aralığı başlangıcı.",
+	"apihelp-query+featureusage-param-end": "Sorgudaki tarih aralığı bitişi.",
+	"apihelp-query+featureusage-param-agent": "Kullanıcı ajanı sorgusu. Belirtilmediğinde istenen ajan sorgulanacaktır.",
+	"apihelp-query+featureusage-param-features": "Belirtilmemişse, sadece bu özellik hakkında ayrıntılı bilgiler gösterilir.",
+	"apihelp-query+featureusage-example-simple": "Geçerli kullanıcı ajanı için sorgu özelliği kullanımı"
+}
