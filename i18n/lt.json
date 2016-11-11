@@ -7,7 +7,8 @@
 	},
 	"apifeatureusage": "API funkcijos naudojimas",
 	"apifeatureusage-legend": "API funkcijos naudojimas",
-	"apifeatureusage-dates-label": "Datos intervalas:",
+	"apifeatureusage-startdate-label": "Pradžios data:",
+	"apifeatureusage-enddate-label": "Pabaigos data:",
 	"apifeatureusage-submit": "Gauti duomenys",
 	"apifeatureusage-no-indexes": "Duomenų nėra nurodytoje duomenų sekoje.",
 	"apifeatureusage-missing-indexes": "Duomenų nėra nurodytoje duomenų sekos dalyje.",
@@ -15,7 +16,5 @@
 	"apifeatureusage-column-feature": "Funkcija",
 	"apifeatureusage-column-date": "Data",
 	"apifeatureusage-column-uses": "Panaudojimai",
-	"apifeatureusage-htmlform-date-placeholder": "YYYY-MM-DD",
-	"apifeatureusage-htmlform-daterange-relative-layout": "Pradėti $1 ir leisti $2 dienas",
-	"apifeatureusage-htmlform-daterange-absolute-layout": "Pradėti $1 ir baigti $2"
+	"apihelp-query+featureusage-param-features": "Jei nurodyta, gražina informaciją tik pie šias funkcijas."
 }
