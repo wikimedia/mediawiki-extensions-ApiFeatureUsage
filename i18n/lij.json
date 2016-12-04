@@ -4,5 +4,24 @@
 			"Giromin Cangiaxo"
 		]
 	},
-	"apifeatureusage": "Utilizzo de fonçionalitæ API"
+	"apifeatureusage": "Utilizzo de fonçionalitæ API",
+	"apifeatureusage-desc": "Otegni 'n riepillogo de l'uso de fonçionalitæ API registræ pe 'n agente utente.",
+	"apifeatureusage-elasticsearch-error": "Errô Elasticsearch: $1",
+	"apifeatureusage-legend": "Utilizzo de fonçionalitæ API",
+	"apifeatureusage-agent-label": "Agente utente:",
+	"apifeatureusage-startdate-label": "Dæta de començo:",
+	"apifeatureusage-enddate-label": "Dæta de fin:",
+	"apifeatureusage-submit": "Recuppera dæti",
+	"apifeatureusage-no-indexes": "Dæti disponibili no ghe n'è pe l'intervallo de dæte speçificou.",
+	"apifeatureusage-missing-indexes": "Nisciun dæto l'è disponibile pe 'na parte de l'intervallo de dæte speçificou.",
+	"apifeatureusage-warnings": "Attençion: $1",
+	"apifeatureusage-column-feature": "Caratteristega",
+	"apifeatureusage-column-date": "Dæta",
+	"apifeatureusage-column-uses": "Uxi",
+	"apihelp-query+featureusage-description": "Otegni 'n riepillogo de l'uso de fonçionalitæ API registræ pe 'n agente utente.",
+	"apihelp-query+featureusage-param-start": "Partença de l'intervallo de dæte da interrogâ.",
+	"apihelp-query+featureusage-param-end": "Fin de l'intervallo de dæte da interrogâ.",
+	"apihelp-query+featureusage-param-agent": "Agente utente da interrogâ. Se no speçificou, saiâ interrogou l'agente de questa recesta.",
+	"apihelp-query+featureusage-param-features": "Se specificou, o restituisce i dettalli solo insce queste fonçionalitæ.",
+	"apihelp-query+featureusage-example-simple": "Interroga l'uso de fonçionalitæ pe l'agente utente attuale"
 }
