@@ -13,7 +13,11 @@ class ApiQueryFeatureUsage extends ApiQueryBase {
 			: $params['agent'];
 		if ( empty( $agent ) ) {
 			$encParamName = $this->encodeParamName( 'agent' );
-			$this->dieUsage( 'Cannot query an empty user agent', "bad_$encParamName" );
+			if ( is_callable( [ $this, 'dieWithError' ] ) ) {
+				$this->dieWithError( 'apierror-apifeatureusage-emptyagent', "bad_$encParamName" );
+			} else {
+				$this->dieUsage( 'Cannot query an empty user agent', "bad_$encParamName" );
+			}
 		}
 
 		$conf = ConfigFactory::getDefaultInstance()->makeConfig( 'ApiFeatureUsage' );
@@ -36,12 +40,16 @@ class ApiQueryFeatureUsage extends ApiQueryBase {
 			$this->dieStatus( $status );
 		}
 
-		foreach ( $status->getWarningsArray() as $warning ) {
-			if ( !$warning instanceof Message ) {
-				$key = array_shift( $warning );
-				$warning = $this->msg( $key, $warning );
+		if ( is_callable( [ $this, 'addMessagesFromStatus' ] ) ) {
+			$this->addMessagesFromStatus( $status );
+		} else {
+			foreach ( $status->getWarningsArray() as $warning ) {
+				if ( !$warning instanceof Message ) {
+					$key = array_shift( $warning );
+					$warning = $this->msg( $key, $warning );
+				}
+				$this->setWarning( $warning->inLanguage( 'en' )->useDatabase( false )->plain() );
 			}
-			$this->setWarning( $warning->inLanguage( 'en' )->useDatabase( false )->plain() );
 		}
 
 		$r = [
