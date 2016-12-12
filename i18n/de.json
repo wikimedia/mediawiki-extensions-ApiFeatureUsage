@@ -24,5 +24,6 @@
 	"apihelp-query+featureusage-param-end": "Ende des Datumsbereichs für die Anfrage.",
 	"apihelp-query+featureusage-param-agent": "Anzufragender Benutzeragent. Falls nicht angegeben, wird der Agent in der Anfrage abgefragt.",
 	"apihelp-query+featureusage-param-features": "Falls angegeben, gibt Einzelheiten nur zu diesen Funktionen zurück.",
-	"apihelp-query+featureusage-example-simple": "Funktionsverwendung für den aktuellen Benutzeragenten abfragen"
+	"apihelp-query+featureusage-example-simple": "Funktionsverwendung für den aktuellen Benutzeragenten abfragen",
+	"apierror-apifeatureusage-emptyagent": "Es kann kein leerer Benutzeragent abgefragt werden."
 }

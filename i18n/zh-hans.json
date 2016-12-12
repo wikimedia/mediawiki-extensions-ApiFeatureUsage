@@ -24,5 +24,6 @@
 	"apihelp-query+featureusage-param-end": "查询的结束日期范围。",
 	"apihelp-query+featureusage-param-agent": "要查询的用户代理。如果不指定，将查询本请求所使用的用户代理。",
 	"apihelp-query+featureusage-param-features": "如果指定，只返回这些功能的详细信息。",
-	"apihelp-query+featureusage-example-simple": "查询当前用户代理所进行的功能使用的记录"
+	"apihelp-query+featureusage-example-simple": "查询当前用户代理所进行的功能使用的记录",
+	"apierror-apifeatureusage-emptyagent": "不能查询空用户代理。"
 }

@@ -24,5 +24,6 @@
 	"apihelp-query+featureusage-param-end": "Кінець діапазону дат для запиту.",
 	"apihelp-query+featureusage-param-agent": "Агент користувача до запиту. Якщо не вказано, буде здійснено запит на виведення інформації щодо агента.",
 	"apihelp-query+featureusage-param-features": "Якщо вказано, вивести деталі лише про ці функції.",
-	"apihelp-query+featureusage-example-simple": "Запит про використання функцій поточним агентом користувача."
+	"apihelp-query+featureusage-example-simple": "Запит про використання функцій поточним агентом користувача.",
+	"apierror-apifeatureusage-emptyagent": "Неможливо надіслати запит щодо порожнього агента користувача."
 }

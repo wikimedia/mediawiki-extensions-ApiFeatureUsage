@@ -1,0 +1,8 @@
+{
+	"@metadata": {
+		"authors": [
+			"Kingu"
+		]
+	},
+	"apierror-apifeatureusage-emptyagent": "Kan ikke utføre spørring for en tom brukeragent."
+}

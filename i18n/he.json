@@ -23,5 +23,6 @@
 	"apihelp-query+featureusage-param-end": "סוף טווח התאריכים לשאילתה.",
 	"apihelp-query+featureusage-param-agent": "סוכן לקוח שעליו צריך לקבל מידע. אם לא צוין, ייבדר הסוכן מהבקשה.",
 	"apihelp-query+featureusage-param-features": "אם צוין, להחזיר רק מידע על האפשרויות האלה.",
-	"apihelp-query+featureusage-example-simple": "שאילתה על שימוש באפשרות עבור סוכן הלקוח הנוכחי"
+	"apihelp-query+featureusage-example-simple": "שאילתה על שימוש באפשרות עבור סוכן הלקוח הנוכחי",
+	"apierror-apifeatureusage-emptyagent": "אי־אפשר לשלוח שאילתה לסוכן לקוח ריק."
 }
