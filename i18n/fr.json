@@ -4,7 +4,8 @@
 			"0x010C",
 			"Benjozork",
 			"Nicolapps",
-			"Gomoko"
+			"Gomoko",
+			"Wladek92"
 		]
 	},
 	"apifeatureusage": "Utilisation de la fonctionnalité de l'API",
@@ -26,5 +27,6 @@
 	"apihelp-query+featureusage-param-end": "Fin de la plage de date pour la requête.",
 	"apihelp-query+featureusage-param-agent": "Agent utilisateur à interroger. S’il n’est pas spécifié, l’agent dans la requête sera interrogé.",
 	"apihelp-query+featureusage-param-features": "Si spécifié, renvoyer des détails uniquement sur ces fonctionnalités.",
-	"apihelp-query+featureusage-example-simple": "Requête d’utilisation de fonctionnalité pour l’agent utilisateur actuel"
+	"apihelp-query+featureusage-example-simple": "Requête d’utilisation de fonctionnalité pour l’agent utilisateur actuel",
+	"apierror-apifeatureusage-emptyagent": "Il n'est pas possible d'interroger un agent utilisateur vide."
 }
