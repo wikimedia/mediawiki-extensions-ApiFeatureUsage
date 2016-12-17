@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"Incelemeelemani"
+			"Incelemeelemani",
+			"1917 Ekim Devrimi"
 		]
 	},
 	"apifeatureusage": "API özelliği kullanımı",
@@ -23,5 +24,6 @@
 	"apihelp-query+featureusage-param-end": "Sorgudaki tarih aralığı bitişi.",
 	"apihelp-query+featureusage-param-agent": "Kullanıcı ajanı sorgusu. Belirtilmediğinde istenen ajan sorgulanacaktır.",
 	"apihelp-query+featureusage-param-features": "Belirtilmemişse, sadece bu özellik hakkında ayrıntılı bilgiler gösterilir.",
-	"apihelp-query+featureusage-example-simple": "Geçerli kullanıcı ajanı için sorgu özelliği kullanımı"
+	"apihelp-query+featureusage-example-simple": "Geçerli kullanıcı ajanı için sorgu özelliği kullanımı",
+	"apierror-apifeatureusage-emptyagent": "Kullanıcı ajanı boş sorgulanamaz"
 }
