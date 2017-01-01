@@ -1,8 +1,29 @@
 {
 	"@metadata": {
 		"authors": [
-			"Kingu"
+			"Kingu",
+			"Jon Harald Søby"
 		]
 	},
+	"apifeatureusage": "API-funksjonsbruk",
+	"apifeatureusage-desc": "Hent et sammendrag over logget API-funksjonsbruk for en brukeragent.",
+	"apifeatureusage-elasticsearch-error": "Elasticsearch-feil: $1",
+	"apifeatureusage-legend": "API-funksjonsbruk",
+	"apifeatureusage-agent-label": "Brukeragent:",
+	"apifeatureusage-startdate-label": "Startdato:",
+	"apifeatureusage-enddate-label": "Sluttdato:",
+	"apifeatureusage-submit": "Hent data",
+	"apifeatureusage-no-indexes": "Ingen data er tilgjengelige for den gitte tidsperioden.",
+	"apifeatureusage-missing-indexes": "Ingen data er tilgjengelige for deler av den gitte tidsperioden.",
+	"apifeatureusage-warnings": "Advarsel: $1",
+	"apifeatureusage-column-feature": "Funksjon",
+	"apifeatureusage-column-date": "Dato",
+	"apifeatureusage-column-uses": "Antall bruk",
+	"apihelp-query+featureusage-description": "Få et sammendrag av logget API-funksjonsbruk for en brukeragent.",
+	"apihelp-query+featureusage-param-start": "Begynnelsen av datoområdet som det skal spørres mot.",
+	"apihelp-query+featureusage-param-end": "Slutten av datoområdet som det skal spørres mot.",
+	"apihelp-query+featureusage-param-agent": "Brukeragent det skal spørres mot. Om den ikke er angitt vil agenten i forespørselen spørres mot.",
+	"apihelp-query+featureusage-param-features": "Om angitt vil kun detaljer om disse funksjonene returneres.",
+	"apihelp-query+featureusage-example-simple": "Spør om funksjonsbruk for den nåværende brukeragenten",
 	"apierror-apifeatureusage-emptyagent": "Kan ikke utføre spørring for en tom brukeragent."
 }
