@@ -30,5 +30,6 @@
 	"apihelp-query+featureusage-param-agent": "{{doc-apihelp-param|query+featureusage|agent|info=See definition of [[w:User agent|user agent]] on Wikipedia.}}",
 	"apihelp-query+featureusage-param-features": "{{doc-apihelp-param|query+featureusage|features}}",
 	"apihelp-query+featureusage-example-simple": "{{doc-apihelp-example|query+featureusage|info=See definition of [[w:User agent|user agent]] on Wikipedia.}}",
-	"apierror-apifeatureusage-emptyagent": "{{doc-apierror}}"
+	"apierror-apifeatureusage-emptyagent": "{{doc-apierror}}",
+	"apifeatureusage-deprecation-help": "{{doc-apierror}}"
 }

@@ -34,7 +34,8 @@
 		"ApiQueryFeatureUsage": "ApiQueryFeatureUsage.php",
 		"ApiFeatureUsageQueryEngine": "ApiFeatureUsageQueryEngine.php",
 		"ApiFeatureUsageQueryEngineElastica": "ApiFeatureUsageQueryEngineElastica.php",
-		"ApiFeatureUsageQueryEngineElasticaConnection": "ApiFeatureUsageQueryEngineElastica.php"
+		"ApiFeatureUsageQueryEngineElasticaConnection": "ApiFeatureUsageQueryEngineElastica.php",
+		"ApiFeatureUsageHooks": "ApiFeatureUsage.hooks.php"
 	},
 	"ResourceModules": {
 		"ext.apifeatureusage": {
@@ -45,6 +46,9 @@
 	"ResourceFileModulePaths": {
 		"localBasePath": "modules",
 		"remoteExtPath": "ApiFeatureUsage/modules"
+	},
+	"Hooks": {
+		"ApiDeprecationHelp": "ApiFeatureUsageHooks::onApiDeprecationHelp"
 	},
 	"config": {
 		"ApiFeatureUsageQueryEngineConf": []
