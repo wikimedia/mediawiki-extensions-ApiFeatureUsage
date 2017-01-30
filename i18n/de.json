@@ -25,5 +25,6 @@
 	"apihelp-query+featureusage-param-agent": "Anzufragender Benutzeragent. Falls nicht angegeben, wird der Agent in der Anfrage abgefragt.",
 	"apihelp-query+featureusage-param-features": "Falls angegeben, gibt Einzelheiten nur zu diesen Funktionen zurück.",
 	"apihelp-query+featureusage-example-simple": "Funktionsverwendung für den aktuellen Benutzeragenten abfragen",
-	"apierror-apifeatureusage-emptyagent": "Es kann kein leerer Benutzeragent abgefragt werden."
+	"apierror-apifeatureusage-emptyagent": "Es kann kein leerer Benutzeragent abgefragt werden.",
+	"apifeatureusage-deprecation-help": "Verwende [[Special:ApiFeatureUsage]], um die Nutzung veralteter Funktionen deiner Anwendung anzusehen."
 }
