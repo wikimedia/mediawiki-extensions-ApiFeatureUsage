@@ -15,5 +15,6 @@
 	"apifeatureusage-column-date": "Datum",
 	"apifeatureusage-column-uses": "Använder",
 	"apihelp-query+featureusage-param-start": "Startdatum för intervallet att begära.",
-	"apihelp-query+featureusage-param-end": "Slutdatum för intervallet att begära."
+	"apihelp-query+featureusage-param-end": "Slutdatum för intervallet att begära.",
+	"apifeatureusage-deprecation-help": "Använd [[Special:ApiFeatureUsage]] för att se hur din applikation använder föråldrade funktioner."
 }

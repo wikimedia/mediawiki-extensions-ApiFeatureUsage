@@ -24,5 +24,6 @@
 	"apihelp-query+featureusage-param-agent": "Корисничкиот вршител што ќе се бара. Ако не е укажано, ќе се побара вршителот во барањето.",
 	"apihelp-query+featureusage-param-features": "Ако е укажано, дава податоци само за овие функции.",
 	"apihelp-query+featureusage-example-simple": "Барање на употребата на функциите за тековниот кориснички вршител",
-	"apierror-apifeatureusage-emptyagent": "Не можам да барам празен кориснички вршител."
+	"apierror-apifeatureusage-emptyagent": "Не можам да барам празен кориснички вршител.",
+	"apifeatureusage-deprecation-help": "Користете „[[Special:ApiFeatureUsage|Употреба на функции на извршникот]]“ за преглед на употребата на застарени функции на вашиот прилог."
 }
