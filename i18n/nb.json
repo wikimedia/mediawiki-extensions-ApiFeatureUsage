@@ -25,5 +25,6 @@
 	"apihelp-query+featureusage-param-agent": "Brukeragent det skal spørres mot. Om den ikke er angitt vil agenten i forespørselen spørres mot.",
 	"apihelp-query+featureusage-param-features": "Om angitt vil kun detaljer om disse funksjonene returneres.",
 	"apihelp-query+featureusage-example-simple": "Spør om funksjonsbruk for den nåværende brukeragenten",
-	"apierror-apifeatureusage-emptyagent": "Kan ikke utføre spørring for en tom brukeragent."
+	"apierror-apifeatureusage-emptyagent": "Kan ikke utføre spørring for en tom brukeragent.",
+	"apifeatureusage-deprecation-help": "Bruk [[Special:ApiFeatureUsage]] for å se bruk av foreldede funksjoner av din applikasjon."
 }
