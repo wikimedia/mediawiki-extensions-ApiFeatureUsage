@@ -5,8 +5,11 @@
 			"Sujiniku"
 		]
 	},
-	"apifeatureusage-dates-label": "日付範囲:",
+	"apifeatureusage-agent-label": "ユーザー エージェント:",
+	"apifeatureusage-startdate-label": "開始日:",
+	"apifeatureusage-enddate-label": "終了日:",
+	"apifeatureusage-submit": "データを取得",
 	"apifeatureusage-warnings": "警告: $1",
-	"apifeatureusage-column-date": "日付",
-	"apifeatureusage-htmlform-date-placeholder": "YYYY-MM-DD"
+	"apifeatureusage-column-feature": "機能",
+	"apifeatureusage-column-date": "日付"
 }
