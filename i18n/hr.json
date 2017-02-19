@@ -4,8 +4,15 @@
 			"MaGa"
 		]
 	},
+	"apifeatureusage": "Uporaba API mogućnosti",
+	"apifeatureusage-legend": "Uporaba API mogućnosti",
+	"apifeatureusage-startdate-label": "Početni datum:",
+	"apifeatureusage-enddate-label": "Krajnji datum:",
 	"apifeatureusage-submit": "Dohvati podatke",
 	"apifeatureusage-no-indexes": "Nema podataka za odabrano vremensko razdoblje.",
 	"apifeatureusage-missing-indexes": "Nema podataka za dio vremenskog razdoblja.",
-	"apifeatureusage-warnings": "Upozorenje: $1"
+	"apifeatureusage-warnings": "Upozorenje: $1",
+	"apifeatureusage-column-feature": "Mogućnost",
+	"apifeatureusage-column-date": "Datum",
+	"apifeatureusage-column-uses": "Uporaba"
 }
