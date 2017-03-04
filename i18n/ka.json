@@ -1,9 +1,11 @@
 {
 	"@metadata": {
 		"authors": [
-			"David1010"
+			"David1010",
+			"Otogi"
 		]
 	},
+	"apifeatureusage": "API-ის ფუნქციის გამოყენება",
 	"apifeatureusage-agent-label": "მომხმარებლის აგენტი:",
 	"apifeatureusage-warnings": "გაფრთხილება: $1",
 	"apifeatureusage-column-feature": "რჩეული",
