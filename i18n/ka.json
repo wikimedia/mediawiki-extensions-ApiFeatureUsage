@@ -7,6 +7,8 @@
 	},
 	"apifeatureusage": "API-ის ფუნქციის გამოყენება",
 	"apifeatureusage-agent-label": "მომხმარებლის აგენტი:",
+	"apifeatureusage-startdate-label": "დაწყების თარიღი:",
+	"apifeatureusage-enddate-label": "დასრულების თარიღი:",
 	"apifeatureusage-submit": "მონაცემების არჩევა",
 	"apifeatureusage-warnings": "გაფრთხილება: $1",
 	"apifeatureusage-column-feature": "რჩეული",
