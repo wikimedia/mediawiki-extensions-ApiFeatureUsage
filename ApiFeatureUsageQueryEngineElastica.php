@@ -32,7 +32,7 @@ class ApiFeatureUsageQueryEngineElastica extends ApiFeatureUsageQueryEngine {
 	protected function getClient() {
 		if ( !$this->client ) {
 			$connection = new ApiFeatureUsageQueryEngineElasticaConnection( $this->options );
-			$this->client = $connection->getClient2();
+			$this->client = $connection->getClient();
 		}
 		return $this->client;
 	}
@@ -84,9 +84,7 @@ class ApiFeatureUsageQueryEngineElastica extends ApiFeatureUsageQueryEngine {
 		$query->addAggregation( $termsAgg );
 
 		$search = new Elastica\Search( $this->getClient() );
-		$search->setOption(
-			Elastica\Search::OPTION_SEARCH_TYPE, Elastica\Search::OPTION_SEARCH_TYPE_COUNT
-		);
+		$search->setOption( Elastica\Search::OPTION_SIZE, 0 );
 
 		$allIndexes = $this->getIndexNames();
 		$indexes = [];
