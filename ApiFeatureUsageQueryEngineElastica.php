@@ -22,6 +22,7 @@ class ApiFeatureUsageQueryEngineElastica extends ApiFeatureUsageQueryEngine {
 			'indexFormat' => 'Y.m.d',
 			'type' => 'api-feature-usage-sanitized',
 			'featureField' => 'feature',
+			'featureFieldAggSize' => 10000,
 			'timestampField' => '@timestamp',
 			'agentField' => 'agent',
 		];
@@ -73,7 +74,7 @@ class ApiFeatureUsageQueryEngineElastica extends ApiFeatureUsageQueryEngine {
 
 		$termsAgg = new Elastica\Aggregation\Terms( 'feature' );
 		$termsAgg->setField( $this->options['featureField'] );
-		$termsAgg->setSize( 0 );
+		$termsAgg->setSize( $this->options['featureFieldAggSize'] );
 
 		$datesAgg = new Elastica\Aggregation\DateHistogram(
 			'date', $this->options['timestampField'], 'day'
