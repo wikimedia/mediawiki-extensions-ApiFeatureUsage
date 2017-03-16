@@ -39,7 +39,17 @@ class ApiFeatureUsageQueryEngineElastica extends ApiFeatureUsageQueryEngine {
 
 	protected function getIndexNames() {
 		if ( !$this->indexNames ) {
-			$this->indexNames = $this->getClient()->getCluster()->getIndexNames();
+			$response = $this->getClient()->request(
+				urlencode( $this->options['indexPrefix'] ) . '*/_aliases'
+			);
+			if ( $response->isOK() ) {
+				$this->indexNames = array_keys( $response->getData() );
+			} else {
+				throw new MWException( __METHOD__ .
+					': Cannot fetch index names from elasticsearch: ' .
+					$response->getError()
+				);
+			}
 		}
 		return $this->indexNames;
 	}
