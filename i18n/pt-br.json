@@ -2,7 +2,8 @@
 	"@metadata": {
 		"authors": [
 			"Araceletorres",
-			"!Silent"
+			"!Silent",
+			"Felipe L. Ewald"
 		]
 	},
 	"apifeatureusage": "Uso de recursos da API",
@@ -25,5 +26,6 @@
 	"apihelp-query+featureusage-param-agent": "Agente de usuário para consultar. Se não for especificado, o agente na solicitação será consultado.",
 	"apihelp-query+featureusage-param-features": "Se especificado, retorna detalhes apenas sobre esses recursos.",
 	"apihelp-query+featureusage-example-simple": "Uso de recurso de consulta para o agente de usuário atual",
-	"apierror-apifeatureusage-emptyagent": "Não é possível consultar um agente de usuário vazio."
+	"apierror-apifeatureusage-emptyagent": "Não é possível consultar um agente de usuário vazio.",
+	"apifeatureusage-deprecation-help": "Use [[Special:ApiFeatureUsage]] para ver o uso de recursos obsoletos pela sua aplicação."
 }
