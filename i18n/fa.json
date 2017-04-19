@@ -4,14 +4,13 @@
 			"Alirezaaa",
 			"Reza1615",
 			"Dalba",
-			"Mjbmr"
+			"Mjbmr",
+			"Huji"
 		]
 	},
-	"apifeatureusage": "کاربرد دسترسی API",
-	"apifeatureusage-legend": "کاربرد دسترسی API",
+	"apifeatureusage": "کاربرد ویژگی رابط برنامه‌نویسی",
+	"apifeatureusage-legend": "کاربرد ویژگی رابط برنامه‌نویسی",
 	"apifeatureusage-agent-label": "عامل کاربر:",
-	"apifeatureusage-dates-label": "بازهٔ تاریخ:",
-	"apifeatureusage-dates-layout": "$1–$2",
 	"apifeatureusage-submit": "واکشی داده‌ها",
 	"apifeatureusage-no-indexes": "داده‌ای برای بازهٔ تاریخی مشخص‌شده موجود نیست.",
 	"apifeatureusage-missing-indexes": "هیچ داده‌ای برای بخشی از بازهٔ تاریخی مشخص‌شده موجود نیست.",
@@ -19,11 +18,5 @@
 	"apifeatureusage-column-feature": "امکانات",
 	"apifeatureusage-column-date": "تاریخ",
 	"apifeatureusage-column-uses": "استفاده‌ها",
-	"apihelp-query+featureusage-param-features": "در صورت مشخص‌شدن، تنها جزئیات این ویژگی‌ها برگردانده شود.",
-	"apifeatureusage-htmlform-date-placeholder": "YYYY-MM-DD",
-	"apifeatureusage-htmlform-daterange-relative-layout": "آغاز در $1 و اجرا به مدت $2 روز",
-	"apifeatureusage-htmlform-daterange-absolute-layout": "آغاز در $1 و پایان در $2",
-	"apifeatureusage-htmlform-daterange-end-before-start": "تاریخ ارائه‌شدهٔ پایان پیش از تاریخ آغاز است.",
-	"apifeatureusage-htmlform-daterange-error-partial": "هردو فیلدهای تاریه باید پر شوند یا خالی بمانند.",
-	"apifeatureusage-htmlform-radiorange-missing-message": "لطفاً مقداری برای ستون $1 مشخص کنید"
+	"apihelp-query+featureusage-param-features": "در صورت مشخص‌شدن، تنها جزئیات این ویژگی‌ها برگردانده شود."
 }
