@@ -2,7 +2,8 @@
 	"@metadata": {
 		"authors": [
 			"संजीव कुमार",
-			"Hindustanilanguage"
+			"Hindustanilanguage",
+			"Sfic"
 		]
 	},
 	"apifeatureusage": "ए०पी०आई फ़ीचर प्रयोग",
@@ -10,7 +11,8 @@
 	"apifeatureusage-elasticsearch-error": "इलास्टिक-खोज त्रुटि: $1",
 	"apifeatureusage-legend": "ए०पी०आई फ़ीचर प्रयोग",
 	"apifeatureusage-agent-label": "सदस्य एजन्ट",
-	"apifeatureusage-dates-label": "तिथि सीमा:",
+	"apifeatureusage-startdate-label": "प्रारम्भ तिथि:",
+	"apifeatureusage-enddate-label": "समाप्ति तिथि:",
 	"apifeatureusage-submit": "डाटा प्राप्त करें",
 	"apifeatureusage-no-indexes": "निर्धारित तिथि सीमा में कोई डाटा नहीं है।",
 	"apifeatureusage-missing-indexes": "निर्धारित तिथि सीमा के भाग में कोई डाटा नहीं है।",
@@ -23,17 +25,5 @@
 	"apihelp-query+featureusage-param-end": "जाँच के लिए तिथि सीमा समाप्त।",
 	"apihelp-query+featureusage-param-agent": "पड़ताल के लिए सदस्य एजन्ट। यदि निर्धारित न हो, निवेदन में मौजूद एजन्ट से पड़ताल होगी।",
 	"apihelp-query+featureusage-param-features": "यदि निर्धारित हो, केवल उन फ़ीचरों की जानकारी लौटाइये।",
-	"apihelp-query+featureusage-example-simple": "मौजूदा सदस्य एजन्ट के लिए फ़ीचर प्रयोग की जाँच करें",
-	"apifeatureusage-htmlform-date-placeholder": "YYYY-MM-DD",
-	"apifeatureusage-htmlform-date-invalid": "आपके द्वारा निर्दिष्ट मान को दिनांक के रूप में नहीं पहचाना जा सकता। YYYY-MM-DD प्रारूप का उपयोग करने का प्रयास करें।",
-	"apifeatureusage-htmlform-date-toolow": "आपके द्वारा निर्धारित तिथि सबसे पहले अनुमति दी गई तिथि $1 से पूर्व है।",
-	"apifeatureusage-htmlform-date-toohigh": "आपके द्वारा निर्धारित मूल्य अंतिम अनुमति-प्राप्त तिथि $1 के पश्चात है।",
-	"apifeatureusage-htmlform-daterange-relative-layout": "$1 पर शुरू कीजिए और $2 दिनों तक चलाइये",
-	"apifeatureusage-htmlform-daterange-absolute-layout": "$1 पर शुरू करें और $2 पर समाप्त करें",
-	"apifeatureusage-htmlform-daterange-days-badoption": "काम जारी रखने के दिनों लिए आपने जो मूल्य निर्धारित किया है वह कोई वैध विकल्प नहीं है।",
-	"apifeatureusage-htmlform-daterange-days-invalid": "काम जारी रखने के दिनों लिए आपने जो मूल्य निर्धारित किया है वह कोई वैध पूर्णांक नहीं है।",
-	"apifeatureusage-htmlform-daterange-end-before-start": "दी गई समाप्त-तिथि प्रारंभ-तिथि से पूर्व है।",
-	"apifeatureusage-htmlform-daterange-end-equals-start": "दी गई समाप्त-तिथि प्रारंभ-तिथि जैसी ही है।",
-	"apifeatureusage-htmlform-daterange-error-partial": "दोनों तिथियों को भरना चाहिए या ख़ाली छोड़ना चाहिए।",
-	"apifeatureusage-htmlform-radiorange-missing-message": "कृपया कॉलम  $1 के लिए मूल्य निर्धारित करें"
+	"apihelp-query+featureusage-example-simple": "मौजूदा सदस्य एजन्ट के लिए फ़ीचर प्रयोग की जाँच करें"
 }
