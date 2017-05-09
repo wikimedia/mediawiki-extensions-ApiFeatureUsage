@@ -1,10 +1,11 @@
 {
 	"@metadata": {
 		"authors": [
-			"MaGa"
+			"MaGa",
+			"Bugoslav"
 		]
 	},
-	"apifeatureusage": "Uporaba API mogućnosti",
+	"apifeatureusage": "Uporaba mogućnosti API-ja",
 	"apifeatureusage-legend": "Uporaba API mogućnosti",
 	"apifeatureusage-startdate-label": "Početni datum:",
 	"apifeatureusage-enddate-label": "Krajnji datum:",
