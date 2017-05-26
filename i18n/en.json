@@ -20,6 +20,7 @@
 	"apifeatureusage-column-date": "Date",
 	"apifeatureusage-column-uses": "Uses",
 	"apihelp-query+featureusage-description": "Get a summary of logged API feature usages for a user agent.",
+	"apihelp-query+featureusage-summary": "Get a summary of logged API feature usages for a user agent.",
 	"apihelp-query+featureusage-param-start": "Start of date range to query.",
 	"apihelp-query+featureusage-param-end": "End of date range to query.",
 	"apihelp-query+featureusage-param-agent": "User agent to query. If not specified, the agent in the request will be queried.",
