@@ -26,5 +26,6 @@
 	"apihelp-query+featureusage-param-agent": "Agente do utilizador para a consulta. Se não for especificado, será consultado o agente do pedido.",
 	"apihelp-query+featureusage-param-features": "Se especificadas, devolver detalhes apenas sobre estas funcionalidades.",
 	"apihelp-query+featureusage-example-simple": "Consultar o uso de funcionalidades para o agente do utilizador atual",
-	"apierror-apifeatureusage-emptyagent": "Não é possível consultar um agente do utilizador vazio."
+	"apierror-apifeatureusage-emptyagent": "Não é possível consultar um agente do utilizador vazio.",
+	"apifeatureusage-deprecation-help": "Use [[Special:ApiFeatureUsage]] para ver as utilizações de funcionalidades obsoletas pela sua aplicação."
 }
