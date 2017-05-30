@@ -5,7 +5,8 @@
 			"Benjozork",
 			"Nicolapps",
 			"Gomoko",
-			"Wladek92"
+			"Wladek92",
+			"Urhixidur"
 		]
 	},
 	"apifeatureusage": "Utilisation de la fonctionnalité de l'API",
@@ -29,5 +30,5 @@
 	"apihelp-query+featureusage-param-features": "Si spécifié, renvoyer des détails uniquement sur ces fonctionnalités.",
 	"apihelp-query+featureusage-example-simple": "Requête d’utilisation de fonctionnalité pour l’agent utilisateur actuel",
 	"apierror-apifeatureusage-emptyagent": "Il n'est pas possible d'interroger un agent utilisateur vide.",
-	"apifeatureusage-deprecation-help": "Utiliser [[Special:ApiFeatureUsage]] pour voir l’utilisation des fonctionnalités obsolètes par votre application."
+	"apifeatureusage-deprecation-help": "Utiliser [[Special:ApiFeatureUsage]] pour voir l’utilisation des fonctionnalités désuètes par votre application."
 }
