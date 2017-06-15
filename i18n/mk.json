@@ -19,6 +19,7 @@
 	"apifeatureusage-column-date": "Датум",
 	"apifeatureusage-column-uses": "Користи",
 	"apihelp-query+featureusage-description": "Два преглед на заведени употреби на функциите на извршителот (API) од страна на даден кориснички вршител.",
+	"apihelp-query+featureusage-summary": "Дава преглед на заведени употреби на функции на извршникот (API) за даден кориснички вршител.",
 	"apihelp-query+featureusage-param-start": "Почеток на датумскиот опсег на барањето.",
 	"apihelp-query+featureusage-param-end": "Крај на датумскиот опсег на барањето.",
 	"apihelp-query+featureusage-param-agent": "Корисничкиот вршител што ќе се бара. Ако не е укажано, ќе се побара вршителот во барањето.",

@@ -20,6 +20,7 @@
 	"apifeatureusage-column-date": "Data",
 	"apifeatureusage-column-uses": "Usos",
 	"apihelp-query+featureusage-description": "Obtén un resumo dos usos rexistrados das funcións da API para un axente de usuario.",
+	"apihelp-query+featureusage-summary": "Obtén un resumo dos usos rexistrados das funcións da API para un axente de usuario.",
 	"apihelp-query+featureusage-param-start": "Comezo do intervalo de datas a consultar.",
 	"apihelp-query+featureusage-param-end": "Fin do intervalo de datas a consultar.",
 	"apihelp-query+featureusage-param-agent": "Axente de usuario a consultar. Se non se especifica consultarase o axente da solicitude.",
