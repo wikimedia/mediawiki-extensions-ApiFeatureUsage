@@ -20,6 +20,7 @@
 	"apifeatureusage-column-date": "Dato",
 	"apifeatureusage-column-uses": "Antall bruk",
 	"apihelp-query+featureusage-description": "Få et sammendrag av logget API-funksjonsbruk for en brukeragent.",
+	"apihelp-query+featureusage-summary": "Hent et sammendrag over logget API-funksjonsbruk for en brukeragent.",
 	"apihelp-query+featureusage-param-start": "Begynnelsen av datoområdet som det skal spørres mot.",
 	"apihelp-query+featureusage-param-end": "Slutten av datoområdet som det skal spørres mot.",
 	"apihelp-query+featureusage-param-agent": "Brukeragent det skal spørres mot. Om den ikke er angitt vil agenten i forespørselen spørres mot.",
