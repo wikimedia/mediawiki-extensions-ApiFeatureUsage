@@ -5,56 +5,55 @@
  * @file
  * @ingroup Extensions
  */
-// @codingStandardsIgnoreFile
 
-$specialPageAliases = array();
+$specialPageAliases = [];
 
 /** English (English) */
-$specialPageAliases['en'] = array(
-	'ApiFeatureUsage' => array( 'ApiFeatureUsage' ),
-);
+$specialPageAliases['en'] = [
+	'ApiFeatureUsage' => [ 'ApiFeatureUsage' ],
+];
 
 /** Arabic (العربية) */
-$specialPageAliases['ar'] = array(
-	'ApiFeatureUsage' => array( 'استخدام_خصائص_إيه_بي_آي' ),
-);
+$specialPageAliases['ar'] = [
+	'ApiFeatureUsage' => [ 'استخدام_خصائص_إيه_بي_آي' ],
+];
 
 /** Western Balochi (بلوچی رخشانی) */
-$specialPageAliases['bgn'] = array(
-	'ApiFeatureUsage' => array( 'ApiFeatureUsage' ),
-);
+$specialPageAliases['bgn'] = [
+	'ApiFeatureUsage' => [ 'ApiFeatureUsage' ],
+];
 
 /** German (Deutsch) */
-$specialPageAliases['de'] = array(
-	'ApiFeatureUsage' => array( 'API-Funktionsverwendung' ),
-);
+$specialPageAliases['de'] = [
+	'ApiFeatureUsage' => [ 'API-Funktionsverwendung' ],
+];
 
 /** Persian (فارسی) */
-$specialPageAliases['fa'] = array(
-	'ApiFeatureUsage' => array( 'کاربرد_دسترسی_API' ),
-);
+$specialPageAliases['fa'] = [
+	'ApiFeatureUsage' => [ 'کاربرد_دسترسی_API' ],
+];
 
 /** Northern Luri (لۊری شومالی) */
-$specialPageAliases['lrc'] = array(
-	'ApiFeatureUsage' => array( 'خو_ڤە_کار_گئرتئن_ئی_پی_آی' ),
-);
+$specialPageAliases['lrc'] = [
+	'ApiFeatureUsage' => [ 'خو_ڤە_کار_گئرتئن_ئی_پی_آی' ],
+];
 
 /** Macedonian (македонски) */
-$specialPageAliases['mk'] = array(
-	'ApiFeatureUsage' => array( 'УпотребаНаИзвршничкиФункции' ),
-);
+$specialPageAliases['mk'] = [
+	'ApiFeatureUsage' => [ 'УпотребаНаИзвршничкиФункции' ],
+];
 
 /** Dutch (Nederlands) */
-$specialPageAliases['nl'] = array(
-	'ApiFeatureUsage' => array( 'Apifunctiesgebruik' ),
-);
+$specialPageAliases['nl'] = [
+	'ApiFeatureUsage' => [ 'Apifunctiesgebruik' ],
+];
 
 /** Brazilian Portuguese (português do Brasil) */
-$specialPageAliases['pt-br'] = array(
-	'ApiFeatureUsage' => array( 'Uso_de_recurso_da_API' ),
-);
+$specialPageAliases['pt-br'] = [
+	'ApiFeatureUsage' => [ 'Uso_de_recurso_da_API' ],
+];
 
 /** Simplified Chinese (中文（简体）‎) */
-$specialPageAliases['zh-hans'] = array(
-	'ApiFeatureUsage' => array( 'Api功能使用率' ),
-);
+$specialPageAliases['zh-hans'] = [
+	'ApiFeatureUsage' => [ 'Api功能使用率' ],
+];
