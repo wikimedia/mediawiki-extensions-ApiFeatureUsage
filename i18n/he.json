@@ -19,6 +19,7 @@
 	"apifeatureusage-column-date": "תאריך",
 	"apifeatureusage-column-uses": "שימושים",
 	"apihelp-query+featureusage-description": "קבלת סיכום של שימוש באפשרויות API רשומות עבור סוכן לקוח.",
+	"apihelp-query+featureusage-summary": "קבלה של סיכום של שימוש באפשרויות API רשומות עבור סוכן לקוח.",
 	"apihelp-query+featureusage-param-start": "תחילת טווח התאריכים לשאילתה.",
 	"apihelp-query+featureusage-param-end": "סוף טווח התאריכים לשאילתה.",
 	"apihelp-query+featureusage-param-agent": "סוכן לקוח שעליו צריך לקבל מידע. אם לא צוין, ייבדר הסוכן מהבקשה.",
