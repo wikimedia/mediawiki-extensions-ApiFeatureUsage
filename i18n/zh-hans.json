@@ -20,6 +20,7 @@
 	"apifeatureusage-column-date": "日期",
 	"apifeatureusage-column-uses": "使用",
 	"apihelp-query+featureusage-description": "获取已记录的API功能使用率的摘要，基于用户代理。",
+	"apihelp-query+featureusage-summary": "获取已记录的API功能使用率的摘要，基于用户代理。",
 	"apihelp-query+featureusage-param-start": "查询的起始日期范围。",
 	"apihelp-query+featureusage-param-end": "查询的结束日期范围。",
 	"apihelp-query+featureusage-param-agent": "要查询的用户代理。如果不指定，将查询本请求所使用的用户代理。",
