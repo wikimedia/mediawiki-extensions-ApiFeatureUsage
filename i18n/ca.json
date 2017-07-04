@@ -1,0 +1,30 @@
+{
+	"@metadata": {
+		"authors": [
+			"Ssola"
+		]
+	},
+	"apifeatureusage": "Ús de funcionalitats de l'API",
+	"apifeatureusage-desc": "Obté un resum dels usos registrats de les funcionalitats de l'API per un agent d'usuari.",
+	"apifeatureusage-elasticsearch-error": "Error d'Elasticsearch: $1",
+	"apifeatureusage-legend": "Ús de funcionalitats de l'API",
+	"apifeatureusage-agent-label": "Agent d'usuari:",
+	"apifeatureusage-startdate-label": "Data d'inici:",
+	"apifeatureusage-enddate-label": "Data de fi:",
+	"apifeatureusage-submit": "Recupera les dades",
+	"apifeatureusage-no-indexes": "No hi ha dades disponibles per l'interval de dates especificat.",
+	"apifeatureusage-missing-indexes": "No hi ha dades disponibles per part de l'interval de dates especificat.",
+	"apifeatureusage-warnings": "Atenció: $1",
+	"apifeatureusage-column-feature": "Funcionalitat",
+	"apifeatureusage-column-date": "Data",
+	"apifeatureusage-column-uses": "Usos",
+	"apihelp-query+featureusage-description": "Obtén un resum dels usos registrats de les funcionalitats de l'API per un agent d'usuari.",
+	"apihelp-query+featureusage-summary": "Obté un resum dels usos registrats de les funcionalitats de l'API per un agent d'usuari.",
+	"apihelp-query+featureusage-param-start": "Inici de l'interval de dates a consultar.",
+	"apihelp-query+featureusage-param-end": "Fi de l'interval de dates a consultar.",
+	"apihelp-query+featureusage-param-agent": "Agent d'usuari a consultar. Si no s'especifica es consultarà l'agent de la sol·licitud.",
+	"apihelp-query+featureusage-param-features": "Si s'especifica, retorna els detalls de només aquestes funcionalitats.",
+	"apihelp-query+featureusage-example-simple": "Consulta l'ús de funcionalitats per l'agent d'usuari actual",
+	"apierror-apifeatureusage-emptyagent": "No es pot consultar un agent d'usuari buit.",
+	"apifeatureusage-deprecation-help": "Utilitzeu [[Special:ApiFeatureUsage]] per veure l'ús de les funcionalitats obsoletes per la vostra aplicació."
+}
