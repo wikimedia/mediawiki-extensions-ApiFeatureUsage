@@ -2,7 +2,8 @@
 	"@metadata": {
 		"authors": [
 			"Metalhead64",
-			"Inkowik"
+			"Inkowik",
+			"Crazy1880"
 		]
 	},
 	"apifeatureusage": "API-Funktionsverwendung",
@@ -20,6 +21,7 @@
 	"apifeatureusage-column-date": "Datum",
 	"apifeatureusage-column-uses": "Verwendet",
 	"apihelp-query+featureusage-description": "Ruft eine Zusammenfassung protokollierter API-Funktionsverwendungen für einen Benutzeragenten ab.",
+	"apihelp-query+featureusage-summary": "Ruft eine Zusammenfassung protokollierter API-Funktionsverwendungen für einen Benutzeragenten ab.",
 	"apihelp-query+featureusage-param-start": "Beginn des Datumsbereich für die Anfrage.",
 	"apihelp-query+featureusage-param-end": "Ende des Datumsbereichs für die Anfrage.",
 	"apihelp-query+featureusage-param-agent": "Anzufragender Benutzeragent. Falls nicht angegeben, wird der Agent in der Anfrage abgefragt.",
