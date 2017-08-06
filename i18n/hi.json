@@ -6,10 +6,10 @@
 			"Sfic"
 		]
 	},
-	"apifeatureusage": "ए०पी०आई फ़ीचर प्रयोग",
-	"apifeatureusage-desc": "सदस्य एजन्ट के लिए लॉग्ड ए०पी०आई० फ़ीचर प्रयोग का सारांश प्राप्त करें",
+	"apifeatureusage": "एपीआई सुविधा का उपयोग",
+	"apifeatureusage-desc": "दर्ज एपीआई सुविधा उपयोग करने वाले सदस्य एजेंट की सूची प्राप्त करें",
 	"apifeatureusage-elasticsearch-error": "इलास्टिक-खोज त्रुटि: $1",
-	"apifeatureusage-legend": "ए०पी०आई फ़ीचर प्रयोग",
+	"apifeatureusage-legend": "एपीआई सुविधा का उपयोग",
 	"apifeatureusage-agent-label": "सदस्य एजन्ट",
 	"apifeatureusage-startdate-label": "प्रारम्भ तिथि:",
 	"apifeatureusage-enddate-label": "समाप्ति तिथि:",
@@ -20,7 +20,7 @@
 	"apifeatureusage-column-feature": "फ़ीचर",
 	"apifeatureusage-column-date": "तिथि",
 	"apifeatureusage-column-uses": "प्रयोग",
-	"apihelp-query+featureusage-description": "सदस्य एजन्ट के लिए लॉग्ड ए०पी०आई० फ़ीचर प्रयोग का सारांश प्राप्त करें।",
+	"apihelp-query+featureusage-description": "दर्ज एपीआई सुविधा उपयोग करने वाले सदस्य एजेंट की सूची प्राप्त करें।",
 	"apihelp-query+featureusage-param-start": "जाँच के लिए तिथि सीमा प्रारंभ।",
 	"apihelp-query+featureusage-param-end": "जाँच के लिए तिथि सीमा समाप्त।",
 	"apihelp-query+featureusage-param-agent": "पड़ताल के लिए सदस्य एजन्ट। यदि निर्धारित न हो, निवेदन में मौजूद एजन्ट से पड़ताल होगी।",
