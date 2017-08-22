@@ -20,5 +20,6 @@
 	"apifeatureusage-warnings": "경고: $1",
 	"apifeatureusage-column-feature": "기능",
 	"apifeatureusage-column-date": "날짜",
-	"apifeatureusage-column-uses": "사용"
+	"apifeatureusage-column-uses": "사용",
+	"apierror-apifeatureusage-emptyagent": "비어있는 사용자 에이전트를 조회할 수 없습니다."
 }
