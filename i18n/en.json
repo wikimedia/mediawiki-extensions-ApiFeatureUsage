@@ -5,7 +5,7 @@
 		]
 	},
 	"apifeatureusage": "API feature usage",
-	"apifeatureusage-desc": "Get a summary of logged API feature usages for a user agent.",
+	"apifeatureusage-desc": "Get a summary of logged API feature usages for a user agent",
 	"apifeatureusage-elasticsearch-error": "Elasticsearch error: $1",
 	"apifeatureusage-legend": "API feature usage",
 	"apifeatureusage-text": "",
