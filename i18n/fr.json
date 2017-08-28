@@ -10,7 +10,7 @@
 		]
 	},
 	"apifeatureusage": "Utilisation de la fonctionnalité de l'API",
-	"apifeatureusage-desc": "Obtenir un résumé de l’utilisation des fonctionnalités de l’API tracées pour un agent utilisateur.",
+	"apifeatureusage-desc": "Obtenir un résumé de l’utilisation des fonctionnalités de l’API tracées pour un agent utilisateur",
 	"apifeatureusage-elasticsearch-error": "Erreur de Elasticsearch : $1",
 	"apifeatureusage-legend": "Utilisation de fonctionnalité de l’API",
 	"apifeatureusage-agent-label": "Agent utilisateur :",
