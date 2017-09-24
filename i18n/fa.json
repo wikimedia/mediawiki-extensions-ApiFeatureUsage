@@ -11,6 +11,8 @@
 	"apifeatureusage": "کاربرد ویژگی رابط برنامه‌نویسی",
 	"apifeatureusage-legend": "کاربرد ویژگی رابط برنامه‌نویسی",
 	"apifeatureusage-agent-label": "عامل کاربر:",
+	"apifeatureusage-startdate-label": "تاریخ شروع:",
+	"apifeatureusage-enddate-label": "تاریخ پایان:",
 	"apifeatureusage-submit": "واکشی داده‌ها",
 	"apifeatureusage-no-indexes": "داده‌ای برای بازهٔ تاریخی مشخص‌شده موجود نیست.",
 	"apifeatureusage-missing-indexes": "هیچ داده‌ای برای بخشی از بازهٔ تاریخی مشخص‌شده موجود نیست.",
