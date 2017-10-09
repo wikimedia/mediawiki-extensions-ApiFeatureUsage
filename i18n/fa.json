@@ -5,10 +5,12 @@
 			"Reza1615",
 			"Dalba",
 			"Mjbmr",
-			"Huji"
+			"Huji",
+			"Ladsgroup"
 		]
 	},
 	"apifeatureusage": "کاربرد ویژگی رابط برنامه‌نویسی",
+	"apifeatureusage-elasticsearch-error": "خطای سرچ الاستیک: $1",
 	"apifeatureusage-legend": "کاربرد ویژگی رابط برنامه‌نویسی",
 	"apifeatureusage-agent-label": "عامل کاربر:",
 	"apifeatureusage-startdate-label": "تاریخ شروع:",
@@ -20,5 +22,6 @@
 	"apifeatureusage-column-feature": "امکانات",
 	"apifeatureusage-column-date": "تاریخ",
 	"apifeatureusage-column-uses": "استفاده‌ها",
-	"apihelp-query+featureusage-param-features": "در صورت مشخص‌شدن، تنها جزئیات این ویژگی‌ها برگردانده شود."
+	"apihelp-query+featureusage-param-features": "در صورت مشخص‌شدن، تنها جزئیات این ویژگی‌ها برگردانده شود.",
+	"apierror-apifeatureusage-emptyagent": "امکان جستجوی یوزر ایجنت خالی نیست"
 }
