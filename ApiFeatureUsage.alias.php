@@ -53,6 +53,11 @@ $specialPageAliases['pt-br'] = [
 	'ApiFeatureUsage' => [ 'Uso_de_recurso_da_API' ],
 ];
 
+/** Urdu (اردو) */
+$specialPageAliases['ur'] = [
+	'ApiFeatureUsage' => [ 'اےپی آئی _خصوصیات_کا_استعمال' ],
+];
+
 /** Simplified Chinese (中文（简体）‎) */
 $specialPageAliases['zh-hans'] = [
 	'ApiFeatureUsage' => [ 'Api功能使用率' ],
