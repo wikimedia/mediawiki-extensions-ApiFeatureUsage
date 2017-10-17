@@ -6,9 +6,19 @@
 		]
 	},
 	"apifeatureusage": "اے پی آئی کی خصوصیات کا استعمال",
-	"apifeatureusage-agent-label": "صارف کا ایجنٹ",
+	"apifeatureusage-desc": "درج اے پی آئی خصوصیات کا استعمال کرنے والے صارف ایجنٹ کی فہرست کا حصول",
+	"apifeatureusage-elasticsearch-error": "الاسٹک سرچ کا نقص: $1",
+	"apifeatureusage-legend": "اے پی آئی کی خصوصیات کا استعمال",
+	"apifeatureusage-agent-label": "صارف کا ایجنٹ:",
+	"apifeatureusage-startdate-label": "تاریخ آغاز:",
+	"apifeatureusage-enddate-label": "تاریخ اختتام:",
+	"apifeatureusage-submit": "معلومات اخذ کریں",
+	"apifeatureusage-no-indexes": "تاریخ کی متعینہ حد کے لیے متعلقہ معلومات دستیاب نہیں ہیں۔",
 	"apifeatureusage-warnings": "انتباہ:$1",
 	"apifeatureusage-column-feature": "خصوصیت",
 	"apifeatureusage-column-date": "تاریخ",
-	"apifeatureusage-column-uses": "استعمال کرتا ہے"
+	"apifeatureusage-column-uses": "استعمال کرتا ہے",
+	"apihelp-query+featureusage-description": "درج اے پی آئی خصوصیات کا استعمال کرنے والے صارف ایجنٹ کی فہرست کا حصول",
+	"apihelp-query+featureusage-summary": "درج اے پی آئی خصوصیات کا استعمال کرنے والے صارف ایجنٹ کی فہرست کا حصول",
+	"apierror-apifeatureusage-emptyagent": "صارف کے ایجنٹ کا نام درج کیے بغیر استفسار نہیں کیا جا سکتا۔"
 }
