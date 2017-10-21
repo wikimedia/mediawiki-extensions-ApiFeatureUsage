@@ -55,7 +55,7 @@ $specialPageAliases['pt-br'] = [
 
 /** Urdu (اردو) */
 $specialPageAliases['ur'] = [
-	'ApiFeatureUsage' => [ 'اےپی آئی _خصوصیات_کا_استعمال' ],
+	'ApiFeatureUsage' => [ 'اے_پی_آئی_خصوصیات_کا_استعمال' ],
 ];
 
 /** Simplified Chinese (中文（简体）‎) */
