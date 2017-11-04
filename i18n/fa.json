@@ -22,6 +22,8 @@
 	"apifeatureusage-column-feature": "امکانات",
 	"apifeatureusage-column-date": "تاریخ",
 	"apifeatureusage-column-uses": "استفاده‌ها",
+	"apihelp-query+featureusage-param-start": "تاریخ شروع برای پرسمان",
+	"apihelp-query+featureusage-param-end": "تاریخ پایان برای پرسمان",
 	"apihelp-query+featureusage-param-features": "در صورت مشخص‌شدن، تنها جزئیات این ویژگی‌ها برگردانده شود.",
 	"apierror-apifeatureusage-emptyagent": "امکان جستجوی یوزر ایجنت خالی نیست"
 }
