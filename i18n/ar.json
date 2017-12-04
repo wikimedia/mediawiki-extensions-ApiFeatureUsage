@@ -7,7 +7,6 @@
 	"apifeatureusage": "استخدام مزايا API",
 	"apifeatureusage-legend": "استخدام مزايا API",
 	"apifeatureusage-agent-label": "وكيل المستخدم:",
-	"apifeatureusage-dates-label": "النطاق الزمني:",
 	"apifeatureusage-submit": "جلب البيانات",
 	"apifeatureusage-no-indexes": "لا توجد بيانات متاحة للنطاق الزمني المحدد.",
 	"apifeatureusage-missing-indexes": "لا توجد بيانات متاحة لجزء من النطاق الزمني المحدد.",

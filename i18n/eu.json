@@ -4,7 +4,5 @@
 			"Subi"
 		]
 	},
-	"apifeatureusage-dates-label": "Data-tartea:",
-	"apifeatureusage-column-date": "Data",
-	"apifeatureusage-htmlform-date-placeholder": "UUUU-HH-EE"
+	"apifeatureusage-column-date": "Data"
 }
