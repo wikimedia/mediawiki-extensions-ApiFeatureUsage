@@ -34,7 +34,7 @@
 		"ApiQueryFeatureUsage": "ApiQueryFeatureUsage.php",
 		"ApiFeatureUsageQueryEngine": "ApiFeatureUsageQueryEngine.php",
 		"ApiFeatureUsageQueryEngineElastica": "ApiFeatureUsageQueryEngineElastica.php",
-		"ApiFeatureUsageQueryEngineElasticaConnection": "ApiFeatureUsageQueryEngineElastica.php",
+		"ApiFeatureUsageQueryEngineElasticaConnection": "ApiFeatureUsageQueryEngineElasticaConnection.php",
 		"ApiFeatureUsageHooks": "ApiFeatureUsage.hooks.php"
 	},
 	"ResourceModules": {
