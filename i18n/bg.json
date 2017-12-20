@@ -4,5 +4,7 @@
 			"StanProg"
 		]
 	},
+	"apifeatureusage": "Употреба на функциите на API",
+	"apifeatureusage-legend": "Употреба на функциите на API",
 	"apifeatureusage-column-date": "Дата"
 }
