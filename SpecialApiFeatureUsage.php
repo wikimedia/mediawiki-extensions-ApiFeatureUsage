@@ -2,11 +2,11 @@
 class SpecialApiFeatureUsage extends SpecialPage {
 	private $engine = null;
 
-	function __construct() {
+	public function __construct() {
 		parent::__construct( 'ApiFeatureUsage' );
 	}
 
-	function execute( $par ) {
+	public function execute( $par ) {
 		$this->setHeaders();
 		$this->checkPermissions();
 

@@ -5,7 +5,7 @@ class ApiQueryFeatureUsage extends ApiQueryBase {
 		parent::__construct( $query, $moduleName, 'afu' );
 	}
 
-	function execute() {
+	public function execute() {
 		$params = $this->extractRequestParams();
 
 		$agent = $params['agent'] === null
