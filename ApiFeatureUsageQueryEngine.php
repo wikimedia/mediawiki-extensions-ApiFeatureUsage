@@ -3,6 +3,7 @@ abstract class ApiFeatureUsageQueryEngine {
 	public $options;
 
 	/**
+	 * @param Config $config
 	 * @return ApiFeatureUsageQueryEngine
 	 */
 	public static function getEngine( Config $config ) {
