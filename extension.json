@@ -39,8 +39,7 @@
 	},
 	"ResourceModules": {
 		"ext.apifeatureusage": {
-			"styles": "ext.apifeatureusage.css",
-			"position": "top"
+			"styles": "ext.apifeatureusage.css"
 		}
 	},
 	"ResourceFileModulePaths": {
