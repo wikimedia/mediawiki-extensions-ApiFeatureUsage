@@ -30,12 +30,12 @@
 		"ApiFeatureUsageAlias": "ApiFeatureUsage.alias.php"
 	},
 	"AutoloadClasses": {
-		"SpecialApiFeatureUsage": "SpecialApiFeatureUsage.php",
-		"ApiQueryFeatureUsage": "ApiQueryFeatureUsage.php",
-		"ApiFeatureUsageQueryEngine": "ApiFeatureUsageQueryEngine.php",
-		"ApiFeatureUsageQueryEngineElastica": "ApiFeatureUsageQueryEngineElastica.php",
-		"ApiFeatureUsageQueryEngineElasticaConnection": "ApiFeatureUsageQueryEngineElasticaConnection.php",
-		"ApiFeatureUsageHooks": "ApiFeatureUsage.hooks.php"
+		"SpecialApiFeatureUsage": "includes/SpecialApiFeatureUsage.php",
+		"ApiQueryFeatureUsage": "includes/ApiQueryFeatureUsage.php",
+		"ApiFeatureUsageQueryEngine": "includes/ApiFeatureUsageQueryEngine.php",
+		"ApiFeatureUsageQueryEngineElastica": "includes/ApiFeatureUsageQueryEngineElastica.php",
+		"ApiFeatureUsageQueryEngineElasticaConnection": "includes/ApiFeatureUsageQueryEngineElasticaConnection.php",
+		"ApiFeatureUsageHooks": "includes/ApiFeatureUsageHooks.php"
 	},
 	"ResourceModules": {
 		"ext.apifeatureusage": {
