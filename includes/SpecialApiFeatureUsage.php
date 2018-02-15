@@ -67,7 +67,7 @@ class SpecialApiFeatureUsage extends SpecialPage {
 			}
 			if ( $warnings ) {
 				if ( count( $warnings ) > 1 ) {
-					$warnings = "\n* " . join( "\n* ", $warnings );
+					$warnings = "\n* " . implode( "\n* ", $warnings );
 				} else {
 					$warnings = $warnings[0];
 				}
@@ -88,7 +88,7 @@ class SpecialApiFeatureUsage extends SpecialPage {
 					$lang->formatNum( $row['count'] )
 				);
 
-				$rows[] = Html::rawElement( 'tr', [], join( '', $cells ) );
+				$rows[] = Html::rawElement( 'tr', [], implode( '', $cells ) );
 			}
 			$this->getOutput()->addHTML(
 				Html::rawElement( 'table', [ 'class' => 'wikitable sortable mw-apifeatureusage' ],
@@ -105,7 +105,7 @@ class SpecialApiFeatureUsage extends SpecialPage {
 							)
 						)
 					) .
-					Html::rawElement( 'tbody', [], join( '', $rows ) )
+					Html::rawElement( 'tbody', [], implode( '', $rows ) )
 				)
 			);
 		}
