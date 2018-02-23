@@ -3,10 +3,12 @@
 		"authors": [
 			"Kaganer",
 			"Okras",
-			"Otogi"
+			"Otogi",
+			"Mouse21"
 		]
 	},
 	"apifeatureusage": "Использование функций API",
+	"apifeatureusage-desc": "Получить краткое изложение используемых функций API для пользовательского агента",
 	"apifeatureusage-elasticsearch-error": "Ошибка Elasticsearch: $1",
 	"apifeatureusage-legend": "Использование функций API",
 	"apifeatureusage-agent-label": "Браузер:",
@@ -19,6 +21,13 @@
 	"apifeatureusage-column-feature": "Функция",
 	"apifeatureusage-column-date": "Дата",
 	"apifeatureusage-column-uses": "Использования",
+	"apihelp-query+featureusage-description": "Получить краткое изложение используемых функций API для пользовательского агента.",
+	"apihelp-query+featureusage-summary": "Получить краткое изложение используемых функций API для пользовательского агента.",
 	"apihelp-query+featureusage-param-start": "Начало диапазона дат для запроса.",
-	"apihelp-query+featureusage-param-end": "Окончание диапазона дат для запроса."
+	"apihelp-query+featureusage-param-end": "Окончание диапазона дат для запроса.",
+	"apihelp-query+featureusage-param-agent": "Пользовательский агент для запроса. Если не указано, агент в запросе будет запрошен.",
+	"apihelp-query+featureusage-param-features": "Если указано, верните сведения только об этих функциях.",
+	"apihelp-query+featureusage-example-simple": "Использование функции запроса для текущего пользовательского агента",
+	"apierror-apifeatureusage-emptyagent": "Невозможно запросить пустой агент пользователя.",
+	"apifeatureusage-deprecation-help": "Использование [[Special:ApiFeatureUsage]] просмотреть использование устаревших функций вашим приложением."
 }
