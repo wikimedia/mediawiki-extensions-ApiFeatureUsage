@@ -1,0 +1,21 @@
+{
+	"@metadata": {
+		"authors": [
+			"Ooswesthoesbes"
+		]
+	},
+	"apifeatureusage": "API-functiegebroek",
+	"apifeatureusage-desc": "Tuin samevattinge veur gelog gebroek van API-meugelikheje veur 'ne useragent",
+	"apifeatureusage-elasticsearch-error": "Elasticsearch-fout: $1",
+	"apifeatureusage-legend": "API-functiegebroek",
+	"apifeatureusage-agent-label": "Gebroekeragent:",
+	"apifeatureusage-startdate-label": "Begindatum:",
+	"apifeatureusage-enddate-label": "Injdatum:",
+	"apifeatureusage-submit": "Haol gegaeves op",
+	"apifeatureusage-no-indexes": "Gein gegaeves zint besjikbaar veur d'n opgegaoven tied.",
+	"apifeatureusage-missing-indexes": "Gein gegaeves zint besjikbaar veur e deil van d'n opgegaoven tied.",
+	"apifeatureusage-warnings": "Waorsjoewing: $1",
+	"apifeatureusage-column-feature": "Functie",
+	"apifeatureusage-column-date": "Datum",
+	"apifeatureusage-column-uses": "Gebroek"
+}
