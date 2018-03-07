@@ -10,6 +10,8 @@
 	"apifeatureusage-elasticsearch-error": "خطأ البحث المرن: $1",
 	"apifeatureusage-legend": "استخدام مزايا API",
 	"apifeatureusage-agent-label": "وكيل المستخدم:",
+	"apifeatureusage-startdate-label": "تاريخ البدء:",
+	"apifeatureusage-enddate-label": "تاريخ الانتهاء:",
 	"apifeatureusage-submit": "جلب البيانات",
 	"apifeatureusage-no-indexes": "لا توجد بيانات متاحة للنطاق الزمني المحدد.",
 	"apifeatureusage-missing-indexes": "لا توجد بيانات متاحة لجزء من النطاق الزمني المحدد.",
@@ -17,5 +19,13 @@
 	"apifeatureusage-column-feature": "الميزة",
 	"apifeatureusage-column-date": "التاريخ",
 	"apifeatureusage-column-uses": "الاستخدامات",
-	"apihelp-query+featureusage-description": "الحصول على ملخص لاستخدامات مزايا API مسجلة لوكيل مستخدم."
+	"apihelp-query+featureusage-description": "الحصول على ملخص لاستخدامات مزايا API مسجلة لوكيل مستخدم.",
+	"apihelp-query+featureusage-summary": "الحصول على ملخص لاستخدامات ميزة API المسجلة لوكيل مستخدم",
+	"apihelp-query+featureusage-param-start": "بدء النطاق الزمني للاستعلام.",
+	"apihelp-query+featureusage-param-end": "نهاية النطاق الزمني للاستعلام.",
+	"apihelp-query+featureusage-param-agent": "وكيل المستخدم للاستعلام، إذا لم يتم تحديده، سيتم الاستعلام عن وكيل في الطلب.",
+	"apihelp-query+featureusage-param-features": "إذا كان محددا، قم بإرجاع التفاصيل على هذه الميزات فقط.",
+	"apihelp-query+featureusage-example-simple": "استخدام ميزة الاستعلام لوكيل المستخدم الحالي",
+	"apierror-apifeatureusage-emptyagent": "لا يمكن الاستعلام عن وكيل مستخدم فارغ.",
+	"apifeatureusage-deprecation-help": "استخدم [[Special:ApiFeatureUsage]] tمعرفة استخدام الميزات الموقوفة من قبل تطبيقك."
 }
