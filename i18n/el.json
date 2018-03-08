@@ -1,0 +1,16 @@
+{
+	"@metadata": {
+		"authors": [
+			"Nikosgranturismogt"
+		]
+	},
+	"apifeatureusage-elasticsearch-error": "Σφάλμα του Elasticsearch: $1",
+	"apifeatureusage-agent-label": "Αντιπρόσωπος χρήστη:",
+	"apifeatureusage-startdate-label": "Ημερομηνία έναρξης:",
+	"apifeatureusage-enddate-label": "Ημερομηνία λήξης:",
+	"apifeatureusage-submit": "Συλλογή δεδομένων",
+	"apifeatureusage-warnings": "Προειδοποίηση: $1",
+	"apifeatureusage-column-feature": "Επιλεγμένο",
+	"apifeatureusage-column-date": "Ημερομηνία",
+	"apifeatureusage-column-uses": "Χρήσεις"
+}
