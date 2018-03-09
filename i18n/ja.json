@@ -2,9 +2,13 @@
 	"@metadata": {
 		"authors": [
 			"Shirayuki",
-			"Sujiniku"
+			"Sujiniku",
+			"Yusuke1109"
 		]
 	},
+	"apifeatureusage-desc": "ユーザーエージェントのログに記録されたAPI機能の概要を取得する",
+	"apifeatureusage-elasticsearch-error": "Elasticsearch エラー: $1",
+	"apifeatureusage-legend": "APIの機能の使用状況",
 	"apifeatureusage-agent-label": "ユーザー エージェント:",
 	"apifeatureusage-startdate-label": "開始日:",
 	"apifeatureusage-enddate-label": "終了日:",
