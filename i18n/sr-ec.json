@@ -2,8 +2,23 @@
 	"@metadata": {
 		"authors": [
 			"Srdjan m",
-			"Milicevic01"
+			"Milicevic01",
+			"BadDog"
 		]
 	},
-	"apifeatureusage": "Коришћење API могућности"
+	"apifeatureusage": "Коришћење API могућности",
+	"apifeatureusage-desc": "Добијање описа записаних кориштења АПИ услуга за одређени кориснички агент",
+	"apifeatureusage-legend": "Коришћење API могућности",
+	"apifeatureusage-agent-label": "Кориснички агент:",
+	"apifeatureusage-startdate-label": "Почетни датум:",
+	"apifeatureusage-enddate-label": "Крајњи датум:",
+	"apifeatureusage-submit": "Апортирај податке",
+	"apifeatureusage-no-indexes": "Не могу да нађем податке за наведени времески опсег.",
+	"apifeatureusage-missing-indexes": "Не могу да нађем податке за део наведеног времеског опсега.",
+	"apifeatureusage-warnings": "Упозорење: $1",
+	"apifeatureusage-column-feature": "Могућност",
+	"apifeatureusage-column-date": "Датум",
+	"apifeatureusage-column-uses": "Користи",
+	"apihelp-query+featureusage-description": "Добијање описа записаних кориштења АПИ услуга за одређени кориснички агент.",
+	"apihelp-query+featureusage-summary": "Добијање описа записаних кориштења АПИ услуга за одређени кориснички агент."
 }

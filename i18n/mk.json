@@ -4,8 +4,8 @@
 			"Bjankuloski06"
 		]
 	},
-	"apifeatureusage": "Употреба на функции на извршникот",
-	"apifeatureusage-desc": "Дава преглед на заведени употреби на функции на извршникот (API) за даден кориснички вршител.",
+	"apifeatureusage": "Употреба на извршнички функции",
+	"apifeatureusage-desc": "Дава преглед на заведени употреби на извршнички функции за даден кориснички вршител.",
 	"apifeatureusage-elasticsearch-error": "Грешка во Elasticsearch: $1",
 	"apifeatureusage-legend": "Употреба на функциите на извршникот",
 	"apifeatureusage-agent-label": "Кориснички вршител:",
@@ -19,12 +19,12 @@
 	"apifeatureusage-column-date": "Датум",
 	"apifeatureusage-column-uses": "Користи",
 	"apihelp-query+featureusage-description": "Два преглед на заведени употреби на функциите на извршителот (API) од страна на даден кориснички вршител.",
-	"apihelp-query+featureusage-summary": "Дава преглед на заведени употреби на функции на извршникот (API) за даден кориснички вршител.",
+	"apihelp-query+featureusage-summary": "Дава преглед на заведени употреби на извршнички функции за даден кориснички вршител.",
 	"apihelp-query+featureusage-param-start": "Почеток на датумскиот опсег на барањето.",
 	"apihelp-query+featureusage-param-end": "Крај на датумскиот опсег на барањето.",
 	"apihelp-query+featureusage-param-agent": "Корисничкиот вршител што ќе се бара. Ако не е укажано, ќе се побара вршителот во барањето.",
 	"apihelp-query+featureusage-param-features": "Ако е укажано, дава податоци само за овие функции.",
 	"apihelp-query+featureusage-example-simple": "Барање на употребата на функциите за тековниот кориснички вршител",
 	"apierror-apifeatureusage-emptyagent": "Не можам да барам празен кориснички вршител.",
-	"apifeatureusage-deprecation-help": "Користете „[[Special:ApiFeatureUsage|Употреба на функции на извршникот]]“ за преглед на употребата на застарени функции на вашиот прилог."
+	"apifeatureusage-deprecation-help": "Користете „[[Special:ApiFeatureUsage|Употреба на извршнички функции]]“ за преглед на употребата на застарени функции на вашиот прилог."
 }
