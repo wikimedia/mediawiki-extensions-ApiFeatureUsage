@@ -6,14 +6,22 @@
 			"Yusuke1109"
 		]
 	},
+	"apifeatureusage": "API機能の使用状況",
 	"apifeatureusage-desc": "ユーザーエージェントのログに記録されたAPI機能の概要を取得する",
 	"apifeatureusage-elasticsearch-error": "Elasticsearch エラー: $1",
-	"apifeatureusage-legend": "APIの機能の使用状況",
+	"apifeatureusage-legend": "API機能の使用状況",
 	"apifeatureusage-agent-label": "ユーザー エージェント:",
 	"apifeatureusage-startdate-label": "開始日:",
 	"apifeatureusage-enddate-label": "終了日:",
 	"apifeatureusage-submit": "データを取得",
+	"apifeatureusage-no-indexes": "指定された日付範囲で利用可能なデータはありません。",
 	"apifeatureusage-warnings": "警告: $1",
 	"apifeatureusage-column-feature": "機能",
-	"apifeatureusage-column-date": "日付"
+	"apifeatureusage-column-date": "日付",
+	"apihelp-query+featureusage-description": "ユーザーエージェントのログに記録されたAPI機能の概要を取得します。",
+	"apihelp-query+featureusage-summary": "ユーザーエージェントのログに記録されたAPI機能の概要を取得します。",
+	"apihelp-query+featureusage-param-start": "クエリの日付範囲の開始日。",
+	"apihelp-query+featureusage-param-end": "クエリの日付範囲の終了日。",
+	"apihelp-query+featureusage-param-features": "指定されている場合は、これらの機能のみの詳細を返します。",
+	"apifeatureusage-deprecation-help": "[[Special:ApiFeatureUsage]]を使用して、使用していない機能の使用状況をアプリケーションで確認してください。"
 }
