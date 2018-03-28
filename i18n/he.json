@@ -1,11 +1,12 @@
 {
 	"@metadata": {
 		"authors": [
-			"Amire80"
+			"Amire80",
+			"Guycn2"
 		]
 	},
 	"apifeatureusage": "שימוש באפשרויות של API",
-	"apifeatureusage-desc": "קבלת סיכום של שימוש באפשרויות API רשומות עבור סוכן לקוח.",
+	"apifeatureusage-desc": "קבלת סיכום של שימוש באפשרויות API רשומות עבור סוכן לקוח",
 	"apifeatureusage-elasticsearch-error": "שגיאת Elasticsearch‏: $1",
 	"apifeatureusage-legend": "שימוש באפשרויות של API",
 	"apifeatureusage-agent-label": "סוכן לקוח:",
