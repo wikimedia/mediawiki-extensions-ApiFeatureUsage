@@ -27,5 +27,5 @@
 	"apihelp-query+featureusage-param-features": "אם צוין, להחזיר רק מידע על האפשרויות האלה.",
 	"apihelp-query+featureusage-example-simple": "שאילתה על שימוש באפשרות עבור סוכן הלקוח הנוכחי",
 	"apierror-apifeatureusage-emptyagent": "אי־אפשר לשלוח שאילתה לסוכן לקוח ריק.",
-	"apifeatureusage-deprecation-help": "השתמשו בדף [[Special:ApiFeatureUsage]] כדי לצפות בשימוש של היישום שלך באפשרויות מיושנות."
+	"apifeatureusage-deprecation-help": "באפשרותך להשתמש בדף [[Special:ApiFeatureUsage]] כדי לצפות בשימוש של היישום שלך באפשרויות מיושנות."
 }
