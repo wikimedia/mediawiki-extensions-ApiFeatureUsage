@@ -33,6 +33,11 @@ $specialPageAliases['fa'] = [
 	'ApiFeatureUsage' => [ 'کاربرد_دسترسی_API' ],
 ];
 
+/** Hebrew (עברית) */
+$specialPageAliases['he'] = [
+	'ApiFeatureUsage' => [ 'שימוש_באפשרויות_של_API' ],
+];
+
 /** Northern Luri (لۊری شومالی) */
 $specialPageAliases['lrc'] = [
 	'ApiFeatureUsage' => [ 'خو_ڤە_کار_گئرتئن_ئی_پی_آی' ],
