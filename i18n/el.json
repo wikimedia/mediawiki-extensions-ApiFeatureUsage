@@ -4,7 +4,9 @@
 			"Nikosgranturismogt"
 		]
 	},
+	"apifeatureusage": "Χρήση χαρακτηριστικού API",
 	"apifeatureusage-elasticsearch-error": "Σφάλμα του Elasticsearch: $1",
+	"apifeatureusage-legend": "Χρήση χαρακτηριστικού API",
 	"apifeatureusage-agent-label": "Αντιπρόσωπος χρήστη:",
 	"apifeatureusage-startdate-label": "Ημερομηνία έναρξης:",
 	"apifeatureusage-enddate-label": "Ημερομηνία λήξης:",
