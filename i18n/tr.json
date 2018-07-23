@@ -2,7 +2,8 @@
 	"@metadata": {
 		"authors": [
 			"Incelemeelemani",
-			"1917 Ekim Devrimi"
+			"1917 Ekim Devrimi",
+			"Hedda"
 		]
 	},
 	"apifeatureusage": "API özelliği kullanımı",
@@ -20,10 +21,12 @@
 	"apifeatureusage-column-date": "Tarih",
 	"apifeatureusage-column-uses": "Kullanımlar",
 	"apihelp-query+featureusage-description": "Kullanıcıların API özelliği kullanımı için özet günlük alın.",
+	"apihelp-query+featureusage-summary": "Bir kullanıcı temsilcisi için günlük API özelliği kullanımlarının özetini edinin.",
 	"apihelp-query+featureusage-param-start": "Sorgudaki tarih aralığı başlangıcı.",
 	"apihelp-query+featureusage-param-end": "Sorgudaki tarih aralığı bitişi.",
 	"apihelp-query+featureusage-param-agent": "Kullanıcı ajanı sorgusu. Belirtilmediğinde istenen ajan sorgulanacaktır.",
 	"apihelp-query+featureusage-param-features": "Belirtilmemişse, sadece bu özellik hakkında ayrıntılı bilgiler gösterilir.",
 	"apihelp-query+featureusage-example-simple": "Geçerli kullanıcı ajanı için sorgu özelliği kullanımı",
-	"apierror-apifeatureusage-emptyagent": "Kullanıcı ajanı boş sorgulanamaz"
+	"apierror-apifeatureusage-emptyagent": "Kullanıcı ajanı boş sorgulanamaz",
+	"apifeatureusage-deprecation-help": "Kullanımdan kaldırılmış özelliklerin kullanımınızı görmek için [[Special:ApiFeatureUsage]] sayfasını kullanın."
 }
