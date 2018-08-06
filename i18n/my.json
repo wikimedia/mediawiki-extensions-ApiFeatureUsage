@@ -1,0 +1,10 @@
+{
+	"@metadata": {
+		"authors": [
+			"Dr Lotus Black"
+		]
+	},
+	"apifeatureusage-warnings": "သတိပေးချက်: $1",
+	"apifeatureusage-column-date": "နေ့စွဲ",
+	"apifeatureusage-column-uses": "အသုံးပြုမှုများ"
+}
