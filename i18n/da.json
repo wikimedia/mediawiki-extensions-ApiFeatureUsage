@@ -1,0 +1,13 @@
+{
+	"@metadata": {
+		"authors": [
+			"Saederup92"
+		]
+	},
+	"apifeatureusage-startdate-label": "Startdato:",
+	"apifeatureusage-enddate-label": "Slutdato:",
+	"apifeatureusage-submit": "Hent data",
+	"apifeatureusage-warnings": "Advarsel: $1",
+	"apifeatureusage-column-feature": "Funktion",
+	"apifeatureusage-column-date": "Dato"
+}
