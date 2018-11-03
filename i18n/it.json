@@ -2,14 +2,15 @@
 	"@metadata": {
 		"authors": [
 			"Beta16",
-			"Selven"
+			"Selven",
+			"Daimona Eaytoy"
 		]
 	},
 	"apifeatureusage": "Uso funzionalità API",
 	"apifeatureusage-desc": "Ottieni un riepilogo dell'uso delle funzionalità API registrate per un agente utente.",
 	"apifeatureusage-elasticsearch-error": "Errore Elasticsearch: $1",
 	"apifeatureusage-legend": "Uso funzionalità API",
-	"apifeatureusage-agent-label": "Agente utente:",
+	"apifeatureusage-agent-label": "User agent:",
 	"apifeatureusage-startdate-label": "Data di inizio:",
 	"apifeatureusage-enddate-label": "Data di fine:",
 	"apifeatureusage-submit": "Recupera dati",
