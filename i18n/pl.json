@@ -2,7 +2,8 @@
 	"@metadata": {
 		"authors": [
 			"Chrumps",
-			"Woytecr"
+			"Woytecr",
+			"Warchlak"
 		]
 	},
 	"apifeatureusage": "Użycie funkcji API",
@@ -15,5 +16,6 @@
 	"apifeatureusage-submit": "Pobierz dane",
 	"apifeatureusage-no-indexes": "Brak danych dla określonego zakresu dat.",
 	"apifeatureusage-warnings": "Ostrzeżenie: $1",
+	"apifeatureusage-column-feature": "Funkcja",
 	"apifeatureusage-column-date": "Data"
 }
