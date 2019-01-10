@@ -12,11 +12,7 @@ module.exports = function ( grunt ) {
 			]
 		},
 		eslint: {
-			all: [
-				'**/*.js',
-				'!node_modules/**',
-				'!vendor/**'
-			]
+			all: '.'
 		},
 		jsonlint: {
 			all: [
@@ -34,7 +30,5 @@ module.exports = function ( grunt ) {
 		}
 	} );
 
-	grunt.registerTask( 'lint', [ 'jsonlint', 'banana', 'eslint', 'stylelint' ] );
-	grunt.registerTask( 'test', [ 'lint' ] );
-	grunt.registerTask( 'default', [ 'test' ] );
+	grunt.registerTask( 'test', [ 'jsonlint', 'banana', 'eslint', 'stylelint' ] );
 };
