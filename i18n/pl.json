@@ -15,7 +15,9 @@
 	"apifeatureusage-enddate-label": "Data zakończenia:",
 	"apifeatureusage-submit": "Pobierz dane",
 	"apifeatureusage-no-indexes": "Brak danych dla określonego zakresu dat.",
+	"apifeatureusage-missing-indexes": "Brak danych dla części określonego zakresu dat.",
 	"apifeatureusage-warnings": "Ostrzeżenie: $1",
 	"apifeatureusage-column-feature": "Funkcja",
-	"apifeatureusage-column-date": "Data"
+	"apifeatureusage-column-date": "Data",
+	"apifeatureusage-column-uses": "Użycia"
 }
