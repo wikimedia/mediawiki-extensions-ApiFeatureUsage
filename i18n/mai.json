@@ -1,10 +1,14 @@
 {
 	"@metadata": {
 		"authors": [
-			"Tulsi Bhagat"
+			"Tulsi Bhagat",
+			"Haribanshi"
 		]
 	},
+	"apifeatureusage-legend": "एपीआई सुविधा क उपयोग",
 	"apifeatureusage-agent-label": "प्रयोक्ता एजेन्ट:",
+	"apifeatureusage-startdate-label": "प्रारम्भ तिथि:",
+	"apifeatureusage-enddate-label": "समाप्ति तिथि:",
 	"apifeatureusage-submit": "डेटा लाऊँ",
 	"apifeatureusage-warnings": "चेतावनी: $1",
 	"apifeatureusage-column-feature": "सुविधा",

@@ -1,9 +1,17 @@
 {
 	"@metadata": {
 		"authors": [
-			"Red Winged Duck"
+			"Red Winged Duck",
+			"Nerogaf"
 		]
 	},
 	"apifeatureusage": "Выкарыстаньне функцыяў API",
-	"apifeatureusage-submit": "Атрымаць зьвесткі"
+	"apifeatureusage-agent-label": "Браўзэр:",
+	"apifeatureusage-startdate-label": "Дата пачатку:",
+	"apifeatureusage-enddate-label": "Дата заканчэньня:",
+	"apifeatureusage-submit": "Атрымаць зьвесткі",
+	"apifeatureusage-warnings": "Папярэджаньне: $1",
+	"apifeatureusage-column-feature": "Асаблівасьць",
+	"apifeatureusage-column-date": "Дата",
+	"apifeatureusage-column-uses": "Выкарыстоўвае"
 }
