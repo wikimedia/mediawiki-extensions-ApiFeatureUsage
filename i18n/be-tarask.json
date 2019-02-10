@@ -6,6 +6,8 @@
 		]
 	},
 	"apifeatureusage": "Выкарыстаньне функцыяў API",
+	"apifeatureusage-elasticsearch-error": "Памылка Elasticsearch: $1",
+	"apifeatureusage-legend": "Выкарыстаньне функцыяў API",
 	"apifeatureusage-agent-label": "Браўзэр:",
 	"apifeatureusage-startdate-label": "Дата пачатку:",
 	"apifeatureusage-enddate-label": "Дата заканчэньня:",
@@ -13,5 +15,8 @@
 	"apifeatureusage-warnings": "Папярэджаньне: $1",
 	"apifeatureusage-column-feature": "Асаблівасьць",
 	"apifeatureusage-column-date": "Дата",
-	"apifeatureusage-column-uses": "Выкарыстоўвае"
+	"apifeatureusage-column-uses": "Выкарыстоўвае",
+	"apihelp-query+featureusage-param-start": "Пачатак прамежку даты для запыту.",
+	"apihelp-query+featureusage-param-end": "Канец прамежку даты для запыту.",
+	"apierror-apifeatureusage-emptyagent": "Немагчыма даслаць запыт да пустога агенту ўдзельніка."
 }
