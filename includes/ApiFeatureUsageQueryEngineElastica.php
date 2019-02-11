@@ -41,7 +41,7 @@ class ApiFeatureUsageQueryEngineElastica extends ApiFeatureUsageQueryEngine {
 	protected function getIndexNames() {
 		if ( !$this->indexNames ) {
 			$response = $this->getClient()->request(
-				urlencode( $this->options['indexPrefix'] ) . '*/_aliases'
+				urlencode( $this->options['indexPrefix'] ) . '*/_alias'
 			);
 			if ( $response->isOK() ) {
 				$this->indexNames = array_keys( $response->getData() );
