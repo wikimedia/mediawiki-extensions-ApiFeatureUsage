@@ -33,7 +33,7 @@ class ApiQueryFeatureUsage extends ApiQueryBase {
 			$end->setTimezone( 'UTC' );
 		}
 
-		$status = $engine->execute( $agent, $start, $end );
+		$status = $engine->execute( $agent, $start, $end, $params['features'] );
 		if ( !$status->isOk() ) {
 			$this->dieStatus( $status );
 		}
@@ -65,7 +65,6 @@ class ApiQueryFeatureUsage extends ApiQueryBase {
 			'features' => [
 				ApiBase::PARAM_TYPE => 'string',
 				ApiBase::PARAM_ISMULTI => true,
-				ApiBase::PARAM_DEPRECATED => true
 			],
 		];
 	}

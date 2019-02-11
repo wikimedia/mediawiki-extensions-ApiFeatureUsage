@@ -33,9 +33,12 @@ abstract class ApiFeatureUsageQueryEngine {
 	 * @param string $agent
 	 * @param MWTimestamp $start
 	 * @param MWTimestamp $end
+	 * @param string[]|null $features
 	 * @return Status
 	 */
-	abstract public function execute( $agent, MWTimestamp $start, MWTimestamp $end );
+	abstract public function execute(
+		$agent, MWTimestamp $start, MWTimestamp $end, array $features = null
+	);
 
 	/**
 	 * Get a suggested date range

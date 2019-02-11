@@ -57,7 +57,7 @@ class ApiFeatureUsageQueryEngineElastica extends ApiFeatureUsageQueryEngine {
 		return $this->indexNames;
 	}
 
-	public function execute( $agent, MWTimestamp $start, MWTimestamp $end ) {
+	public function execute( $agent, MWTimestamp $start, MWTimestamp $end, array $features = null ) {
 		$status = Status::newGood( [] );
 
 		# Force $start and $end to day boundaries
@@ -82,6 +82,11 @@ class ApiFeatureUsageQueryEngineElastica extends ApiFeatureUsageQueryEngine {
 			'gte' => $start->getTimestamp( TS_ISO_8601 ),
 			'lte' => $end->getTimestamp( TS_ISO_8601 ),
 		] ) );
+
+		if ( $features !== null ) {
+			$bools->addMust( new Elastica\Query\Terms( $this->options['featureField'], $features ) );
+		}
+
 		$query->setQuery( $bools );
 
 		$termsAgg = new Elastica\Aggregation\Terms( 'feature' );
