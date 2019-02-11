@@ -16,7 +16,9 @@ class ApiQueryFeatureUsage extends ApiQueryBase {
 			$this->dieWithError( 'apierror-apifeatureusage-emptyagent', "bad_$encParamName" );
 		}
 
-		$conf = ConfigFactory::getDefaultInstance()->makeConfig( 'ApiFeatureUsage' );
+		$conf = \MediaWiki\MediaWikiServices::getInstance()
+			->getConfigFactory()
+			->makeConfig( 'ApiFeatureUsage' );
 		$engine = ApiFeatureUsageQueryEngine::getEngine( $conf );
 
 		if ( $params['start'] === null || $params['end'] === null ) {

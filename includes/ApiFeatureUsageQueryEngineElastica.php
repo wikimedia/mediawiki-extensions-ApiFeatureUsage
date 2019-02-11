@@ -13,7 +13,9 @@
  *  agentField: Name of the field holding the user agent
  */
 class ApiFeatureUsageQueryEngineElastica extends ApiFeatureUsageQueryEngine {
+	/** @var \Elastica\Client|null */
 	private $client = null;
+	/** @var string[]|null */
 	private $indexNames = null;
 
 	public function __construct( array $options ) {

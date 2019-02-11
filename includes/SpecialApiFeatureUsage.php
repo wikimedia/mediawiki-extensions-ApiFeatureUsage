@@ -1,5 +1,6 @@
 <?php
 class SpecialApiFeatureUsage extends SpecialPage {
+	/** @var ApiFeatureUsageQueryEngine|null */
 	private $engine = null;
 
 	public function __construct() {
@@ -12,7 +13,9 @@ class SpecialApiFeatureUsage extends SpecialPage {
 
 		$request = $this->getRequest();
 
-		$conf = ConfigFactory::getDefaultInstance()->makeConfig( 'ApiFeatureUsage' );
+		$conf = \MediaWiki\MediaWikiServices::getInstance()
+			->getConfigFactory()
+			->makeConfig( 'ApiFeatureUsage' );
 		$this->engine = ApiFeatureUsageQueryEngine::getEngine( $conf );
 		list( $start, $end ) = $this->engine->suggestDateRange();
 
