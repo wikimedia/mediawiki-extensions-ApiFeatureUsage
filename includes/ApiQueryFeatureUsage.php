@@ -63,6 +63,7 @@ class ApiQueryFeatureUsage extends ApiQueryBase {
 			'features' => [
 				ApiBase::PARAM_TYPE => 'string',
 				ApiBase::PARAM_ISMULTI => true,
+				ApiBase::PARAM_DEPRECATED => true
 			],
 		];
 	}
