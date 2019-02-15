@@ -7,6 +7,7 @@ class SpecialApiFeatureUsage extends SpecialPage {
 		parent::__construct( 'ApiFeatureUsage' );
 	}
 
+	/** @inheritDoc */
 	public function execute( $par ) {
 		$this->setHeaders();
 		$this->checkPermissions();
@@ -114,6 +115,11 @@ class SpecialApiFeatureUsage extends SpecialPage {
 		}
 	}
 
+	/**
+	 * @param array $data
+	 * @param HTMLForm $form
+	 * @return Status
+	 */
 	public function onSubmit( $data, $form ) {
 		$agent = $data['agent'];
 		$start = new MWTimestamp( $data['startdate'] . 'T00:00:00Z' );
@@ -122,6 +128,7 @@ class SpecialApiFeatureUsage extends SpecialPage {
 		return $this->engine->execute( $agent, $start, $end );
 	}
 
+	/** @inheritDoc */
 	protected function getGroupName() {
 		return 'wiki';
 	}

@@ -1,10 +1,15 @@
 <?php
 class ApiQueryFeatureUsage extends ApiQueryBase {
 
+	/**
+	 * @param ApiQuery $query
+	 * @param string $moduleName
+	 */
 	public function __construct( ApiQuery $query, $moduleName ) {
 		parent::__construct( $query, $moduleName, 'afu' );
 	}
 
+	/** @inheritDoc */
 	public function execute() {
 		$params = $this->extractRequestParams();
 
@@ -51,6 +56,7 @@ class ApiQueryFeatureUsage extends ApiQueryBase {
 		$this->getResult()->addValue( 'query', $this->getModuleName(), $r );
 	}
 
+	/** @inheritDoc */
 	public function getAllowedParams() {
 		return [
 			'start' => [
@@ -69,6 +75,7 @@ class ApiQueryFeatureUsage extends ApiQueryBase {
 		];
 	}
 
+	/** @inheritDoc */
 	protected function getExamplesMessages() {
 		return [
 			'action=query&meta=featureusage'
@@ -76,6 +83,7 @@ class ApiQueryFeatureUsage extends ApiQueryBase {
 		];
 	}
 
+	/** @inheritDoc */
 	public function getHelpUrls() {
 		return 'https://www.mediawiki.org/wiki/Extension:ApiFeatureUsage';
 	}

@@ -3,8 +3,12 @@
  * Class to create the connection
  */
 class ApiFeatureUsageQueryEngineElasticaConnection extends ElasticaConnection {
+	/** @var array */
 	private $options = [];
 
+	/**
+	 * @param array|null $options
+	 */
 	public function __construct( $options = null ) {
 		if ( !is_array( $options ) ) {
 			$options = [];
@@ -19,10 +23,12 @@ class ApiFeatureUsageQueryEngineElasticaConnection extends ElasticaConnection {
 		];
 	}
 
+	/** @inheritDoc */
 	public function getServerList() {
 		return $this->options['serverList'];
 	}
 
+	/** @inheritDoc */
 	public function getMaxConnectionAttempts() {
 		return $this->options['maxConnectionAttempts'];
 	}

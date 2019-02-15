@@ -1,5 +1,6 @@
 <?php
 abstract class ApiFeatureUsageQueryEngine {
+	/** @var array */
 	public $options;
 
 	/**

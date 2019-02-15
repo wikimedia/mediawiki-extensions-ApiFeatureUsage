@@ -18,6 +18,9 @@ class ApiFeatureUsageQueryEngineElastica extends ApiFeatureUsageQueryEngine {
 	/** @var string[]|null */
 	private $indexNames = null;
 
+	/**
+	 * @param array $options
+	 */
 	public function __construct( array $options ) {
 		$options += [
 			'indexPrefix' => 'apifeatureusage-',
@@ -32,6 +35,9 @@ class ApiFeatureUsageQueryEngineElastica extends ApiFeatureUsageQueryEngine {
 		parent::__construct( $options );
 	}
 
+	/**
+	 * @return \Elastica\Client
+	 */
 	protected function getClient() {
 		if ( !$this->client ) {
 			$connection = new ApiFeatureUsageQueryEngineElasticaConnection( $this->options );
@@ -40,6 +46,9 @@ class ApiFeatureUsageQueryEngineElastica extends ApiFeatureUsageQueryEngine {
 		return $this->client;
 	}
 
+	/**
+	 * @return string[]
+	 */
 	protected function getIndexNames() {
 		if ( !$this->indexNames ) {
 			$response = $this->getClient()->request(
@@ -57,6 +66,7 @@ class ApiFeatureUsageQueryEngineElastica extends ApiFeatureUsageQueryEngine {
 		return $this->indexNames;
 	}
 
+	/** @inheritDoc */
 	public function execute( $agent, MWTimestamp $start, MWTimestamp $end, array $features = null ) {
 		$status = Status::newGood( [] );
 
