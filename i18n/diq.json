@@ -2,9 +2,12 @@
 	"@metadata": {
 		"authors": [
 			"Gorizon",
-			"Kumkumuk"
+			"Kumkumuk",
+			"Mirzali"
 		]
 	},
+	"apifeatureusage-startdate-label": "Tarixê destpêkerdışi:",
+	"apifeatureusage-enddate-label": "Tarixê qediyayışi:",
 	"apifeatureusage-warnings": "Tembe kem:$1",
 	"apifeatureusage-column-feature": "Weçinaye",
 	"apifeatureusage-column-date": "Tarix",
