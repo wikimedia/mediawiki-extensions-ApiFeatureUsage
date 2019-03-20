@@ -1,10 +1,14 @@
 {
 	"@metadata": {
 		"authors": [
-			"StanProg"
+			"StanProg",
+			"Ted Masters"
 		]
 	},
 	"apifeatureusage": "Употреба на функциите на API",
 	"apifeatureusage-legend": "Употреба на функциите на API",
+	"apifeatureusage-startdate-label": "Начална дата:",
+	"apifeatureusage-enddate-label": "Крайна дата:",
+	"apifeatureusage-warnings": "Предупреждение: $1",
 	"apifeatureusage-column-date": "Дата"
 }
