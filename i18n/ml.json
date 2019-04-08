@@ -1,0 +1,25 @@
+{
+	"@metadata": {
+		"authors": [
+			"Praveenp"
+		]
+	},
+	"apifeatureusage": "എ.പി.ഐ. സവിശേഷതകളുടെ ഉപയോഗം",
+	"apifeatureusage-desc": "ഒരു യൂസർ ഏജന്റ് ഉപയോഗിച്ചുണ്ടായിട്ടുള്ള എ.പി.ഐ. സവിശേഷതകളുടെ ഉപയോഗത്തിന്റെ സംഗ്രഹം എടുക്കുക",
+	"apifeatureusage-elasticsearch-error": "ഇലാസ്റ്റിക്‌സേർച്ച് പിഴവ്: $1",
+	"apifeatureusage-legend": "എ.പി.ഐ. സവിശേഷതകളുടെ ഉപയോഗം",
+	"apifeatureusage-agent-label": "യൂസർ ഏജന്റ്:",
+	"apifeatureusage-startdate-label": "തുടങ്ങുന്ന തീയതി",
+	"apifeatureusage-enddate-label": "അവസാനിക്കുന്ന തീയതി",
+	"apifeatureusage-submit": "ഡേറ്റ എടുക്കുക",
+	"apifeatureusage-no-indexes": "നൽകിയിരിക്കുന്ന തീയതി പരിധിക്കുള്ളിൽ ഡേറ്റ ഒന്നും ലഭ്യമല്ല.",
+	"apifeatureusage-missing-indexes": "നൽകിയിരിക്കുന്ന തീയതി പരിധിക്കുള്ളിലെ ചില ഭാഗങ്ങളിൽ ഡേറ്റ ഒന്നും ലഭ്യമല്ല.",
+	"apifeatureusage-warnings": "മുന്നറിയിപ്പ്: $1",
+	"apifeatureusage-column-feature": "സവിശേഷത",
+	"apifeatureusage-column-date": "തീയതി",
+	"apifeatureusage-column-uses": "ഉപയോഗങ്ങൾ",
+	"apihelp-query+featureusage-description": "ഒരു യൂസർ ഏജന്റ് ഉപയോഗിച്ചുണ്ടായിട്ടുള്ള എ.പി.ഐ. സവിശേഷതകളുടെ ഉപയോഗത്തിന്റെ സംഗ്രഹം എടുക്കുക.",
+	"apihelp-query+featureusage-summary": "ഒരു യൂസർ ഏജന്റ് ഉപയോഗിച്ചുണ്ടായിട്ടുള്ള എ.പി.ഐ. സവിശേഷതകളുടെ ഉപയോഗത്തിന്റെ സംഗ്രഹം എടുക്കുക.",
+	"apihelp-query+featureusage-param-start": "ക്വറി ചെയ്യേണ്ട തീയതി പരിധിയുടെ ആരംഭം.",
+	"apihelp-query+featureusage-param-end": "ക്വറി ചെയ്യേണ്ട തീയതി പരിധിയുടെ അവസാനം."
+}

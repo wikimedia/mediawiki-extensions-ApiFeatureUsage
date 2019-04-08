@@ -12,6 +12,7 @@
 	"apifeatureusage-startdate-label": "Дата пачатку:",
 	"apifeatureusage-enddate-label": "Дата заканчэньня:",
 	"apifeatureusage-submit": "Атрымаць зьвесткі",
+	"apifeatureusage-no-indexes": "Няма зьвестак для вызначанага дыяпазону датаў.",
 	"apifeatureusage-warnings": "Папярэджаньне: $1",
 	"apifeatureusage-column-feature": "Асаблівасьць",
 	"apifeatureusage-column-date": "Дата",
