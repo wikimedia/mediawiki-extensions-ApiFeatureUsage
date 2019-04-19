@@ -23,6 +23,11 @@ $specialPageAliases['bgn'] = [
 	'ApiFeatureUsage' => [ 'ApiFeatureUsage' ],
 ];
 
+/** Czech (čeština) */
+$specialPageAliases['cs'] = [
+	'ApiFeatureUsage' => [ 'Využití_funkcí_API' ],
+];
+
 /** German (Deutsch) */
 $specialPageAliases['de'] = [
 	'ApiFeatureUsage' => [ 'API-Funktionsverwendung' ],
