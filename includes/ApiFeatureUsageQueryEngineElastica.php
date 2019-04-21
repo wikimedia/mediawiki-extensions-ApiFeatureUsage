@@ -104,6 +104,7 @@ class ApiFeatureUsageQueryEngineElastica extends ApiFeatureUsageQueryEngine {
 		$termsAgg->setSize( $this->options['featureFieldAggSize'] );
 
 		$datesAgg = new Elastica\Aggregation\DateHistogram(
+			/** @phan-suppress-next-line PhanTypeMismatchArgument 'day' is a valid interval here */
 			'date', $this->options['timestampField'], 'day'
 		);
 		$datesAgg->setFormat( 'yyyy-MM-dd' );
