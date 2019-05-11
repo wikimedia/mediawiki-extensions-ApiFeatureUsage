@@ -63,6 +63,11 @@ $specialPageAliases['pt-br'] = [
 	'ApiFeatureUsage' => [ 'Uso_de_recurso_da_API' ],
 ];
 
+/** Slovak (slovenčina) */
+$specialPageAliases['sk'] = [
+	'ApiFeatureUsage' => [ 'VyužitieFunkciíAPI' ],
+];
+
 /** Serbian Cyrillic (српски (ћирилица)) */
 $specialPageAliases['sr-ec'] = [
 	'ApiFeatureUsage' => [ 'Употреба_извршилачке_функције' ],
