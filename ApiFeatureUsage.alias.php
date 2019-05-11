@@ -63,6 +63,16 @@ $specialPageAliases['pt-br'] = [
 	'ApiFeatureUsage' => [ 'Uso_de_recurso_da_API' ],
 ];
 
+/** Serbian Cyrillic (српски (ћирилица)) */
+$specialPageAliases['sr-ec'] = [
+	'ApiFeatureUsage' => [ 'Употреба_извршилачке_функције' ],
+];
+
+/** Serbian Latin (srpski (latinica)) */
+$specialPageAliases['sr-el'] = [
+	'ApiFeatureUsage' => [ 'Upotreba_izvršilačke_funkcije' ],
+];
+
 /** Urdu (اردو) */
 $specialPageAliases['ur'] = [
 	'ApiFeatureUsage' => [ 'اے_پی_آئی_خصوصیات_کا_استعمال' ],
