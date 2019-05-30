@@ -4,6 +4,10 @@
 			"Mirin"
 		]
 	},
+	"apifeatureusage-startdate-label": "Komenca dato:",
+	"apifeatureusage-enddate-label": "Fina dato:",
+	"apifeatureusage-submit": "Akiri datenon",
+	"apifeatureusage-warnings": "Averto: $1",
 	"apifeatureusage-column-feature": "Trajto",
 	"apifeatureusage-column-date": "Dato",
 	"apifeatureusage-column-uses": "Uzoj"
