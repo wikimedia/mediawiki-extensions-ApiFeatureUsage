@@ -4,6 +4,7 @@
 			"Mirin"
 		]
 	},
+	"apifeatureusage-elasticsearch-error": "Eraro de Elasticsearch: $1",
 	"apifeatureusage-startdate-label": "Komenca dato:",
 	"apifeatureusage-enddate-label": "Fina dato:",
 	"apifeatureusage-submit": "Akiri datenon",
