@@ -2,9 +2,12 @@
 	"@metadata": {
 		"authors": [
 			"Jopparn",
-			"WikiPhoenix"
+			"WikiPhoenix",
+			"Mjälten"
 		]
 	},
+	"apifeatureusage": "API-funktionsanvändning",
+	"apifeatureusage-legend": "API-funktionsanvändning",
 	"apifeatureusage-agent-label": "Användaragent:",
 	"apifeatureusage-startdate-label": "Startdatum:",
 	"apifeatureusage-enddate-label": "Slutdatum:",
