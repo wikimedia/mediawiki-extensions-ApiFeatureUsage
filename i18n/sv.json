@@ -7,6 +7,7 @@
 		]
 	},
 	"apifeatureusage": "API-funktionsanvändning",
+	"apifeatureusage-elasticsearch-error": "Elasticsearch-fel: $1",
 	"apifeatureusage-legend": "API-funktionsanvändning",
 	"apifeatureusage-agent-label": "Användaragent:",
 	"apifeatureusage-startdate-label": "Startdatum:",
