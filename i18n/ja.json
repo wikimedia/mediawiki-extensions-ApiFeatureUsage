@@ -3,7 +3,8 @@
 		"authors": [
 			"Shirayuki",
 			"Sujiniku",
-			"Yusuke1109"
+			"Yusuke1109",
+			"マツムシ"
 		]
 	},
 	"apifeatureusage": "API機能の使用状況",
@@ -18,6 +19,7 @@
 	"apifeatureusage-warnings": "警告: $1",
 	"apifeatureusage-column-feature": "機能",
 	"apifeatureusage-column-date": "日付",
+	"apifeatureusage-column-uses": "利用者",
 	"apihelp-query+featureusage-description": "ユーザーエージェントのログに記録されたAPI機能の概要を取得します。",
 	"apihelp-query+featureusage-summary": "ユーザーエージェントのログに記録されたAPI機能の概要を取得します。",
 	"apihelp-query+featureusage-param-start": "クエリの日付範囲の開始日。",

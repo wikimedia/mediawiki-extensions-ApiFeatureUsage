@@ -6,6 +6,7 @@
 		]
 	},
 	"apifeatureusage": "Выкарыстаньне функцыяў API",
+	"apifeatureusage-desc": "Атрымаць кароткае апісаньне запісаных ужываньняў функцыяў API для агента карыстальніка",
 	"apifeatureusage-elasticsearch-error": "Памылка Elasticsearch: $1",
 	"apifeatureusage-legend": "Выкарыстаньне функцыяў API",
 	"apifeatureusage-agent-label": "Браўзэр:",
@@ -13,10 +14,12 @@
 	"apifeatureusage-enddate-label": "Дата заканчэньня:",
 	"apifeatureusage-submit": "Атрымаць зьвесткі",
 	"apifeatureusage-no-indexes": "Няма зьвестак для вызначанага дыяпазону датаў.",
+	"apifeatureusage-missing-indexes": "Няма зьвестак для часткі вызначанага дыяпазону датаў.",
 	"apifeatureusage-warnings": "Папярэджаньне: $1",
 	"apifeatureusage-column-feature": "Асаблівасьць",
 	"apifeatureusage-column-date": "Дата",
 	"apifeatureusage-column-uses": "Выкарыстоўвае",
+	"apihelp-query+featureusage-description": "Атрымаць кароткае апісаньне запісаных ужываньняў функцыяў API для агента карыстальніка.",
 	"apihelp-query+featureusage-param-start": "Пачатак прамежку даты для запыту.",
 	"apihelp-query+featureusage-param-end": "Канец прамежку даты для запыту.",
 	"apierror-apifeatureusage-emptyagent": "Немагчыма даслаць запыт да пустога агенту ўдзельніка."
