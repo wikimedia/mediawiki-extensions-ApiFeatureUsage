@@ -24,5 +24,8 @@
 	"apihelp-query+featureusage-param-start": "Пачатак прамежку даты для запыту.",
 	"apihelp-query+featureusage-param-end": "Канец прамежку даты для запыту.",
 	"apihelp-query+featureusage-param-agent": "Агент карыстальніка для запыту. Калі не пазначаны, будзе выкарыстаны агент з запыту.",
-	"apierror-apifeatureusage-emptyagent": "Немагчыма даслаць запыт да пустога агенту ўдзельніка."
+	"apihelp-query+featureusage-param-features": "Калі пазначана, вяртае падрабязнасьці толькі гэтых функцыяў.",
+	"apihelp-query+featureusage-example-simple": "Выкарыстаньне функцыяў запыту для цяперашняга агента карыстальніка",
+	"apierror-apifeatureusage-emptyagent": "Немагчыма даслаць запыт да пустога агенту ўдзельніка.",
+	"apifeatureusage-deprecation-help": "Скарыстайцеся [[Special:ApiFeatureUsage]], каб пабачыць ужываньне састарэлых функцыяў вашай праграмай."
 }
