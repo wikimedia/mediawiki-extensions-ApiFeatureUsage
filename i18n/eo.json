@@ -4,7 +4,9 @@
 			"Mirin"
 		]
 	},
+	"apifeatureusage": "Uzado de funkcioj de API",
 	"apifeatureusage-elasticsearch-error": "Eraro de Elasticsearch: $1",
+	"apifeatureusage-legend": "Uzado de funkcioj de API",
 	"apifeatureusage-agent-label": "Klienta aplikaĵo:",
 	"apifeatureusage-startdate-label": "Komenca dato:",
 	"apifeatureusage-enddate-label": "Fina dato:",
