@@ -10,6 +10,7 @@ class SpecialApiFeatureUsage extends SpecialPage {
 	/** @inheritDoc */
 	public function execute( $par ) {
 		$this->setHeaders();
+		$this->addHelpLink( 'Extension:ApiFeatureUsage' );
 		$this->checkPermissions();
 
 		$request = $this->getRequest();
