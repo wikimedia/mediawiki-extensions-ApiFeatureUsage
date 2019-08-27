@@ -85,7 +85,7 @@ class ApiQueryFeatureUsage extends ApiQueryBase {
 
 	/** @inheritDoc */
 	public function getHelpUrls() {
-		return 'https://www.mediawiki.org/wiki/Extension:ApiFeatureUsage';
+		return 'https://www.mediawiki.org/wiki/Special:MyLanguage/Extension:ApiFeatureUsage';
 	}
 
 }
