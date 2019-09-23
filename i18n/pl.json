@@ -3,7 +3,8 @@
 		"authors": [
 			"Chrumps",
 			"Woytecr",
-			"Warchlak"
+			"Warchlak",
+			"Rail"
 		]
 	},
 	"apifeatureusage": "Użycie funkcji API",
@@ -19,5 +20,9 @@
 	"apifeatureusage-warnings": "Ostrzeżenie: $1",
 	"apifeatureusage-column-feature": "Funkcja",
 	"apifeatureusage-column-date": "Data",
-	"apifeatureusage-column-uses": "Użycia"
+	"apifeatureusage-column-uses": "Użycia",
+	"apihelp-query+featureusage-description": "Tworzy podsumowanie zarejestrowanego użycia funkcji API dla agenta użytkownika.",
+	"apihelp-query+featureusage-summary": "Tworzy podsumowanie zarejestrowanego użycia funkcji API dla agenta użytkownika.",
+	"apihelp-query+featureusage-param-start": "Początek zakresu dat do zapytania.",
+	"apihelp-query+featureusage-param-end": "Koniec zakresu dat do zapytania."
 }
