@@ -1,8 +1,13 @@
 {
 	"@metadata": {
 		"authors": [
-			"Robert Važan"
+			"Robert Važan",
+			"Vlad5250"
 		]
 	},
-	"apifeatureusage": "Využitie funkcií API"
+	"apifeatureusage": "Využitie funkcií API",
+	"apifeatureusage-startdate-label": "Počiatočný dátum:",
+	"apifeatureusage-enddate-label": "Koncový dátum:",
+	"apifeatureusage-column-date": "Dátum",
+	"apifeatureusage-column-uses": "Použitia"
 }
