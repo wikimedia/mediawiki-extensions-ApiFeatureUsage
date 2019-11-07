@@ -6,20 +6,21 @@
 			"Nicolapps",
 			"Gomoko",
 			"Wladek92",
-			"Urhixidur"
+			"Urhixidur",
+			"Verdy p"
 		]
 	},
-	"apifeatureusage": "Utilisation de la fonctionnalité de l'API",
+	"apifeatureusage": "Utilisation de la fonctionnalité de l’API",
 	"apifeatureusage-desc": "Obtenir un résumé de l’utilisation des fonctionnalités de l’API tracées pour un agent utilisateur",
-	"apifeatureusage-elasticsearch-error": "Erreur de Elasticsearch : $1",
+	"apifeatureusage-elasticsearch-error": "Erreur d’''Elasticsearch'' : $1",
 	"apifeatureusage-legend": "Utilisation de fonctionnalité de l’API",
-	"apifeatureusage-agent-label": "Agent utilisateur :",
-	"apifeatureusage-startdate-label": "Date de début :",
-	"apifeatureusage-enddate-label": "Date de fin :",
+	"apifeatureusage-agent-label": "Agent utilisateur :",
+	"apifeatureusage-startdate-label": "Date de début :",
+	"apifeatureusage-enddate-label": "Date de fin :",
 	"apifeatureusage-submit": "Récupérer les données",
-	"apifeatureusage-no-indexes": "Aucune donnée n'est disponible pour la plage de dates spécifiée.",
-	"apifeatureusage-missing-indexes": "Aucune donnée n'est disponible pour la partie de la plage de dates spécifiée.",
-	"apifeatureusage-warnings": "Attention : $1",
+	"apifeatureusage-no-indexes": "Aucune donnée n’est disponible pour la plage de dates spécifiée.",
+	"apifeatureusage-missing-indexes": "Aucune donnée n’est disponible pour la partie de la plage de dates spécifiée.",
+	"apifeatureusage-warnings": "Attention : $1",
 	"apifeatureusage-column-feature": "Élément",
 	"apifeatureusage-column-date": "Date",
 	"apifeatureusage-column-uses": "Utilisations",
@@ -30,6 +31,6 @@
 	"apihelp-query+featureusage-param-agent": "Agent utilisateur à interroger. S’il n’est pas spécifié, l’agent dans la requête sera interrogé.",
 	"apihelp-query+featureusage-param-features": "Si spécifié, renvoyer des détails uniquement sur ces fonctionnalités.",
 	"apihelp-query+featureusage-example-simple": "Requête d’utilisation de fonctionnalité pour l’agent utilisateur actuel",
-	"apierror-apifeatureusage-emptyagent": "Il n'est pas possible d'interroger un agent utilisateur vide.",
+	"apierror-apifeatureusage-emptyagent": "Il n’est pas possible d’interroger un agent utilisateur vide.",
 	"apifeatureusage-deprecation-help": "Utiliser [[Special:ApiFeatureUsage]] pour voir l’utilisation des fonctionnalités désuètes par votre application."
 }
