@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"Mirin"
+			"Mirin",
+			"Zarisi"
 		]
 	},
 	"apifeatureusage": "Uzado de funkcioj de API",
@@ -14,5 +15,6 @@
 	"apifeatureusage-warnings": "Averto: $1",
 	"apifeatureusage-column-feature": "Trajto",
 	"apifeatureusage-column-date": "Dato",
-	"apifeatureusage-column-uses": "Uzoj"
+	"apifeatureusage-column-uses": "Uzoj",
+	"apihelp-query+featureusage-param-start": "Komenco de datintervalo ĝis enketo."
 }
