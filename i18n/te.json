@@ -4,6 +4,7 @@
 			"Veeven"
 		]
 	},
+	"apifeatureusage-warnings": "హెచ్చరిక: $1",
 	"apifeatureusage-column-date": "తేదీ",
 	"apifeatureusage-column-uses": "వాడుకలు"
 }

@@ -28,5 +28,6 @@
 	"apihelp-query+featureusage-param-agent": "Op te vragen useragent. Als niet opgegeven, wordt de useragent van het verzoek gebruikt.",
 	"apihelp-query+featureusage-param-features": "Als opgegeven, alleen details over deze mogelijkheden rapporteren.",
 	"apihelp-query+featureusage-example-simple": "Mogelijkhedengebruik voor de huidige useragent opvragen",
+	"apierror-apifeatureusage-emptyagent": "Kan niet op een lege user agent zoeken.",
 	"apifeatureusage-deprecation-help": "Gebruik [[Special:ApiFeatureUsage]] om te zien welke verouderde functies gebruikt worden door uw programma."
 }
