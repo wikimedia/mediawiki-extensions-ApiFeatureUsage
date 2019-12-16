@@ -18,6 +18,7 @@
 	"apifeatureusage-column-feature": "Funktion",
 	"apifeatureusage-column-date": "Datum",
 	"apifeatureusage-column-uses": "Använder",
+	"apihelp-query+featureusage-description": "Få ett sammandrag av loggade API:-funktionsbruk för en användaragent.",
 	"apihelp-query+featureusage-param-start": "Startdatum för intervallet att begära.",
 	"apihelp-query+featureusage-param-end": "Slutdatum för intervallet att begära.",
 	"apierror-apifeatureusage-emptyagent": "Kan inte utföra förfrågan för en tom användaragent.",
