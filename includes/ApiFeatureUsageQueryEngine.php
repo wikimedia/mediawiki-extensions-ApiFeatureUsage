@@ -44,6 +44,7 @@ abstract class ApiFeatureUsageQueryEngine {
 	/**
 	 * Get a suggested date range
 	 * @return MWTimestamp[]
+	 * @phan-return array<MWTimestamp,MWTimestamp>
 	 */
 	abstract public function suggestDateRange();
 }
