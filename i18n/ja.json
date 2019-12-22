@@ -4,7 +4,8 @@
 			"Shirayuki",
 			"Sujiniku",
 			"Yusuke1109",
-			"マツムシ"
+			"マツムシ",
+			"Aefgh39622"
 		]
 	},
 	"apifeatureusage": "API機能の使用状況",
@@ -16,6 +17,7 @@
 	"apifeatureusage-enddate-label": "終了日:",
 	"apifeatureusage-submit": "データを取得",
 	"apifeatureusage-no-indexes": "指定された日付範囲で利用可能なデータはありません。",
+	"apifeatureusage-missing-indexes": "指定された日付範囲で利用可能なデータはありません。",
 	"apifeatureusage-warnings": "警告: $1",
 	"apifeatureusage-column-feature": "機能",
 	"apifeatureusage-column-date": "日付",
