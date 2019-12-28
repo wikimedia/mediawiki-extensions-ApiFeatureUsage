@@ -37,6 +37,8 @@ class ApiQueryFeatureUsage extends ApiQueryBase {
 			$end = new MWTimestamp( $params['end'] );
 			$end->setTimezone( 'UTC' );
 		}
+		'@phan-var MWTimestamp $start';
+		'@phan-var MWTimestamp $end';
 
 		$status = $engine->execute( $agent, $start, $end, $params['features'] );
 		if ( !$status->isOk() ) {
