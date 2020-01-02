@@ -7,6 +7,7 @@
 		]
 	},
 	"apifeatureusage": "API-funktionsanvändning",
+	"apifeatureusage-desc": "Få ett sammandrag av loggade API:-funktionsbruk för en användaragent.",
 	"apifeatureusage-elasticsearch-error": "Elasticsearch-fel: $1",
 	"apifeatureusage-legend": "API-funktionsanvändning",
 	"apifeatureusage-agent-label": "Användaragent:",
@@ -14,6 +15,7 @@
 	"apifeatureusage-enddate-label": "Slutdatum:",
 	"apifeatureusage-submit": "Hämta data",
 	"apifeatureusage-no-indexes": "Ingen data finns tillgänglig för angivet datumintervall.",
+	"apifeatureusage-missing-indexes": "Ingen data finns tillgänglig för angivet datumintervall.",
 	"apifeatureusage-warnings": "Varning: $1",
 	"apifeatureusage-column-feature": "Funktion",
 	"apifeatureusage-column-date": "Datum",
@@ -21,6 +23,8 @@
 	"apihelp-query+featureusage-description": "Få ett sammandrag av loggade API:-funktionsbruk för en användaragent.",
 	"apihelp-query+featureusage-param-start": "Startdatum för intervallet att begära.",
 	"apihelp-query+featureusage-param-end": "Slutdatum för intervallet att begära.",
+	"apihelp-query+featureusage-param-features": "Om angett vill endast detaljer om dessa funktionerna återkomma.",
+	"apihelp-query+featureusage-example-simple": "Fråga om funktionsbruk för den nuvarande användaragenten",
 	"apierror-apifeatureusage-emptyagent": "Kan inte utföra förfrågan för en tom användaragent.",
 	"apifeatureusage-deprecation-help": "Använd [[Special:ApiFeatureUsage]] för att se hur din applikation använder föråldrade funktioner."
 }
