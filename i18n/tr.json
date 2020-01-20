@@ -3,14 +3,15 @@
 		"authors": [
 			"Incelemeelemani",
 			"1917 Ekim Devrimi",
-			"Hedda"
+			"Hedda",
+			"BaRaN6161 TURK"
 		]
 	},
 	"apifeatureusage": "API özelliği kullanımı",
-	"apifeatureusage-desc": "Kullanıcıların API özelliği kullanımı için özet günlük alın.",
+	"apifeatureusage-desc": "Kullanıcıların API özelliği kullanımı için özet günlük alın",
 	"apifeatureusage-elasticsearch-error": "Elasticsearch hatası: $1",
 	"apifeatureusage-legend": "API özelliği kullanımı",
-	"apifeatureusage-agent-label": "Kullanıcı ajanı:",
+	"apifeatureusage-agent-label": "Kullanıcı temsilcisi:",
 	"apifeatureusage-startdate-label": "Başlangıç tarihi:",
 	"apifeatureusage-enddate-label": "Bitiş tarihi:",
 	"apifeatureusage-submit": "Veriyi getir",
@@ -20,13 +21,13 @@
 	"apifeatureusage-column-feature": "Özellik",
 	"apifeatureusage-column-date": "Tarih",
 	"apifeatureusage-column-uses": "Kullanımlar",
-	"apihelp-query+featureusage-description": "Kullanıcıların API özelliği kullanımı için özet günlük alın.",
-	"apihelp-query+featureusage-summary": "Bir kullanıcı temsilcisi için günlük API özelliği kullanımlarının özetini edinin.",
-	"apihelp-query+featureusage-param-start": "Sorgudaki tarih aralığı başlangıcı.",
-	"apihelp-query+featureusage-param-end": "Sorgudaki tarih aralığı bitişi.",
-	"apihelp-query+featureusage-param-agent": "Kullanıcı ajanı sorgusu. Belirtilmediğinde istenen ajan sorgulanacaktır.",
-	"apihelp-query+featureusage-param-features": "Belirtilmemişse, sadece bu özellik hakkında ayrıntılı bilgiler gösterilir.",
-	"apihelp-query+featureusage-example-simple": "Geçerli kullanıcı ajanı için sorgu özelliği kullanımı",
-	"apierror-apifeatureusage-emptyagent": "Kullanıcı ajanı boş sorgulanamaz",
-	"apifeatureusage-deprecation-help": "Kullanımdan kaldırılmış özelliklerin kullanımınızı görmek için [[Special:ApiFeatureUsage]] sayfasını kullanın."
+	"apihelp-query+featureusage-description": "Bir kullanıcı aracısı için günlüğe kaydedilmiş API özelliği kullanımlarının bir özetini alın.",
+	"apihelp-query+featureusage-summary": "Bir kullanıcı aracısı için günlüğe kaydedilmiş API özelliği kullanımlarının bir özetini alın.",
+	"apihelp-query+featureusage-param-start": "Sorgulanacak tarih aralığının başlangıcı.",
+	"apihelp-query+featureusage-param-end": "Sorgulanacak tarih aralığının sonu.",
+	"apihelp-query+featureusage-param-agent": "Sorgulanacak kullanıcı aracısı. Belirtilmezse, istekteki aracı sorgulanır.",
+	"apihelp-query+featureusage-param-features": "Belirtilirse, yalnızca bu özelliklerle ilgili ayrıntıları döndürün.",
+	"apihelp-query+featureusage-example-simple": "Geçerli kullanıcı aracısı için sorgu özelliği kullanımı",
+	"apierror-apifeatureusage-emptyagent": "Boş bir kullanıcı aracısı sorgulanamıyor.",
+	"apifeatureusage-deprecation-help": "Uygulamanız tarafından kullanımdan kaldırılmış özelliklerin kullanımını görmek için [[Special:ApiFeatureUsage]] kullanın."
 }
