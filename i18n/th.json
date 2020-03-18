@@ -1,8 +1,15 @@
 {
 	"@metadata": {
 		"authors": [
-			"Geonuch"
+			"Geonuch",
+			"Aefgh39622"
 		]
 	},
-	"apifeatureusage": "การใช้คุณลักษณะเอพีไอ"
+	"apifeatureusage": "การใช้คุณลักษณะเอพีไอ",
+	"apifeatureusage-startdate-label": "วันที่เริ่มต้น:",
+	"apifeatureusage-enddate-label": "วันที่สิ้นสุด:",
+	"apifeatureusage-submit": "ดึงข้อมูล",
+	"apifeatureusage-warnings": "คำเตือน: $1",
+	"apifeatureusage-column-feature": "คุณลักษณะ",
+	"apifeatureusage-column-date": "วันที่"
 }
