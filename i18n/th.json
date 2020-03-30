@@ -6,10 +6,25 @@
 		]
 	},
 	"apifeatureusage": "การใช้คุณลักษณะเอพีไอ",
+	"apifeatureusage-desc": "รับข้อมูลสรุปเกี่ยวกับการใช้งานคุณลักษณะ API ที่ถูกบันทึกลงในปูมสำหรับตัวแทนผู้ใช้",
+	"apifeatureusage-elasticsearch-error": "ข้อผิดพลาดของ Elasticsearch: $1",
+	"apifeatureusage-legend": "การใช้คุณลักษณะ API",
+	"apifeatureusage-agent-label": "ตัวแทนผู้ใช้:",
 	"apifeatureusage-startdate-label": "วันที่เริ่มต้น:",
 	"apifeatureusage-enddate-label": "วันที่สิ้นสุด:",
 	"apifeatureusage-submit": "ดึงข้อมูล",
+	"apifeatureusage-no-indexes": "ไม่มีข้อมูลที่พร้อมใช้งานสำหรับช่วงวันที่ที่ระบุ",
+	"apifeatureusage-missing-indexes": "ไม่มีข้อมูลที่พร้อมใช้งานสำหรับบางส่วนของช่วงวันที่ที่ระบุ",
 	"apifeatureusage-warnings": "คำเตือน: $1",
 	"apifeatureusage-column-feature": "คุณลักษณะ",
-	"apifeatureusage-column-date": "วันที่"
+	"apifeatureusage-column-date": "วันที่",
+	"apifeatureusage-column-uses": "การใช้งาน",
+	"apihelp-query+featureusage-description": "รับข้อมูลสรุปเกี่ยวกับการใช้งานคุณลักษณะ API ที่ถูกบันทึกลงในปูมสำหรับตัวแทนผู้ใช้",
+	"apihelp-query+featureusage-summary": "รับข้อมูลสรุปเกี่ยวกับการใช้งานคุณลักษณะ API ที่ถูกบันทึกลงในปูมสำหรับตัวแทนผู้ใช้",
+	"apihelp-query+featureusage-param-start": "จุดเริ่มต้นของช่วงวันที่ที่ต้องการสอบถาม",
+	"apihelp-query+featureusage-param-end": "จุดสิ้นสุดของช่วงวันที่ที่ต้องการสอบถาม",
+	"apihelp-query+featureusage-param-agent": "ตัวแทนผู้ใช้ที่ต้องการสอบถาม หากไม่ระบุ ตัวแทนที่อยู่ในคำร้องขอจะไม่ถูกสอบถาม",
+	"apihelp-query+featureusage-param-features": "หากระบุไว้ ให้ส่งกลับรายละเอียดบนคุณลักษณะเหล่านี้เท่านั้น",
+	"apihelp-query+featureusage-example-simple": "สอบถามการใช้งานคุณลักษณะสำหรับตัวแทนผู้ใช้ปัจจุบัน",
+	"apierror-apifeatureusage-emptyagent": "ไม่สามารถสอบถามตัวแทนผู้ใช้เปล่าได้"
 }
