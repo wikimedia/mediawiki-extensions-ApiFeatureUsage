@@ -2,11 +2,11 @@
 	"@metadata": {
 		"authors": [
 			"Brad Jorsch",
-			"Raymond",
 			"Liuxinyu970226",
-			"Umherirrender",
 			"Nemo bis",
-			"Purodha"
+			"Purodha",
+			"Raymond",
+			"Umherirrender"
 		]
 	},
 	"apifeatureusage": "{{doc-special|ApiFeatureUsage}}\nThe name of the [[mw:Extension:ApiFeatureUsage|ApiFeatureUsage extension]].",
