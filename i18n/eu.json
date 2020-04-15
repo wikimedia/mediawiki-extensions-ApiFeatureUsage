@@ -1,8 +1,16 @@
 {
 	"@metadata": {
 		"authors": [
+			"Joseba",
 			"Subi"
 		]
 	},
-	"apifeatureusage-column-date": "Data"
+	"apifeatureusage-startdate-label": "Hasiera data",
+	"apifeatureusage-enddate-label": "Bukaera data",
+	"apifeatureusage-submit": "Aurkitu datuak",
+	"apifeatureusage-no-indexes": "Ez dago daturik data-tarte honetan",
+	"apifeatureusage-missing-indexes": "Ez dago daturik eskuragarri data-tarte honen zati batean",
+	"apifeatureusage-warnings": "Arriskua: $1",
+	"apifeatureusage-column-date": "Data",
+	"apifeatureusage-column-uses": "Erabilpenak"
 }
