@@ -12,5 +12,7 @@
 	"apifeatureusage-missing-indexes": "Ez dago daturik eskuragarri data-tarte honen zati batean",
 	"apifeatureusage-warnings": "Arriskua: $1",
 	"apifeatureusage-column-date": "Data",
-	"apifeatureusage-column-uses": "Erabilpenak"
+	"apifeatureusage-column-uses": "Erabilpenak",
+	"apihelp-query+featureusage-param-start": "Hasiera-data tartea kontsultatzeke",
+	"apihelp-query+featureusage-param-end": "Amaiera-data tartea kontsultatzeke"
 }
