@@ -50,7 +50,9 @@
 		"ApiDeprecationHelp": "ApiFeatureUsageHooks::onApiDeprecationHelp"
 	},
 	"config": {
-		"ApiFeatureUsageQueryEngineConf": []
+		"ApiFeatureUsageQueryEngineConf": {
+			"value": []
+		}
 	},
-	"manifest_version": 1
+	"manifest_version": 2
 }
