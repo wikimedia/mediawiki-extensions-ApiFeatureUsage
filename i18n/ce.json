@@ -5,6 +5,7 @@
 		]
 	},
 	"apifeatureusage": "API функци лелор",
+	"apifeatureusage-desc": "Лелош йолу API функцешна доца дӀаяздарш схьаэца лелорхойн агентана",
 	"apifeatureusage-elasticsearch-error": "ГӀалат Elasticsearch: $1",
 	"apifeatureusage-legend": "API функци лелор",
 	"apifeatureusage-agent-label": "Браузер:",
@@ -12,5 +13,7 @@
 	"apifeatureusage-warnings": "ДӀахьедар: $1",
 	"apifeatureusage-column-feature": "Функци",
 	"apifeatureusage-column-date": "Терахь",
-	"apifeatureusage-column-uses": "Лелор"
+	"apifeatureusage-column-uses": "Лелор",
+	"apihelp-query+featureusage-description": "Лелош йолу API функцешна доца дӀаяздарш схьаэца лелорхойн агентана.",
+	"apihelp-query+featureusage-summary": "Лелош йолу API функцешна доца дӀаяздарш схьаэца лелорхойн агентана."
 }
