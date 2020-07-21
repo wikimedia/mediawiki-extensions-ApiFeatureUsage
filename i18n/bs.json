@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"Srdjan m"
+			"Srdjan m",
+			"Srđan"
 		]
 	},
 	"apifeatureusage-desc": "Dobijte sažetak zapisanih korištenja API usluga za određeni korisnički agent."
