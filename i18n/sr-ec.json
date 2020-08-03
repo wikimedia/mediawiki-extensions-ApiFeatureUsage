@@ -7,7 +7,7 @@
 		]
 	},
 	"apifeatureusage": "Коришћење API могућности",
-	"apifeatureusage-desc": "Набавља резиме евидентираних кориштења API функција за одређеног корисничког агента",
+	"apifeatureusage-desc": "Набавља преглед забележених употреба API функција за одређеног корисничког агента",
 	"apifeatureusage-legend": "Коришћење API могућности",
 	"apifeatureusage-agent-label": "Кориснички агент:",
 	"apifeatureusage-startdate-label": "Датум почетка:",
@@ -19,6 +19,6 @@
 	"apifeatureusage-column-feature": "Могућност",
 	"apifeatureusage-column-date": "Датум",
 	"apifeatureusage-column-uses": "Користи",
-	"apihelp-query+featureusage-description": "Набавља резиме евидентираних кориштења API функција за одређеног корисничког агента.",
-	"apihelp-query+featureusage-summary": "Набавља резиме евидентираних кориштења API функција за одређеног корисничког агента."
+	"apihelp-query+featureusage-description": "Набавља преглед забележених употреба API функција за одређеног корисничког агента.",
+	"apihelp-query+featureusage-summary": "Набавља преглед забележених употреба API функција за одређеног корисничког агента."
 }
