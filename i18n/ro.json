@@ -1,8 +1,20 @@
 {
 	"@metadata": {
 		"authors": [
+			"Strainu",
 			"XXN"
 		]
 	},
-	"apifeatureusage": "Statistica utilizării API"
+	"apifeatureusage": "Statistica utilizării API",
+	"apifeatureusage-elasticsearch-error": "Eroare Elasticsearch: $1",
+	"apifeatureusage-legend": "Statistica utilizării API",
+	"apifeatureusage-agent-label": "Agent utilizator:",
+	"apifeatureusage-startdate-label": "Data de început:",
+	"apifeatureusage-enddate-label": "Dată de sfârșit:",
+	"apifeatureusage-submit": "Obține date",
+	"apifeatureusage-no-indexes": "Nu există date disponibile pentru intervalul specificat.",
+	"apifeatureusage-missing-indexes": "Nu există date disponibile pentru o parte din intervalul specificat.",
+	"apifeatureusage-warnings": "Avertisment: $1",
+	"apifeatureusage-column-date": "Dată",
+	"apifeatureusage-column-uses": "Utilizări"
 }
