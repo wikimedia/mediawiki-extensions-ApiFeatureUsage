@@ -1,11 +1,13 @@
 {
 	"@metadata": {
 		"authors": [
+			"Akmaie Ajam",
 			"Bennylin",
 			"Palladin911"
 		]
 	},
 	"apifeatureusage": "Pemakaian fitur API",
+	"apifeatureusage-warnings": "Peringatan: $1",
 	"apifeatureusage-column-feature": "Fitur",
 	"apifeatureusage-column-date": "Tanggal"
 }
