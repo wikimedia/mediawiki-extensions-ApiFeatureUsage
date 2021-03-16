@@ -53,9 +53,19 @@ $specialPageAliases['mk'] = [
 	'ApiFeatureUsage' => [ 'УпотребаНаИзвршничкиФункции' ],
 ];
 
+/** Norwegian Bokmål (norsk bokmål) */
+$specialPageAliases['nb'] = [
+	'ApiFeatureUsage' => [ 'API-funksjonsbruk' ],
+];
+
 /** Dutch (Nederlands) */
 $specialPageAliases['nl'] = [
 	'ApiFeatureUsage' => [ 'Apifunctiesgebruik' ],
+];
+
+/** Norwegian Nynorsk (norsk nynorsk) */
+$specialPageAliases['nn'] = [
+	'ApiFeatureUsage' => [ 'API-funksjonsbruk' ],
 ];
 
 /** Brazilian Portuguese (português do Brasil) */
