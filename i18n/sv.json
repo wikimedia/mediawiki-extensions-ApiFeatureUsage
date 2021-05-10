@@ -3,6 +3,7 @@
 		"authors": [
 			"Jopparn",
 			"Mjälten",
+			"Technic2",
 			"WikiPhoenix"
 		]
 	},
@@ -21,8 +22,10 @@
 	"apifeatureusage-column-date": "Datum",
 	"apifeatureusage-column-uses": "Använder",
 	"apihelp-query+featureusage-description": "Få ett sammandrag av loggade API:-funktionsbruk för en användaragent.",
+	"apihelp-query+featureusage-summary": "Hämta en sammanfattning av loggade API-funktionsanvändningar för en användaragent.",
 	"apihelp-query+featureusage-param-start": "Startdatum för intervallet att begära.",
 	"apihelp-query+featureusage-param-end": "Slutdatum för intervallet att begära.",
+	"apihelp-query+featureusage-param-agent": "Användaragent att hämta. Om den inte specificeras kommer agenten i förfrågningen att hämtas.",
 	"apihelp-query+featureusage-param-features": "Om angett vill endast detaljer om dessa funktionerna återkomma.",
 	"apihelp-query+featureusage-example-simple": "Fråga om funktionsbruk för den nuvarande användaragenten",
 	"apierror-apifeatureusage-emptyagent": "Kan inte utföra förfrågan för en tom användaragent.",
