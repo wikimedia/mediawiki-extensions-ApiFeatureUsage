@@ -1,6 +1,7 @@
 {
 	"@metadata": {
 		"authors": [
+			"An13sa",
 			"Joseba",
 			"Subi"
 		]
@@ -11,6 +12,7 @@
 	"apifeatureusage-no-indexes": "Ez dago daturik data-tarte honetan",
 	"apifeatureusage-missing-indexes": "Ez dago daturik eskuragarri data-tarte honen zati batean",
 	"apifeatureusage-warnings": "Arriskua: $1",
+	"apifeatureusage-column-feature": "Ezaugarria",
 	"apifeatureusage-column-date": "Data",
 	"apifeatureusage-column-uses": "Erabilpenak",
 	"apihelp-query+featureusage-param-start": "Hasiera-data tartea kontsultatzeke",
