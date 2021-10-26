@@ -4,5 +4,6 @@
 			"Ajeje Brazorf"
 		]
 	},
-	"apifeatureusage-warnings": "Accura: $1"
+	"apifeatureusage-warnings": "Accura: $1",
+	"apifeatureusage-column-uses": "Usi"
 }
