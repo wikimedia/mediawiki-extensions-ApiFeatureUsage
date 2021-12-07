@@ -5,11 +5,12 @@
 			"Purodha",
 			"Robin van der Vliet",
 			"Robin0van0der0vliet",
-			"Siebrand"
+			"Siebrand",
+			"McDutchie"
 		]
 	},
 	"apifeatureusage": "API-functiegebruik",
-	"apifeatureusage-desc": "Samenvattingen weergeven voor gelogd gebruik van API-mogelijkheden voor een useragent.",
+	"apifeatureusage-desc": "Een samenvatting opvragen van het gelogde gebruik van API-mogelijkheden voor een user-agent.",
 	"apifeatureusage-elasticsearch-error": "Elasticsearch-fout: $1",
 	"apifeatureusage-legend": "API-functiegebruik",
 	"apifeatureusage-agent-label": "Useragentː",
@@ -22,7 +23,8 @@
 	"apifeatureusage-column-feature": "Functie",
 	"apifeatureusage-column-date": "Datum",
 	"apifeatureusage-column-uses": "Toepassingen",
-	"apihelp-query+featureusage-description": "Samenvattingen weergeven voor gelogd gebruik van API-mogelijkheden voor een useragent.",
+	"apihelp-query+featureusage-description": "Een samenvatting opvragen van het gelogde gebruik van API-mogelijkheden voor een user-agent.",
+	"apihelp-query+featureusage-summary": "Een samenvatting opvragen van het gelogde gebruik van API-mogelijkheden voor een user-agent.",
 	"apihelp-query+featureusage-param-start": "Begindatum van de op te vragen periode.",
 	"apihelp-query+featureusage-param-end": "Einddatum van de op te vragen periode.",
 	"apihelp-query+featureusage-param-agent": "Op te vragen useragent. Als niet opgegeven, wordt de useragent van het verzoek gebruikt.",
