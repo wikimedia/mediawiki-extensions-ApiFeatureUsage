@@ -1,0 +1,13 @@
+{
+	"@metadata": {
+		"authors": [
+			"Abbas dhothar"
+		]
+	},
+	"apifeatureusage-agent-label": "ورتن آلا ایجنٹ:",
+	"apifeatureusage-startdate-label": "ٹرن تریخ:",
+	"apifeatureusage-enddate-label": "انت تریخ:",
+	"apifeatureusage-column-feature": "مستقبل",
+	"apifeatureusage-column-date": "تریخ",
+	"apifeatureusage-column-uses": "ورتن"
+}

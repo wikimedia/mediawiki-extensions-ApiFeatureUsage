@@ -1,0 +1,16 @@
+{
+	"@metadata": {
+		"authors": [
+			"Eleassar"
+		]
+	},
+	"apifeatureusage": "Uporaba možnosti API",
+	"apifeatureusage-legend": "Uporaba možnosti API",
+	"apifeatureusage-agent-label": "Uporabniški agent:",
+	"apifeatureusage-startdate-label": "Začetni datum:",
+	"apifeatureusage-enddate-label": "Končni datum:",
+	"apifeatureusage-submit": "Pridobi podatke",
+	"apifeatureusage-column-feature": "Možnost",
+	"apifeatureusage-column-date": "Datum",
+	"apifeatureusage-column-uses": "Uporabe"
+}

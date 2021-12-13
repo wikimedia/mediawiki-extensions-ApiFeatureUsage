@@ -2,7 +2,9 @@
 	"@metadata": {
 		"authors": [
 			"Aftabuzzaman",
-			"আফতাবুজ্জামান"
+			"আফতাবুজ্জামান",
+			"YahyA",
+			"Yahya"
 		]
 	},
 	"apifeatureusage": "এপিআই বৈশিষ্ট্য ব্যবহার",
@@ -12,6 +14,7 @@
 	"apifeatureusage-enddate-label": "শেষের তারিখ:",
 	"apifeatureusage-submit": "উপাত্ত আনুন",
 	"apifeatureusage-warnings": "সতর্কীকরণ: $1",
+	"apifeatureusage-column-feature": "বৈশিষ্ট্য",
 	"apifeatureusage-column-date": "তারিখ",
 	"apifeatureusage-column-uses": "ব্যবহার"
 }

@@ -4,6 +4,8 @@
 			"Veeven"
 		]
 	},
+	"apifeatureusage-startdate-label": "మొదలు తేదీ:",
+	"apifeatureusage-enddate-label": "ముగింపు తేదీ:",
 	"apifeatureusage-warnings": "హెచ్చరిక: $1",
 	"apifeatureusage-column-date": "తేదీ",
 	"apifeatureusage-column-uses": "వాడుకలు"

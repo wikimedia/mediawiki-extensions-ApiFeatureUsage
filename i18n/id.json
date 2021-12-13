@@ -2,10 +2,19 @@
 	"@metadata": {
 		"authors": [
 			"Bennylin",
-			"Palladin911"
+			"Palladin911",
+			"Akmaie Ajam",
+			"Hidayatsrf"
 		]
 	},
 	"apifeatureusage": "Pemakaian fitur API",
+	"apifeatureusage-agent-label": "Agen pengguna:",
+	"apifeatureusage-startdate-label": "Tanggal mulai:",
+	"apifeatureusage-enddate-label": "Tanggal berakhir:",
+	"apifeatureusage-submit": "Ambil data",
+	"apifeatureusage-warnings": "Peringatan: $1",
 	"apifeatureusage-column-feature": "Fitur",
-	"apifeatureusage-column-date": "Tanggal"
+	"apifeatureusage-column-date": "Tanggal",
+	"apifeatureusage-column-uses": "Penggunaan",
+	"apierror-apifeatureusage-emptyagent": "Tidak dapat membuat kueri dari agen pengguna kosong"
 }
