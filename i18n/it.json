@@ -4,6 +4,7 @@
 			"Beta16",
 			"Daimona Eaytoy",
 			"Dansita",
+			"Gianfranco",
 			"Selven"
 		]
 	},
@@ -28,5 +29,6 @@
 	"apihelp-query+featureusage-param-agent": "Agente utente da interrogare. Se non specificato, sarà consultato l'agente di questa richiesta.",
 	"apihelp-query+featureusage-param-features": "Se specificato, restituisce i dettagli solo su queste funzionalità.",
 	"apihelp-query+featureusage-example-simple": "Interroga l'uso delle funzionalità per l'agente utente attuale",
-	"apierror-apifeatureusage-emptyagent": "Impossibile cercare un agente utente vuoto."
+	"apierror-apifeatureusage-emptyagent": "Impossibile cercare un agente utente vuoto.",
+	"apifeatureusage-deprecation-help": "Usa [[Special:ApiFeatureUsage]] per vedere le funzioni deprecate utilizzate dalla tua applicazione."
 }
