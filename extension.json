@@ -23,7 +23,8 @@
 	},
 	"MessagesDirs": {
 		"ApiFeatureUsage": [
-			"i18n"
+			"i18n",
+			"i18n/api"
 		]
 	},
 	"ExtensionMessagesFiles": {
