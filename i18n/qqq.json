@@ -24,13 +24,5 @@
 	"apifeatureusage-column-feature": "Column header for the table containing the output. Cells in the \"Feature\" column contain the name of the feature the usage of which is counted. \n\n{{Identical|Feature}}",
 	"apifeatureusage-column-date": "Column header for output table. Dates in the column are in the UTC timezone, formatted as Y-m-d (similar to ISO 8601 format).\n\n{{Identical|Date}}",
 	"apifeatureusage-column-uses": "Column header for the table containing the output. Cells in \"Uses\" column contain the number of occurrences of the event.\n\n{{Identical|Use}}",
-	"apihelp-query+featureusage-description": "{{doc-apihelp-description|query+featureusage|info=See definition of [[w:User agent|user agent]] on Wikipedia.}}",
-	"apihelp-query+featureusage-summary": "{{doc-apihelp-summary|query+featureusage|info=See definition of [[w:User agent|user agent]] on Wikipedia.}}",
-	"apihelp-query+featureusage-param-start": "{{doc-apihelp-param|query+featureusage|start}}",
-	"apihelp-query+featureusage-param-end": "{{doc-apihelp-param|query+featureusage|end}}",
-	"apihelp-query+featureusage-param-agent": "{{doc-apihelp-param|query+featureusage|agent|info=See definition of [[w:User agent|user agent]] on Wikipedia.}}",
-	"apihelp-query+featureusage-param-features": "{{doc-apihelp-param|query+featureusage|features}}",
-	"apihelp-query+featureusage-example-simple": "{{doc-apihelp-example|query+featureusage|info=See definition of [[w:User agent|user agent]] on Wikipedia.}}",
-	"apierror-apifeatureusage-emptyagent": "{{doc-apierror}}",
 	"apifeatureusage-deprecation-help": "{{doc-apierror}}"
 }
