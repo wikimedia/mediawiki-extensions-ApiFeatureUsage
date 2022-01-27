@@ -21,13 +21,5 @@
 	"apifeatureusage-column-feature": "기능",
 	"apifeatureusage-column-date": "날짜",
 	"apifeatureusage-column-uses": "사용",
-	"apihelp-query+featureusage-description": "사용자 에이전트에 대한 기록된 API 기능 사용량의 요약을 얻습니다.",
-	"apihelp-query+featureusage-summary": "사용자 에이전트에 대한 기록된 API 기능 사용량 요약을 얻습니다.",
-	"apihelp-query+featureusage-param-start": "검색을 시작할 날짜.",
-	"apihelp-query+featureusage-param-end": "검색을 끝낼 날짜.",
-	"apihelp-query+featureusage-param-agent": "요청할 사용자 에이전트입니다. 지정하지 않으면 요청 내 에이전트를 질의합니다.",
-	"apihelp-query+featureusage-param-features": "지정하면 이 기능에 대해서만 자세한 정보를 반환합니다.",
-	"apihelp-query+featureusage-example-simple": "현재 사용자 에이전트의 기능 사용을 검색",
-	"apierror-apifeatureusage-emptyagent": "비어있는 사용자 에이전트를 조회할 수 없습니다.",
 	"apifeatureusage-deprecation-help": "애플리케이션의 구식 기능 사용 정보를 보려면 [[Special:ApiFeatureUsage]]를 사용하십시오."
 }

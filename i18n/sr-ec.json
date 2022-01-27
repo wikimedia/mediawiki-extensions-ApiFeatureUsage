@@ -18,7 +18,5 @@
 	"apifeatureusage-warnings": "Упозорење: $1",
 	"apifeatureusage-column-feature": "Могућност",
 	"apifeatureusage-column-date": "Датум",
-	"apifeatureusage-column-uses": "Користи",
-	"apihelp-query+featureusage-description": "Набавља преглед забележених употреба API функција за одређеног корисничког агента.",
-	"apihelp-query+featureusage-summary": "Набавља преглед забележених употреба API функција за одређеног корисничког агента."
+	"apifeatureusage-column-uses": "Користи"
 }

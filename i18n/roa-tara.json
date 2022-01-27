@@ -18,13 +18,5 @@
 	"apifeatureusage-column-feature": "Dettaglie",
 	"apifeatureusage-column-date": "Date",
 	"apifeatureusage-column-uses": "Ause",
-	"apihelp-query+featureusage-description": "Pigghie 'nu riepiloghe de l'ause dettagliate de l'API de collegamende pe 'n'agente utende.",
-	"apihelp-query+featureusage-summary": "Pigghie 'nu riepiloghe de l'ause dettagliate de l'API de collegamende pe 'n'agente utende.",
-	"apihelp-query+featureusage-param-start": "Inizie de l'indervalle de date da 'nderrogà.",
-	"apihelp-query+featureusage-param-end": "Fine de l'indervalle de date da 'nderrogà.",
-	"apihelp-query+featureusage-param-agent": "Utende agente da 'nderrogà. Ce no specificate, l'agente jndr'à richieste avène 'nderrogate.",
-	"apihelp-query+featureusage-param-features": "Ce specificate, torne le dettaglie sus a chiste funziune.",
-	"apihelp-query+featureusage-example-simple": "'Nderroghe l'ause de funzionalità pe l'utende agente",
-	"apierror-apifeatureusage-emptyagent": "Non ge puè 'nderrogà 'n'aggende utende vacande.",
 	"apifeatureusage-deprecation-help": "Ause [[Special:ApiFeatureUsage]] pe 'ndrucà le funziune ca non g'a ausà pe l'applicaziona toje."
 }

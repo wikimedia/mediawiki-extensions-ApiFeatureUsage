@@ -23,13 +23,5 @@
 	"apifeatureusage-column-feature": "Functie",
 	"apifeatureusage-column-date": "Datum",
 	"apifeatureusage-column-uses": "Toepassingen",
-	"apihelp-query+featureusage-description": "Een samenvatting opvragen van het gelogde gebruik van API-mogelijkheden voor een user-agent.",
-	"apihelp-query+featureusage-summary": "Een samenvatting opvragen van het gelogde gebruik van API-mogelijkheden voor een user-agent.",
-	"apihelp-query+featureusage-param-start": "Begindatum van de op te vragen periode.",
-	"apihelp-query+featureusage-param-end": "Einddatum van de op te vragen periode.",
-	"apihelp-query+featureusage-param-agent": "Op te vragen useragent. Als niet opgegeven, wordt de useragent van het verzoek gebruikt.",
-	"apihelp-query+featureusage-param-features": "Als opgegeven, alleen details over deze mogelijkheden rapporteren.",
-	"apihelp-query+featureusage-example-simple": "Mogelijkhedengebruik voor de huidige useragent opvragen",
-	"apierror-apifeatureusage-emptyagent": "Kan niet op een lege user agent zoeken.",
 	"apifeatureusage-deprecation-help": "Gebruik [[Special:ApiFeatureUsage]] om te zien welke verouderde functies gebruikt worden door uw programma."
 }

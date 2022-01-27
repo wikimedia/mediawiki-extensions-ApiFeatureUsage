@@ -1,0 +1,8 @@
+{
+	"@metadata": {
+		"authors": [
+			"Hidayatsrf"
+		]
+	},
+	"apierror-apifeatureusage-emptyagent": "Tidak dapat membuat kueri dari agen pengguna kosong"
+}

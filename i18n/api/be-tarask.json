@@ -1,0 +1,16 @@
+{
+	"@metadata": {
+		"authors": [
+			"Nerogaf",
+			"Red Winged Duck"
+		]
+	},
+	"apihelp-query+featureusage-description": "Атрымаць кароткае апісаньне запісаных ужываньняў функцыяў API для агента карыстальніка.",
+	"apihelp-query+featureusage-summary": "Атрымаць кароткае апісаньне запісаных ужываньняў функцыяў API для агента карыстальніка.",
+	"apihelp-query+featureusage-param-start": "Пачатак прамежку даты для запыту.",
+	"apihelp-query+featureusage-param-end": "Канец прамежку даты для запыту.",
+	"apihelp-query+featureusage-param-agent": "Агент карыстальніка для запыту. Калі не пазначаны, будзе выкарыстаны агент з запыту.",
+	"apihelp-query+featureusage-param-features": "Калі пазначана, вяртае падрабязнасьці толькі гэтых функцыяў.",
+	"apihelp-query+featureusage-example-simple": "Выкарыстаньне функцыяў запыту для цяперашняга агента карыстальніка",
+	"apierror-apifeatureusage-emptyagent": "Немагчыма даслаць запыт да пустога агенту ўдзельніка."
+}

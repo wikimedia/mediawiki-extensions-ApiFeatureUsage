@@ -1,0 +1,15 @@
+{
+	"@metadata": {
+		"authors": [
+			"Ssola"
+		]
+	},
+	"apihelp-query+featureusage-description": "Obtén un resum dels usos registrats de les funcionalitats de l'API per un agent d'usuari.",
+	"apihelp-query+featureusage-summary": "Obté un resum dels usos registrats de les funcionalitats de l'API per un agent d'usuari.",
+	"apihelp-query+featureusage-param-start": "Inici de l'interval de dates a consultar.",
+	"apihelp-query+featureusage-param-end": "Fi de l'interval de dates a consultar.",
+	"apihelp-query+featureusage-param-agent": "Agent d'usuari a consultar. Si no s'especifica es consultarà l'agent de la sol·licitud.",
+	"apihelp-query+featureusage-param-features": "Si s'especifica, retorna els detalls de només aquestes funcionalitats.",
+	"apihelp-query+featureusage-example-simple": "Consulta l'ús de funcionalitats per l'agent d'usuari actual",
+	"apierror-apifeatureusage-emptyagent": "No es pot consultar un agent d'usuari buit."
+}

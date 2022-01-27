@@ -25,13 +25,5 @@
 	"apifeatureusage-column-feature": "Élément",
 	"apifeatureusage-column-date": "Date",
 	"apifeatureusage-column-uses": "Utilisations",
-	"apihelp-query+featureusage-description": "Obtenir un résumé de l’utilisation des fonctionnalités de l’API pour un agent utilisateur.",
-	"apihelp-query+featureusage-summary": "Obtenir un résumé des utilisations des fonctionnalités de l’API connectée pour un agent utilisateur.",
-	"apihelp-query+featureusage-param-start": "Début de la plage de date pour la requête.",
-	"apihelp-query+featureusage-param-end": "Fin de la plage de date pour la requête.",
-	"apihelp-query+featureusage-param-agent": "Agent utilisateur à interroger. S’il n’est pas spécifié, l’agent dans la requête sera interrogé.",
-	"apihelp-query+featureusage-param-features": "Si spécifié, renvoyer des détails uniquement sur ces fonctionnalités.",
-	"apihelp-query+featureusage-example-simple": "Requête d’utilisation de fonctionnalité pour l’agent utilisateur actuel",
-	"apierror-apifeatureusage-emptyagent": "Il n’est pas possible d’interroger un agent utilisateur vide.",
 	"apifeatureusage-deprecation-help": "Utiliser [[Special:ApiFeatureUsage]] pour voir l’utilisation des fonctionnalités désuètes par votre application."
 }

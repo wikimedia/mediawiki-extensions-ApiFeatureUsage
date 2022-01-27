@@ -1,0 +1,16 @@
+{
+	"@metadata": {
+		"authors": [
+			"Beta16",
+			"Dansita"
+		]
+	},
+	"apihelp-query+featureusage-description": "Ottieni un riepilogo dell'uso delle funzionalità API registrate per un agente utente.",
+	"apihelp-query+featureusage-summary": "Ottieni un riepilogo dell'uso delle funzionalità API registrate per un agente utente.",
+	"apihelp-query+featureusage-param-start": "Inizio dell'intervallo di date da interrogare.",
+	"apihelp-query+featureusage-param-end": "Fine dell'intervallo di date da interrogare.",
+	"apihelp-query+featureusage-param-agent": "Agente utente da interrogare. Se non specificato, sarà consultato l'agente di questa richiesta.",
+	"apihelp-query+featureusage-param-features": "Se specificato, restituisce i dettagli solo su queste funzionalità.",
+	"apihelp-query+featureusage-example-simple": "Interroga l'uso delle funzionalità per l'agente utente attuale",
+	"apierror-apifeatureusage-emptyagent": "Impossibile cercare un agente utente vuoto."
+}

@@ -1,0 +1,11 @@
+{
+	"@metadata": {
+		"authors": [
+			"Praveenp"
+		]
+	},
+	"apihelp-query+featureusage-description": "ഒരു യൂസർ ഏജന്റ് ഉപയോഗിച്ചുണ്ടായിട്ടുള്ള എ.പി.ഐ. സവിശേഷതകളുടെ ഉപയോഗത്തിന്റെ സംഗ്രഹം എടുക്കുക.",
+	"apihelp-query+featureusage-summary": "ഒരു യൂസർ ഏജന്റ് ഉപയോഗിച്ചുണ്ടായിട്ടുള്ള എ.പി.ഐ. സവിശേഷതകളുടെ ഉപയോഗത്തിന്റെ സംഗ്രഹം എടുക്കുക.",
+	"apihelp-query+featureusage-param-start": "ക്വറി ചെയ്യേണ്ട തീയതി പരിധിയുടെ ആരംഭം.",
+	"apihelp-query+featureusage-param-end": "ക്വറി ചെയ്യേണ്ട തീയതി പരിധിയുടെ അവസാനം."
+}

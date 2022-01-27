@@ -15,6 +15,5 @@
 	"apifeatureusage-warnings": "Peringatan: $1",
 	"apifeatureusage-column-feature": "Fitur",
 	"apifeatureusage-column-date": "Tanggal",
-	"apifeatureusage-column-uses": "Penggunaan",
-	"apierror-apifeatureusage-emptyagent": "Tidak dapat membuat kueri dari agen pengguna kosong"
+	"apifeatureusage-column-uses": "Penggunaan"
 }

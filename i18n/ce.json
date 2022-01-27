@@ -13,7 +13,5 @@
 	"apifeatureusage-warnings": "ДӀахьедар: $1",
 	"apifeatureusage-column-feature": "Функци",
 	"apifeatureusage-column-date": "Терахь",
-	"apifeatureusage-column-uses": "Лелор",
-	"apihelp-query+featureusage-description": "Лелош йолу API функцешна доца дӀайаздарш схьаэца лелорхойн агентана.",
-	"apihelp-query+featureusage-summary": "Лелош йолу API функцешна доца дӀайаздарш схьаэца лелорхойн агентана."
+	"apifeatureusage-column-uses": "Лелор"
 }

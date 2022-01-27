@@ -1,0 +1,12 @@
+{
+	"@metadata": {
+		"authors": [
+			"Chrumps",
+			"Rail"
+		]
+	},
+	"apihelp-query+featureusage-description": "Tworzy podsumowanie zarejestrowanego użycia funkcji API dla agenta użytkownika.",
+	"apihelp-query+featureusage-summary": "Tworzy podsumowanie zarejestrowanego użycia funkcji API dla agenta użytkownika.",
+	"apihelp-query+featureusage-param-start": "Początek zakresu dat do zapytania.",
+	"apihelp-query+featureusage-param-end": "Koniec zakresu dat do zapytania."
+}

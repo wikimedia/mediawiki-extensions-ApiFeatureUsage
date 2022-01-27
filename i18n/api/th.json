@@ -1,0 +1,15 @@
+{
+	"@metadata": {
+		"authors": [
+			"Aefgh39622"
+		]
+	},
+	"apihelp-query+featureusage-description": "รับข้อมูลสรุปเกี่ยวกับการใช้งานคุณลักษณะ API ที่ถูกบันทึกลงในปูมสำหรับตัวแทนผู้ใช้",
+	"apihelp-query+featureusage-summary": "รับข้อมูลสรุปเกี่ยวกับการใช้งานคุณลักษณะ API ที่ถูกบันทึกลงในปูมสำหรับตัวแทนผู้ใช้",
+	"apihelp-query+featureusage-param-start": "จุดเริ่มต้นของช่วงวันที่ที่ต้องการสอบถาม",
+	"apihelp-query+featureusage-param-end": "จุดสิ้นสุดของช่วงวันที่ที่ต้องการสอบถาม",
+	"apihelp-query+featureusage-param-agent": "ตัวแทนผู้ใช้ที่ต้องการสอบถาม หากไม่ระบุ ตัวแทนที่อยู่ในคำร้องขอจะไม่ถูกสอบถาม",
+	"apihelp-query+featureusage-param-features": "หากระบุไว้ ให้ส่งกลับรายละเอียดบนคุณลักษณะเหล่านี้เท่านั้น",
+	"apihelp-query+featureusage-example-simple": "สอบถามการใช้งานคุณลักษณะสำหรับตัวแทนผู้ใช้ปัจจุบัน",
+	"apierror-apifeatureusage-emptyagent": "ไม่สามารถสอบถามตัวแทนผู้ใช้เปล่าได้"
+}

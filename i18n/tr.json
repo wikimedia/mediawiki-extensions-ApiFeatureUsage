@@ -22,13 +22,5 @@
 	"apifeatureusage-column-feature": "Özellik",
 	"apifeatureusage-column-date": "Tarih",
 	"apifeatureusage-column-uses": "Kullanımlar",
-	"apihelp-query+featureusage-description": "Bir kullanıcı aracısı için günlüğe kaydedilmiş API özelliği kullanımlarının bir özetini alın.",
-	"apihelp-query+featureusage-summary": "Bir kullanıcı aracısı için günlüğe kaydedilmiş API özelliği kullanımlarının bir özetini alın.",
-	"apihelp-query+featureusage-param-start": "Sorgulanacak tarih aralığının başlangıcı.",
-	"apihelp-query+featureusage-param-end": "Sorgulanacak tarih aralığının sonu.",
-	"apihelp-query+featureusage-param-agent": "Sorgulanacak kullanıcı aracısı. Belirtilmezse, istekteki aracı sorgulanır.",
-	"apihelp-query+featureusage-param-features": "Belirtilirse, yalnızca bu özelliklerle ilgili ayrıntıları döndürün.",
-	"apihelp-query+featureusage-example-simple": "Geçerli kullanıcı aracısı için sorgu özelliği kullanımı",
-	"apierror-apifeatureusage-emptyagent": "Boş bir kullanıcı aracısı sorgulanamıyor.",
 	"apifeatureusage-deprecation-help": "Uygulamanız tarafından kullanımdan kaldırılmış özelliklerin kullanımını görmek için [[Special:ApiFeatureUsage]] kullanın."
 }

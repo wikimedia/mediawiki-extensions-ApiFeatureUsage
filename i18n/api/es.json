@@ -1,0 +1,17 @@
+{
+	"@metadata": {
+		"authors": [
+			"Fitoschido",
+			"MarcoAurelio",
+			"Ryo567"
+		]
+	},
+	"apihelp-query+featureusage-description": "Obtén un resumen de los usos registrados de las funciones de la API por cada agente de usuario.",
+	"apihelp-query+featureusage-summary": "Obtener un resumen de los usos registrados de las funciones de la API por cada agente de usuario.",
+	"apihelp-query+featureusage-param-start": "Inicio del intervalo de fechas que consultar.",
+	"apihelp-query+featureusage-param-end": "Fin del intervalo de fechas que consultar.",
+	"apihelp-query+featureusage-param-agent": "Agente de usuario que consultar. Si no se especifica se consultará el agente de la solicitud.",
+	"apihelp-query+featureusage-param-features": "Si se especifica se mostrarán los detalles de estas funciones únicamente.",
+	"apihelp-query+featureusage-example-simple": "Consultar uso de característica para el usuario agente actual",
+	"apierror-apifeatureusage-emptyagent": "No se puede realizar la consulta sin un agente de usuario."
+}

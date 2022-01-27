@@ -1,0 +1,16 @@
+{
+	"@metadata": {
+		"authors": [
+			"Aefgh39622",
+			"Yusuke1109"
+		]
+	},
+	"apihelp-query+featureusage-description": "ユーザーエージェントのログに記録されたAPI機能の概要を取得します。",
+	"apihelp-query+featureusage-summary": "ユーザーエージェントのログに記録されたAPI機能の概要を取得します。",
+	"apihelp-query+featureusage-param-start": "クエリの日付範囲の開始日。",
+	"apihelp-query+featureusage-param-end": "クエリの日付範囲の終了日。",
+	"apihelp-query+featureusage-param-agent": "クエリを実行するユーザーエージェント。指定しない場合、要求内のエージェントが照会されます。",
+	"apihelp-query+featureusage-param-features": "指定されている場合は、これらの機能のみの詳細を返します。",
+	"apihelp-query+featureusage-example-simple": "現在のユーザーエージェントの機能使用状況を照会する",
+	"apierror-apifeatureusage-emptyagent": "空のユーザーエージェントを照会できません。"
+}

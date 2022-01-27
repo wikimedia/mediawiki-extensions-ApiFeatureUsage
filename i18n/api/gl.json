@@ -1,0 +1,16 @@
+{
+	"@metadata": {
+		"authors": [
+			"Banjo",
+			"Elisardojm"
+		]
+	},
+	"apihelp-query+featureusage-description": "Obtén un resumo dos usos rexistrados das funcións da API para un axente de usuario.",
+	"apihelp-query+featureusage-summary": "Obtén un resumo dos usos rexistrados das funcións da API para un axente de usuario.",
+	"apihelp-query+featureusage-param-start": "Comezo do intervalo de datas a consultar.",
+	"apihelp-query+featureusage-param-end": "Fin do intervalo de datas a consultar.",
+	"apihelp-query+featureusage-param-agent": "Axente de usuario a consultar. Se non se especifica consultarase o axente da solicitude.",
+	"apihelp-query+featureusage-param-features": "Se se especifica, retorna os detalles só para estas características.",
+	"apihelp-query+featureusage-example-simple": "Consultar o uso das características para o axente de usuario actual",
+	"apierror-apifeatureusage-emptyagent": "Non é posible consultar un axente de usuario baleiro."
+}

@@ -14,7 +14,5 @@
 	"apifeatureusage-warnings": "Arriskua: $1",
 	"apifeatureusage-column-feature": "Ezaugarria",
 	"apifeatureusage-column-date": "Data",
-	"apifeatureusage-column-uses": "Erabilpenak",
-	"apihelp-query+featureusage-param-start": "Hasiera-data tartea kontsultatzeke",
-	"apihelp-query+featureusage-param-end": "Amaiera-data tartea kontsultatzeke"
+	"apifeatureusage-column-uses": "Erabilpenak"
 }

@@ -15,6 +15,5 @@
 	"apifeatureusage-warnings": "Įspėjimas: $1",
 	"apifeatureusage-column-feature": "Funkcija",
 	"apifeatureusage-column-date": "Data",
-	"apifeatureusage-column-uses": "Panaudojimai",
-	"apihelp-query+featureusage-param-features": "Jei nurodyta, gražina informaciją tik pie šias funkcijas."
+	"apifeatureusage-column-uses": "Panaudojimai"
 }

@@ -18,13 +18,5 @@
 	"apifeatureusage-column-feature": "Function",
 	"apifeatureusage-column-date": "Data",
 	"apifeatureusage-column-uses": "Usos",
-	"apihelp-query+featureusage-description": "Obtener un summario de usos de functiones API registrate pro un agente usator.",
-	"apihelp-query+featureusage-summary": "Obtener un summario de usos de functiones API registrate pro un agente usator.",
-	"apihelp-query+featureusage-param-start": "Initio del periodo a consultar.",
-	"apihelp-query+featureusage-param-end": "Fin del periodo a consultar.",
-	"apihelp-query+featureusage-param-agent": "Le agente usator a consultar. Si non specificate, le agente del requesta essera consultate.",
-	"apihelp-query+featureusage-param-features": "Si specificate, reportar detalios sur solmente iste functiones.",
-	"apihelp-query+featureusage-example-simple": "Consultar le uso de functiones pro le agente usator actual",
-	"apierror-apifeatureusage-emptyagent": "Impossibile consultar un agente usator vacue.",
 	"apifeatureusage-deprecation-help": "Usa [[Special:ApiFeatureUsage]] pro vider le uso de functiones obsolescente in tu application."
 }

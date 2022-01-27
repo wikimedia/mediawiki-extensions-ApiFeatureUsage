@@ -15,6 +15,5 @@
 	"apifeatureusage-warnings": "Averto: $1",
 	"apifeatureusage-column-feature": "Trajto",
 	"apifeatureusage-column-date": "Dato",
-	"apifeatureusage-column-uses": "Uzoj",
-	"apihelp-query+featureusage-param-start": "Komenco de datintervalo ĝis enketo."
+	"apifeatureusage-column-uses": "Uzoj"
 }

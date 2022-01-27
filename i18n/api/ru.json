@@ -1,0 +1,16 @@
+{
+	"@metadata": {
+		"authors": [
+			"Mouse21",
+			"Okras"
+		]
+	},
+	"apihelp-query+featureusage-description": "Получить краткое изложение используемых функций API для пользовательского агента.",
+	"apihelp-query+featureusage-summary": "Получить краткое изложение используемых функций API для пользовательского агента.",
+	"apihelp-query+featureusage-param-start": "Начало диапазона дат для запроса.",
+	"apihelp-query+featureusage-param-end": "Окончание диапазона дат для запроса.",
+	"apihelp-query+featureusage-param-agent": "Пользовательский агент для запроса. Если не указано, агент в запросе будет запрошен.",
+	"apihelp-query+featureusage-param-features": "Если указано, верните сведения только об этих функциях.",
+	"apihelp-query+featureusage-example-simple": "Использование функции запроса для текущего пользовательского агента",
+	"apierror-apifeatureusage-emptyagent": "Невозможно запросить пустой агент пользователя."
+}

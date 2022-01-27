@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"Brad Jorsch"
+			"Brad Jorsch",
+			"Raymond"
 		]
 	},
 	"apihelp-query+featureusage-description": "{{doc-apihelp-description|query+featureusage|info=See definition of [[w:User agent|user agent]] on Wikipedia.}}",

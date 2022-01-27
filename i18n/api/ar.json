@@ -1,0 +1,16 @@
+{
+	"@metadata": {
+		"authors": [
+			"ديفيد",
+			"محمد أحمد عبد الفتاح"
+		]
+	},
+	"apihelp-query+featureusage-description": "الحصول على ملخص لاستخدامات مزايا API مسجلة لوكيل مستخدم.",
+	"apihelp-query+featureusage-summary": "الحصول على ملخص لاستخدامات ميزة API المسجلة لوكيل مستخدم",
+	"apihelp-query+featureusage-param-start": "بدء النطاق الزمني للاستعلام.",
+	"apihelp-query+featureusage-param-end": "نهاية النطاق الزمني للاستعلام.",
+	"apihelp-query+featureusage-param-agent": "وكيل المستخدم للاستعلام، إذا لم يتم تحديده، سيتم الاستعلام عن وكيل في الطلب.",
+	"apihelp-query+featureusage-param-features": "إذا كان محددا، قم بإرجاع التفاصيل على هذه الميزات فقط.",
+	"apihelp-query+featureusage-example-simple": "استخدام ميزة الاستعلام لوكيل المستخدم الحالي",
+	"apierror-apifeatureusage-emptyagent": "لا يمكن الاستعلام عن وكيل مستخدم فارغ."
+}

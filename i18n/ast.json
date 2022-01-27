@@ -18,13 +18,5 @@
 	"apifeatureusage-column-feature": "Carauterística",
 	"apifeatureusage-column-date": "Data",
 	"apifeatureusage-column-uses": "Usos",
-	"apihelp-query+featureusage-description": "Recibir un resume de los usos rexistraos de les funciones de la API pa un axente d'usuariu.",
-	"apihelp-query+featureusage-summary": "Recibir un resume de los usos rexistraos de les funciones de la API pa un axente d'usuariu.",
-	"apihelp-query+featureusage-param-start": "Entamu del intervalu de feches que consultar.",
-	"apihelp-query+featureusage-param-end": "Fin del intervalu de feches que consultar.",
-	"apihelp-query+featureusage-param-agent": "Axente d'usuariu que consultar. Si nun s'especifica va consultase l'axente de la solicitú.",
-	"apihelp-query+featureusage-param-features": "Si especifica, devolverá namái los detalles d'estes funciones.",
-	"apihelp-query+featureusage-example-simple": "Consultar l'usu de carauterístiques pol axente d'usuariu actual",
-	"apierror-apifeatureusage-emptyagent": "Nun puede consultase un axente d'usuariu baleru.",
 	"apifeatureusage-deprecation-help": "Usa [[Special:ApiFeatureUsage]] pa ver l'usu de carauterístiques anticuaes que fai la to aplicación."
 }

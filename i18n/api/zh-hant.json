@@ -1,0 +1,16 @@
+{
+	"@metadata": {
+		"authors": [
+			"Cwlin0416",
+			"Kly"
+		]
+	},
+	"apihelp-query+featureusage-description": "取得使用者代理已記錄的 API 功能使用狀況摘要。",
+	"apihelp-query+featureusage-summary": "取得使用者代理已記錄的 API 功能使用狀況摘要。",
+	"apihelp-query+featureusage-param-start": "查詢的起始日期範圍。",
+	"apihelp-query+featureusage-param-end": "查詢的結束日期範圍。",
+	"apihelp-query+featureusage-param-agent": "要查詢的使用者代理。若無指定的話，將會查詢在請求裡的代理。",
+	"apihelp-query+featureusage-param-features": "若有指定，僅會返回這些功能的細節。",
+	"apihelp-query+featureusage-example-simple": "用於目前使用者代理的功能使用查詢",
+	"apierror-apifeatureusage-emptyagent": "無法查詢空的使用者代理。"
+}
