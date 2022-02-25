@@ -1,5 +1,10 @@
 <?php
-class ApiFeatureUsageHooks {
+
+namespace MediaWiki\Extension\ApiFeatureUsage;
+
+use Message;
+
+class Hooks {
 
 	/**
 	 * Add deprecation help referring to Special:ApiFeatureUsage

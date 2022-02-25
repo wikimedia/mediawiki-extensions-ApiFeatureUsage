@@ -16,10 +16,10 @@
 		"ApiFeatureUsage": "GlobalVarConfig::newInstance"
 	},
 	"SpecialPages": {
-		"ApiFeatureUsage": "SpecialApiFeatureUsage"
+		"ApiFeatureUsage": "MediaWiki\\Extension\\ApiFeatureUsage\\SpecialApiFeatureUsage"
 	},
 	"APIMetaModules": {
-		"featureusage": "ApiQueryFeatureUsage"
+		"featureusage": "MediaWiki\\Extension\\ApiFeatureUsage\\ApiQueryFeatureUsage"
 	},
 	"MessagesDirs": {
 		"ApiFeatureUsage": [
@@ -30,13 +30,8 @@
 	"ExtensionMessagesFiles": {
 		"ApiFeatureUsageAlias": "ApiFeatureUsage.alias.php"
 	},
-	"AutoloadClasses": {
-		"SpecialApiFeatureUsage": "includes/SpecialApiFeatureUsage.php",
-		"ApiQueryFeatureUsage": "includes/ApiQueryFeatureUsage.php",
-		"ApiFeatureUsageQueryEngine": "includes/ApiFeatureUsageQueryEngine.php",
-		"ApiFeatureUsageQueryEngineElastica": "includes/ApiFeatureUsageQueryEngineElastica.php",
-		"ApiFeatureUsageQueryEngineElasticaConnection": "includes/ApiFeatureUsageQueryEngineElasticaConnection.php",
-		"ApiFeatureUsageHooks": "includes/ApiFeatureUsageHooks.php"
+	"AutoloadNamespaces": {
+		"MediaWiki\\Extension\\ApiFeatureUsage\\": "includes/"
 	},
 	"ResourceModules": {
 		"ext.apifeatureusage": {
@@ -48,7 +43,7 @@
 		"remoteExtPath": "ApiFeatureUsage/modules"
 	},
 	"Hooks": {
-		"ApiDeprecationHelp": "ApiFeatureUsageHooks::onApiDeprecationHelp"
+		"ApiDeprecationHelp": "MediaWiki\\Extension\\ApiFeatureUsage\\Hooks::onApiDeprecationHelp"
 	},
 	"config": {
 		"ApiFeatureUsageQueryEngineConf": {

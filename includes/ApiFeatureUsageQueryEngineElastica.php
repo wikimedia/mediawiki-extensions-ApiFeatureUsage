@@ -1,4 +1,21 @@
 <?php
+
+namespace MediaWiki\Extension\ApiFeatureUsage;
+
+use DateInterval;
+use Elastica\Aggregation\DateHistogram;
+use Elastica\Aggregation\Terms as AggregationTerms;
+use Elastica\Client;
+use Elastica\Query;
+use Elastica\Query\BoolQuery;
+use Elastica\Query\Prefix;
+use Elastica\Query\Range;
+use Elastica\Query\Terms as QueryTerms;
+use Elastica\Search;
+use MWException;
+use MWTimestamp;
+use Status;
+
 /**
  * Query feature usage data from Elasticsearch.
  *
@@ -13,7 +30,7 @@
  *  agentField: Name of the field holding the user agent
  */
 class ApiFeatureUsageQueryEngineElastica extends ApiFeatureUsageQueryEngine {
-	/** @var \Elastica\Client|null */
+	/** @var Client|null */
 	private $client = null;
 	/** @var string[]|null */
 	private $indexNames = null;
@@ -36,7 +53,7 @@ class ApiFeatureUsageQueryEngineElastica extends ApiFeatureUsageQueryEngine {
 	}
 
 	/**
-	 * @return \Elastica\Client
+	 * @return Client
 	 */
 	protected function getClient() {
 		if ( !$this->client ) {
@@ -71,39 +88,39 @@ class ApiFeatureUsageQueryEngineElastica extends ApiFeatureUsageQueryEngine {
 		$status = Status::newGood( [] );
 
 		# Force $start and $end to day boundaries
-		$oneday = new DateInterval( 'P1D' );
+		$oneDay = new DateInterval( 'P1D' );
 		$start = clone $start;
 		$start->timestamp = clone $start->timestamp;
 		$start->timestamp->setTime( 0, 0, 0 );
 		$end = clone $end;
 		$end->timestamp = clone $end->timestamp;
 		$end->timestamp->setTime( 0, 0, 0 );
-		$end->timestamp->add( $oneday )->sub( new DateInterval( 'PT1S' ) );
+		$end->timestamp->add( $oneDay )->sub( new DateInterval( 'PT1S' ) );
 
-		$query = new Elastica\Query();
+		$query = new Query();
 
-		$bools = new Elastica\Query\BoolQuery();
+		$bools = new BoolQuery();
 
-		$prefix = new Elastica\Query\Prefix();
+		$prefix = new Prefix();
 		$prefix->setPrefix( $this->options['agentField'], $agent );
 		$bools->addMust( $prefix );
 
-		$bools->addMust( new Elastica\Query\Range( $this->options['timestampField'], [
+		$bools->addMust( new Range( $this->options['timestampField'], [
 			'gte' => $start->getTimestamp( TS_ISO_8601 ),
 			'lte' => $end->getTimestamp( TS_ISO_8601 ),
 		] ) );
 
 		if ( $features !== null ) {
-			$bools->addMust( new Elastica\Query\Terms( $this->options['featureField'], $features ) );
+			$bools->addMust( new QueryTerms( $this->options['featureField'], $features ) );
 		}
 
 		$query->setQuery( $bools );
 
-		$termsAgg = new Elastica\Aggregation\Terms( 'feature' );
+		$termsAgg = new AggregationTerms( 'feature' );
 		$termsAgg->setField( $this->options['featureField'] );
 		$termsAgg->setSize( $this->options['featureFieldAggSize'] );
 
-		$datesAgg = new Elastica\Aggregation\DateHistogram(
+		$datesAgg = new DateHistogram(
 			'date', $this->options['timestampField'], 'day'
 		);
 		$datesAgg->setFormat( 'yyyy-MM-dd' );
@@ -111,8 +128,8 @@ class ApiFeatureUsageQueryEngineElastica extends ApiFeatureUsageQueryEngine {
 		$termsAgg->addAggregation( $datesAgg );
 		$query->addAggregation( $termsAgg );
 
-		$search = new Elastica\Search( $this->getClient() );
-		$search->setOption( Elastica\Search::OPTION_SIZE, 0 );
+		$search = new Search( $this->getClient() );
+		$search->setOption( Search::OPTION_SIZE, 0 );
 
 		$allIndexes = $this->getIndexNames();
 		$indexes = [];
@@ -125,7 +142,7 @@ class ApiFeatureUsageQueryEngineElastica extends ApiFeatureUsageQueryEngine {
 			} else {
 				$skippedAny = true;
 			}
-			$s->add( $oneday );
+			$s->add( $oneDay );
 		}
 		if ( !$indexes ) {
 			// No dates in range
@@ -172,13 +189,13 @@ class ApiFeatureUsageQueryEngineElastica extends ApiFeatureUsageQueryEngine {
 		$end = new MWTimestamp();
 		$end->setTimezone( 'UTC' );
 
-		$oneday = new DateInterval( 'P1D' );
+		$oneDay = new DateInterval( 'P1D' );
 		$allIndexes = $this->getIndexNames();
 		while ( true ) {
-			$start->timestamp->sub( $oneday );
+			$start->timestamp->sub( $oneDay );
 			$index = $this->options['indexPrefix'] . $start->format( $this->options['indexFormat'] );
 			if ( !in_array( $index, $allIndexes ) ) {
-				$start->timestamp->add( $oneday );
+				$start->timestamp->add( $oneDay );
 				return [ $start, $end ];
 			}
 		}

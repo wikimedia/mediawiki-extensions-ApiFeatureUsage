@@ -1,4 +1,13 @@
 <?php
+
+namespace MediaWiki\Extension\ApiFeatureUsage;
+
+use ApiBase;
+use ApiQuery;
+use ApiQueryBase;
+use MediaWiki\MediaWikiServices;
+use MWTimestamp;
+
 class ApiQueryFeatureUsage extends ApiQueryBase {
 
 	/**
@@ -21,7 +30,7 @@ class ApiQueryFeatureUsage extends ApiQueryBase {
 			$this->dieWithError( 'apierror-apifeatureusage-emptyagent', "bad_$encParamName" );
 		}
 
-		$conf = \MediaWiki\MediaWikiServices::getInstance()
+		$conf = MediaWikiServices::getInstance()
 			->getConfigFactory()
 			->makeConfig( 'ApiFeatureUsage' );
 		$engine = ApiFeatureUsageQueryEngine::getEngine( $conf );

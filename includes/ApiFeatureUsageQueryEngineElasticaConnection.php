@@ -1,4 +1,10 @@
 <?php
+
+namespace MediaWiki\Extension\ApiFeatureUsage;
+
+use ElasticaConnection;
+use MWException;
+
 /**
  * Class to create the connection
  */

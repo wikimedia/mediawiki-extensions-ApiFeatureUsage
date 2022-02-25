@@ -1,4 +1,12 @@
 <?php
+
+namespace MediaWiki\Extension\ApiFeatureUsage;
+
+use Config;
+use MWException;
+use MWTimestamp;
+use Status;
+
 abstract class ApiFeatureUsageQueryEngine {
 	/** @var array */
 	public $options;
@@ -11,11 +19,13 @@ abstract class ApiFeatureUsageQueryEngine {
 		$conf = $config->get( 'ApiFeatureUsageQueryEngineConf' );
 		if ( isset( $conf['factory'] ) ) {
 			return $conf['factory']( $conf );
-		} elseif ( isset( $conf['class'] ) ) {
-			return new $conf['class']( $conf );
-		} else {
-			throw new MWException( '$wgApiFeatureUsageQueryEngineConf does not define an engine' );
 		}
+
+		if ( isset( $conf['class'] ) ) {
+			return new $conf['class']( $conf );
+		}
+
+		throw new MWException( '$wgApiFeatureUsageQueryEngineConf does not define an engine' );
 	}
 
 	/**

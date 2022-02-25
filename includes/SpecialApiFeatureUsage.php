@@ -1,4 +1,15 @@
 <?php
+
+namespace MediaWiki\Extension\ApiFeatureUsage;
+
+use Html;
+use HTMLForm;
+use MediaWiki\MediaWikiServices;
+use Message;
+use MWTimestamp;
+use SpecialPage;
+use Status;
+
 class SpecialApiFeatureUsage extends SpecialPage {
 	/** @var ApiFeatureUsageQueryEngine|null */
 	private $engine = null;
@@ -15,7 +26,7 @@ class SpecialApiFeatureUsage extends SpecialPage {
 
 		$request = $this->getRequest();
 
-		$conf = \MediaWiki\MediaWikiServices::getInstance()
+		$conf = MediaWikiServices::getInstance()
 			->getConfigFactory()
 			->makeConfig( 'ApiFeatureUsage' );
 		$this->engine = ApiFeatureUsageQueryEngine::getEngine( $conf );
