@@ -30,6 +30,10 @@
 	"ExtensionMessagesFiles": {
 		"ApiFeatureUsageAlias": "ApiFeatureUsage.alias.php"
 	},
+	"AutoloadClasses": {
+		"ApiFeatureUsageQueryEngineElastica": "includes/ApiFeatureUsageQueryEngineElastica.php",
+		"MediaWiki\\Extension\\ApiFeatureUsage\\ApiFeatureUsageQueryEngineElastica": "includes/ApiFeatureUsageQueryEngineElastica.php"
+	},
 	"AutoloadNamespaces": {
 		"MediaWiki\\Extension\\ApiFeatureUsage\\": "includes/"
 	},
