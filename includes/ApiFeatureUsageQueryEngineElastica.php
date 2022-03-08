@@ -201,5 +201,3 @@ class ApiFeatureUsageQueryEngineElastica extends ApiFeatureUsageQueryEngine {
 		}
 	}
 }
-
-class_alias( ApiFeatureUsageQueryEngineElastica::class, 'ApiFeatureUsageQueryEngineElastica' );
