@@ -2,11 +2,11 @@
 
 namespace MediaWiki\Extension\ApiFeatureUsage;
 
-use ApiBase;
 use ApiQuery;
 use ApiQueryBase;
 use MediaWiki\MediaWikiServices;
 use MWTimestamp;
+use Wikimedia\ParamValidator\ParamValidator;
 
 class ApiQueryFeatureUsage extends ApiQueryBase {
 
@@ -71,17 +71,17 @@ class ApiQueryFeatureUsage extends ApiQueryBase {
 	public function getAllowedParams() {
 		return [
 			'start' => [
-				ApiBase::PARAM_TYPE => 'timestamp',
+				ParamValidator::PARAM_TYPE => 'timestamp',
 			],
 			'end' => [
-				ApiBase::PARAM_TYPE => 'timestamp',
+				ParamValidator::PARAM_TYPE => 'timestamp',
 			],
 			'agent' => [
-				ApiBase::PARAM_TYPE => 'string',
+				ParamValidator::PARAM_TYPE => 'string',
 			],
 			'features' => [
-				ApiBase::PARAM_TYPE => 'string',
-				ApiBase::PARAM_ISMULTI => true,
+				ParamValidator::PARAM_TYPE => 'string',
+				ParamValidator::PARAM_ISMULTI => true,
 			],
 		];
 	}
