@@ -9,6 +9,7 @@
 	"apifeatureusage-elasticsearch-error": "ГӀалат Elasticsearch: $1",
 	"apifeatureusage-legend": "API функци лелор",
 	"apifeatureusage-agent-label": "Браузер:",
+	"apifeatureusage-startdate-label": "Йолайелла хан:",
 	"apifeatureusage-enddate-label": "Чекхйолу хан:",
 	"apifeatureusage-submit": "Хаамаш харжа",
 	"apifeatureusage-warnings": "ДӀахьедар: $1",
