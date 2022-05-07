@@ -2,7 +2,7 @@
 
 namespace MediaWiki\Extension\ApiFeatureUsage;
 
-use ElasticaConnection;
+use MediaWiki\Extension\Elastica\ElasticaConnection;
 use MWException;
 
 /**
