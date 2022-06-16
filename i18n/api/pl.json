@@ -2,11 +2,16 @@
 	"@metadata": {
 		"authors": [
 			"Chrumps",
+			"Msz2001",
 			"Rail"
 		]
 	},
 	"apihelp-query+featureusage-description": "Tworzy podsumowanie zarejestrowanego użycia funkcji API dla agenta użytkownika.",
 	"apihelp-query+featureusage-summary": "Tworzy podsumowanie zarejestrowanego użycia funkcji API dla agenta użytkownika.",
 	"apihelp-query+featureusage-param-start": "Początek zakresu dat do zapytania.",
-	"apihelp-query+featureusage-param-end": "Koniec zakresu dat do zapytania."
+	"apihelp-query+featureusage-param-end": "Koniec zakresu dat do zapytania.",
+	"apihelp-query+featureusage-param-agent": "User agent, który należy sprawdzić. Jeśli nie zostanie podany, użyta zostanie wartość przekazana w nagłówku żądania.",
+	"apihelp-query+featureusage-param-features": "Jeśli określone, zwraca szczegóły wyłącznie podanych funkcji.",
+	"apihelp-query+featureusage-example-simple": "Sprawdź użycie funkcji przez bieżącego agenta użytkownika",
+	"apierror-apifeatureusage-emptyagent": "Nie można wykonać zapytania dla pustego ciągu User agent."
 }
