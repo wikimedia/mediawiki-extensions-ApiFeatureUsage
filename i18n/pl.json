@@ -4,7 +4,8 @@
 			"Chrumps",
 			"Rail",
 			"Warchlak",
-			"Woytecr"
+			"Woytecr",
+			"Msz2001"
 		]
 	},
 	"apifeatureusage": "Użycie funkcji API",
@@ -24,5 +25,6 @@
 	"apihelp-query+featureusage-description": "Tworzy podsumowanie zarejestrowanego użycia funkcji API dla agenta użytkownika.",
 	"apihelp-query+featureusage-summary": "Tworzy podsumowanie zarejestrowanego użycia funkcji API dla agenta użytkownika.",
 	"apihelp-query+featureusage-param-start": "Początek zakresu dat do zapytania.",
-	"apihelp-query+featureusage-param-end": "Koniec zakresu dat do zapytania."
+	"apihelp-query+featureusage-param-end": "Koniec zakresu dat do zapytania.",
+	"apifeatureusage-deprecation-help": "Odwiedź [[Special:ApiFeatureUsage]], aby sprawdzić, które przestarzałe funkcje wykorzystuje twoja aplikacja."
 }
