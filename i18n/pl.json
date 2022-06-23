@@ -4,7 +4,8 @@
 			"Chrumps",
 			"Rail",
 			"Warchlak",
-			"Woytecr"
+			"Woytecr",
+			"Msz2001"
 		]
 	},
 	"apifeatureusage": "Użycie funkcji API",
@@ -20,5 +21,6 @@
 	"apifeatureusage-warnings": "Ostrzeżenie: $1",
 	"apifeatureusage-column-feature": "Funkcja",
 	"apifeatureusage-column-date": "Data",
-	"apifeatureusage-column-uses": "Użycia"
+	"apifeatureusage-column-uses": "Użycia",
+	"apifeatureusage-deprecation-help": "Odwiedź [[Special:ApiFeatureUsage]], aby sprawdzić, które przestarzałe funkcje wykorzystuje twoja aplikacja."
 }
