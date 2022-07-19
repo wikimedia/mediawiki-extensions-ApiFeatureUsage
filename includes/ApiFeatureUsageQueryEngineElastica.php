@@ -123,7 +123,7 @@ class ApiFeatureUsageQueryEngineElastica extends ApiFeatureUsageQueryEngine {
 		$datesAgg = new DateHistogram(
 			'date', $this->options['timestampField'], 'day'
 		);
-		$datesAgg->setFormat( 'yyyy-MM-dd' );
+		$datesAgg->setFormat( '8uuuu-MM-dd' );
 
 		$termsAgg->addAggregation( $datesAgg );
 		$query->addAggregation( $termsAgg );
