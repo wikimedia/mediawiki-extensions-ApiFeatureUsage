@@ -6,10 +6,12 @@
 			"Huji",
 			"Ladsgroup",
 			"Mjbmr",
-			"Reza1615"
+			"Reza1615",
+			"Jeeputer"
 		]
 	},
 	"apifeatureusage": "کاربرد ویژگی رابط برنامه‌نویسی",
+	"apifeatureusage-desc": "دریافت خلاصه‌ای از کاربردهای ثبت‌شدهٔ ویژگی واسط برنامه‌نویسی کاربردی برای یک عامل کاربر",
 	"apifeatureusage-elasticsearch-error": "خطای سرچ الاستیک: $1",
 	"apifeatureusage-legend": "کاربرد ویژگی رابط برنامه‌نویسی",
 	"apifeatureusage-agent-label": "عامل کاربر:",
