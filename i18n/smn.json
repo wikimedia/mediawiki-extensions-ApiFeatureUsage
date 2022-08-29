@@ -1,8 +1,10 @@
 {
 	"@metadata": {
 		"authors": [
-			"Seipinne"
+			"Seipinne",
+			"Yupik"
 		]
 	},
+	"apifeatureusage-warnings": "Váruttâs: $1",
 	"apifeatureusage-column-date": "Peivimeeri"
 }
