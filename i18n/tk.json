@@ -1,0 +1,11 @@
+{
+	"@metadata": {
+		"authors": [
+			"TayfunEt."
+		]
+	},
+	"apifeatureusage-warnings": "Duýduryş: $1",
+	"apifeatureusage-column-feature": "Aýratynlyk",
+	"apifeatureusage-column-date": "Sene",
+	"apifeatureusage-column-uses": "Ulanyşlar"
+}
