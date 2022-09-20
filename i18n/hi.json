@@ -4,21 +4,22 @@
 			"Hindustanilanguage",
 			"Innocentbunny",
 			"Sfic",
-			"संजीव कुमार"
+			"संजीव कुमार",
+			"Saurmandal"
 		]
 	},
-	"apifeatureusage": "एपीआई सुविधा का उपयोग",
-	"apifeatureusage-desc": "दर्ज एपीआई सुविधा उपयोग करने वाले सदस्य एजेंट की सूची प्राप्त करें",
-	"apifeatureusage-elasticsearch-error": "इलास्टिक-खोज त्रुटि: $1",
-	"apifeatureusage-legend": "एपीआई सुविधा का उपयोग",
-	"apifeatureusage-agent-label": "सदस्य एजन्ट",
+	"apifeatureusage": "API सुविधा प्रयोग",
+	"apifeatureusage-desc": "किसी सदस्य एजेंट के लिए लॉग किए गए API सुविधा के प्रयोगों का सारांश पाएँ",
+	"apifeatureusage-elasticsearch-error": "Elasticsearch त्रुटि: $1",
+	"apifeatureusage-legend": "API सुविधा प्रयोग",
+	"apifeatureusage-agent-label": "सदस्य एजेंट:",
 	"apifeatureusage-startdate-label": "प्रारम्भ तिथि:",
 	"apifeatureusage-enddate-label": "समाप्ति तिथि:",
-	"apifeatureusage-submit": "डाटा प्राप्त करें",
-	"apifeatureusage-no-indexes": "निर्धारित तिथि सीमा में कोई डाटा नहीं है।",
-	"apifeatureusage-missing-indexes": "निर्धारित तिथि सीमा के भाग में कोई डाटा नहीं है।",
+	"apifeatureusage-submit": "डेटा प्राप्त करें",
+	"apifeatureusage-no-indexes": "निर्धारित तिथि सीमा में कोई डेटा नहीं है।",
+	"apifeatureusage-missing-indexes": "निर्धारित तिथि सीमा के भाग में कोई डेटा नहीं है।",
 	"apifeatureusage-warnings": "चेतावनी: $1",
-	"apifeatureusage-column-feature": "फ़ीचर",
+	"apifeatureusage-column-feature": "सुविधा",
 	"apifeatureusage-column-date": "तिथि",
 	"apifeatureusage-column-uses": "प्रयोग",
 	"apihelp-query+featureusage-description": "दर्ज एपीआई सुविधा उपयोग करने वाले सदस्य एजेंट की सूची प्राप्त करें।",
@@ -29,5 +30,5 @@
 	"apihelp-query+featureusage-param-features": "यदि निर्धारित हो, केवल उन फ़ीचरों की जानकारी लौटाइये।",
 	"apihelp-query+featureusage-example-simple": "मौजूदा सदस्य एजन्ट के लिए फ़ीचर प्रयोग की जाँच करें",
 	"apierror-apifeatureusage-emptyagent": "किसी खाली उपयोक्ता एजेंट की पृच्छा नहीं कर सकते",
-	"apifeatureusage-deprecation-help": "आपके एप्लिकेशन द्वारा पदावनत सुविधाओं का उपयोग देखने के लिए \"[[Special:ApiFeatureUsage]]\" का उपयोग करें"
+	"apifeatureusage-deprecation-help": "आपके ऐप्लिकेशन द्वारा कालग्रस्त सुविधाओं का उपयोग देखने के लिए \"[[Special:ApiFeatureUsage]]\" का उपयोग करें।"
 }
