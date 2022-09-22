@@ -24,7 +24,6 @@ use Status;
  *  maxConnectionAttempts: Maximum connection attempts
  *  indexPrefix: Index prefix
  *  indexFormat: Date format string for index
- *  type: Elasticsearch type to be searched
  *  featureField: Name of the field holding $feature
  *  timestampField: Name of the field holding the timestamp
  *  agentField: Name of the field holding the user agent
@@ -42,7 +41,6 @@ class ApiFeatureUsageQueryEngineElastica extends ApiFeatureUsageQueryEngine {
 		$options += [
 			'indexPrefix' => 'apifeatureusage-',
 			'indexFormat' => 'Y.m.d',
-			'type' => 'api-feature-usage-sanitized',
 			'featureField' => 'feature',
 			'featureFieldAggSize' => 10000,
 			'timestampField' => '@timestamp',
@@ -132,19 +130,19 @@ class ApiFeatureUsageQueryEngineElastica extends ApiFeatureUsageQueryEngine {
 		$search->setOption( Search::OPTION_SIZE, 0 );
 
 		$allIndexes = $this->getIndexNames();
-		$indexes = [];
+		$indexAvailable = false;
 		$skippedAny = false;
 		$s = clone $start->timestamp;
 		while ( $s <= $end->timestamp ) {
 			$index = $this->options['indexPrefix'] . $s->format( $this->options['indexFormat'] );
 			if ( in_array( $index, $allIndexes ) ) {
-				$indexes[] = $index;
+				$indexAvailable = true;
 			} else {
 				$skippedAny = true;
 			}
 			$s->add( $oneDay );
 		}
-		if ( !$indexes ) {
+		if ( !$indexAvailable ) {
 			// No dates in range
 			$status->warning( 'apifeatureusage-no-indexes' );
 			return $status;
@@ -153,8 +151,12 @@ class ApiFeatureUsageQueryEngineElastica extends ApiFeatureUsageQueryEngine {
 			$status->warning( 'apifeatureusage-missing-indexes' );
 		}
 
-		$search->addType( $this->options['type'] );
 		$search->setQuery( $query );
+		// Prefer the wildcard approach over using an explicit list of indices to avoid building a
+		// list that might be too long to encode in the search URL.
+		// This feature is rarely used so that it's probably fine to hit all these indices and let
+		// the date filtering quickly skip unrelated ones.
+		$search->addIndex( $this->options['indexPrefix'] . '*' );
 
 		$res = $search->search();
 
