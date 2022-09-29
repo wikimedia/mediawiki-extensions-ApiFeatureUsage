@@ -1,0 +1,9 @@
+{
+	"@metadata": {
+		"authors": [
+			"Eleassar"
+		]
+	},
+	"apihelp-query+featureusage-description": "Pridobitev povzetka prijavljene uporabe možnosti API za uporabniškega agenta.",
+	"apihelp-query+featureusage-summary": "Pridobitev povzetka prijavljene uporabe možnosti API za uporabniškega agenta."
+}

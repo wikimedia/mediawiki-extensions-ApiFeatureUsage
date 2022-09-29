@@ -5,6 +5,7 @@
 		]
 	},
 	"apifeatureusage": "Uporaba možnosti API",
+	"apifeatureusage-desc": "Pridobitev povzetka prijavljene uporabe možnosti API za uporabniškega agenta",
 	"apifeatureusage-legend": "Uporaba možnosti API",
 	"apifeatureusage-agent-label": "Uporabniški agent:",
 	"apifeatureusage-startdate-label": "Začetni datum:",
