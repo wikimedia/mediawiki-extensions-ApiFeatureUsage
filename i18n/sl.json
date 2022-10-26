@@ -11,6 +11,7 @@
 	"apifeatureusage-startdate-label": "Začetni datum:",
 	"apifeatureusage-enddate-label": "Končni datum:",
 	"apifeatureusage-submit": "Pridobi podatke",
+	"apifeatureusage-warnings": "Opozorilo: $1",
 	"apifeatureusage-column-feature": "Možnost",
 	"apifeatureusage-column-date": "Datum",
 	"apifeatureusage-column-uses": "Uporabe"
