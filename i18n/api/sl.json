@@ -7,5 +7,9 @@
 	"apihelp-query+featureusage-description": "Pridobitev povzetka prijavljene uporabe možnosti API za uporabniškega agenta.",
 	"apihelp-query+featureusage-summary": "Pridobitev povzetka prijavljene uporabe možnosti API za uporabniškega agenta.",
 	"apihelp-query+featureusage-param-start": "Začetek datumskega razpona za poizvedbo.",
-	"apihelp-query+featureusage-param-end": "Konec datumskega razpona za poizvedbo."
+	"apihelp-query+featureusage-param-end": "Konec datumskega razpona za poizvedbo.",
+	"apihelp-query+featureusage-param-agent": "Poizvedovani uporabniški agent. Če ni določen, bo poizveden agent v zahtevku.",
+	"apihelp-query+featureusage-param-features": "Če je določen, vrni podrobnosti samo o teh možnostih.",
+	"apihelp-query+featureusage-example-simple": "Poizvedba o uporabi možnosti za trenutnega uporabniškega agenta",
+	"apierror-apifeatureusage-emptyagent": "Praznega uporabniškega agenta ni mogoče poizvedovati."
 }
