@@ -6,13 +6,17 @@
 	},
 	"apifeatureusage": "Uporaba možnosti API",
 	"apifeatureusage-desc": "Pridobitev povzetka prijavljene uporabe možnosti API za uporabniškega agenta",
+	"apifeatureusage-elasticsearch-error": "Napaka Elasticsearch: $1",
 	"apifeatureusage-legend": "Uporaba možnosti API",
 	"apifeatureusage-agent-label": "Uporabniški agent:",
 	"apifeatureusage-startdate-label": "Začetni datum:",
 	"apifeatureusage-enddate-label": "Končni datum:",
 	"apifeatureusage-submit": "Pridobi podatke",
+	"apifeatureusage-no-indexes": "Za določeno časovno obdobje ni na voljo nobenih podatkov.",
+	"apifeatureusage-missing-indexes": "Za del določenega časovnega obdobja ni na voljo nobenih podatkov.",
 	"apifeatureusage-warnings": "Opozorilo: $1",
 	"apifeatureusage-column-feature": "Možnost",
 	"apifeatureusage-column-date": "Datum",
-	"apifeatureusage-column-uses": "Uporabe"
+	"apifeatureusage-column-uses": "Uporabe",
+	"apifeatureusage-deprecation-help": "Uporabite [[Special:ApiFeatureUsage]], da si ogledate uporabo opuščenih možnosti v vaši aplikaciji."
 }
