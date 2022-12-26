@@ -56,7 +56,7 @@ class SpecialApiFeatureUsage extends SpecialPage {
 		$form->setMethod( 'get' );
 		$form->setSubmitCallback( [ $this, 'onSubmit' ] );
 		$form->setWrapperLegendMsg( 'apifeatureusage-legend' );
-		$form->addHeaderText( $this->msg( 'apifeatureusage-text' )->parseAsBlock() );
+		$form->addHeaderHtml( $this->msg( 'apifeatureusage-text' )->parseAsBlock() );
 		$form->setSubmitTextMsg( 'apifeatureusage-submit' );
 
 		$form->prepareForm();
