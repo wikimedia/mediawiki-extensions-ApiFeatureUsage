@@ -5,5 +5,17 @@
 			"Srdjan m"
 		]
 	},
-	"apifeatureusage": "Korišćenje API mogućnosti"
+	"apifeatureusage": "Korišćenje API mogućnosti",
+	"apifeatureusage-desc": "Nabavlja pregled zabeleženih upotreba API funkcija za određenog korisničkog agenta",
+	"apifeatureusage-legend": "Korišćenje API mogućnosti",
+	"apifeatureusage-agent-label": "Korisnički agent:",
+	"apifeatureusage-startdate-label": "Datum početka:",
+	"apifeatureusage-enddate-label": "Datum završetka:",
+	"apifeatureusage-submit": "Aportiraj podatke",
+	"apifeatureusage-no-indexes": "Ne mogu da nađem podatke za navedeni vremeski opseg.",
+	"apifeatureusage-missing-indexes": "Ne mogu da nađem podatke za deo navedenog vremeskog opsega.",
+	"apifeatureusage-warnings": "Upozorenje: $1",
+	"apifeatureusage-column-feature": "Mogućnost",
+	"apifeatureusage-column-date": "Datum",
+	"apifeatureusage-column-uses": "Koristi"
 }
