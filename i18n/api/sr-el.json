@@ -1,0 +1,7 @@
+{
+	"@metadata": {
+		"authors": []
+	},
+	"apihelp-query+featureusage-description": "Nabavlja pregled zabeleženih upotreba API funkcija za određenog korisničkog agenta.",
+	"apihelp-query+featureusage-summary": "Nabavlja pregled zabeleženih upotreba API funkcija za određenog korisničkog agenta."
+}
