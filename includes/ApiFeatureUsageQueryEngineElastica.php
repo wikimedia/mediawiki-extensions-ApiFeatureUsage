@@ -156,7 +156,7 @@ class ApiFeatureUsageQueryEngineElastica extends ApiFeatureUsageQueryEngine {
 		// list that might be too long to encode in the search URL.
 		// This feature is rarely used so that it's probably fine to hit all these indices and let
 		// the date filtering quickly skip unrelated ones.
-		$search->addIndex( $this->options['indexPrefix'] . '*' );
+		$search->addIndexByName( $this->options['indexPrefix'] . '*' );
 
 		$res = $search->search();
 
