@@ -1,8 +1,16 @@
 {
 	"@metadata": {
 		"authors": [
+			"Agam Riyandana",
 			"Hidayatsrf"
 		]
 	},
+	"apihelp-query+featureusage-description": "Dapatkan ringkasan penggunaan fitur API yang dicatat untuk agen pengguna",
+	"apihelp-query+featureusage-summary": "Dapatkan ringkasan penggunaan fitur API yang dicatat untuk agen pengguna",
+	"apihelp-query+featureusage-param-start": "Awal rentang tanggal untuk kueri.",
+	"apihelp-query+featureusage-param-end": "Akhir rentang tanggal untuk kueri.",
+	"apihelp-query+featureusage-param-agent": "Agen pengguna untuk melakukan kueri. Jika tidak ditentukan, agen dalam permintaan akan ditanyakan.",
+	"apihelp-query+featureusage-param-features": "Jika ditentukan, tampilkan detail hanya untuk fitur ini.",
+	"apihelp-query+featureusage-example-simple": "Penggunaan fitur kueri untuk agen pengguna saat ini",
 	"apierror-apifeatureusage-emptyagent": "Tidak dapat membuat kueri dari agen pengguna kosong"
 }
