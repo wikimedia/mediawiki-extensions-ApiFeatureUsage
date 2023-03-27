@@ -5,18 +5,24 @@
 			"Palladin911",
 			"Akmaie Ajam",
 			"Hidayatsrf",
-			"Robfirstname"
+			"Robfirstname",
+			"Agam Riyandana"
 		]
 	},
 	"apifeatureusage": "Pemakaian fitur API",
+	"apifeatureusage-desc": "Dapatkan ringkasan penggunaan fitur API yang dicatat untuk agen pengguna",
 	"apifeatureusage-elasticsearch-error": "Kesalahan Elasticsearch: $1",
+	"apifeatureusage-legend": "Pemakaian fitur API",
 	"apifeatureusage-agent-label": "Agen pengguna:",
 	"apifeatureusage-startdate-label": "Tanggal mulai:",
 	"apifeatureusage-enddate-label": "Tanggal berakhir:",
 	"apifeatureusage-submit": "Ambil data",
+	"apifeatureusage-no-indexes": "Tidak ada data yang tersedia untuk rentang tanggal yang ditentukan.",
+	"apifeatureusage-missing-indexes": "Tidak ada data yang tersedia untuk sebagian dari rentang tanggal yang ditentukan.",
 	"apifeatureusage-warnings": "Peringatan: $1",
 	"apifeatureusage-column-feature": "Fitur",
 	"apifeatureusage-column-date": "Tanggal",
 	"apifeatureusage-column-uses": "Penggunaan",
-	"apierror-apifeatureusage-emptyagent": "Tidak dapat membuat kueri dari agen pengguna kosong"
+	"apierror-apifeatureusage-emptyagent": "Tidak dapat membuat kueri dari agen pengguna kosong",
+	"apifeatureusage-deprecation-help": "Gunakan [[Special:ApiFeatureUsage]] untuk melihat penggunaan fitur yang tidak digunakan lagi oleh aplikasi Anda."
 }
