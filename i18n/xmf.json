@@ -1,0 +1,14 @@
+{
+	"@metadata": {
+		"authors": [
+			"Narazeni"
+		]
+	},
+	"apifeatureusage-startdate-label": "დოჭყაფაშ თარიღი:",
+	"apifeatureusage-enddate-label": "თებაშ თარიღი:",
+	"apifeatureusage-submit": "მუნაჩემეფიშ გიშაგორუა",
+	"apifeatureusage-warnings": "ხვილაფა: $1",
+	"apifeatureusage-column-feature": "გიშნაგორა",
+	"apifeatureusage-column-date": "თარიღი",
+	"apifeatureusage-column-uses": "გჷმირინუაფუ"
+}
