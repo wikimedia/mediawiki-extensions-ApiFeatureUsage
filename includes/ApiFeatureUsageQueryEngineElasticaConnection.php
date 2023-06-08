@@ -2,8 +2,8 @@
 
 namespace MediaWiki\Extension\ApiFeatureUsage;
 
+use InvalidArgumentException;
 use MediaWiki\Extension\Elastica\ElasticaConnection;
-use MWException;
 
 /**
  * Class to create the connection
@@ -21,7 +21,7 @@ class ApiFeatureUsageQueryEngineElasticaConnection extends ElasticaConnection {
 		}
 
 		if ( empty( $options['serverList'] ) || !is_array( $options['serverList'] ) ) {
-			throw new MWException( __METHOD__ . ': serverList is not set or is not valid.' );
+			throw new InvalidArgumentException( __METHOD__ . ': serverList is not set or is not valid.' );
 		}
 
 		$this->options = $options + [

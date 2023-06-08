@@ -12,8 +12,8 @@ use Elastica\Query\Prefix;
 use Elastica\Query\Range;
 use Elastica\Query\Terms as QueryTerms;
 use Elastica\Search;
-use MWException;
 use MWTimestamp;
+use RuntimeException;
 use Status;
 
 /**
@@ -72,7 +72,7 @@ class ApiFeatureUsageQueryEngineElastica extends ApiFeatureUsageQueryEngine {
 			if ( $response->isOK() ) {
 				$this->indexNames = array_keys( $response->getData() );
 			} else {
-				throw new MWException( __METHOD__ .
+				throw new RuntimeException( __METHOD__ .
 					': Cannot fetch index names from elasticsearch: ' .
 					$response->getError()
 				);

@@ -3,7 +3,7 @@
 namespace MediaWiki\Extension\ApiFeatureUsage;
 
 use Config;
-use MWException;
+use ConfigException;
 use MWTimestamp;
 use Status;
 
@@ -25,7 +25,7 @@ abstract class ApiFeatureUsageQueryEngine {
 			return new $conf['class']( $conf );
 		}
 
-		throw new MWException( '$wgApiFeatureUsageQueryEngineConf does not define an engine' );
+		throw new ConfigException( '$wgApiFeatureUsageQueryEngineConf does not define an engine' );
 	}
 
 	/**
