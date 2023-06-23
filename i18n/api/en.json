@@ -4,7 +4,6 @@
 			"Brad Jorsch"
 		]
 	},
-	"apihelp-query+featureusage-description": "Get a summary of logged API feature usages for a user agent.",
 	"apihelp-query+featureusage-summary": "Get a summary of logged API feature usages for a user agent.",
 	"apihelp-query+featureusage-param-start": "Start of date range to query.",
 	"apihelp-query+featureusage-param-end": "End of date range to query.",
