@@ -4,7 +4,6 @@
 			"Muhammad Shuaib"
 		]
 	},
-	"apihelp-query+featureusage-description": "درج اے پی آئی خصوصیات کا استعمال کرنے والے صارف ایجنٹ کی فہرست کا حصول",
 	"apihelp-query+featureusage-summary": "درج اے پی آئی خصوصیات کا استعمال کرنے والے صارف ایجنٹ کی فہرست کا حصول",
 	"apierror-apifeatureusage-emptyagent": "صارف کے ایجنٹ کا نام درج کیے بغیر استفسار نہیں کیا جا سکتا۔"
 }

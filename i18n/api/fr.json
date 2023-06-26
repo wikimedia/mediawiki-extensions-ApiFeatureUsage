@@ -6,7 +6,6 @@
 			"Verdy p"
 		]
 	},
-	"apihelp-query+featureusage-description": "Obtenir un résumé de l’utilisation des fonctionnalités de l’API pour un agent utilisateur.",
 	"apihelp-query+featureusage-summary": "Obtenir un résumé des utilisations des fonctionnalités de l’API connectée pour un agent utilisateur.",
 	"apihelp-query+featureusage-param-start": "Début de la plage de date pour la requête.",
 	"apihelp-query+featureusage-param-end": "Fin de la plage de date pour la requête.",

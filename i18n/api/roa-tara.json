@@ -4,7 +4,6 @@
 			"Joetaras"
 		]
 	},
-	"apihelp-query+featureusage-description": "Pigghie 'nu riepiloghe de l'ause dettagliate de l'API de collegamende pe 'n'agente utende.",
 	"apihelp-query+featureusage-summary": "Pigghie 'nu riepiloghe de l'ause dettagliate de l'API de collegamende pe 'n'agente utende.",
 	"apihelp-query+featureusage-param-start": "Inizie de l'indervalle de date da 'nderrogà.",
 	"apihelp-query+featureusage-param-end": "Fine de l'indervalle de date da 'nderrogà.",

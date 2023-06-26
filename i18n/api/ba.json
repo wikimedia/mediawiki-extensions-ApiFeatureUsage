@@ -5,7 +5,6 @@
 			"Азат Хәлилов"
 		]
 	},
-	"apihelp-query+featureusage-description": "Ҡулланыусы агентын файҙаланыу өсөн, теркәлгән әҙәби API тураһында ҡыҫҡа белешмә алырға.",
 	"apihelp-query+featureusage-param-start": "Мөрөжәғәт өсөн даталар диапазоны",
 	"apihelp-query+featureusage-param-end": "Мөрәжәғәт өсөн даталар диапазоны бөткән көн",
 	"apihelp-query+featureusage-param-agent": "Ҡулланыусы мөрәжәғәтенең агенты. Әгәр ул күрһәтелмәһә, һоратыу  мөрәжәғәт агентынан һоратыласаҡ.",

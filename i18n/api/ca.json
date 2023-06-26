@@ -4,7 +4,6 @@
 			"Ssola"
 		]
 	},
-	"apihelp-query+featureusage-description": "Obtén un resum dels usos registrats de les funcionalitats de l'API per un agent d'usuari.",
 	"apihelp-query+featureusage-summary": "Obté un resum dels usos registrats de les funcionalitats de l'API per un agent d'usuari.",
 	"apihelp-query+featureusage-param-start": "Inici de l'interval de dates a consultar.",
 	"apihelp-query+featureusage-param-end": "Fi de l'interval de dates a consultar.",

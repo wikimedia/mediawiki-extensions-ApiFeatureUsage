@@ -5,7 +5,6 @@
 			"Hidayatsrf"
 		]
 	},
-	"apihelp-query+featureusage-description": "Dapatkan ringkasan penggunaan fitur API yang dicatat untuk agen pengguna",
 	"apihelp-query+featureusage-summary": "Dapatkan ringkasan penggunaan fitur API yang dicatat untuk agen pengguna",
 	"apihelp-query+featureusage-param-start": "Awal rentang tanggal untuk kueri.",
 	"apihelp-query+featureusage-param-end": "Akhir rentang tanggal untuk kueri.",

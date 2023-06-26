@@ -5,7 +5,6 @@
 			"Kly"
 		]
 	},
-	"apihelp-query+featureusage-description": "取得使用者代理已記錄的 API 功能使用狀況摘要。",
 	"apihelp-query+featureusage-summary": "取得使用者代理已記錄的 API 功能使用狀況摘要。",
 	"apihelp-query+featureusage-param-start": "查詢的起始日期範圍。",
 	"apihelp-query+featureusage-param-end": "查詢的結束日期範圍。",

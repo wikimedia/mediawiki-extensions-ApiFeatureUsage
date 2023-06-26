@@ -6,7 +6,6 @@
 			"Ladsgroup"
 		]
 	},
-	"apihelp-query+featureusage-description": "دریافت خلاصه‌ای از کاربردهای ثبت‌شدهٔ ویژگی واسط برنامه‌نویسی کاربردی برای یک عامل کاربر",
 	"apihelp-query+featureusage-param-start": "تاریخ شروع برای پرسمان",
 	"apihelp-query+featureusage-param-end": "تاریخ پایان برای پرسمان",
 	"apihelp-query+featureusage-param-features": "در صورت مشخص‌شدن، تنها جزئیات این ویژگی‌ها برگردانده شود.",

@@ -6,7 +6,6 @@
 			"Siebrand"
 		]
 	},
-	"apihelp-query+featureusage-description": "Een samenvatting opvragen van het gelogde gebruik van API-mogelijkheden voor een user-agent.",
 	"apihelp-query+featureusage-summary": "Een samenvatting opvragen van het gelogde gebruik van API-mogelijkheden voor een user-agent.",
 	"apihelp-query+featureusage-param-start": "Begindatum van de op te vragen periode.",
 	"apihelp-query+featureusage-param-end": "Einddatum van de op te vragen periode.",

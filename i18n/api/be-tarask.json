@@ -5,7 +5,6 @@
 			"Red Winged Duck"
 		]
 	},
-	"apihelp-query+featureusage-description": "Атрымаць кароткае апісаньне запісаных ужываньняў функцыяў API для агента карыстальніка.",
 	"apihelp-query+featureusage-summary": "Атрымаць кароткае апісаньне запісаных ужываньняў функцыяў API для агента карыстальніка.",
 	"apihelp-query+featureusage-param-start": "Пачатак прамежку даты для запыту.",
 	"apihelp-query+featureusage-param-end": "Канец прамежку даты для запыту.",

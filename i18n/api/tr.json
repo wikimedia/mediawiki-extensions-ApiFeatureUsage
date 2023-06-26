@@ -4,7 +4,6 @@
 			"BaRaN6161 TURK"
 		]
 	},
-	"apihelp-query+featureusage-description": "Bir kullanıcı aracısı için günlüğe kaydedilmiş API özelliği kullanımlarının bir özetini alın.",
 	"apihelp-query+featureusage-summary": "Bir kullanıcı aracısı için günlüğe kaydedilmiş API özelliği kullanımlarının bir özetini alın.",
 	"apihelp-query+featureusage-param-start": "Sorgulanacak tarih aralığının başlangıcı.",
 	"apihelp-query+featureusage-param-end": "Sorgulanacak tarih aralığının sonu.",

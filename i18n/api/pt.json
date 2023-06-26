@@ -4,7 +4,6 @@
 			"Hamilton Abreu"
 		]
 	},
-	"apihelp-query+featureusage-description": "Obter um resumo dos usos registados de funcionalidades da API para um agente do utilizador.",
 	"apihelp-query+featureusage-summary": "Obter um resumo dos usos registados de funcionalidades da API para um agente do utilizador.",
 	"apihelp-query+featureusage-param-start": "Data de início do período da consulta.",
 	"apihelp-query+featureusage-param-end": "Data de fim do período da consulta.",

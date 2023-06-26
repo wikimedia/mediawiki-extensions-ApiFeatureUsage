@@ -4,7 +4,6 @@
 			"Aefgh39622"
 		]
 	},
-	"apihelp-query+featureusage-description": "รับข้อมูลสรุปเกี่ยวกับการใช้งานคุณลักษณะ API ที่ถูกบันทึกลงในปูมสำหรับตัวแทนผู้ใช้",
 	"apihelp-query+featureusage-summary": "รับข้อมูลสรุปเกี่ยวกับการใช้งานคุณลักษณะ API ที่ถูกบันทึกลงในปูมสำหรับตัวแทนผู้ใช้",
 	"apihelp-query+featureusage-param-start": "จุดเริ่มต้นของช่วงวันที่ที่ต้องการสอบถาม",
 	"apihelp-query+featureusage-param-end": "จุดสิ้นสุดของช่วงวันที่ที่ต้องการสอบถาม",

@@ -5,7 +5,6 @@
 			"Dansita"
 		]
 	},
-	"apihelp-query+featureusage-description": "Ottieni un riepilogo dell'uso delle funzionalità API registrate per un agente utente.",
 	"apihelp-query+featureusage-summary": "Ottieni un riepilogo dell'uso delle funzionalità API registrate per un agente utente.",
 	"apihelp-query+featureusage-param-start": "Inizio dell'intervallo di date da interrogare.",
 	"apihelp-query+featureusage-param-end": "Fine dell'intervallo di date da interrogare.",

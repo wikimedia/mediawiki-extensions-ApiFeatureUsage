@@ -6,7 +6,6 @@
 			"Ryo567"
 		]
 	},
-	"apihelp-query+featureusage-description": "Obtén un resumen de los usos registrados de las funciones de la API por cada agente de usuario.",
 	"apihelp-query+featureusage-summary": "Obtener un resumen de los usos registrados de las funciones de la API por cada agente de usuario.",
 	"apihelp-query+featureusage-param-start": "Inicio del intervalo de fechas que consultar.",
 	"apihelp-query+featureusage-param-end": "Fin del intervalo de fechas que consultar.",

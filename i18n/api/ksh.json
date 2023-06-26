@@ -4,7 +4,6 @@
 			"Purodha"
 		]
 	},
-	"apihelp-query+featureusage-description": "Holl en Zersammevaßong vun de Aanwändong vun de Eijechaffte vum <i lang=\"en\" xml:lang=\"en\" dir=\"ltr\" title=\"Application Programming Interface\">API</i> för ene Brauser.",
 	"apihelp-query+featureusage-param-start": "Et Dattom vum Bejenn vun dä Affrohch.",
 	"apihelp-query+featureusage-param-end": "Et Dattom vum Ängk vun dä Affrohch.",
 	"apihelp-query+featureusage-param-agent": "De Brauser. Wam_mer keine aanjitt, weed der Brauser jenumme, dä mer jrahd aam bruche es.",

@@ -4,7 +4,6 @@
 			"01miki10"
 		]
 	},
-	"apihelp-query+featureusage-description": "Hae yhteenveto lokiin merkityistä API-ominaisuuksien käytöstä käyttäjäagentin perusteella.",
 	"apihelp-query+featureusage-param-start": "Tiedusteltavan aikarajauksen aloituspäivä.",
 	"apihelp-query+featureusage-param-end": "Tiedusteltavan aikarajauksen lopetuspäivä.",
 	"apihelp-query+featureusage-param-agent": "Tiedusteltava käyttäjäagentti. Jos ei ole määritelty, tiedustellaan pyynnön agenttia.",

@@ -4,7 +4,6 @@
 			"Amire80"
 		]
 	},
-	"apihelp-query+featureusage-description": "קבלת סיכום של שימוש באפשרויות API רשומות עבור סוכן לקוח.",
 	"apihelp-query+featureusage-summary": "קבלה של סיכום של שימוש באפשרויות API רשומות עבור סוכן לקוח.",
 	"apihelp-query+featureusage-param-start": "תחילת טווח התאריכים לשאילתה.",
 	"apihelp-query+featureusage-param-end": "סוף טווח התאריכים לשאילתה.",

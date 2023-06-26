@@ -4,7 +4,6 @@
 			"Vlad5250"
 		]
 	},
-	"apihelp-query+featureusage-description": "Dje pregled zapisanih uporabi funkcija izvršitelja (API) od strane određenog korisničkog vršitelja.",
 	"apihelp-query+featureusage-summary": "Daje pregled zapisanih uporabi izvršničkih funkcija za određeni korisnički vršitelj.",
 	"apihelp-query+featureusage-param-start": "Početak datumskog raspona zahtjeva.",
 	"apihelp-query+featureusage-param-end": "Kraj datumskog raspona zahtjeva.",

@@ -5,7 +5,6 @@
 			"Yusuke1109"
 		]
 	},
-	"apihelp-query+featureusage-description": "ユーザーエージェントのログに記録されたAPI機能の概要を取得します。",
 	"apihelp-query+featureusage-summary": "ユーザーエージェントのログに記録されたAPI機能の概要を取得します。",
 	"apihelp-query+featureusage-param-start": "クエリの日付範囲の開始日。",
 	"apihelp-query+featureusage-param-end": "クエリの日付範囲の終了日。",

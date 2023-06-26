@@ -7,7 +7,6 @@
 			"Sfic"
 		]
 	},
-	"apihelp-query+featureusage-description": "किसी सदस्य एजेंट के लिए लॉग किए गए API सुविधा के प्रयोगों का सारांश पाएँ।",
 	"apihelp-query+featureusage-summary": "किसी सदस्य एजेंट के लिए लॉग किए गए API सुविधा के प्रयोगों का सारांश पाएँ।",
 	"apihelp-query+featureusage-param-start": "क्वेरी करने के लिए तिथि के रेंज का आरंभ।",
 	"apihelp-query+featureusage-param-end": "क्वेरी करने के लिए तिथि के रेंज का अंत।",

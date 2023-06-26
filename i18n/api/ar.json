@@ -5,7 +5,6 @@
 			"محمد أحمد عبد الفتاح"
 		]
 	},
-	"apihelp-query+featureusage-description": "الحصول على ملخص لاستخدامات مزايا API مسجلة لوكيل مستخدم.",
 	"apihelp-query+featureusage-summary": "الحصول على ملخص لاستخدامات ميزة API المسجلة لوكيل مستخدم",
 	"apihelp-query+featureusage-param-start": "بدء النطاق الزمني للاستعلام.",
 	"apihelp-query+featureusage-param-end": "نهاية النطاق الزمني للاستعلام.",

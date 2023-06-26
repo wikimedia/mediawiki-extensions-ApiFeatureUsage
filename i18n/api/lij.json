@@ -4,7 +4,6 @@
 			"Giromin Cangiaxo"
 		]
 	},
-	"apihelp-query+featureusage-description": "Otegni 'n riepillogo de l'uso de fonçionalitæ API registræ pe 'n agente utente.",
 	"apihelp-query+featureusage-param-start": "Partença de l'intervallo de dæte da interrogâ.",
 	"apihelp-query+featureusage-param-end": "Fin de l'intervallo de dæte da interrogâ.",
 	"apihelp-query+featureusage-param-agent": "Agente utente da interrogâ. Se no speçificou, saiâ interrogou l'agente de questa recesta.",

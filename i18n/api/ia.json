@@ -4,7 +4,6 @@
 			"McDutchie"
 		]
 	},
-	"apihelp-query+featureusage-description": "Obtener un summario de usos de functiones API registrate pro un agente usator.",
 	"apihelp-query+featureusage-summary": "Obtener un summario de usos de functiones API registrate pro un agente usator.",
 	"apihelp-query+featureusage-param-start": "Initio del periodo a consultar.",
 	"apihelp-query+featureusage-param-end": "Fin del periodo a consultar.",

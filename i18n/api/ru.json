@@ -5,7 +5,6 @@
 			"Okras"
 		]
 	},
-	"apihelp-query+featureusage-description": "Получить краткое изложение используемых функций API для пользовательского агента.",
 	"apihelp-query+featureusage-summary": "Получить краткое изложение используемых функций API для пользовательского агента.",
 	"apihelp-query+featureusage-param-start": "Начало диапазона дат для запроса.",
 	"apihelp-query+featureusage-param-end": "Окончание диапазона дат для запроса.",

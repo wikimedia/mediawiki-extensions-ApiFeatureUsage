@@ -5,7 +5,6 @@
 			"Ykhwong"
 		]
 	},
-	"apihelp-query+featureusage-description": "사용자 에이전트에 대한 기록된 API 기능 사용량의 요약을 얻습니다.",
 	"apihelp-query+featureusage-summary": "사용자 에이전트에 대한 기록된 API 기능 사용량 요약을 얻습니다.",
 	"apihelp-query+featureusage-param-start": "검색을 시작할 날짜.",
 	"apihelp-query+featureusage-param-end": "검색을 끝낼 날짜.",
