@@ -1,0 +1,22 @@
+{
+	"@metadata": {
+		"authors": [
+			"Winston Sung"
+		]
+	},
+	"apifeatureusage": "Uporaba izvršničkih funkcija",
+	"apifeatureusage-desc": "Daje pregled zapisanih uporabi izvršničkih funkcija za određeni korisnički vršitelj.",
+	"apifeatureusage-elasticsearch-error": "Greška u Elasticsearchu: $1",
+	"apifeatureusage-legend": "Uporaba funkcije izvršnika",
+	"apifeatureusage-agent-label": "Korisnički vršitelj:",
+	"apifeatureusage-startdate-label": "Početni datum:",
+	"apifeatureusage-enddate-label": "Krajnji datum:",
+	"apifeatureusage-submit": "Dohvati podatke",
+	"apifeatureusage-no-indexes": "Nema podataka za odabrano datumsko razdoblje.",
+	"apifeatureusage-missing-indexes": "Nema podataka za dio odabranog datumskog razdoblja.",
+	"apifeatureusage-warnings": "Upozorenje: $1",
+	"apifeatureusage-column-feature": "Mogućnost",
+	"apifeatureusage-column-date": "Datum",
+	"apifeatureusage-column-uses": "Upotrebe",
+	"apifeatureusage-deprecation-help": "Koristite „[[Special:ApiFeatureUsage|Upotreba izvršničkih funkcija]]“ da biste vidjeli uporabu zastarjelih funkcija Vašeg privitka."
+}
