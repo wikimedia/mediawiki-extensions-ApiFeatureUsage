@@ -1,0 +1,14 @@
+{
+	"@metadata": {
+		"authors": [
+			"Winston Sung"
+		]
+	},
+	"apihelp-query+featureusage-summary": "Daje pregled zapisanih uporabi izvršničkih funkcija za određeni korisnički vršitelj.",
+	"apihelp-query+featureusage-param-start": "Početak datumskog raspona zahtjeva.",
+	"apihelp-query+featureusage-param-end": "Kraj datumskog raspona zahtjeva.",
+	"apihelp-query+featureusage-param-agent": "Korisničkog vršitelja što se zahtijeva. Ako nije navedeno, će biti zatražen vršitelj u traženju.",
+	"apihelp-query+featureusage-param-features": "Ako je navedeno, daje podatke samo za ove funkcije.",
+	"apihelp-query+featureusage-example-simple": "Traženje uporabe funkcija za trenutnog korisničkog vršitelja",
+	"apierror-apifeatureusage-emptyagent": "Ne mogu tražiti prazan korisnički vršitelj."
+}
