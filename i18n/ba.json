@@ -7,15 +7,15 @@
 			"Янмурза Баки"
 		]
 	},
-	"apifeatureusage": " API функцияһын ҡулланыу",
-	"apifeatureusage-desc": "Ҡулланыусы агентын файҙаланыу өсөн, теркәлгән әҙәби API тураһында ҡыҫҡа белешмә алырға.",
-	"apifeatureusage-elasticsearch-error": "Хата Elasticsearch: $1",
-	"apifeatureusage-legend": "API функцияһын ҡулланыу",
+	"apifeatureusage": "API функцияларын ҡулланыу",
+	"apifeatureusage-desc": "Браузер өсөн ҡулланылған API функциялары тураһында ҡыҫҡа белешмә алырға.",
+	"apifeatureusage-elasticsearch-error": "Elasticsearch хатаһы: $1",
+	"apifeatureusage-legend": "API функцияларын ҡулланыу",
 	"apifeatureusage-agent-label": "Браузер:",
 	"apifeatureusage-submit": "Мәғлүмәт һайларға",
 	"apifeatureusage-no-indexes": "Күрһәтелгән даталар арауығында мәғлүмәттәр юҡ.",
 	"apifeatureusage-missing-indexes": "Күрһәтелгән даталар арауығы өлөшөндә мәғлүмәттәр юҡ.",
-	"apifeatureusage-warnings": "Иҫкәртеү:$1",
+	"apifeatureusage-warnings": "Иҫкәртеү: $1",
 	"apifeatureusage-column-feature": "Функция",
 	"apifeatureusage-column-date": "Дата",
 	"apifeatureusage-column-uses": "Ҡулланыу"
