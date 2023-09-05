@@ -2,12 +2,13 @@
 	"@metadata": {
 		"authors": [
 			"Sagan",
-			"Азат Хәлилов"
+			"Азат Хәлилов",
+			"З. ӘЙЛЕ"
 		]
 	},
 	"apihelp-query+featureusage-description": "Ҡулланыусы агентын файҙаланыу өсөн, теркәлгән әҙәби API тураһында ҡыҫҡа белешмә алырға.",
-	"apihelp-query+featureusage-param-start": "Мөрөжәғәт өсөн даталар диапазоны",
-	"apihelp-query+featureusage-param-end": "Мөрәжәғәт өсөн даталар диапазоны бөткән көн",
+	"apihelp-query+featureusage-param-start": "Мөрөжәғәт өсөн даталар арауығы.",
+	"apihelp-query+featureusage-param-end": "Мөрәжәғәттең һуңғы көнө",
 	"apihelp-query+featureusage-param-agent": "Ҡулланыусы мөрәжәғәтенең агенты. Әгәр ул күрһәтелмәһә, һоратыу  мөрәжәғәт агентынан һоратыласаҡ.",
 	"apihelp-query+featureusage-param-features": "Әгәр күрһәтелһә, деталдәрҙе был функцияларға ғына ҡайтарырға.",
 	"apihelp-query+featureusage-example-simple": "Был ҡулланыусы агенты өсөн һоратмаларҙың функцияларын файҙаланыу"
