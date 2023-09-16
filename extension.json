@@ -43,7 +43,12 @@
 		"remoteExtPath": "ApiFeatureUsage/modules"
 	},
 	"Hooks": {
-		"ApiDeprecationHelp": "MediaWiki\\Extension\\ApiFeatureUsage\\Hooks::onApiDeprecationHelp"
+		"ApiDeprecationHelp": "main"
+	},
+	"HookHandlers": {
+		"main": {
+			"class": "MediaWiki\\Extension\\ApiFeatureUsage\\Hooks"
+		}
 	},
 	"config": {
 		"ApiFeatureUsageQueryEngineConf": {

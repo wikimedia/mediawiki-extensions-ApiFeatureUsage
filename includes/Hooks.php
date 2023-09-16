@@ -2,15 +2,16 @@
 
 namespace MediaWiki\Extension\ApiFeatureUsage;
 
+use MediaWiki\Api\Hook\ApiDeprecationHelpHook;
 use Message;
 
-class Hooks {
+class Hooks implements ApiDeprecationHelpHook {
 
 	/**
 	 * Add deprecation help referring to Special:ApiFeatureUsage
 	 * @param Message[] &$msgs
 	 */
-	public static function onApiDeprecationHelp( &$msgs ) {
+	public function onApiDeprecationHelp( &$msgs ) {
 		$msgs[] = wfMessage( 'apifeatureusage-deprecation-help' );
 	}
 }
