@@ -1,14 +1,15 @@
 {
 	"@metadata": {
 		"authors": [
-			"Ooswesthoesbes"
+			"Ooswesthoesbes",
+			"Amire80"
 		]
 	},
 	"apihelp-query+featureusage-description": "Tuin samevattinge veur gelog gebroek van API-meugelikheje veur 'ne useragent.",
 	"apihelp-query+featureusage-summary": "Tuin samevattinge veur gelog gebroek van API-meugelikheje veur 'ne useragent.",
 	"apihelp-query+featureusage-param-start": "Begindatum van d'n op te vraogen tied.",
 	"apihelp-query+featureusage-param-end": "Injdatum van d'n op te vraogen tied.",
-	"apihelp-query+featureusage-param-agent": "Op te vraoge useragent. Wen ónopgegaove weurt de useragent van 't  verzeuk gebroek.",
+	"apihelp-query+featureusage-param-agent": "Op te vraoge useragent. Wen ónopgegaove weurt de useragent van 't verzeuk gebroek.",
 	"apihelp-query+featureusage-param-features": "Wen opgegaove, gaef allein details euver dees meugelikheje op.",
 	"apihelp-query+featureusage-example-simple": "Vraog meugelikhejegebroek veur d'n hujige useragent op.",
 	"apierror-apifeatureusage-emptyagent": "Kan geine laege useragent opvraoge."
