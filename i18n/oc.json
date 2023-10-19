@@ -1,9 +1,14 @@
 {
 	"@metadata": {
 		"authors": [
-			"Cedric31"
+			"Cedric31",
+			"Nicolas Eynaud"
 		]
 	},
 	"apifeatureusage": "Utilizacion de foncionalitat de l’API",
-	"apifeatureusage-legend": "Utilizacion de foncionalitat de l’API"
+	"apifeatureusage-legend": "Utilizacion de foncionalitat de l’API",
+	"apifeatureusage-startdate-label": "Data de començament :",
+	"apifeatureusage-enddate-label": "Data de fin :",
+	"apifeatureusage-column-date": "Data",
+	"apifeatureusage-column-uses": "Utilizaires"
 }
