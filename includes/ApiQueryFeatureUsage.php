@@ -25,7 +25,7 @@ class ApiQueryFeatureUsage extends ApiQueryBase {
 		$agent = $params['agent'] === null
 			? $this->getMain()->getUserAgent()
 			: $params['agent'];
-		if ( empty( $agent ) ) {
+		if ( $agent === '' ) {
 			$encParamName = $this->encodeParamName( 'agent' );
 			$this->dieWithError( 'apierror-apifeatureusage-emptyagent', "bad_$encParamName" );
 		}
