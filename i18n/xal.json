@@ -1,0 +1,12 @@
+{
+	"@metadata": {
+		"authors": [
+			"Алия"
+		]
+	},
+	"apifeatureusage-agent-label": "Цәкм көтч:",
+	"apifeatureusage-startdate-label": "Эклсн цаг:",
+	"apifeatureusage-enddate-label": "Дуусх цаг:",
+	"apifeatureusage-submit": "Өггдлиг суңһх",
+	"apifeatureusage-column-uses": "Кергллтс"
+}
