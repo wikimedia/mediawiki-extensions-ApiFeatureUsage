@@ -2,13 +2,13 @@
 
 namespace MediaWiki\Extension\ApiFeatureUsage;
 
-use Html;
 use HTMLForm;
+use MediaWiki\Html\Html;
 use MediaWiki\MediaWikiServices;
+use MediaWiki\SpecialPage\SpecialPage;
+use MediaWiki\Status\Status;
+use MediaWiki\Utils\MWTimestamp;
 use Message;
-use MWTimestamp;
-use SpecialPage;
-use Status;
 
 class SpecialApiFeatureUsage extends SpecialPage {
 	/** @var ApiFeatureUsageQueryEngine|null */

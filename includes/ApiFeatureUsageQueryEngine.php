@@ -2,10 +2,10 @@
 
 namespace MediaWiki\Extension\ApiFeatureUsage;
 
-use Config;
-use ConfigException;
-use MWTimestamp;
-use Status;
+use MediaWiki\Config\Config;
+use MediaWiki\Config\ConfigException;
+use MediaWiki\Status\Status;
+use MediaWiki\Utils\MWTimestamp;
 
 abstract class ApiFeatureUsageQueryEngine {
 	/** @var array */

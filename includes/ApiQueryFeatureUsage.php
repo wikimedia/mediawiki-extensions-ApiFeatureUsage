@@ -5,7 +5,7 @@ namespace MediaWiki\Extension\ApiFeatureUsage;
 use ApiQuery;
 use ApiQueryBase;
 use MediaWiki\MediaWikiServices;
-use MWTimestamp;
+use MediaWiki\Utils\MWTimestamp;
 use Wikimedia\ParamValidator\ParamValidator;
 
 class ApiQueryFeatureUsage extends ApiQueryBase {

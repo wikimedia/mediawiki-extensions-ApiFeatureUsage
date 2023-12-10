@@ -12,9 +12,9 @@ use Elastica\Query\Prefix;
 use Elastica\Query\Range;
 use Elastica\Query\Terms as QueryTerms;
 use Elastica\Search;
-use MWTimestamp;
+use MediaWiki\Status\Status;
+use MediaWiki\Utils\MWTimestamp;
 use RuntimeException;
-use Status;
 
 /**
  * Query feature usage data from Elasticsearch.
