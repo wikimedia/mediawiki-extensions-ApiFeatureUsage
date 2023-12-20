@@ -1,6 +1,7 @@
 {
 	"@metadata": {
 		"authors": [
+			"Adriendelucca",
 			"Fulup"
 		]
 	},
@@ -8,5 +9,6 @@
 	"apifeatureusage-enddate-label": "Deiziad echuiñ :",
 	"apifeatureusage-submit": "Tapout ar roadennoù",
 	"apifeatureusage-warnings": "Diwallit : $1",
-	"apifeatureusage-column-date": "Deiziad"
+	"apifeatureusage-column-date": "Deiziad",
+	"apifeatureusage-column-uses": "Implijoù"
 }
