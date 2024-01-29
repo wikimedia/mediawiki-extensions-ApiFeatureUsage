@@ -2,13 +2,15 @@
 	"@metadata": {
 		"authors": [
 			"Aefgh39622",
-			"Geonuch"
+			"Geonuch",
+			"Ekminarin",
+			"Patsagorn Y."
 		]
 	},
 	"apifeatureusage": "การใช้คุณลักษณะเอพีไอ",
 	"apifeatureusage-desc": "รับข้อมูลสรุปเกี่ยวกับการใช้งานคุณลักษณะ API ที่ถูกบันทึกลงในปูมสำหรับตัวแทนผู้ใช้",
 	"apifeatureusage-elasticsearch-error": "ข้อผิดพลาดของ Elasticsearch: $1",
-	"apifeatureusage-legend": "การใช้คุณลักษณะ API",
+	"apifeatureusage-legend": "การใช้คุณลักษณะเอพีไอ",
 	"apifeatureusage-agent-label": "ตัวแทนผู้ใช้:",
 	"apifeatureusage-startdate-label": "วันที่เริ่มต้น:",
 	"apifeatureusage-enddate-label": "วันที่สิ้นสุด:",
@@ -18,5 +20,6 @@
 	"apifeatureusage-warnings": "คำเตือน: $1",
 	"apifeatureusage-column-feature": "คุณลักษณะ",
 	"apifeatureusage-column-date": "วันที่",
-	"apifeatureusage-column-uses": "การใช้งาน"
+	"apifeatureusage-column-uses": "การใช้งาน",
+	"apifeatureusage-deprecation-help": "ใช้ [[Special:ApiFeatureUsage]] เพื่อดูการใช้งานฟีเจอร์ที่เลิกใช้งานแล้วโดยแอปพลิเคชันของคุณ"
 }
