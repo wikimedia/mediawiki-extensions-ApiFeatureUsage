@@ -1,12 +1,15 @@
 {
 	"@metadata": {
 		"authors": [
+			"Stefán Örvar Sigmundsson",
 			"Sveinn í Felli"
 		]
 	},
-	"apifeatureusage-agent-label": "Aðgangsforrit:",
+	"apifeatureusage": "HFV-eiginleikanotkun",
+	"apifeatureusage-legend": "HFV-eiginleikanotkun",
+	"apifeatureusage-agent-label": "Notandaútsendari:",
 	"apifeatureusage-startdate-label": "Upphafsdagsetning:",
-	"apifeatureusage-enddate-label": "Lýkur daginn:",
+	"apifeatureusage-enddate-label": "Lokadagsetning:",
 	"apifeatureusage-warnings": "Aðvörun: $1",
 	"apifeatureusage-column-feature": "Eiginleiki",
 	"apifeatureusage-column-date": "Dagsetning",
