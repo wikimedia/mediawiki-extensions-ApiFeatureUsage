@@ -30,7 +30,7 @@ class SpecialApiFeatureUsage extends SpecialPage {
 			->getConfigFactory()
 			->makeConfig( 'ApiFeatureUsage' );
 		$this->engine = ApiFeatureUsageQueryEngine::getEngine( $conf );
-		list( $start, $end ) = $this->engine->suggestDateRange();
+		[ $start, $end ] = $this->engine->suggestDateRange();
 
 		$form = HTMLForm::factory( 'ooui', [
 			'agent' => [

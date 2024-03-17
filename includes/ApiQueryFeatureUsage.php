@@ -36,7 +36,7 @@ class ApiQueryFeatureUsage extends ApiQueryBase {
 		$engine = ApiFeatureUsageQueryEngine::getEngine( $conf );
 
 		if ( $params['start'] === null || $params['end'] === null ) {
-			list( $start, $end ) = $engine->suggestDateRange();
+			[ $start, $end ] = $engine->suggestDateRange();
 		}
 		if ( $params['start'] !== null ) {
 			$start = new MWTimestamp( $params['start'] );
