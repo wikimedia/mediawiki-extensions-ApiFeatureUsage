@@ -12,7 +12,9 @@ use Elastica\Query\Prefix;
 use Elastica\Query\Range;
 use Elastica\Query\Terms as QueryTerms;
 use Elastica\Search;
+use ExtensionRegistry;
 use MediaWiki\Status\Status;
+use MediaWiki\User\UserIdentity;
 use MediaWiki\Utils\MWTimestamp;
 use RuntimeException;
 
@@ -38,6 +40,9 @@ class ApiFeatureUsageQueryEngineElastica extends ApiFeatureUsageQueryEngine {
 	 * @param array $options
 	 */
 	public function __construct( array $options ) {
+		if ( !ExtensionRegistry::getInstance()->isLoaded( 'Elastica' ) ) {
+			throw new RuntimeException( "Use of ElasticSearch requires the Elastica library" );
+		}
 		$options += [
 			'indexPrefix' => 'apifeatureusage-',
 			'indexFormat' => 'Y.m.d',
@@ -82,7 +87,12 @@ class ApiFeatureUsageQueryEngineElastica extends ApiFeatureUsageQueryEngine {
 	}
 
 	/** @inheritDoc */
-	public function execute( $agent, MWTimestamp $start, MWTimestamp $end, array $features = null ) {
+	public function enumerate(
+		$agent,
+		MWTimestamp $start,
+		MWTimestamp $end,
+		array $features = null
+	) {
 		$status = Status::newGood( [] );
 
 		# Force $start and $end to day boundaries
@@ -201,5 +211,15 @@ class ApiFeatureUsageQueryEngineElastica extends ApiFeatureUsageQueryEngine {
 				return [ $start, $end ];
 			}
 		}
+	}
+
+	/** @inheritDoc */
+	public function record(
+		string $feature,
+		string $userAgent,
+		string $ipAddress,
+		UserIdentity $userIdentity
+	) {
+		// no-op; rely on debug log entries being routed to elastic search
 	}
 }

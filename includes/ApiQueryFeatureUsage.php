@@ -4,18 +4,25 @@ namespace MediaWiki\Extension\ApiFeatureUsage;
 
 use ApiQuery;
 use ApiQueryBase;
-use MediaWiki\MediaWikiServices;
 use MediaWiki\Utils\MWTimestamp;
 use Wikimedia\ParamValidator\ParamValidator;
 
 class ApiQueryFeatureUsage extends ApiQueryBase {
+	/** @var ApiFeatureUsageQueryEngine */
+	private $engine;
 
 	/**
 	 * @param ApiQuery $query
 	 * @param string $moduleName
 	 */
-	public function __construct( ApiQuery $query, $moduleName ) {
+	public function __construct(
+		ApiQuery $query,
+		string $moduleName,
+		ApiFeatureUsageQueryEngine $queryEngine
+	) {
 		parent::__construct( $query, $moduleName, 'afu' );
+
+		$this->engine = $queryEngine;
 	}
 
 	/** @inheritDoc */
@@ -30,13 +37,8 @@ class ApiQueryFeatureUsage extends ApiQueryBase {
 			$this->dieWithError( 'apierror-apifeatureusage-emptyagent', "bad_$encParamName" );
 		}
 
-		$conf = MediaWikiServices::getInstance()
-			->getConfigFactory()
-			->makeConfig( 'ApiFeatureUsage' );
-		$engine = ApiFeatureUsageQueryEngine::getEngine( $conf );
-
 		if ( $params['start'] === null || $params['end'] === null ) {
-			[ $start, $end ] = $engine->suggestDateRange();
+			[ $start, $end ] = $this->engine->suggestDateRange();
 		}
 		if ( $params['start'] !== null ) {
 			$start = new MWTimestamp( $params['start'] );
@@ -49,7 +51,7 @@ class ApiQueryFeatureUsage extends ApiQueryBase {
 		'@phan-var MWTimestamp $start';
 		'@phan-var MWTimestamp $end';
 
-		$status = $engine->execute( $agent, $start, $end, $params['features'] );
+		$status = $this->engine->enumerate( $agent, $start, $end, $params['features'] );
 		if ( !$status->isOk() ) {
 			$this->dieStatus( $status );
 		}
