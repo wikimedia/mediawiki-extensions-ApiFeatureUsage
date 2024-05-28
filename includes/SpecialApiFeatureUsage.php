@@ -8,7 +8,6 @@ use MediaWiki\MediaWikiServices;
 use MediaWiki\SpecialPage\SpecialPage;
 use MediaWiki\Status\Status;
 use MediaWiki\Utils\MWTimestamp;
-use Message;
 
 class SpecialApiFeatureUsage extends SpecialPage {
 	/** @var ApiFeatureUsageQueryEngine|null */
@@ -74,12 +73,8 @@ class SpecialApiFeatureUsage extends SpecialPage {
 			$out->addModuleStyles( 'ext.apifeatureusage' );
 
 			$warnings = [];
-			foreach ( $status->getWarningsArray() as $warning ) {
-				if ( !$warning instanceof Message ) {
-					$key = array_shift( $warning );
-					$warning = $this->msg( $key, $warning );
-				}
-				$warnings[] = $warning->plain();
+			foreach ( $status->getMessages( 'warning' ) as $msg ) {
+				$warnings[] = $this->msg( $msg )->plain();
 			}
 			if ( $warnings ) {
 				if ( count( $warnings ) > 1 ) {
