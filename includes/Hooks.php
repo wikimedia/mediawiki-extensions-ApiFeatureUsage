@@ -3,7 +3,7 @@
 namespace MediaWiki\Extension\ApiFeatureUsage;
 
 use MediaWiki\Api\Hook\ApiDeprecationHelpHook;
-use Message;
+use MediaWiki\Message\Message;
 
 class Hooks implements ApiDeprecationHelpHook {
 

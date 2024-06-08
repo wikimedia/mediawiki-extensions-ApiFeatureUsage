@@ -2,8 +2,8 @@
 
 namespace MediaWiki\Extension\ApiFeatureUsage;
 
-use HTMLForm;
 use MediaWiki\Html\Html;
+use MediaWiki\HTMLForm\HTMLForm;
 use MediaWiki\MediaWikiServices;
 use MediaWiki\SpecialPage\SpecialPage;
 use MediaWiki\Status\Status;
