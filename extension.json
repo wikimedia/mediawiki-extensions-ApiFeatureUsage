@@ -7,19 +7,26 @@
 	"license-name": "GPL-2.0-or-later",
 	"type": "specialpage",
 	"requires": {
-		"MediaWiki": ">= 1.43",
-		"extensions": {
-			"Elastica": "*"
-		}
+		"MediaWiki": ">= 1.43"
 	},
 	"ConfigRegistry": {
 		"ApiFeatureUsage": "GlobalVarConfig::newInstance"
 	},
 	"SpecialPages": {
-		"ApiFeatureUsage": "MediaWiki\\Extension\\ApiFeatureUsage\\SpecialApiFeatureUsage"
+		"ApiFeatureUsage": {
+			"class": "MediaWiki\\Extension\\ApiFeatureUsage\\SpecialApiFeatureUsage",
+			"services": [
+				"ApiFeatureUsage.QueryEngine"
+			]
+		}
 	},
 	"APIMetaModules": {
-		"featureusage": "MediaWiki\\Extension\\ApiFeatureUsage\\ApiQueryFeatureUsage"
+		"featureusage": {
+			"class": "MediaWiki\\Extension\\ApiFeatureUsage\\ApiQueryFeatureUsage",
+			"services": [
+				"ApiFeatureUsage.QueryEngine"
+			]
+		}
 	},
 	"MessagesDirs": {
 		"ApiFeatureUsage": [
@@ -33,6 +40,9 @@
 	"AutoloadNamespaces": {
 		"MediaWiki\\Extension\\ApiFeatureUsage\\": "includes/"
 	},
+	"ServiceWiringFiles": [
+		"includes/ServiceWiring.php"
+	],
 	"ResourceModules": {
 		"ext.apifeatureusage": {
 			"styles": "ext.apifeatureusage.css"
@@ -43,17 +53,30 @@
 		"remoteExtPath": "ApiFeatureUsage/modules"
 	},
 	"Hooks": {
-		"ApiDeprecationHelp": "main"
+		"ApiDeprecationHelp": "main",
+		"ApiLogFeatureUsage": "main",
+		"LoadExtensionSchemaUpdates": "SchemaChanges"
 	},
 	"HookHandlers": {
 		"main": {
-			"class": "MediaWiki\\Extension\\ApiFeatureUsage\\Hooks"
+			"class": "MediaWiki\\Extension\\ApiFeatureUsage\\Hooks",
+			"services": [
+				"ApiFeatureUsage.QueryEngine"
+			]
+		},
+		"SchemaChanges": {
+			"class": "MediaWiki\\Extension\\ApiFeatureUsage\\HookHandler\\SchemaChangesHandler"
 		}
 	},
 	"config": {
 		"ApiFeatureUsageQueryEngineConf": {
-			"value": []
+			"value": {
+				"class": "\\MediaWiki\\Extension\\ApiFeatureUsage\\ApiFeatureUsageQueryEngineSql"
+			}
 		}
 	},
+	"DatabaseVirtualDomains": [
+		"virtual-apifeatureusage"
+	],
 	"manifest_version": 2
 }

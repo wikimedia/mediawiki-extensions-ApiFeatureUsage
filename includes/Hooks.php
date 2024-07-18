@@ -3,9 +3,21 @@
 namespace MediaWiki\Extension\ApiFeatureUsage;
 
 use MediaWiki\Api\Hook\ApiDeprecationHelpHook;
+use MediaWiki\Api\Hook\ApiLogFeatureUsageHook;
+use MediaWiki\Context\RequestContext;
+use MediaWiki\Deferred\DeferredUpdates;
 use MediaWiki\Message\Message;
 
-class Hooks implements ApiDeprecationHelpHook {
+class Hooks implements ApiDeprecationHelpHook, ApiLogFeatureUsageHook {
+	/** @var ApiFeatureUsageQueryEngine */
+	private $engine;
+
+	/**
+	 * @param ApiFeatureUsageQueryEngine $queryEngine
+	 */
+	public function __construct( ApiFeatureUsageQueryEngine $queryEngine ) {
+		$this->engine = $queryEngine;
+	}
 
 	/**
 	 * Add deprecation help referring to Special:ApiFeatureUsage
@@ -13,5 +25,26 @@ class Hooks implements ApiDeprecationHelpHook {
 	 */
 	public function onApiDeprecationHelp( &$msgs ) {
 		$msgs[] = wfMessage( 'apifeatureusage-deprecation-help' );
+	}
+
+	/**
+	 * Log/tally the use of deprecated API features
+	 *
+	 * @param string $feature
+	 * @param array $clientInfo
+	 * @phan-param array{userName:string,userAgent:string,ipAddress:string} $clientInfo
+	 * @return void
+	 */
+	public function onApiLogFeatureUsage( $feature, array $clientInfo ): void {
+		DeferredUpdates::addCallableUpdate(
+			function () use ( $feature, $clientInfo ) {
+				$this->engine->record(
+					$feature,
+					$clientInfo['userAgent'],
+					$clientInfo['ipAddress'],
+					RequestContext::getMain()->getUser()
+				);
+			}
+		);
 	}
 }

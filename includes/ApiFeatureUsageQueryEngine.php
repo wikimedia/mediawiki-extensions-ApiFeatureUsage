@@ -2,31 +2,13 @@
 
 namespace MediaWiki\Extension\ApiFeatureUsage;
 
-use MediaWiki\Config\Config;
-use MediaWiki\Config\ConfigException;
 use MediaWiki\Status\Status;
+use MediaWiki\User\UserIdentity;
 use MediaWiki\Utils\MWTimestamp;
 
 abstract class ApiFeatureUsageQueryEngine {
-	/** @var array */
+	/** @var array<string,mixed> */
 	public $options;
-
-	/**
-	 * @param Config $config
-	 * @return ApiFeatureUsageQueryEngine
-	 */
-	public static function getEngine( Config $config ) {
-		$conf = $config->get( 'ApiFeatureUsageQueryEngineConf' );
-		if ( isset( $conf['factory'] ) ) {
-			return $conf['factory']( $conf );
-		}
-
-		if ( isset( $conf['class'] ) ) {
-			return new $conf['class']( $conf );
-		}
-
-		throw new ConfigException( '$wgApiFeatureUsageQueryEngineConf does not define an engine' );
-	}
 
 	/**
 	 * @param array $options
@@ -36,7 +18,7 @@ abstract class ApiFeatureUsageQueryEngine {
 	}
 
 	/**
-	 * Execute the query
+	 * Execute the query to enumerate the daily aggregated feature use counts
 	 *
 	 * Status object's value is an array of arrays, with the subarrays each
 	 * having keys 'feature', 'date', and 'count'.
@@ -47,8 +29,11 @@ abstract class ApiFeatureUsageQueryEngine {
 	 * @param string[]|null $features
 	 * @return Status
 	 */
-	abstract public function execute(
-		$agent, MWTimestamp $start, MWTimestamp $end, array $features = null
+	abstract public function enumerate(
+		$agent,
+		MWTimestamp $start,
+		MWTimestamp $end,
+		array $features = null
 	);
 
 	/**
@@ -56,4 +41,19 @@ abstract class ApiFeatureUsageQueryEngine {
 	 * @return MWTimestamp[]
 	 */
 	abstract public function suggestDateRange();
+
+	/**
+	 * Record the usage of an API feature
+	 *
+	 * @param string $feature
+	 * @param string $userAgent
+	 * @param string $ipAddress
+	 * @param UserIdentity $userIdentity
+	 */
+	abstract public function record(
+		string $feature,
+		string $userAgent,
+		string $ipAddress,
+		UserIdentity $userIdentity
+	);
 }

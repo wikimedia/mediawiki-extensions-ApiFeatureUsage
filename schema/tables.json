@@ -1,0 +1,30 @@
+[
+	{
+		"name": "api_feature_usage",
+		"comment": "This table tracks the estimate hit rate of deprecated API features by agent",
+		"columns": [
+			{
+				"name": "afu_feature",
+				"type": "binary",
+				"options": { "notnull": true, "length": 64 }
+			},
+			{
+				"name": "afu_agent",
+				"type": "binary",
+				"options": { "notnull": true, "length": 255 }
+			},
+			{
+				"name": "afu_date",
+				"type": "binary",
+				"options": { "notnull": true, "length": 8 }
+			},
+			{
+				"name": "afu_hits",
+				"type": "integer",
+				"options": { "notnull": true, "unsigned": true }
+			}
+		],
+		"indexes": [],
+		"pk": [ "afu_date", "afu_feature", "afu_agent" ]
+	}
+]

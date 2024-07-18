@@ -4,17 +4,18 @@ namespace MediaWiki\Extension\ApiFeatureUsage;
 
 use MediaWiki\Html\Html;
 use MediaWiki\HTMLForm\HTMLForm;
-use MediaWiki\MediaWikiServices;
 use MediaWiki\SpecialPage\SpecialPage;
 use MediaWiki\Status\Status;
 use MediaWiki\Utils\MWTimestamp;
 
 class SpecialApiFeatureUsage extends SpecialPage {
-	/** @var ApiFeatureUsageQueryEngine|null */
-	private $engine = null;
+	/** @var ApiFeatureUsageQueryEngine */
+	private $engine;
 
-	public function __construct() {
+	public function __construct( ApiFeatureUsageQueryEngine $queryEngine ) {
 		parent::__construct( 'ApiFeatureUsage' );
+
+		$this->engine = $queryEngine;
 	}
 
 	/** @inheritDoc */
@@ -25,10 +26,6 @@ class SpecialApiFeatureUsage extends SpecialPage {
 
 		$request = $this->getRequest();
 
-		$conf = MediaWikiServices::getInstance()
-			->getConfigFactory()
-			->makeConfig( 'ApiFeatureUsage' );
-		$this->engine = ApiFeatureUsageQueryEngine::getEngine( $conf );
 		[ $start, $end ] = $this->engine->suggestDateRange();
 
 		$form = HTMLForm::factory( 'ooui', [
@@ -38,7 +35,6 @@ class SpecialApiFeatureUsage extends SpecialPage {
 				'label-message' => 'apifeatureusage-agent-label',
 				'required' => true,
 			],
-
 			'startdate' => [
 				'type' => 'date',
 				'label-message' => 'apifeatureusage-startdate-label',
@@ -132,7 +128,7 @@ class SpecialApiFeatureUsage extends SpecialPage {
 		$start = new MWTimestamp( $data['startdate'] . 'T00:00:00Z' );
 		$end = new MWTimestamp( $data['enddate'] . 'T23:59:59Z' );
 
-		return $this->engine->execute( $agent, $start, $end );
+		return $this->engine->enumerate( $agent, $start, $end );
 	}
 
 	/** @inheritDoc */
