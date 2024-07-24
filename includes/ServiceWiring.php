@@ -16,7 +16,7 @@ return [
 			$spec = [ 'class' => $class, 'args' => [ $conf ] ];
 			if ( is_a( $class, ApiFeatureUsageQueryEngineSql::class, true ) ) {
 				$spec['services'] = [
-					'DBLoadBalancerFactory',
+					'ConnectionProvider',
 					'WRStatsFactory',
 					'ObjectCacheFactory'
 				];

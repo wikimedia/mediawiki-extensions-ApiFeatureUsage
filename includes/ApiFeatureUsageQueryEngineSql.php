@@ -10,8 +10,8 @@ use ObjectCacheFactory;
 use Wikimedia\IPUtils;
 use Wikimedia\LightweightObjectStore\ExpirationAwareness;
 use Wikimedia\LightweightObjectStore\StorageAwareness;
+use Wikimedia\Rdbms\IConnectionProvider;
 use Wikimedia\Rdbms\IExpression;
-use Wikimedia\Rdbms\ILBFactory;
 use Wikimedia\Rdbms\LikeValue;
 use Wikimedia\Rdbms\RawSQLValue;
 use Wikimedia\Rdbms\SelectQueryBuilder;
@@ -19,15 +19,15 @@ use Wikimedia\WRStats\LimitCondition;
 use Wikimedia\WRStats\WRStatsFactory;
 
 class ApiFeatureUsageQueryEngineSql extends ApiFeatureUsageQueryEngine {
-	/** @var ILBFactory */
-	private $lbFactory;
+	/** @var IConnectionProvider */
+	private $dbProvider;
 	/** @var WRStatsFactory */
 	private $wrStatsFactory;
 	/** @var BagOStuff */
 	private $cache;
 
 	/**
-	 * @param ILBFactory $lbFactory
+	 * @param IConnectionProvider $dbProvider
 	 * @param WRStatsFactory $wrStatsFactory
 	 * @param ObjectCacheFactory $objectCacheFactory
 	 * @param array $options Additional options include:
@@ -45,7 +45,7 @@ class ApiFeatureUsageQueryEngineSql extends ApiFeatureUsageQueryEngine {
 	 *      their User-Agent or rotating their IP address.
 	 */
 	public function __construct(
-		ILBFactory $lbFactory,
+		IConnectionProvider $dbProvider,
 		WRStatsFactory $wrStatsFactory,
 		ObjectCacheFactory $objectCacheFactory,
 		array $options
@@ -60,7 +60,7 @@ class ApiFeatureUsageQueryEngineSql extends ApiFeatureUsageQueryEngine {
 		];
 		parent::__construct( $options );
 
-		$this->lbFactory = $lbFactory;
+		$this->dbProvider = $dbProvider;
 		$this->wrStatsFactory = $wrStatsFactory;
 		$this->cache = $objectCacheFactory->getLocalClusterInstance();
 	}
@@ -72,7 +72,7 @@ class ApiFeatureUsageQueryEngineSql extends ApiFeatureUsageQueryEngine {
 		MWTimestamp $end,
 		array $features = null
 	) {
-		$dbr = $this->lbFactory->getReplicaDatabase( 'virtual-apifeatureusage' );
+		$dbr = $this->dbProvider->getReplicaDatabase( 'virtual-apifeatureusage' );
 
 		$res = $dbr->newSelectQueryBuilder()
 			->select( [ 'afu_date', 'afu_feature', 'hits' => 'SUM(afu_hits)' ] )
@@ -109,7 +109,7 @@ class ApiFeatureUsageQueryEngineSql extends ApiFeatureUsageQueryEngine {
 		$end = new MWTimestamp();
 		$end->setTimezone( 'UTC' );
 
-		$dbr = $this->lbFactory->getReplicaDatabase( 'virtual-apifeatureusage' );
+		$dbr = $this->dbProvider->getReplicaDatabase( 'virtual-apifeatureusage' );
 		$date = $dbr->newSelectQueryBuilder()
 			->select( 'afu_date' )
 			->from( 'api_feature_usage' )
@@ -150,7 +150,7 @@ class ApiFeatureUsageQueryEngineSql extends ApiFeatureUsageQueryEngine {
 		}
 
 		if ( $hits === false ) {
-			$dbr = $this->lbFactory->getReplicaDatabase( 'virtual-apifeatureusage' );
+			$dbr = $this->dbProvider->getReplicaDatabase( 'virtual-apifeatureusage' );
 
 			$hits = (int)$dbr->newSelectQueryBuilder()
 				->select( 'afu_hits' )
@@ -175,7 +175,7 @@ class ApiFeatureUsageQueryEngineSql extends ApiFeatureUsageQueryEngine {
 		if ( $delta > 0 ) {
 			$this->cache->incrWithInit( $key, ExpirationAwareness::TTL_HOUR, $delta, $delta );
 
-			$dbw = $this->lbFactory->getPrimaryDatabase( 'virtual-apifeatureusage' );
+			$dbw = $this->dbProvider->getPrimaryDatabase( 'virtual-apifeatureusage' );
 			// Increment the counter in way that is safe for both primary/replica replication
 			// and circular statement-based replication. Do the query in autocommit mode to
 			// limit lock contention.
