@@ -220,4 +220,10 @@ class ApiFeatureUsageQueryEngineElastica extends ApiFeatureUsageQueryEngine {
 	) {
 		// no-op; rely on debug log entries being routed to elastic search
 	}
+
+	/** @inheritDoc */
+	public function prune( $progressFn = null, $limit = INF ) {
+		// no-op; rely on manual index deletion
+		return false;
+	}
 }
