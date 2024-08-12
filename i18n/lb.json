@@ -1,11 +1,17 @@
 {
 	"@metadata": {
 		"authors": [
-			"Robby"
+			"Robby",
+			"Volvox"
 		]
 	},
+	"apifeatureusage": "API-Funktiounsbenotzung",
+	"apifeatureusage-elasticsearch-error": "Elasticsearch-Feeler: $1",
+	"apifeatureusage-legend": "API-Funktiounsbenotzung",
+	"apifeatureusage-agent-label": "Benotzeragent:",
 	"apifeatureusage-startdate-label": "Ufanksdatum",
 	"apifeatureusage-enddate-label": "Schlussdatum",
+	"apifeatureusage-submit": "Donnéeën offroen",
 	"apifeatureusage-warnings": "Opgepasst: $1",
 	"apifeatureusage-column-feature": "Funktioun",
 	"apifeatureusage-column-date": "Datum",
