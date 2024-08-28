@@ -73,7 +73,7 @@ class ApiFeatureUsageQueryEngineSql extends ApiFeatureUsageQueryEngine {
 	) {
 		$dbr = $this->dbProvider->getReplicaDatabase( 'virtual-apifeatureusage' );
 
-		$res = $dbr->newSelectQueryBuilder()
+		$sqb = $dbr->newSelectQueryBuilder()
 			->select( [ 'afu_date', 'afu_feature', 'hits' => 'SUM(afu_hits)' ] )
 			->from( 'api_feature_usage' )
 			->where( $dbr->expr(
@@ -81,10 +81,25 @@ class ApiFeatureUsageQueryEngineSql extends ApiFeatureUsageQueryEngine {
 				IExpression::LIKE,
 				new LikeValue( $agent, $dbr->anyString() )
 			) )
+			->andWhere( $dbr->expr(
+				'afu_date',
+				'>=',
+				substr( $start->getTimestamp( TS_MW ), 0, 8 )
+			) )
+			->andWhere( $dbr->expr(
+				'afu_date',
+				'<=',
+				substr( $end->getTimestamp( TS_MW ), 0, 8 )
+			) )
 			->groupBy( [ 'afu_date', 'afu_feature' ] )
 			->orderBy( [ 'afu_date', 'afu_feature' ], SelectQueryBuilder::SORT_ASC )
-			->caller( __METHOD__ )
-			->fetchResultSet();
+			->caller( __METHOD__ );
+
+		if ( $features !== null ) {
+			$sqb->andWhere( [ 'afu_feature' => $features ] );
+		}
+
+		$res = $sqb->fetchResultSet();
 
 		$ret = [];
 		foreach ( $res as $row ) {
@@ -93,7 +108,7 @@ class ApiFeatureUsageQueryEngineSql extends ApiFeatureUsageQueryEngine {
 			$ret[] = [
 				'feature' => $row->afu_feature,
 				'date' => $date->format( 'Y-m-d' ),
-				'count' => $row->hits
+				'count' => (int)$row->hits
 			];
 		}
 

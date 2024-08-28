@@ -20,7 +20,8 @@ abstract class ApiFeatureUsageQueryEngine {
 	 * Execute the query to enumerate the daily aggregated feature use counts
 	 *
 	 * Status object's value is an array of arrays, with the subarrays each
-	 * having keys 'feature', 'date', and 'count'.
+	 * having keys 'feature', 'date', and 'count'. The 'date' key is the date
+	 * of the day formatted as "YYYY-MM-DD".
 	 *
 	 * @param string $agent
 	 * @param MWTimestamp $start
