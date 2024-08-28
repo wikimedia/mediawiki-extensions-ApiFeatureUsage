@@ -14,7 +14,6 @@ use Elastica\Query\Terms as QueryTerms;
 use Elastica\Search;
 use ExtensionRegistry;
 use MediaWiki\Status\Status;
-use MediaWiki\User\UserIdentity;
 use MediaWiki\Utils\MWTimestamp;
 use RuntimeException;
 
@@ -88,7 +87,7 @@ class ApiFeatureUsageQueryEngineElastica extends ApiFeatureUsageQueryEngine {
 
 	/** @inheritDoc */
 	public function enumerate(
-		$agent,
+		string $agent,
 		MWTimestamp $start,
 		MWTimestamp $end,
 		array $features = null
@@ -216,9 +215,8 @@ class ApiFeatureUsageQueryEngineElastica extends ApiFeatureUsageQueryEngine {
 	/** @inheritDoc */
 	public function record(
 		string $feature,
-		string $userAgent,
-		string $ipAddress,
-		UserIdentity $userIdentity
+		string $agent,
+		string $ipAddress
 	) {
 		// no-op; rely on debug log entries being routed to elastic search
 	}

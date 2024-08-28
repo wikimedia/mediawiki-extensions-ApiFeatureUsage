@@ -4,7 +4,6 @@ namespace MediaWiki\Extension\ApiFeatureUsage;
 
 use BagOStuff;
 use MediaWiki\Status\Status;
-use MediaWiki\User\UserIdentity;
 use MediaWiki\Utils\MWTimestamp;
 use ObjectCacheFactory;
 use Wikimedia\IPUtils;
@@ -67,7 +66,7 @@ class ApiFeatureUsageQueryEngineSql extends ApiFeatureUsageQueryEngine {
 
 	/** @inheritDoc */
 	public function enumerate(
-		$agent,
+		string $agent,
 		MWTimestamp $start,
 		MWTimestamp $end,
 		array $features = null
@@ -128,16 +127,15 @@ class ApiFeatureUsageQueryEngineSql extends ApiFeatureUsageQueryEngine {
 	/** @inheritDoc */
 	public function record(
 		string $feature,
-		string $userAgent,
-		string $ipAddress,
-		UserIdentity $userIdentity
+		string $agent,
+		string $ipAddress
 	) {
 		$now = MWTimestamp::now( TS_MW );
 
 		$key = $this->cache->makeGlobalKey(
 			'afu-recent-hits',
 			$feature,
-			sha1( $userAgent ),
+			sha1( $agent ),
 			substr( $now, 0, 8 )
 		);
 
@@ -157,7 +155,7 @@ class ApiFeatureUsageQueryEngineSql extends ApiFeatureUsageQueryEngine {
 				->from( 'api_feature_usage' )
 				->where( [
 					'afu_feature' => $feature,
-					'afu_agent' => substr( $userAgent, 0, 255 ),
+					'afu_agent' => substr( $agent, 0, 255 ),
 					'afu_date' => substr( $now, 0, 8 )
 				] )
 				->caller( __METHOD__ )
@@ -181,12 +179,12 @@ class ApiFeatureUsageQueryEngineSql extends ApiFeatureUsageQueryEngine {
 			// limit lock contention.
 			$fname = __METHOD__;
 			$dbw->onTransactionCommitOrIdle(
-				static function () use ( $dbw, $feature, $userAgent, $delta, $now, $fname ) {
+				static function () use ( $dbw, $feature, $agent, $delta, $now, $fname ) {
 					$dbw->newInsertQueryBuilder()
 						->insertInto( 'api_feature_usage' )
 						->row( [
 							'afu_feature' => $feature,
-							'afu_agent' => $userAgent,
+							'afu_agent' => $agent,
 							'afu_date' => substr( $now, 0, 8 ),
 							'afu_hits' => $delta
 						] )

@@ -3,7 +3,6 @@
 namespace MediaWiki\Extension\ApiFeatureUsage;
 
 use MediaWiki\Status\Status;
-use MediaWiki\User\UserIdentity;
 use MediaWiki\Utils\MWTimestamp;
 
 abstract class ApiFeatureUsageQueryEngine {
@@ -30,7 +29,7 @@ abstract class ApiFeatureUsageQueryEngine {
 	 * @return Status
 	 */
 	abstract public function enumerate(
-		$agent,
+		string $agent,
 		MWTimestamp $start,
 		MWTimestamp $end,
 		array $features = null
@@ -46,14 +45,12 @@ abstract class ApiFeatureUsageQueryEngine {
 	 * Record the usage of an API feature
 	 *
 	 * @param string $feature
-	 * @param string $userAgent
+	 * @param string $agent
 	 * @param string $ipAddress
-	 * @param UserIdentity $userIdentity
 	 */
 	abstract public function record(
 		string $feature,
-		string $userAgent,
-		string $ipAddress,
-		UserIdentity $userIdentity
+		string $agent,
+		string $ipAddress
 	);
 }

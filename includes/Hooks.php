@@ -4,7 +4,6 @@ namespace MediaWiki\Extension\ApiFeatureUsage;
 
 use MediaWiki\Api\Hook\ApiDeprecationHelpHook;
 use MediaWiki\Api\Hook\ApiLogFeatureUsageHook;
-use MediaWiki\Context\RequestContext;
 use MediaWiki\Deferred\DeferredUpdates;
 use MediaWiki\Message\Message;
 
@@ -41,8 +40,7 @@ class Hooks implements ApiDeprecationHelpHook, ApiLogFeatureUsageHook {
 				$this->engine->record(
 					$feature,
 					$clientInfo['userAgent'],
-					$clientInfo['ipAddress'],
-					RequestContext::getMain()->getUser()
+					$clientInfo['ipAddress']
 				);
 			}
 		);
