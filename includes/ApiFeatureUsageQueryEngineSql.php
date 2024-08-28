@@ -118,8 +118,8 @@ class ApiFeatureUsageQueryEngineSql extends ApiFeatureUsageQueryEngine {
 			->fetchField();
 
 		if ( $date !== false ) {
-			// Convert afu_data to TS_MW
-			$start->setTimestamp( $date );
+			// Convert afu_date to TS_MW
+			$start->setTimestamp( $date . '000000' );
 		}
 
 		return [ $start, $end ];
