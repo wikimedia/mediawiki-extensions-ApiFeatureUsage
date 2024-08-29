@@ -188,9 +188,9 @@ class ApiFeatureUsageQueryEngineSql extends ApiFeatureUsageQueryEngine {
 				->caller( __METHOD__ )
 				->fetchField();
 
-			if ( $hits ) {
-				$this->cache->add( $key, $hits, ExpirationAwareness::TTL_HOUR );
-			} elseif ( $this->pingInsertLimiter( $ipAddress ) ) {
+			$this->cache->add( $key, $hits, ExpirationAwareness::TTL_HOUR );
+
+			if ( !$hits && $this->pingInsertLimiter( $ipAddress ) ) {
 				// Do not flood the DB due to user agent churn
 				return 0;
 			}
