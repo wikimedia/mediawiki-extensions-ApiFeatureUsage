@@ -4,7 +4,6 @@ namespace MediaWiki\Extension\ApiFeatureUsage;
 
 use MediaWiki\Api\Hook\ApiDeprecationHelpHook;
 use MediaWiki\Api\Hook\ApiLogFeatureUsageHook;
-use MediaWiki\Deferred\DeferredUpdates;
 use MediaWiki\Message\Message;
 
 class Hooks implements ApiDeprecationHelpHook, ApiLogFeatureUsageHook {
@@ -35,14 +34,10 @@ class Hooks implements ApiDeprecationHelpHook, ApiLogFeatureUsageHook {
 	 * @return void
 	 */
 	public function onApiLogFeatureUsage( $feature, array $clientInfo ): void {
-		DeferredUpdates::addCallableUpdate(
-			function () use ( $feature, $clientInfo ) {
-				$this->engine->record(
-					$feature,
-					$clientInfo['userAgent'],
-					$clientInfo['ipAddress']
-				);
-			}
+		$this->engine->record(
+			$feature,
+			$clientInfo['userAgent'],
+			$clientInfo['ipAddress']
 		);
 	}
 }

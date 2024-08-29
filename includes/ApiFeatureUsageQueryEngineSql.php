@@ -3,6 +3,8 @@
 namespace MediaWiki\Extension\ApiFeatureUsage;
 
 use BagOStuff;
+use MediaWiki\Deferred\AutoCommitUpdate;
+use MediaWiki\Deferred\DeferredUpdates;
 use MediaWiki\MediaWikiServices;
 use MediaWiki\Status\Status;
 use MediaWiki\Utils\MWTimestamp;
@@ -11,6 +13,7 @@ use Wikimedia\IPUtils;
 use Wikimedia\LightweightObjectStore\ExpirationAwareness;
 use Wikimedia\LightweightObjectStore\StorageAwareness;
 use Wikimedia\Rdbms\IConnectionProvider;
+use Wikimedia\Rdbms\IDatabase;
 use Wikimedia\Rdbms\IExpression;
 use Wikimedia\Rdbms\LikeValue;
 use Wikimedia\Rdbms\RawSQLValue;
@@ -158,71 +161,78 @@ class ApiFeatureUsageQueryEngineSql extends ApiFeatureUsageQueryEngine {
 		}
 
 		$now = MWTimestamp::now( TS_MW );
+		DeferredUpdates::addCallableUpdate(
+			function ( $fname ) use ( $feature, $agent, $ipAddress, $now ) {
+				$key = $this->cache->makeGlobalKey(
+					'afu-recent-hits',
+					$feature,
+					sha1( $agent ),
+					substr( $now, 0, 8 )
+				);
 
-		$key = $this->cache->makeGlobalKey(
-			'afu-recent-hits',
-			$feature,
-			sha1( $agent ),
-			substr( $now, 0, 8 )
-		);
-
-		$this->cache->watchErrors();
-		$hits = $this->cache->get( $key );
-		$error = $this->cache->getLastError();
-		if ( $error !== StorageAwareness::ERR_NONE ) {
-			// Do not risk flooding the DB
-			return false;
-		}
-
-		if ( $hits === false ) {
-			$dbr = $this->dbProvider->getReplicaDatabase( 'virtual-apifeatureusage' );
-
-			$hits = (int)$dbr->newSelectQueryBuilder()
-				->select( 'afu_hits' )
-				->from( 'api_feature_usage' )
-				->where( [
-					'afu_feature' => $feature,
-					'afu_agent' => substr( $agent, 0, 255 ),
-					'afu_date' => substr( $now, 0, 8 )
-				] )
-				->caller( __METHOD__ )
-				->fetchField();
-
-			$this->cache->add( $key, $hits, ExpirationAwareness::TTL_HOUR );
-
-			if ( !$hits && $this->pingInsertLimiter( $ipAddress ) ) {
-				// Do not flood the DB due to user agent churn
-				return 0;
-			}
-		}
-
-		$delta = $this->getCounterLotteryDelta( $hits );
-		if ( $delta > 0 ) {
-			$this->cache->incrWithInit( $key, ExpirationAwareness::TTL_HOUR, $delta, $delta );
-
-			$dbw = $this->dbProvider->getPrimaryDatabase( 'virtual-apifeatureusage' );
-			// Increment the counter in way that is safe for both primary/replica replication
-			// and circular statement-based replication. Do the query in autocommit mode to
-			// limit lock contention.
-			$fname = __METHOD__;
-			$dbw->onTransactionCommitOrIdle(
-				static function () use ( $dbw, $feature, $agent, $delta, $now, $fname ) {
-					$dbw->newInsertQueryBuilder()
-						->insertInto( 'api_feature_usage' )
-						->row( [
-							'afu_feature' => $feature,
-							'afu_agent' => $agent,
-							'afu_date' => substr( $now, 0, 8 ),
-							'afu_hits' => $delta
-						] )
-						->onDuplicateKeyUpdate()
-						->uniqueIndexFields( [ 'afu_date', 'afu_feature', 'afu_agent' ] )
-						->set( [ 'afu_hits' => new RawSQLValue( "afu_hits + $delta" ) ] )
-						->caller( $fname )
-						->execute();
+				$this->cache->watchErrors();
+				$hits = $this->cache->get( $key );
+				$error = $this->cache->getLastError();
+				if ( $error !== StorageAwareness::ERR_NONE ) {
+					// Do not risk flooding the DB
+					return;
 				}
-			);
-		}
+
+				if ( $hits === false ) {
+					$dbr = $this->dbProvider->getReplicaDatabase( 'virtual-apifeatureusage' );
+
+					$hits = (int)$dbr->newSelectQueryBuilder()
+						->select( 'afu_hits' )
+						->from( 'api_feature_usage' )
+						->where( [
+							'afu_feature' => $feature,
+							'afu_agent' => substr( $agent, 0, 255 ),
+							'afu_date' => substr( $now, 0, 8 )
+						] )
+						->caller( $fname )
+						->fetchField();
+
+					$this->cache->add( $key, $hits, ExpirationAwareness::TTL_HOUR );
+
+					if ( !$hits && $this->pingInsertLimiter( $ipAddress ) ) {
+						// Do not flood the DB due to user agent churn
+						return;
+					}
+				}
+
+				$delta = $this->getCounterLotteryDelta( $hits );
+				if ( $delta <= 0 ) {
+					// No DB update this time
+					return;
+				}
+
+				$this->cache->incrWithInit( $key, ExpirationAwareness::TTL_HOUR, $delta, $delta );
+
+				// @todo refactor AutoCommitUpdate to eliminate the outer MWCallableUpdate here
+				DeferredUpdates::addUpdate( new AutoCommitUpdate(
+					$this->dbProvider->getPrimaryDatabase( 'virtual-apifeatureusage' ),
+					$fname,
+					static function ( IDatabase $dbw, $fname ) use ( $feature, $agent, $delta, $now ) {
+						// Increment the counter in way that is safe for both primary/replica
+						// replication and circular statement-based replication. Do the query
+						// in autocommit mode to limit lock contention.
+						$dbw->newInsertQueryBuilder()
+							->insertInto( 'api_feature_usage' )
+							->row( [
+								'afu_feature' => $feature,
+								'afu_agent' => $agent,
+								'afu_date' => substr( $now, 0, 8 ),
+								'afu_hits' => $delta
+							] )
+							->onDuplicateKeyUpdate()
+							->uniqueIndexFields( [ 'afu_date', 'afu_feature', 'afu_agent' ] )
+							->set( [ 'afu_hits' => new RawSQLValue( "afu_hits + $delta" ) ] )
+							->caller( $fname )
+							->execute();
+					}
+				) );
+			}
+		);
 	}
 
 	/**

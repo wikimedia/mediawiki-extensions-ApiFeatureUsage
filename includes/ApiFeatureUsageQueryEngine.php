@@ -48,6 +48,7 @@ abstract class ApiFeatureUsageQueryEngine {
 	 * @param string $feature
 	 * @param string $agent
 	 * @param string $ipAddress
+	 * @return void
 	 */
 	abstract public function record(
 		string $feature,
