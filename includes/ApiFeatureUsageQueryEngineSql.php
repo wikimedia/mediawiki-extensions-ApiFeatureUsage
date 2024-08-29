@@ -3,6 +3,7 @@
 namespace MediaWiki\Extension\ApiFeatureUsage;
 
 use BagOStuff;
+use MediaWiki\MediaWikiServices;
 use MediaWiki\Status\Status;
 use MediaWiki\Utils\MWTimestamp;
 use ObjectCacheFactory;
@@ -145,6 +146,17 @@ class ApiFeatureUsageQueryEngineSql extends ApiFeatureUsageQueryEngine {
 		string $agent,
 		string $ipAddress
 	) {
+		if (
+			defined( 'MW_PHPUNIT_TEST' ) &&
+			MediaWikiServices::getInstance()->isStorageDisabled()
+		) {
+			// Bail out immediately if storage is disabled. This should never happen in normal
+			// operations, but can happen in API module tests via the ApiLogFeatureUsage hook.
+			// If such a test is not in the database group, this code will be reached without
+			// being able to access the DB.
+			return;
+		}
+
 		$now = MWTimestamp::now( TS_MW );
 
 		$key = $this->cache->makeGlobalKey(
