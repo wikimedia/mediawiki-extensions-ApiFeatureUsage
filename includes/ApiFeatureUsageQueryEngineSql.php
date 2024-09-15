@@ -11,7 +11,6 @@ use MediaWiki\Utils\MWTimestamp;
 use ObjectCacheFactory;
 use Wikimedia\IPUtils;
 use Wikimedia\LightweightObjectStore\ExpirationAwareness;
-use Wikimedia\LightweightObjectStore\StorageAwareness;
 use Wikimedia\Rdbms\IConnectionProvider;
 use Wikimedia\Rdbms\IDatabase;
 use Wikimedia\Rdbms\IExpression;
@@ -173,7 +172,7 @@ class ApiFeatureUsageQueryEngineSql extends ApiFeatureUsageQueryEngine {
 				$this->cache->watchErrors();
 				$hits = $this->cache->get( $key );
 				$error = $this->cache->getLastError();
-				if ( $error !== StorageAwareness::ERR_NONE ) {
+				if ( $error !== BagOStuff::ERR_NONE ) {
 					// Do not risk flooding the DB
 					return;
 				}
