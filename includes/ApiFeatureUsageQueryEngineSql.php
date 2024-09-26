@@ -33,6 +33,9 @@ class ApiFeatureUsageQueryEngineSql extends ApiFeatureUsageQueryEngine {
 	 * @param WRStatsFactory $wrStatsFactory
 	 * @param ObjectCacheFactory $objectCacheFactory
 	 * @param array $options Additional options include:
+	 *   - maxAgeDays: the age, in days, at which hit count rows are considered expired.
+	 *   - purgePeriod: average hit count row upserts needed to trigger expired row purges.
+	 *   - purgeBatchSize: maximum number of rows to delete per query when purging expired rows.
 	 *   - updateSampleFactorRatio: target ratio of ((hits per sampled hit) / total hits)
 	 *      for updates to daily, per-agent, API feature use counters.
 	 *   - minUpdateSampleFactor: minimum number of hits per sampled hit for updates to daily,
@@ -53,6 +56,9 @@ class ApiFeatureUsageQueryEngineSql extends ApiFeatureUsageQueryEngine {
 		array $options
 	) {
 		$options += [
+			'maxAgeDays' => 90,
+			'purgePeriod' => 10,
+			'purgeBatchSize' => 30,
 			'updateSampleFactorRatio' => 0.1,
 			'minUpdateSampleFactor' => 10,
 			'maxUpdateSampleFactor' => 1_000,
@@ -74,8 +80,9 @@ class ApiFeatureUsageQueryEngineSql extends ApiFeatureUsageQueryEngine {
 		MWTimestamp $end,
 		array $features = null
 	) {
-		$dbr = $this->dbProvider->getReplicaDatabase( 'virtual-apifeatureusage' );
+		$cutoff = $this->getCutoffTimestamp();
 
+		$dbr = $this->dbProvider->getReplicaDatabase( 'virtual-apifeatureusage' );
 		$sqb = $dbr->newSelectQueryBuilder()
 			->select( [ 'afu_date', 'afu_feature', 'hits' => 'SUM(afu_hits)' ] )
 			->from( 'api_feature_usage' )
@@ -83,6 +90,11 @@ class ApiFeatureUsageQueryEngineSql extends ApiFeatureUsageQueryEngine {
 				'afu_agent',
 				IExpression::LIKE,
 				new LikeValue( $agent, $dbr->anyString() )
+			) )
+			->andWhere( $dbr->expr(
+				'afu_date',
+				'>=',
+				substr( $cutoff->getTimestamp( TS_MW ), 0, 8 )
 			) )
 			->andWhere( $dbr->expr(
 				'afu_date',
@@ -126,10 +138,17 @@ class ApiFeatureUsageQueryEngineSql extends ApiFeatureUsageQueryEngine {
 		$end = new MWTimestamp();
 		$end->setTimezone( 'UTC' );
 
+		$cutoff = $this->getCutoffTimestamp();
+
 		$dbr = $this->dbProvider->getReplicaDatabase( 'virtual-apifeatureusage' );
 		$date = $dbr->newSelectQueryBuilder()
 			->select( 'afu_date' )
 			->from( 'api_feature_usage' )
+			->where( $dbr->expr(
+				'afu_date',
+				'>=',
+				substr( $cutoff->getTimestamp( TS_MW ), 0, 8 )
+			) )
 			->orderBy( 'afu_date', SelectQueryBuilder::SORT_ASC )
 			->caller( __METHOD__ )
 			->fetchField();
@@ -170,6 +189,7 @@ class ApiFeatureUsageQueryEngineSql extends ApiFeatureUsageQueryEngine {
 				);
 
 				$this->cache->watchErrors();
+				// Get the feature hit count from this agent today
 				$hits = $this->cache->get( $key );
 				$error = $this->cache->getLastError();
 				if ( $error !== BagOStuff::ERR_NONE ) {
@@ -211,7 +231,7 @@ class ApiFeatureUsageQueryEngineSql extends ApiFeatureUsageQueryEngine {
 				DeferredUpdates::addUpdate( new AutoCommitUpdate(
 					$this->dbProvider->getPrimaryDatabase( 'virtual-apifeatureusage' ),
 					$fname,
-					static function ( IDatabase $dbw, $fname ) use ( $feature, $agent, $delta, $now ) {
+					function ( IDatabase $dbw, $fname ) use ( $feature, $agent, $delta, $now ) {
 						// Increment the counter in way that is safe for both primary/replica
 						// replication and circular statement-based replication. Do the query
 						// in autocommit mode to limit lock contention.
@@ -228,10 +248,81 @@ class ApiFeatureUsageQueryEngineSql extends ApiFeatureUsageQueryEngine {
 							->set( [ 'afu_hits' => new RawSQLValue( "afu_hits + $delta" ) ] )
 							->caller( $fname )
 							->execute();
+
+						$this->maybeDoPeriodicPrune();
 					}
 				) );
 			}
 		);
+	}
+
+	private function maybeDoPeriodicPrune() {
+		if (
+			$this->options['purgePeriod'] > 0 &&
+			mt_rand( 1, $this->options['purgePeriod'] ) == 1
+		) {
+			$this->prune( null, $this->options['purgeBatchSize'] );
+		}
+	}
+
+	/** @inheritDoc */
+	public function prune( $progressFn = null, $limit = INF ) {
+		$cutoff = $this->getCutoffTimestamp();
+		$batchSize = min( $this->options['purgeBatchSize'], $limit );
+
+		$dbw = $this->dbProvider->getPrimaryDatabase( 'virtual-apifeatureusage' );
+
+		$doneCount = 0;
+		$totalCount = null;
+		if ( $progressFn ) {
+			$totalCount = $dbw->newSelectQueryBuilder()
+				->select( [ 'COUNT(*)' ] )
+				->from( 'api_feature_usage' )
+				->where( $dbw->expr(
+					'afu_date',
+					'<',
+					substr( $cutoff->getTimestamp( TS_MW ), 0, 8 )
+				) )
+				->caller( __METHOD__ )
+				->fetchField();
+		}
+
+		do {
+			$res = $dbw->newSelectQueryBuilder()
+				->select( [ 'afu_date', 'afu_feature', 'afu_agent' ] )
+				->from( 'api_feature_usage' )
+				->where( $dbw->expr(
+					'afu_date',
+					'<',
+					substr( $cutoff->getTimestamp( TS_MW ), 0, 8 )
+				) )
+				->orderBy( 'afu_date', SelectQueryBuilder::SORT_ASC )
+				->limit( $batchSize )
+				->caller( __METHOD__ )
+				->fetchResultSet();
+
+			if ( $res->numRows() ) {
+				$keyTuples = [];
+				foreach ( $res as $row ) {
+					$keyTuples[] = (array)$row;
+				}
+
+				$dbw->newDeleteQueryBuilder()
+					->deleteFrom( 'api_feature_usage' )
+					->where( $dbw->factorConds( $keyTuples ) )
+					->caller( __METHOD__ )
+					->execute();
+
+				$doneCount += $dbw->affectedRows();
+			}
+
+			if ( $progressFn ) {
+				$ratio = $totalCount ? ( $doneCount / $totalCount ) : 1.0;
+				$progressFn( $ratio * 100 );
+			}
+		} while ( $res->numRows() && $doneCount < $limit );
+
+		return $doneCount;
 	}
 
 	/**
@@ -288,5 +379,16 @@ class ApiFeatureUsageQueryEngineSql extends ApiFeatureUsageQueryEngine {
 		$batchResult = $limitBatch->tryIncr();
 
 		return !$batchResult->isAllowed();
+	}
+
+	/**
+	 * @return MWTimestamp
+	 */
+	private function getCutoffTimestamp() {
+		$cutoff = new MWTimestamp();
+		$cutoff->setTimezone( 'UTC' );
+		$cutoff->sub( 'P' . $this->options['maxAgeDays'] . 'D' );
+
+		return $cutoff;
 	}
 }

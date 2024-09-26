@@ -55,4 +55,13 @@ abstract class ApiFeatureUsageQueryEngine {
 		string $agent,
 		string $ipAddress
 	);
+
+	/**
+	 * Purge records for days that exceed the configured maximum age
+	 *
+	 * @param callable|null $progressFn Progress callback that takes a percentage as an argument
+	 * @param int|float $limit Maximum number of records to prune, or, INF for no limit
+	 * @return int|false Number of records removed; false if unimplemented
+	 */
+	abstract public function prune( $progressFn = null, $limit = INF );
 }
