@@ -12,7 +12,7 @@ use Elastica\Query\Prefix;
 use Elastica\Query\Range;
 use Elastica\Query\Terms as QueryTerms;
 use Elastica\Search;
-use ExtensionRegistry;
+use MediaWiki\Registration\ExtensionRegistry;
 use MediaWiki\Status\Status;
 use MediaWiki\Utils\MWTimestamp;
 use RuntimeException;

@@ -2,8 +2,8 @@
 
 namespace MediaWiki\Extension\ApiFeatureUsage;
 
-use ApiQuery;
-use ApiQueryBase;
+use MediaWiki\Api\ApiQuery;
+use MediaWiki\Api\ApiQueryBase;
 use MediaWiki\Utils\MWTimestamp;
 use Wikimedia\ParamValidator\ParamValidator;
 

@@ -1,6 +1,7 @@
 <?php
 
 use MediaWiki\Extension\ApiFeatureUsage\ApiFeatureUsageQueryEngine;
+use MediaWiki\Maintenance\Maintenance;
 use MediaWiki\MediaWikiServices;
 
 $IP = getenv( 'MW_INSTALL_PATH' );

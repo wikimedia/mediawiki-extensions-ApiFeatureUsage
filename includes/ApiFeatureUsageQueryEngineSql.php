@@ -2,7 +2,6 @@
 
 namespace MediaWiki\Extension\ApiFeatureUsage;
 
-use BagOStuff;
 use MediaWiki\Deferred\AutoCommitUpdate;
 use MediaWiki\Deferred\DeferredUpdates;
 use MediaWiki\MediaWikiServices;
@@ -11,6 +10,7 @@ use MediaWiki\Utils\MWTimestamp;
 use ObjectCacheFactory;
 use Wikimedia\IPUtils;
 use Wikimedia\LightweightObjectStore\ExpirationAwareness;
+use Wikimedia\ObjectCache\BagOStuff;
 use Wikimedia\Rdbms\IConnectionProvider;
 use Wikimedia\Rdbms\IDatabase;
 use Wikimedia\Rdbms\IExpression;

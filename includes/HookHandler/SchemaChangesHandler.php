@@ -2,7 +2,7 @@
 
 namespace MediaWiki\Extension\ApiFeatureUsage\HookHandler;
 
-use DatabaseUpdater;
+use MediaWiki\Installer\DatabaseUpdater;
 use MediaWiki\Installer\Hook\LoadExtensionSchemaUpdatesHook;
 
 class SchemaChangesHandler implements LoadExtensionSchemaUpdatesHook {
