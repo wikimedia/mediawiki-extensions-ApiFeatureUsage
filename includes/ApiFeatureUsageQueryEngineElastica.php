@@ -90,7 +90,7 @@ class ApiFeatureUsageQueryEngineElastica extends ApiFeatureUsageQueryEngine {
 		string $agent,
 		MWTimestamp $start,
 		MWTimestamp $end,
-		array $features = null
+		?array $features = null
 	) {
 		$status = Status::newGood( [] );
 

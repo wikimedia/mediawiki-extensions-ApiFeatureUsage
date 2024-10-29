@@ -78,7 +78,7 @@ class ApiFeatureUsageQueryEngineSql extends ApiFeatureUsageQueryEngine {
 		string $agent,
 		MWTimestamp $start,
 		MWTimestamp $end,
-		array $features = null
+		?array $features = null
 	) {
 		$cutoff = $this->getCutoffTimestamp();
 
