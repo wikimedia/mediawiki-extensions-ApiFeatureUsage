@@ -1,0 +1,22 @@
+{
+	"@metadata": {
+		"authors": [
+			"Nemoralis"
+		]
+	},
+	"apifeatureusage": "API funksiyasından istifadə",
+	"apifeatureusage-desc": "İstifadəçi agenti üçün daxil edilmiş API funksiyalarından istifadələrin xülasəsini əldə et",
+	"apifeatureusage-elasticsearch-error": "Elasticsearch xətası: $1",
+	"apifeatureusage-legend": "API funksiyasından istifadə",
+	"apifeatureusage-agent-label": "İstifadəçi agenti:",
+	"apifeatureusage-startdate-label": "Başlanğıc tarixi:",
+	"apifeatureusage-enddate-label": "Bitmə tarixi:",
+	"apifeatureusage-submit": "Məlumatı əldə et",
+	"apifeatureusage-no-indexes": "Göstərilən tarix aralığı üçün heç bir məlumat yoxdur.",
+	"apifeatureusage-missing-indexes": "Göstərilən tarix aralığının bir hissəsi üçün heç bir məlumat mövcud deyil.",
+	"apifeatureusage-warnings": "Xəbərdarlıq: $1",
+	"apifeatureusage-column-feature": "Xüsusiyyət",
+	"apifeatureusage-column-date": "Tarix",
+	"apifeatureusage-column-uses": "İstifadələr",
+	"apifeatureusage-deprecation-help": "Tətbiqiniz tərəfindən köhnəlmiş funksiyaların istifadəsinə baxmaq üçün [[Special:ApiFeatureUsage]] istifadə edin."
+}
