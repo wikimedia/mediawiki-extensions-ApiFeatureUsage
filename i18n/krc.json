@@ -1,0 +1,22 @@
+{
+	"@metadata": {
+		"authors": [
+			"Къарачайлы"
+		]
+	},
+	"apifeatureusage": "API функцияны хайырлан",
+	"apifeatureusage-desc": "Хайырланыучуланы API функцияларыны хайырландырыулары ючюн къысха хапарлау ал",
+	"apifeatureusage-elasticsearch-error": "Elasticsearch халат: $1",
+	"apifeatureusage-legend": "API функцияны хайырлан",
+	"apifeatureusage-agent-label": "Хайырланыучу агент:",
+	"apifeatureusage-startdate-label": "Башлау дата:",
+	"apifeatureusage-enddate-label": "Бошалыу дата:",
+	"apifeatureusage-submit": "Билги сайла",
+	"apifeatureusage-no-indexes": "Белгиленнген дата аралыкъда чырт билги джокъду.",
+	"apifeatureusage-missing-indexes": "Белгиленнген дата аралыкъны бёлюмю ючюн чырт билги джокъду.",
+	"apifeatureusage-warnings": "Эсгертиу: $1",
+	"apifeatureusage-column-feature": "Энчилик",
+	"apifeatureusage-column-date": "Дата",
+	"apifeatureusage-column-uses": "Хайырланыула",
+	"apifeatureusage-deprecation-help": "Программагъыз джанындан хайырланыудан къоратылгъан энчиликлени хайырланыуун кёрюр ючюн [[Special:ApiFeatureUsage]] хайырланыгъыз"
+}
