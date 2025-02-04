@@ -1,10 +1,11 @@
 {
 	"@metadata": {
 		"authors": [
-			"Xuacu"
+			"Xuacu",
+			"YoaR"
 		]
 	},
-	"apifeatureusage": "Usu de funciones de la API",
+	"apifeatureusage": "Usu de funciones de l'API",
 	"apifeatureusage-desc": "Recibir un resume de los usos rexistraos de les funciones de la API pa un axente d'usuariu.",
 	"apifeatureusage-elasticsearch-error": "Error de Elasticsearch: $1",
 	"apifeatureusage-legend": "Usu de funciones de la API",
