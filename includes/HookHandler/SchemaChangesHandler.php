@@ -14,9 +14,12 @@ class SchemaChangesHandler implements LoadExtensionSchemaUpdatesHook {
 		$dbType = $updater->getDB()->getType();
 		$dir = __DIR__ . "/../../schema";
 
-		$updater->addExtensionTable(
+		$updater->addExtensionUpdateOnVirtualDomain( [
+			'virtual-apifeatureusage',
+			'addTable',
 			'api_feature_usage',
-			"$dir/$dbType/tables-generated.sql"
-		);
+			"$dir/$dbType/tables-generated.sql",
+			true
+		] );
 	}
 }
