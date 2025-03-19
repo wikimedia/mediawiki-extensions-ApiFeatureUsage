@@ -1,14 +1,15 @@
 {
 	"@metadata": {
 		"authors": [
-			"01miki10"
+			"01miki10",
+			"Samoasambia"
 		]
 	},
 	"apifeatureusage": "API-ominaisuuksien käyttö",
 	"apifeatureusage-desc": "Hae yhteenveto lokiin merkityistä API-ominaisuuksien käytöstä käyttäjäagentin perusteella.",
 	"apifeatureusage-elasticsearch-error": "Elasticsearch-virhe: $1",
 	"apifeatureusage-legend": "API-ominaisuuksien käyttö",
-	"apifeatureusage-agent-label": "Käyttäjäagentti:",
+	"apifeatureusage-agent-label": "Selaintunniste:",
 	"apifeatureusage-startdate-label": "Aloituspäivämäärä:",
 	"apifeatureusage-enddate-label": "Lopetuspäivämäärä:",
 	"apifeatureusage-submit": "Hae tiedot",
