@@ -193,7 +193,7 @@ class ApiFeatureUsageQueryEngineElastica extends ApiFeatureUsageQueryEngine {
 		return $status;
 	}
 
-	public function suggestDateRange() {
+	public function suggestDateRange(): array {
 		$start = new MWTimestamp();
 		$start->setTimezone( 'UTC' );
 		$start->timestamp->setTime( 0, 0, 0 );
