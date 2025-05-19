@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"BadDog"
+			"BadDog",
+			"Aca"
 		]
 	},
 	"apihelp-query+featureusage-description": "Набавља преглед забележених употреба API функција за одређеног корисничког агента.",
