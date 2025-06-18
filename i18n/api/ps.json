@@ -1,0 +1,14 @@
+{
+	"@metadata": {
+		"authors": [
+			"شاه زمان پټان"
+		]
+	},
+	"apihelp-query+featureusage-summary": "د کارن استازي لپاره د ای‌پي‌آی ځانگړنې کارونو ته د ننوتنو لنډيز ترلاسه کول.",
+	"apihelp-query+featureusage-param-start": "د تپوس لپاره د نېټې لړۍ پيل.",
+	"apihelp-query+featureusage-param-end": "د تپوس لپاره د نېټې لړۍ پای.",
+	"apihelp-query+featureusage-param-agent": "د تپوس لپاره کارن استازی. که ځانگړی شوی نه وي؛ نو په غوښتنه کې به د استازي څخه پوښتنه وشي.",
+	"apihelp-query+featureusage-param-features": "که ځانگړی شوی‌وي، يوازې د دې ځانگړنو په اړه دې سپيناوي ورکړي.",
+	"apihelp-query+featureusage-example-simple": "د اوسني استازي کارن لپاره د تپوس ځانگړنه کارول",
+	"apierror-apifeatureusage-emptyagent": "تش کارن استازي تپوس نشي کولی."
+}

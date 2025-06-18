@@ -1,9 +1,10 @@
 {
 	"@metadata": {
 		"authors": [
-			"Bikarhêner"
+			"Bikarhêner",
+			"Balyozxane"
 		]
 	},
-	"apifeatureusage-column-date": "Dîrok",
+	"apifeatureusage-column-date": "Tarîx",
 	"apifeatureusage-column-uses": "Bikaranîn"
 }

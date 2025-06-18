@@ -7,5 +7,6 @@
 	},
 	"apifeatureusage": "Uzo di funcioni del API",
 	"apifeatureusage-agent-label": "Uzero-aganto:",
+	"apifeatureusage-startdate-label": "Komenco-dato:",
 	"apifeatureusage-column-date": "Dato"
 }
