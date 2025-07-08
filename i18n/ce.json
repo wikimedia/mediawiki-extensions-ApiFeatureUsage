@@ -12,8 +12,11 @@
 	"apifeatureusage-startdate-label": "Йолайелла хан:",
 	"apifeatureusage-enddate-label": "Чекхйолу хан:",
 	"apifeatureusage-submit": "Хаамаш харжа",
+	"apifeatureusage-no-indexes": "Цхьа а хаамаш бац билгалйаьккхинчу хенан диапазонехь.",
+	"apifeatureusage-missing-indexes": "Цхьа а билгалйаьккхинчу хенан диапазонан цхьана декъан хаамаш бац.",
 	"apifeatureusage-warnings": "ДӀахьедар: $1",
 	"apifeatureusage-column-feature": "Функци",
 	"apifeatureusage-column-date": "Терахь",
-	"apifeatureusage-column-uses": "Лелор"
+	"apifeatureusage-column-uses": "Лелор",
+	"apifeatureusage-deprecation-help": "[[Special:ApiFeatureUsage]] леладе хьайн программехь лелош йолу ширйелла функцеш хьажа."
 }
