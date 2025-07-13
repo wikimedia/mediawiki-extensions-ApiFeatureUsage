@@ -93,7 +93,12 @@ $specialPageAliases['ur'] = [
 	'ApiFeatureUsage' => [ 'اے_پی_آئی_خصوصیات_کا_استعمال' ],
 ];
 
-/** Simplified Chinese (中文（简体）‎) */
+/** Chinese (中文) */
+$specialPageAliases['zh'] = [
+	'ApiFeatureUsage' => [ 'ApiFeatureUsage' ],
+];
+
+/** Simplified Chinese (中文（简体）) */
 $specialPageAliases['zh-hans'] = [
-	'ApiFeatureUsage' => [ 'Api功能使用率' ],
+	'ApiFeatureUsage' => [ 'API功能使用率' ],
 ];
