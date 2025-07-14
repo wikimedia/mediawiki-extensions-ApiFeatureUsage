@@ -1,11 +1,23 @@
 {
 	"@metadata": {
 		"authors": [
-			"Ahmed-Najib-Biabani-Ibrahimkhel"
+			"Ahmed-Najib-Biabani-Ibrahimkhel",
+			"شاه زمان پټان"
 		]
 	},
 	"apifeatureusage": "د API ځانتيا کارېدنه",
+	"apifeatureusage-desc": "د کارن پلاوي لپاره د ننوتلو ای‌پي‌آی ځانگړنو کارونو لنډيز ترلاسه کول",
+	"apifeatureusage-elasticsearch-error": "غبرگېدونکي‌پلټل تېروتنه: $1",
 	"apifeatureusage-legend": "د API ځانتيا کارېدنه",
 	"apifeatureusage-agent-label": "کارن پلاوی:",
-	"apifeatureusage-submit": "اومتوک راغونډول"
+	"apifeatureusage-startdate-label": "پيل نېټه:",
+	"apifeatureusage-enddate-label": "پای نېټه:",
+	"apifeatureusage-submit": "اومتوک راغونډول",
+	"apifeatureusage-no-indexes": "ټاکلې نېټې دننه هېڅ اومتوکي د لاسرسي وړ نه دي.",
+	"apifeatureusage-missing-indexes": "د ټاکلې نېټې برخې لپاره هېڅ اومتوکي د لاسرسي وړ نه دي‌",
+	"apifeatureusage-warnings": "خبرداری: $1",
+	"apifeatureusage-column-feature": "ځانگړتيا",
+	"apifeatureusage-column-date": "نېټه",
+	"apifeatureusage-column-uses": "کارونې",
+	"apifeatureusage-deprecation-help": "د خپل کاريال له خوا د غورځول‌شوو ځانگړتياوو کارونې ليدلو لپاره [[Special:ApiFeatureUsage]] وکاروئ."
 }
