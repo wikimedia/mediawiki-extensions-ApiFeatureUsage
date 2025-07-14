@@ -5,5 +5,11 @@
 		]
 	},
 	"apihelp-query+featureusage-description": "Лелош йолу API функцешна доца дӀайаздарш схьаэца лелорхойн агентана.",
-	"apihelp-query+featureusage-summary": "Лелош йолу API функцешна доца дӀайаздарш схьаэца лелорхойн агентана."
+	"apihelp-query+featureusage-summary": "Лелош йолу API функцешна доца дӀайаздарш схьаэца лелорхойн агентана.",
+	"apihelp-query+featureusage-param-start": "Дехаран хенан диапазонан йуьхь.",
+	"apihelp-query+featureusage-param-end": "Дехаран хенан диапазонан чаккхе.",
+	"apihelp-query+featureusage-param-agent": "Дехарна лерина лелоран агент. Нагахь санна билгалдаьккхина дацахь, дехарера агентана хаттам бийр бу.",
+	"apihelp-query+featureusage-param-features": "Нагахь санна билгалдаьккхинехь, цу функцех лаьцна бен хаамаш йуха ма берзабе.",
+	"apihelp-query+featureusage-example-simple": "Карарчу агентана дехаран функци лелор",
+	"apierror-apifeatureusage-emptyagent": "Декъашхочун йаьсса агент деха йиш йац."
 }
