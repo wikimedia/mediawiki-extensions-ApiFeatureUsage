@@ -1,8 +1,11 @@
 {
 	"@metadata": {
 		"authors": [
+			"Ktchankt",
 			"Winston Sung"
 		]
 	},
+	"apifeatureusage": "API功能使用情況",
+	"apifeatureusage-legend": "API功能使用情況",
 	"apifeatureusage-column-date": "日子"
 }
