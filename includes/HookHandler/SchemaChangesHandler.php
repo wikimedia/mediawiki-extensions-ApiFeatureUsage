@@ -2,6 +2,7 @@
 
 namespace MediaWiki\Extension\ApiFeatureUsage\HookHandler;
 
+use MediaWiki\Extension\ApiFeatureUsage\ApiFeatureUsageQueryEngineSql;
 use MediaWiki\Installer\DatabaseUpdater;
 use MediaWiki\Installer\Hook\LoadExtensionSchemaUpdatesHook;
 
@@ -11,6 +12,12 @@ class SchemaChangesHandler implements LoadExtensionSchemaUpdatesHook {
 	 * @param DatabaseUpdater $updater
 	 */
 	public function onLoadExtensionSchemaUpdates( $updater ) {
+		global $wgApiFeatureUsageQueryEngineConf;
+
+		if ( !is_a( $wgApiFeatureUsageQueryEngineConf['class'], ApiFeatureUsageQueryEngineSql::class, true ) ) {
+			return;
+		}
+
 		$dbType = $updater->getDB()->getType();
 		$dir = __DIR__ . "/../../schema";
 
