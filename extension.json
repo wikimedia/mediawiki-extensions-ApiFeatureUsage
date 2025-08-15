@@ -10,7 +10,7 @@
 		"MediaWiki": ">= 1.45"
 	},
 	"ConfigRegistry": {
-		"ApiFeatureUsage": "GlobalVarConfig::newInstance"
+		"ApiFeatureUsage": "MediaWiki\\Config\\GlobalVarConfig::newInstance"
 	},
 	"SpecialPages": {
 		"ApiFeatureUsage": {
