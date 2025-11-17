@@ -6,8 +6,9 @@
 		]
 	},
 	"apifeatureusage": "HFV-eiginleikanotkun",
+	"apifeatureusage-desc": "Fá samantekt á atvikaskráðri notkun API-eiginleika fyrir kennistreng",
 	"apifeatureusage-legend": "HFV-eiginleikanotkun",
-	"apifeatureusage-agent-label": "Notandaútsendari:",
+	"apifeatureusage-agent-label": "Kennistrengur:",
 	"apifeatureusage-startdate-label": "Upphafsdagsetning:",
 	"apifeatureusage-enddate-label": "Lokadagsetning:",
 	"apifeatureusage-warnings": "Aðvörun: $1",
