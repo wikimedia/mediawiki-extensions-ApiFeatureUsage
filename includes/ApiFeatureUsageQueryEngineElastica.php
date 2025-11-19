@@ -6,12 +6,14 @@ use DateInterval;
 use Elastica\Aggregation\DateHistogram;
 use Elastica\Aggregation\Terms as AggregationTerms;
 use Elastica\Client;
+use Elastica\Exception\ExceptionInterface;
 use Elastica\Query;
 use Elastica\Query\BoolQuery;
 use Elastica\Query\Prefix;
 use Elastica\Query\Range;
 use Elastica\Query\Terms as QueryTerms;
 use Elastica\Search;
+use MediaWiki\Logger\LoggerFactory;
 use MediaWiki\Registration\ExtensionRegistry;
 use MediaWiki\Status\Status;
 use MediaWiki\Utils\MWTimestamp;
@@ -201,14 +203,24 @@ class ApiFeatureUsageQueryEngineElastica extends ApiFeatureUsageQueryEngine {
 		$end->setTimezone( 'UTC' );
 
 		$oneDay = new DateInterval( 'P1D' );
-		$allIndexes = $this->getIndexNames();
-		while ( true ) {
-			$start->timestamp->sub( $oneDay );
-			$index = $this->options['indexPrefix'] . $start->format( $this->options['indexFormat'] );
-			if ( !in_array( $index, $allIndexes ) ) {
-				$start->timestamp->add( $oneDay );
-				return [ $start, $end ];
+		try {
+			$allIndexes = $this->getIndexNames();
+			while ( true ) {
+				$start->timestamp->sub( $oneDay );
+				$index = $this->options['indexPrefix'] . $start->format( $this->options['indexFormat'] );
+				if ( !in_array( $index, $allIndexes ) ) {
+					$start->timestamp->add( $oneDay );
+					return [ $start, $end ];
+				}
 			}
+		} catch ( ExceptionInterface $e ) {
+			// log a warning and return dummy range instead of blowing up
+			LoggerFactory::getInstance( 'ApiFeatureUsageQueryEngineElastica' )
+				->warning(
+					'Failed to extract index names to compute suggested date range: {exception}',
+					[ 'exception' => $e ]
+				);
+			return [ $start, $end ];
 		}
 	}
 
