@@ -1,8 +1,12 @@
 {
 	"@metadata": {
 		"authors": [
-			"Stefán Örvar Sigmundsson"
+			"Stefán Örvar Sigmundsson",
+			"Sveinn í Felli"
 		]
 	},
-	"apihelp-query+featureusage-summary": "Fá samantekt á atburðaskráðri HFV-eiginleikanotkun fyrir notandaútsendara."
+	"apihelp-query+featureusage-summary": "Fá samantekt á atvikaskráðri notkun API-eiginleika fyrir kennistreng.",
+	"apihelp-query+featureusage-param-agent": "Kennistrengur (user agent) sem á að rannsaka. Ef hann er ekki tiltækur verður spurt um forritið (agent) í beiðninni.",
+	"apihelp-query+featureusage-example-simple": "Rannsaka notkun eiginleika fyrir núverandi kennistreng",
+	"apierror-apifeatureusage-emptyagent": "Get ekki sent fyrirspurn vegna auðs kennistrengs."
 }
