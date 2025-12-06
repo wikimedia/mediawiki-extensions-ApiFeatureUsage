@@ -9,13 +9,8 @@ use MediaWiki\Status\Status;
 use MediaWiki\Utils\MWTimestamp;
 
 class SpecialApiFeatureUsage extends SpecialPage {
-	/** @var ApiFeatureUsageQueryEngine */
-	private $engine;
-
-	public function __construct( ApiFeatureUsageQueryEngine $queryEngine ) {
+	public function __construct( private readonly ApiFeatureUsageQueryEngine $engine ) {
 		parent::__construct( 'ApiFeatureUsage' );
-
-		$this->engine = $queryEngine;
 	}
 
 	/** @inheritDoc */

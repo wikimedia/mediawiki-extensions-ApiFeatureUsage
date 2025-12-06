@@ -8,21 +8,12 @@ use MediaWiki\Utils\MWTimestamp;
 use Wikimedia\ParamValidator\ParamValidator;
 
 class ApiQueryFeatureUsage extends ApiQueryBase {
-	/** @var ApiFeatureUsageQueryEngine */
-	private $engine;
-
-	/**
-	 * @param ApiQuery $query
-	 * @param string $moduleName
-	 */
 	public function __construct(
 		ApiQuery $query,
 		string $moduleName,
-		ApiFeatureUsageQueryEngine $queryEngine
+		private readonly ApiFeatureUsageQueryEngine $engine,
 	) {
 		parent::__construct( $query, $moduleName, 'afu' );
-
-		$this->engine = $queryEngine;
 	}
 
 	/** @inheritDoc */

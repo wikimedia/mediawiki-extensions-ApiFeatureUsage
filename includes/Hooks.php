@@ -7,14 +7,7 @@ use MediaWiki\Api\Hook\ApiLogFeatureUsageHook;
 use MediaWiki\Message\Message;
 
 class Hooks implements ApiDeprecationHelpHook, ApiLogFeatureUsageHook {
-	/** @var ApiFeatureUsageQueryEngine */
-	private $engine;
-
-	/**
-	 * @param ApiFeatureUsageQueryEngine $queryEngine
-	 */
-	public function __construct( ApiFeatureUsageQueryEngine $queryEngine ) {
-		$this->engine = $queryEngine;
+	public function __construct( private readonly ApiFeatureUsageQueryEngine $engine ) {
 	}
 
 	/**
