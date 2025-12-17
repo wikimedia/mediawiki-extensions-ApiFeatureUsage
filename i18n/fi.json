@@ -6,7 +6,7 @@
 		]
 	},
 	"apifeatureusage": "API-ominaisuuksien käyttö",
-	"apifeatureusage-desc": "Hae yhteenveto lokiin merkityistä API-ominaisuuksien käytöstä käyttäjäagentin perusteella.",
+	"apifeatureusage-desc": "Hakee yhteenvedon lokiin merkityistä API-ominaisuuksien käytöistä käyttäjäagentin perusteella",
 	"apifeatureusage-elasticsearch-error": "Elasticsearch-virhe: $1",
 	"apifeatureusage-legend": "API-ominaisuuksien käyttö",
 	"apifeatureusage-agent-label": "Selaintunniste:",
