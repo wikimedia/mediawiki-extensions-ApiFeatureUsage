@@ -4,11 +4,12 @@
 			"Kaganer",
 			"Mouse21",
 			"Okras",
-			"Otogi"
+			"Otogi",
+			"Yurina Tatiana"
 		]
 	},
 	"apifeatureusage": "Использование функций API",
-	"apifeatureusage-desc": "Получить краткое изложение используемых функций API для пользовательского агента",
+	"apifeatureusage-desc": "Позволяет получить краткое изложение используемых функций API для пользовательского агента",
 	"apifeatureusage-elasticsearch-error": "Ошибка Elasticsearch: $1",
 	"apifeatureusage-legend": "Использование функций API",
 	"apifeatureusage-agent-label": "Браузер:",
