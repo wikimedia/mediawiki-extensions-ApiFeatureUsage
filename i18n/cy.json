@@ -1,0 +1,22 @@
+{
+	"@metadata": {
+		"authors": [
+			"Ceirios"
+		]
+	},
+	"apifeatureusage": "Defnydd nodwedd API",
+	"apifeatureusage-desc": "Cael crynodeb o ddefnyddiau nodwedd API wedi'u cofnodi ar gyfer asiant defnyddiwr",
+	"apifeatureusage-elasticsearch-error": "Gwall Elasticsearch: $1",
+	"apifeatureusage-legend": "Defnydd nodwedd API",
+	"apifeatureusage-agent-label": "Asiant defnyddiwr:",
+	"apifeatureusage-startdate-label": "Dyddiad dechrau:",
+	"apifeatureusage-enddate-label": "Dyddiad gorffen:",
+	"apifeatureusage-submit": "Nôl data",
+	"apifeatureusage-no-indexes": "Nid oes data ar gael ar gyfer yr ystod dyddiadau a nodwyd.",
+	"apifeatureusage-missing-indexes": "Nid oes data ar gael ar gyfer rhan o'r ystod dyddiadau a nodwyd.",
+	"apifeatureusage-warnings": "Rhybudd: $1",
+	"apifeatureusage-column-feature": "Nodwedd",
+	"apifeatureusage-column-date": "Dyddiad",
+	"apifeatureusage-column-uses": "Defnyddiau",
+	"apifeatureusage-deprecation-help": "Defnyddiwch [[Special:ApiFeatureUsage]] i weld defnydd nodweddion sydd wedi dod i ben yn eich ap."
+}
