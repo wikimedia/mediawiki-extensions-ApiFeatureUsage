@@ -60,8 +60,8 @@ class ApiFeatureUsageQueryEngineSqlIntegrationTest extends MediaWikiIntegrationT
 			[ 'feature' => $featureA, 'date' => $dateNow, 'count' => 484 ],
 			[ 'feature' => $featureB, 'date' => $dateNow, 'count' => 101 ]
 		];
-		$this->assertTrue( $status->isGood() );
-		$this->assertSame( $expected, $status->value );
+		$this->assertStatusGood( $status );
+		$this->assertStatusValue( $expected, $status );
 
 		[ $sugStart, $sugEnd ] = $engine->suggestDateRange();
 		$this->assertSame( $dateThen, $sugStart->format( 'Y-m-d' ), "Correct start range" );
@@ -74,8 +74,8 @@ class ApiFeatureUsageQueryEngineSqlIntegrationTest extends MediaWikiIntegrationT
 			[ 'feature' => $featureB, 'date' => $dateNow, 'count' => 101 ]
 		];
 
-		$this->assertTrue( $status->isGood() );
-		$this->assertSame( $expected, $status->value );
+		$this->assertStatusGood( $status );
+		$this->assertStatusValue( $expected, $status );
 	}
 
 	public function testPrune() {
@@ -109,8 +109,8 @@ class ApiFeatureUsageQueryEngineSqlIntegrationTest extends MediaWikiIntegrationT
 		$expected = [
 			[ 'feature' => $featureA, 'date' => $date, 'count' => 81 ]
 		];
-		$this->assertTrue( $status->isGood() );
-		$this->assertSame( $expected, $status->value );
+		$this->assertStatusGood( $status );
+		$this->assertStatusValue( $expected, $status );
 
 		$now += ( 2 * 86400 );
 		MWTimestamp::setFakeTime( $now );
@@ -119,7 +119,7 @@ class ApiFeatureUsageQueryEngineSqlIntegrationTest extends MediaWikiIntegrationT
 
 		$status = $engine->enumerate( $userAgent, $start, $end, [ $featureA ] );
 		$expected = [];
-		$this->assertTrue( $status->isGood() );
-		$this->assertSame( $expected, $status->value );
+		$this->assertStatusGood( $status );
+		$this->assertStatusValue( $expected, $status );
 	}
 }
