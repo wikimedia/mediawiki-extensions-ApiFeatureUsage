@@ -26,7 +26,6 @@ return [
 		}
 
 		/** @var ApiFeatureUsageQueryEngine $instance */
-		// @phan-suppress-next-line PhanTypeInvalidCallableArraySize
 		$instance = $services->getObjectFactory()->createObject(
 			$spec,
 			[ 'assertClass' => ApiFeatureUsageQueryEngine::class ]
