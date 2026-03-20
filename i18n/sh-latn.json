@@ -1,6 +1,7 @@
 {
 	"@metadata": {
 		"authors": [
+			"Aca",
 			"Winston Sung"
 		]
 	},
@@ -12,8 +13,8 @@
 	"apifeatureusage-startdate-label": "Početni datum:",
 	"apifeatureusage-enddate-label": "Krajnji datum:",
 	"apifeatureusage-submit": "Dohvati podatke",
-	"apifeatureusage-no-indexes": "Nema podataka za odabrano datumsko razdoblje.",
-	"apifeatureusage-missing-indexes": "Nema podataka za dio odabranog datumskog razdoblja.",
+	"apifeatureusage-no-indexes": "Nema podataka za izabrano datumsko razdoblje.",
+	"apifeatureusage-missing-indexes": "Nema podataka za dio izabranog datumskog razdoblja.",
 	"apifeatureusage-warnings": "Upozorenje: $1",
 	"apifeatureusage-column-feature": "Mogućnost",
 	"apifeatureusage-column-date": "Datum",
