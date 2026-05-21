@@ -1,0 +1,14 @@
+{
+	"@metadata": {
+		"authors": [
+			"AhmedG612"
+		]
+	},
+	"apihelp-query+featureusage-summary": "Heshid koobitaanka isticmaalka astaamaha API ee loo diwangeliyey wakiilka isticmaalaha.",
+	"apihelp-query+featureusage-param-start": "Bilowga mudada taariikhda la weydiinayo.",
+	"apihelp-query+featureusage-param-end": "Dhammaadka mudada taariikhda la weydiinayo.",
+	"apihelp-query+featureusage-param-agent": "Wakiilka isticmaalaha ee la weydiinayo. Haddii aan la cayimin, waxaa la weydiin doonaa wakiilka ku jira codsiga.",
+	"apihelp-query+featureusage-param-features": "Haddii la cayimo, soo culi faahfaahinta astaamahan oo keliya.",
+	"apihelp-query+featureusage-example-simple": "Weydiiso isticmaalka astaamaha ee wakiilka isticmaalaha hadda bisha u adeegsanayo",
+	"apierror-apifeatureusage-emptyagent": "Lama weydiin karo wakiil isticmaale oo madhan."
+}
