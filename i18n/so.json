@@ -1,0 +1,22 @@
+{
+	"@metadata": {
+		"authors": [
+			"AhmedG612"
+		]
+	},
+	"apifeatureusage": "Isticmaalka muuqaalka API",
+	"apifeatureusage-desc": "Haddii aad rabto inaad hesho koobitaanka isticmaalka muuqaalada API ee laga diwangeliyey aaladda uu isticmaalahu ku dhex jiro",
+	"apifeatureusage-elasticsearch-error": "Khaladka raadinta dabacsan: $1",
+	"apifeatureusage-legend": "Isticmaalka muuqaalka API",
+	"apifeatureusage-agent-label": "Wakiilka isticmaalaha:",
+	"apifeatureusage-startdate-label": "Taariikhda bilaabashada:",
+	"apifeatureusage-enddate-label": "Taariikhda dhammaadka:",
+	"apifeatureusage-submit": "Soo qaad xogta",
+	"apifeatureusage-no-indexes": "Ma jiro xog la heli karo mudada taariikhda la cayimay.",
+	"apifeatureusage-missing-indexes": "Ma jiro xog la heli karo qayb ka mid ah mudada taariikhda la cayimay.",
+	"apifeatureusage-warnings": "Digniin: $1",
+	"apifeatureusage-column-feature": "Astaamaha",
+	"apifeatureusage-column-date": "Taariikh",
+	"apifeatureusage-column-uses": "Isticmaalka",
+	"apifeatureusage-deprecation-help": "Isticmaal [[Special:ApiFeatureUsage]] si aad u aragto isticmaalka astaamaha duugoobay ee barnaamijkaaga."
+}
