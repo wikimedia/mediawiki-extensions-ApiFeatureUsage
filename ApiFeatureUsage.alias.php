@@ -88,6 +88,11 @@ $specialPageAliases['sr-el'] = [
 	'ApiFeatureUsage' => [ 'Upotreba_izvršilačke_funkcije' ],
 ];
 
+/** Ukrainian (Українська) */
+$specialPageAliases['uk'] = [
+	'ApiFeatureUsage' => [ 'Використання_функцій_API' ],
+];
+
 /** Urdu (اردو) */
 $specialPageAliases['ur'] = [
 	'ApiFeatureUsage' => [ 'اے_پی_آئی_خصوصیات_کا_استعمال' ],
