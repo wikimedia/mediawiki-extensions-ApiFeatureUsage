@@ -43,6 +43,11 @@ $specialPageAliases['he'] = [
 	'ApiFeatureUsage' => [ 'שימוש_באפשרויות_של_API' ],
 ];
 
+/** Japanese (日本語) */
+$specialPageAliases['ja'] = [
+	'ApiFeatureUsage' => [ 'API機能使用状況' ],
+];
+
 /** Northern Luri (لۊری شومالی) */
 $specialPageAliases['lrc'] = [
 	'ApiFeatureUsage' => [ 'خو_ڤە_کار_گئرتئن_ئی_پی_آی' ],
