@@ -73,9 +73,19 @@ $specialPageAliases['nn'] = [
 	'ApiFeatureUsage' => [ 'API-funksjonsbruk' ],
 ];
 
+/** Polish (polski) */
+$specialPageAliases['pl'] = [
+	'ApiFeatureUsage' => [ 'Wykorzystanie_funkcji_API' ],
+];
+
 /** Brazilian Portuguese (português do Brasil) */
 $specialPageAliases['pt-br'] = [
 	'ApiFeatureUsage' => [ 'Uso_de_recurso_da_API' ],
+];
+
+/** Russian (русский) */
+$specialPageAliases['ru'] = [
+	'ApiFeatureUsage' => [ 'Использование_функций_API' ],
 ];
 
 /** Slovak (slovenčina) */
