@@ -5,7 +5,8 @@
 			"Msz2001",
 			"Rail",
 			"Warchlak",
-			"Woytecr"
+			"Woytecr",
+			"PanWor"
 		]
 	},
 	"apifeatureusage": "Użycie funkcji API",
@@ -22,5 +23,5 @@
 	"apifeatureusage-column-feature": "Funkcja",
 	"apifeatureusage-column-date": "Data",
 	"apifeatureusage-column-uses": "Użycia",
-	"apifeatureusage-deprecation-help": "Odwiedź [[Special:ApiFeatureUsage]], aby sprawdzić, które przestarzałe funkcje wykorzystuje twoja aplikacja."
+	"apifeatureusage-deprecation-help": "Odwiedź [[Special:ApiFeatureUsage]], aby sprawdzić, które przestarzałe funkcje wykorzystuje Twoja aplikacja."
 }
