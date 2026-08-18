@@ -1,0 +1,14 @@
+{
+	"@metadata": {
+		"authors": [
+			"Bachounda"
+		]
+	},
+	"apihelp-query+featureusage-summary": "يجيب ملخص تاع استعمالات ميزات الـ API المسجلة لوكيل مستخدم.",
+	"apihelp-query+featureusage-param-start": "بداية مدى التواريخ اللي تتسقسى عليه.",
+	"apihelp-query+featureusage-param-end": "نهاية مدى التواريخ اللي تتسقسى عليه.",
+	"apihelp-query+featureusage-param-agent": "الوكيل المستخدم اللي تتسقسى عليه. إذا ما تحددش، الوكيل الموجود في الطلب هو اللي يتسقسى عليه.",
+	"apihelp-query+featureusage-param-features": "إذا تحدد، يرجع التفاصيل فقط على هاد الميزات.",
+	"apihelp-query+featureusage-example-simple": "يسقسى على استعمال الميزات لوكيل المستخدم الحالي.",
+	"apierror-apifeatureusage-emptyagent": "ما تقدرش تسقسى على وكيل مستخدم فارغ."
+}
