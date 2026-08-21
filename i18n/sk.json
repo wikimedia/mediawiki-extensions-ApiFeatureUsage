@@ -4,14 +4,23 @@
 			"Luky001",
 			"Robert Važan",
 			"TomášPolonec",
-			"Vlad5250"
+			"Vlad5250",
+			"Wizzard"
 		]
 	},
 	"apifeatureusage": "Využitie funkcií API",
 	"apifeatureusage-desc": "Získa zhrnutie zaznamenávaných funkcií API pre používateľského agenta",
+	"apifeatureusage-elasticsearch-error": "Chyba Elasticsearchu: $1",
+	"apifeatureusage-legend": "Používanie funkcií API",
+	"apifeatureusage-agent-label": "Používateľský agent:",
 	"apifeatureusage-startdate-label": "Počiatočný dátum:",
 	"apifeatureusage-enddate-label": "Koncový dátum:",
+	"apifeatureusage-submit": "Získať údaje",
+	"apifeatureusage-no-indexes": "Pre zadaný časový rozsah nie sú dostupné žiadne údaje.",
+	"apifeatureusage-missing-indexes": "Pre časť zadaného časového rozsahu nie sú dostupné žiadne údaje.",
 	"apifeatureusage-warnings": "Upozornenie: $1",
+	"apifeatureusage-column-feature": "Funkcia",
 	"apifeatureusage-column-date": "Dátum",
-	"apifeatureusage-column-uses": "Použitia"
+	"apifeatureusage-column-uses": "Použitia",
+	"apifeatureusage-deprecation-help": "Na stránke [[Special:ApiFeatureUsage]] si môžete pozrieť, ako vaša aplikácia používa zastarané funkcie."
 }
