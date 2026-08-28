@@ -1,0 +1,14 @@
+{
+	"@metadata": {
+		"authors": [
+			"Wizzard"
+		]
+	},
+	"apihelp-query+featureusage-summary": "Získať súhrn zaznamenaného používania funkcií API pre používateľského agenta.",
+	"apihelp-query+featureusage-param-start": "Začiatok časového rozsahu dopytu.",
+	"apihelp-query+featureusage-param-end": "Koniec časového rozsahu dopytu.",
+	"apihelp-query+featureusage-param-agent": "Používateľský agent, na ktorý sa dopytuje. Ak nie je zadaný, použije sa agent z požiadavky.",
+	"apihelp-query+featureusage-param-features": "Ak je zadané, vráti podrobnosti len o týchto funkciách.",
+	"apihelp-query+featureusage-example-simple": "Dopyt na používanie funkcií pre aktuálneho používateľského agenta",
+	"apierror-apifeatureusage-emptyagent": "Nemožno sa dopytovať na prázdneho používateľského agenta."
+}
