@@ -9,9 +9,6 @@
 	"requires": {
 		"MediaWiki": ">= 1.47.0"
 	},
-	"ConfigRegistry": {
-		"ApiFeatureUsage": "MediaWiki\\Config\\GlobalVarConfig::newInstance"
-	},
 	"SpecialPages": {
 		"ApiFeatureUsage": {
 			"class": "MediaWiki\\Extension\\ApiFeatureUsage\\SpecialApiFeatureUsage",
