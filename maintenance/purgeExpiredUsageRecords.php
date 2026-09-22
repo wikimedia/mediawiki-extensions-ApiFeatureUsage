@@ -2,7 +2,6 @@
 
 use MediaWiki\Extension\ApiFeatureUsage\ApiFeatureUsageQueryEngine;
 use MediaWiki\Maintenance\Maintenance;
-use MediaWiki\MediaWikiServices;
 
 $IP = getenv( 'MW_INSTALL_PATH' );
 if ( $IP === false ) {
@@ -28,12 +27,15 @@ class PurgeExpiredUsageRecords extends Maintenance {
 	/** @inheritDoc */
 	public function execute() {
 		$this->output( "Deleting expired records\n" );
-		/** @var ApiFeatureUsageQueryEngine $engine */
-		$engine = MediaWikiServices::getInstance()->get( 'ApiFeatureUsage.QueryEngine' );
+		$engine = $this->getQueryEngine();
 		$this->lastTimestamp = microtime( true );
 		$engine->prune( [ $this, 'showProgressAndWait' ] );
 		$this->showProgressAndWait( 100 );
 		$this->output( "\nDone\n" );
+	}
+
+	private function getQueryEngine(): ApiFeatureUsageQueryEngine {
+		return $this->getServiceContainer()->get( 'ApiFeatureUsage.QueryEngine' );
 	}
 
 	/**
