@@ -1,0 +1,14 @@
+{
+	"@metadata": {
+		"authors": [
+			"Dj"
+		]
+	},
+	"apihelp-query+featureusage-summary": "Egy adott kliensazonosítóhoz naplózott API-funkcióhasználatok összesítése.",
+	"apihelp-query+featureusage-param-start": "A lekérdezendő időszak kezdete.",
+	"apihelp-query+featureusage-param-end": "A lekérdezendő időszak vége.",
+	"apihelp-query+featureusage-param-agent": "A lekérdezendő kliensazonosító. Ha nincs megadva, a kérésben szereplő kliensazonosítót használja.",
+	"apihelp-query+featureusage-param-features": "Ha meg vannak adva, csak ezeknek a funkcióknak a részleteit adja vissza.",
+	"apihelp-query+featureusage-example-simple": "Az aktuális kliensazonosító API-funkcióhasználatának lekérdezése",
+	"apierror-apifeatureusage-emptyagent": "Üres kliensazonosítóval nem lehet lekérdezést végezni."
+}
