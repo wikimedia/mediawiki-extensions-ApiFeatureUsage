@@ -1,0 +1,22 @@
+{
+	"@metadata": {
+		"authors": [
+			"Dj"
+		]
+	},
+	"apifeatureusage": "API-funkciók használata",
+	"apifeatureusage-desc": "Egy adott kliensazonosítóhoz naplózott API-funkcióhasználatok összesítése",
+	"apifeatureusage-elasticsearch-error": "Elasticsearch-hiba: $1",
+	"apifeatureusage-legend": "API-funkciók használata",
+	"apifeatureusage-agent-label": "User agent:",
+	"apifeatureusage-startdate-label": "Kezdő dátum:",
+	"apifeatureusage-enddate-label": "Záró dátum:",
+	"apifeatureusage-submit": "Adatok lekérése",
+	"apifeatureusage-no-indexes": "A megadott időszakra nem állnak rendelkezésre adatok.",
+	"apifeatureusage-missing-indexes": "A megadott időszak egy részére nem állnak rendelkezésre adatok.",
+	"apifeatureusage-warnings": "Figyelmeztetés: $1",
+	"apifeatureusage-column-feature": "Funkció",
+	"apifeatureusage-column-date": "Dátum",
+	"apifeatureusage-column-uses": "Használatok száma",
+	"apifeatureusage-deprecation-help": "A [[Special:ApiFeatureUsage]] lapon megtekintheted, hogy az alkalmazásod milyen gyakran használ elavult API-funkciókat."
+}
